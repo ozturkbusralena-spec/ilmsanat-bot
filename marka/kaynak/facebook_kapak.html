@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<style>
+  /* İlm Sanat marka renkleri (logodan alındı) */
+  :root {
+    --lacivert: #142d54;
+    --yesil: #183c25;
+    --altin: #907640;
+    --altin-acik: #907640;
+    --fildisi: #f3ecdc;
+  }
+  html, body { margin: 0; width: 1640px; height: 856px; overflow: hidden; }
+  body {
+    background: linear-gradient(90deg, var(--lacivert) 0%, #142f45 50%, var(--yesil) 100%);
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+  }
+  svg.desen { position: absolute; inset: 0; }
+  .icerik {
+    position: absolute; left: 0; right: 0; top: 0; bottom: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    color: var(--fildisi);
+    text-align: center;
+  }
+  .ad {
+    font-weight: 600;
+    font-size: 104px;
+    letter-spacing: 0.32em;
+    margin-right: -0.32em; /* letter-spacing sonundaki boşluğu dengeler */
+    color: var(--fildisi);
+    line-height: 1;
+  }
+  .ayrac { display: flex; align-items: center; gap: 22px; margin: 34px 0 30px; }
+  .ayrac span { display: block; width: 210px; height: 2px; background: var(--altin-acik); }
+  .slogan {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-size: 46px;
+    color: var(--altin-acik);
+    letter-spacing: 0.02em;
+  }
+  .alt {
+    margin-top: 18px;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 0.42em;
+    margin-right: -0.42em;
+    color: rgba(243, 236, 220, 0.78);
+  }
+</style>
+</head>
+<body>
+  <svg class="desen" width="1640" height="856" viewBox="0 0 1640 856">
+    <defs>
+      <!-- Logodaki sekiz köşeli yıldız: iki kare, biri 45° döndürülmüş -->
+      <path id="yildiz" d="M0,-1 L0.2929,-0.7071 L0.7071,-0.7071 L0.7071,-0.2929 L1,0 L0.7071,0.2929 L0.7071,0.7071 L0.2929,0.7071 L0,1 L-0.2929,0.7071 L-0.7071,0.7071 L-0.7071,0.2929 L-1,0 L-0.7071,-0.2929 L-0.7071,-0.7071 L-0.2929,-0.7071 Z"/>
+      <pattern id="geometri" width="120" height="120" patternUnits="userSpaceOnUse">
+        <use href="#yildiz" transform="translate(60,60) scale(34)" fill="none" stroke="#907640" stroke-width="0.045"/>
+        <use href="#yildiz" transform="translate(0,0) scale(16)" fill="none" stroke="#907640" stroke-width="0.09"/>
+        <use href="#yildiz" transform="translate(120,0) scale(16)" fill="none" stroke="#907640" stroke-width="0.09"/>
+        <use href="#yildiz" transform="translate(0,120) scale(16)" fill="none" stroke="#907640" stroke-width="0.09"/>
+        <use href="#yildiz" transform="translate(120,120) scale(16)" fill="none" stroke="#907640" stroke-width="0.09"/>
+        <path d="M60,26 L60,0 M60,94 L60,120 M26,60 L0,60 M94,60 L120,60" stroke="#907640" stroke-width="1.5"/>
+      </pattern>
+      <!-- Desen kenarlarda görünür, ortada yazının arkasında kaybolur -->
+      <radialGradient id="solma" cx="50%" cy="50%" r="60%">
+        <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+        <stop offset="45%" stop-color="#fff" stop-opacity="0.05"/>
+        <stop offset="100%" stop-color="#fff" stop-opacity="1"/>
+      </radialGradient>
+      <mask id="maske"><rect width="1640" height="856" fill="url(#solma)"/></mask>
+      <radialGradient id="isik" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+
+    <rect width="1640" height="856" fill="url(#geometri)" opacity="0.22" mask="url(#maske)"/>
+    <ellipse cx="820" cy="428" rx="640" ry="360" fill="url(#isik)"/>
+
+    <!-- Yazının arkasında büyük yıldız çerçevesi (logodaki gibi çift altın hat) -->
+    <g transform="translate(820,428)">
+      <use href="#yildiz" transform="scale(372)" fill="none" stroke="#907640" stroke-width="0.012" opacity="0.75"/>
+      <use href="#yildiz" transform="scale(352)" fill="none" stroke="#907640" stroke-width="0.005" opacity="0.55"/>
+    </g>
+
+    <!-- Kenar çerçevesi -->
+    <rect x="22" y="22" width="1596" height="812" fill="none" stroke="#907640" stroke-width="2" opacity="0.6"/>
+  </svg>
+
+  <div class="icerik">
+    <div class="ad">İLM SANAT</div>
+    <div class="ayrac">
+      <span></span>
+      <svg width="26" height="26" viewBox="-1.1 -1.1 2.2 2.2"><use href="#yildiz" fill="#907640"/></svg>
+      <span></span>
+    </div>
+    <div class="slogan">Geopolitics, History &amp; the Art of the Orient</div>
+    <div class="alt">MIDDLE EAST · NORTH AFRICA · BEYOND</div>
+  </div>
+</body>
+</html>

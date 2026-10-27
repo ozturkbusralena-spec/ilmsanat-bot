@@ -1,0 +1,116 @@
+<title>Ilm Sanat Publisher Policies</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Open+Sans:wght@400;600&display=swap">
+<style>
+  /* Layout: one readable column, a small eight-point-star mark from the Ilm Sanat logo, two policy sections */
+  :root {
+    --bg: #f7f4ec;
+    --fg: #1c2433;
+    --muted: #586174;
+    --accent: #142d54;
+    --gold: #907640;
+    --rule: #ddd5c3;
+    --display: "Cormorant Garamond", Georgia, serif;
+    --body: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #10192b; --fg: #e9e4d8; --muted: #a8afbd; --accent: #907640; --gold: #907640; --rule: #2a3550;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #10192b; --fg: #e9e4d8; --muted: #a8afbd; --accent: #907640; --gold: #907640; --rule: #2a3550;
+    color-scheme: dark;
+  }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.65;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 48px 72px;
+  }
+  main { max-width: 40rem; margin: 0 auto; display: grid; gap: 40px; }
+  header { display: grid; gap: 10px; }
+  .mark { display: flex; align-items: center; gap: 12px; color: var(--gold); }
+  .mark span { font-size: 12px; letter-spacing: 0.24em; font-weight: 600; text-transform: uppercase; color: var(--muted); }
+  h1, h2 { font-family: var(--display); font-weight: 600; color: var(--accent); text-wrap: balance; line-height: 1.15; margin: 0; }
+  h1 { font-size: 2.4rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1rem; margin: 0; }
+  p, ul { margin: 0; }
+  ul { padding-left: 1.2em; display: grid; gap: 6px; }
+  .meta { color: var(--muted); font-size: 14px; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 15px; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  section { display: grid; gap: 18px; padding-top: 32px; border-top: 1px solid var(--rule); }
+  .block { display: grid; gap: 8px; }
+</style>
+
+<main>
+  <header>
+    <div class="mark">
+      <svg width="22" height="22" viewBox="-1.1 -1.1 2.2 2.2" aria-hidden="true"><path fill="currentColor" d="M0,-1 L0.2929,-0.7071 L0.7071,-0.7071 L0.7071,-0.2929 L1,0 L0.7071,0.2929 L0.7071,0.7071 L0.2929,0.7071 L0,1 L-0.2929,0.7071 L-0.7071,0.7071 L-0.7071,0.2929 L-1,0 L-0.7071,-0.2929 L-0.7071,-0.7071 L-0.2929,-0.7071 Z"/></svg>
+      <span>Ilm Sanat</span>
+    </div>
+    <h1>Ilm Sanat Publisher: Terms and Privacy</h1>
+    <p class="meta">Last updated 26 October 2026</p>
+    <nav aria-label="Sections">
+      <a href="#terms">Terms of Service</a>
+      <a href="#privacy">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <p>Ilm Sanat Publisher is a private tool used by the Ilm Sanat account to prepare its own posts on geopolitics, history and Orientalist art, and to send them to its own Instagram and TikTok accounts. It is not offered to the public and has no other users.</p>
+
+  <section id="terms" aria-labelledby="terms-h">
+    <h2 id="terms-h">Terms of Service</h2>
+    <div class="block">
+      <h3>Who may use it</h3>
+      <p>Only the owner of the Ilm Sanat accounts uses this tool. Nobody else can sign in or connect an account.</p>
+    </div>
+    <div class="block">
+      <h3>What it does</h3>
+      <p>The tool uploads images and videos created for Ilm Sanat to the Ilm Sanat Instagram account and to the Ilm Sanat TikTok account as drafts. The account owner reviews each draft and decides whether to publish it.</p>
+    </div>
+    <div class="block">
+      <h3>Platform rules</h3>
+      <p>All content follows the Instagram Terms of Use, the TikTok Terms of Service and the TikTok Community Guidelines. News summaries are written in our own words and name their source.</p>
+    </div>
+    <div class="block">
+      <h3>No warranty</h3>
+      <p>The tool is provided as is, for the internal use of Ilm Sanat. These terms may change; the date above shows the latest version.</p>
+    </div>
+  </section>
+
+  <section id="privacy" aria-labelledby="privacy-h">
+    <h2 id="privacy-h">Privacy Policy</h2>
+    <div class="block">
+      <h3>Data we access</h3>
+      <ul>
+        <li>From TikTok: the basic profile of the Ilm Sanat account (open ID, display name, avatar), needed to upload drafts to it.</li>
+        <li>From Instagram: the profile, posts and insights of the Ilm Sanat account, needed to publish posts and see how they perform.</li>
+      </ul>
+    </div>
+    <div class="block">
+      <h3>Data we do not collect</h3>
+      <p>The tool does not collect, store or process data about followers, viewers or any other TikTok or Instagram users.</p>
+    </div>
+    <div class="block">
+      <h3>Storage and security</h3>
+      <p>Access tokens are stored only on the account owner's own computer or server, in a private file that is never shared or published. Nothing is sold or passed to third parties.</p>
+    </div>
+    <div class="block">
+      <h3>Removing access</h3>
+      <p>Access can be withdrawn at any time in the Instagram and TikTok settings under connected apps. When access is withdrawn, the stored tokens are deleted.</p>
+    </div>
+    <div class="block">
+      <h3>Contact</h3>
+      <p>Questions about this policy can be sent as a direct message to <a href="https://www.instagram.com/ilmsanat/">@ilmsanat on Instagram</a>.</p>
+    </div>
+  </section>
+</main>

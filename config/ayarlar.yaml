@@ -1,0 +1,141 @@
+# İlm Sanat – otomasyon ayarları (kararlaştırılanlar, 2026-10-26)
+
+marka:
+  ad: "İlm Sanat"
+  instagram: "ilmsanat"   # kullanıcı adını doğrula
+  tiktok: null            # hesap kuruluyor
+  logo: "Mein Logi Ilmsanat transparent.png"
+  renkler:                # kullanıcının verdiği marka renkleri (2026-10-26)
+    lacivert: "#142d54"   # Dunkelblau (kullanıcının marka rengi)
+    yesil: "#183c25"      # Dunkelgrün (kullanıcının marka rengi)
+    altin: "#907640"      # Grauorange (kullanıcının marka rengi)
+    fildisi: "#f3ecdc"
+  yazi_tipi:              # logodaki harflere en yakın: Open Sans SemiBold; kullanıcı kendi fontunu verirse değişecek
+    baslik: "Open Sans SemiBold (geniş harf aralığı)"
+    vurgu: "Cormorant Garamond Italic"
+  facebook_kapak: "marka/facebook_kapak.png"  # kaynak: marka/kaynak/facebook_kapak.html
+
+dil: "en"                 # paylaşımlar İngilizce
+ton: "ciddi, akademik"
+metin_uzunlugu: "uzun"    # IG açıklama sınırı 2200 karakter, TikTok foto açıklaması 4000
+
+saat_dilimi: "Europe/Vienna"
+paylasim_saatleri:
+  # Orta Doğu + Avrupa + ABD kitlesini birlikte yakalayan saatler.
+  # Günde 3 paylaşım (2026-10-26 kararı): 2 haber + 1 analiz.
+  # Viyana 09:00 = Körfez 11:00/12:00 (Avrupa sabahı)
+  # Viyana 14:00 = Körfez 16:00/17:00, New York 08:00
+  # Viyana 20:00 = Körfez 22:00/23:00, New York 14:00
+  # İlk ay sonunda Instagram istatistiklerine bakıp ayarlanacak.
+  haber_1: "09:00"
+  analiz: "14:00"
+  haber_2: "20:00"
+  pazar_tablo: "11:00"    # Pazar: 2 haber + 1 analiz + 1 tablo = 4 paylaşım (onaylandı 2026-10-26)
+
+haber_secimi:   # ayrıntılı kurallar: config/kaynaklar.yaml → secim
+  oncelik_sirasi:
+    - "Orta Doğu jeopolitiği (en önemli)"
+    - "Kuzey Afrika"
+    - "MENA ile bağlantılı Afrika ülkeleri (Somali, Sudan vb.)"
+    - "Genel jeopolitik: Çin, Rusya vb. (özellikle MENA ile ilişkisi)"
+    - "Siyasi tarih: Balfour Deklarasyonu, Filistin-İsrail toprak meselesi vb."
+  tazelik: "en yeni haberler tercih edilir; tarih konuları tazelik şartı olmadan girebilir"
+  analizler: "her gün 1 analiz paylaşımı; ilk tercih AA Analiz (en güvenilir), sonra SETA, MEE, MEMO"
+
+gorsel:
+  stil: "klasik sanat havası – 19. yy akademik yağlı boya / gravür / eski harita dokusu"
+  kural: "yapay zeka gibi görünmesin: pürüzsüz plastik görünüm, aşırı parlaklık, yakın plan yüz, bozuk yazı yok"
+  gercek_kisi: false      # tanınabilir gerçek kişi çizilmez
+  servis: "Magnific (görsel + müzik + video)"   # API erişimi daha sonra ayarlanacak
+  boyutlar:
+    instagram: "1080x1350"
+    tiktok: "1080x1920"
+
+pazar_sanat:
+  tur: "oryantalist tablo (gerçek eser, kamu malı)"
+  aciklama: "tablonun hikâyesi + ressamın kısa biyografisi"
+  filtre: "çıplaklık içeren eserler elenir"
+
+onay:
+  kanal: "telegram"
+  akis: "paylaşımdan önce taslak Telegram'a gelir → Onayla / Değiştir (yazılı talimat) / Atla"
+  zaman_asimi_davranisi: "otomatik_paylas"   # cevap gelmezse paylaşım saatinde otomatik paylaşılır
+
+telegram:
+  bildirimler: ["onay taslakları", "hata bildirimleri", "paylaşım sonuç linkleri"]
+  komutlar: ["link göndererek özel içerik isteme", "belirli bir konu üzerine içerik isteme"]
+
+butce_aylik_usd: 15
+
+meta:
+  # Gizli olmayan kimlikler. Gizli anahtarlar ve token'lar .env dosyasına yazılır, buraya değil.
+  uygulama_adi: "IlmSanat Publisher"
+  app_id: "1099810399485816"
+  instagram_app_id: "876472492154670"
+  business_portfoy_id: "812552950877793"   # علم - صَنْعَة
+  instagram_kullanici: "ilmsanat"
+  instagram_user_id: "17841408771656111"
+  api: "Instagram API with Instagram Login"
+  izinler: ["instagram_business_basic", "instagram_business_content_publish", "instagram_business_manage_insights", "instagram_business_manage_messages"]
+  durum: "bağlandı; ilk Reel 2026-10-26 yayınlandı (https://www.instagram.com/reel/De-ZRjMRH-_/). Video Google Drive linkiyle gönderilir"
+  yonlendirme_url: "https://localhost/"   # Business Login redirect; token yenilemek için scripts/instagram_token_al.sh
+
+tiktok_dev:
+  uygulama_adi: "IlmSanat Publisher"
+  app_id: "7699307328692979718"
+  sahiplik: "Einzelperson"
+  urunler: ["Login Kit", "Content Posting API (Direct Post açık)"]
+  izinler: ["user.info.basic", "video.publish", "video.upload"]
+  kategori: "News"
+  ikon: "marka/ikon_1024.png"
+  aciklama: "Publishes Ilm Sanat's own photo posts on geopolitics, history and Orientalist art to its TikTok account."
+  yontem: "Sandbox + taslak (inbox) yükleme; Magnific ile üretilen müzikli video FILE_UPLOAD ile gönderilir, kullanıcı TikTok uygulamasından paylaşır"
+  web_sitesi: "yok (kullanıcı istemiyor); Production/audit yapılmayacak"
+  sandbox_adi: "IlmSanat Drafts"
+  sandbox_id: "7701044141443385365"
+  redirect_uri: "http://localhost:8765/callback/"   # Desktop platformu
+  web_url: "https://www.instagram.com/ilmsanat/"
+  yasal_sayfa: "https://claude.ai/artifact/DRWnd6xVszfbtgHb5UvazB"   # #terms ve #privacy; kaynak marka/yasal/ilmsanat_yasal.html
+  durum: "bağlandı (2026-10-26): ilmsanat Target User; access token 24 saat, refresh token 1 yıl, .env içinde. Taslak yükleme henüz bir videoyla test edilmedi"
+
+telegram_bot:
+  durum: "bağlandı (2026-10-26); token ve kullanıcının chat id'si .env içinde (TG_*); bot sadece bu chat id'yi dinleyecek"
+  kurulum_betigi: "scripts/telegram_kur.sh"
+
+magnific:
+  durum: "bağlandı (2026-10-26); API anahtarı 'IlmSanat Otomasyon' .env içinde (MAGNIFIC_API_KEY), doğrulandı"
+  api: "https://api.magnific.com  (başlık: x-magnific-api-key)"
+  odeme: "aboneliğin kredilerinden düşer (Premium, ~240K kredi/yıl); ayrı ödeme yok"
+  kullanilacaklar:
+    gorsel: "text-to-image (Mystic / Flux / Seedream) — klasik yağlı boya stili"
+    video: "image-to-video (Kling) — görselden kısa hareketli video"
+    muzik: "music-generation (Google Lyria) — 30 sn enstrümantal"
+  calisma: "istek task_id döner; status COMPLETED olana kadar sorgulanır"
+
+claude_api:
+  durum: "anahtar 'ilmsanat-otomasyon' oluşturuldu (2026-10-26), .env içinde (ANTHROPIC_API_KEY), doğrulandı; 26.10.2027'de sona erer"
+  kredi: "henüz yüklenmedi; kredi yüklenene kadar metin üretimi çalışmaz (öneri: 5 $, aylık limit 5 $, auto-reload kapalı)"
+  modeller:
+    haber_secimi: "claude-haiku-5-5"    # ucuz: çok sayıda başlığı puanlama
+    metin_yazimi: "claude-sonnet-5-5"   # İngilizce akademik uzun metin
+
+video:
+  format: "1080x1920 Reels/TikTok, 30 fps; stil: STIL_REHBERI.md (örnek: @insidegeopolitics)"
+  arac: "Remotion 4.0.228 (video/ klasörü), Node 22 ~/.local/node; şablon video/src/HaberVideo.tsx, veri JSON'u (ör. video/src/ornek_mecca.json)"
+  seslendirme: "Magnific /v1/ai/voiceover/elevenlabs-turbo-v2-5, ses 'Daniel' onwK4e9ZLuTAKqWW03F9, hız 0.95"
+  gorsel: "Magnific /v1/ai/text-to-image/seedream-v4-5, aspect_ratio social_story_9_16 (dönen dosya JPEG)"
+  hareket: "Magnific /v1/ai/image-to-video/kling-v2-6-pro (durum adresi /kling-v2-6/{id}), 5 sn, 0.45 hızla yavaşlatılır"
+  muzik: "Magnific /v1/ai/music-generation/google-lyria (30 sn WAV, şablonda döngülenir)"
+  ornek: "ornek/2026-10-26_mecca/ilmsanat_mecca_alliance.mp4 (52.7 sn)"
+
+paylasim_kurallari:
+  yapay_zeka_notu: "ASLA yazılmaz — videoda, açıklamada, etikette hiçbir yerde (kullanıcı kararı 2026-10-26); TikTok AI bayrağı işaretlenmez"
+  kaynak: "videoda yazılmaz; sadece Instagram/TikTok açıklama metninde 'Source: …' olarak"
+
+google_drive:
+  durum: "bağlandı (2026-10-26), hesap ozturkbusralena@gmail.com; Instagram videoları buradan herkese açık linkle indiriyor"
+  proje: "Google Cloud 'IlmSanat Otomasyon' (true-episode-512822-m2), OAuth istemci 'IlmSanat Drive' (masaüstü)"
+  izin: "drive.file — yalnızca otomasyonun kendi yüklediği dosyalar"
+  klasor: "İlm Sanat Paylaşımlar (id .env içinde GD_KLASOR_ID); en fazla 5 video, eskiler kalıcı silinir"
+  link: "https://drive.usercontent.google.com/download?id=<ID>&export=download&confirm=t (doğrudan video/mp4)"
+  uyari: "Google uygulaması hâlâ 'Test' modunda → yenileme anahtarı 7 günde biter (2026-11-02). Yayına alınmalı ya da scripts: node otomasyon/drive_baglan.mjs ile yenilenmeli"

@@ -1,0 +1,16 @@
+# gizli bilgiler – asla depoya girmez
+.env
+.env.tmp
+ÖNEMLI/
+# büyük / geçici dosyalar
+node_modules/
+video/node_modules/
+data/isler/
+data/test/
+data/bot.pid
+data/*.out.log
+data/*.err.log
+video/public/is/
+video/public/ornek/
+video/public/v3/
+ornek/

@@ -1,0 +1,86 @@
+# İlm Sanat – haber ve analiz kaynakları (kullanıcının verdiği liste, 2026-10-26)
+# okuma: rss = otomatik akış; sayfa = bölüm sayfasındaki /article/ linkleri; sitemap = yayın haritası
+# Tüm akışlar 2026-10-26'da denendi ve çalışıyor.
+
+haber_kaynaklari:
+  - ad: "Anadolu Ajansı – Middle East (EN)"
+    okuma: rss
+    url: "https://www.aa.com.tr/en/rss/default?cat=middle-east"
+    tur: haber
+    guven: yuksek
+
+  - ad: "Anadolu Ajansı – World (EN)"
+    okuma: rss
+    url: "https://www.aa.com.tr/en/rss/default?cat=world"
+    tur: haber
+    guven: yuksek
+
+  - ad: "Al Jazeera"
+    okuma: rss
+    url: "https://www.aljazeera.com/xml/rss/all.xml"
+    tur: haber
+    guven: orta
+
+  - ad: "Middle East Eye"
+    okuma: rss
+    url: "https://www.middleeasteye.net/rss"
+    tur: [haber, analiz]
+    guven: orta
+
+  - ad: "TRT World"
+    okuma: sayfa          # RSS yok; bölüm sayfalarındaki /article/<id> linkleri okunur
+    url:
+      - "https://www.trtworld.com/middle-east"
+      - "https://www.trtworld.com/africa"
+      - "https://www.trtworld.com/world"
+    tur: haber
+    guven: orta
+
+  - ad: "Middle East Monitor"
+    okuma: rss
+    url: "https://www.middleeastmonitor.com/feed/"
+    tur: [haber, analiz]
+    guven: orta
+
+analiz_kaynaklari:
+  - ad: "Anadolu Ajansı – Analiz (TR)"
+    okuma: rss
+    url: "https://www.aa.com.tr/tr/rss/default?cat=analiz"
+    tur: analiz
+    guven: en_yuksek      # kullanıcı: "en güvenilir analizler"; analiz slotunda ilk tercih
+    not: "Türkçe; İngilizceye kendi cümlelerimizle aktarılır, yazar ve AA kaynak gösterilir"
+
+  - ad: "SETA"
+    okuma: sitemap        # RSS yok
+    url:
+      - "https://www.setav.org/en/sitemap/yayinlar"
+      - "https://www.setav.org/sitemap/yayinlar"
+    tur: analiz
+    guven: yuksek
+    not: "'/etkinlikler/' ve '/en/events/' linkleri (etkinlik duyuruları) atlanır"
+
+# Pazar günü oryantalist tablo kaynakları (telifsiz müze arşivleri)
+sanat_kaynaklari:
+  - ad: "The Met Open Access"
+    url: "https://collectionapi.metmuseum.org/public/collection/v1/"
+  - ad: "Art Institute of Chicago"
+    url: "https://api.artic.edu/api/v1/"
+  - ad: "Wikimedia Commons - Orientalist paintings"
+    url: "https://commons.wikimedia.org/wiki/Category:Orientalist_paintings"
+
+# Haber seçim kuralları
+secim:
+  gunluk: { haber: 2, analiz: 1 }
+  konu_agirliklari:            # 1.0 = en önemli
+    orta_dogu: 1.0
+    kuzey_afrika_ve_afrika_boynuzu: 0.9   # Libya, Mısır, Sudan, Somali vb.
+    cin_rusya_abd_jeopolitigi: 0.8        # özellikle MENA ile bağlantılı olanlar
+    siyasi_tarih: 0.7                     # Balfour, Filistin toprak meselesi vb.
+  onem_puani: "kaç farklı kaynağın aynı olayı verdiği × konu ağırlığı × tazelik"
+  dogrulama: "haber en az 2 kaynakta geçmeli ya da AA'da olmalı; tek kaynaklı haber Telegram taslağında ⚠️ ile işaretlenir"
+  pencere:
+    haber: "son 24 saat; o gün büyük olay yoksa haftanın en önemli gelişmesi"
+    analiz: "son 7 gün; önce AA Analiz, yoksa SETA / Middle East Eye / Middle East Monitor"
+  tarih: "önemli yıl dönümlerinde (ör. 2 Kasım Balfour Deklarasyonu) analiz slotu tarih konusuna ayrılabilir"
+  tekrar: "daha önce paylaşılan olay tekrar seçilmez (data/paylasilanlar.json)"
+  telif: "metin kopyalanmaz; kendi cümlelerimizle İngilizce yazılır, kaynak adı ve linki eklenir"

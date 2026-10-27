@@ -1,0 +1,71 @@
+# İlm Sanat botu: her 10 dakikada bir tur çalışır (Telegram'ı okur, zamanı gelen taslağı üretir, zamanı gelen
+# paylaşımı yapar), sonra kapanır. Durum dosyaları (data/*.json, müzik havuzu) depoya geri yazılır.
+# Gizli bilgiler: ENV_DOSYASI (.env dosyasının tamamı), GH_PAT (token yenilenince ENV_DOSYASI'nı güncellemek için).
+name: ilmsanat-bot
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: ilmsanat-bot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  tur:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            video/package-lock.json
+
+      - name: Paketler
+        run: |
+          npm ci --no-audit --no-fund
+          npm ci --no-audit --no-fund --prefix video
+          npx --prefix video remotion browser ensure
+
+      - name: Gizli bilgiler
+        env:
+          ENV_DOSYASI: ${{ secrets.ENV_DOSYASI }}
+        run: |
+          printf '%s\n' "$ENV_DOSYASI" > .env
+          chmod 600 .env
+          sha256sum .env > "$RUNNER_TEMP/env.sha"
+
+      - name: Bot turu
+        run: node otomasyon/bot.mjs --tek-tur
+
+      - name: Yenilenen token'ları sakla
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if ! sha256sum -c --status "$RUNNER_TEMP/env.sha"; then
+            gh secret set ENV_DOSYASI --repo "$GITHUB_REPOSITORY" < .env
+            echo "ENV_DOSYASI güncellendi"
+          fi
+
+      - name: Durumu kaydet
+        if: always()
+        run: |
+          tail -n 2000 data/gunluk.log > data/gunluk.tmp 2>/dev/null && mv data/gunluk.tmp data/gunluk.log || true
+          git config user.name "ilmsanat-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/*.json data/gunluk.log data/muzik 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "bot durumu [skip ci]"
+            git pull --rebase --autostash || true
+            git push || true
+          fi

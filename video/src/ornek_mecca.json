@@ -1,0 +1,44 @@
+{
+  "etiket": "KEY DEVELOPMENT",
+  "etiketRengi": "altin",
+  "baslik": "The **Mecca Alliance** goes to **Tehran**",
+  "baslikBas": 4.0,
+  "ses": "v3/ses.wav",
+  "sesGecikme": 0.25,
+  "sesSuresi": 28.68,
+  "konusma": [[0, 1.16], [1.49, 2.72], [3.28, 3.63], [4.2, 5.6], [6.14, 7.33], [7.74, 8.66], [9.33, 9.87], [10.1, 12.68], [13.26, 14.16], [14.58, 14.99], [15.27, 16.57], [17.31, 20.08], [20.45, 21.79], [22.46, 23.35], [23.95, 25.87], [26.53, 27.7], [27.94, 28.4]],
+  "metin": "Three regional powers just walked into Tehran. Together. Saudi Arabia's defence minister. Pakistan's army chief. Türkiye's spy chief. All three belong to the Mecca Defence Alliance, signed in August. Their message to Iran: this pact is not aimed at you. The four states agreed to keep talking on regional security, from Palestine to Lebanon. The signal is clear. The region is building its own security order. And it will not join a new attack on Iran.",
+  "muzik": "v3/muzik.wav",
+  "muzikSesi": 0.25,
+  "darbe": "v3/darbe.wav",
+  "whoosh": "v3/whoosh.wav",
+  "sahneler": [
+    { "dosya": "v3/harita.jpg", "bas": 0, "son": 4.0, "yakinlasma": [1.0, 1.45], "kayma": [0, 160], "harita": true, "karartma": 0.25 },
+    { "dosya": "v3/konvoy.jpg", "video": "v3/konvoy_kling.mp4", "videoHizi": 0.95, "bas": 4.0, "son": 9.3, "yakinlasma": [1.0, 1.06], "karartma": 0.35 },
+    { "dosya": "v3/antlasma.jpg", "video": "v3/antlasma_kling.mp4", "bas": 9.3, "son": 13.4, "yakinlasma": [1.0, 1.08], "karartma": 0.2 },
+    { "dosya": "v3/salon.jpg", "video": "v3/salon_kling.mp4", "bas": 13.4, "son": 17.4, "yakinlasma": [1.0, 1.06], "karartma": 0.3 },
+    { "dosya": "v3/harita.jpg", "bas": 17.4, "son": 22.6, "yakinlasma": [1.12, 1.02], "kayma": [-20, 10], "harita": true },
+    { "dosya": "v3/tahran.jpg", "video": "v3/tahran_kling.mp4", "bas": 22.6, "son": 27.0, "yakinlasma": [1.0, 1.06], "karartma": 0.3 },
+    { "dosya": "v3/harita.jpg", "bas": 27.0, "son": 29.2, "yakinlasma": [1.15, 1.0], "harita": true, "karartma": 0.3 }
+  ],
+  "isaretler": [
+    { "ad": "TEHRAN", "x": 805, "y": 455, "bas": 0.3, "merkez": true },
+    { "ad": "MECCA", "x": 300, "y": 1000, "bas": 17.6 },
+    { "ad": "PAKISTAN", "x": 1010, "y": 640, "bas": 17.75, "ok": "sag" },
+    { "ad": "ANKARA", "x": 300, "y": 300, "bas": 17.9 },
+    { "ad": "LEBANON", "x": 305, "y": 545, "bas": 21.3, "cizgisiz": true },
+    { "ad": "PALESTINE", "x": 280, "y": 650, "bas": 20.85, "cizgisiz": true }
+  ],
+  "grafikler": [
+    { "tur": "hook", "bas": 0, "son": 4.0, "satirlar": ["3 regional powers", "just walked into", "**Tehran**"] },
+    { "tur": "kartlar", "bas": 4.3, "son": 9.3, "kartlar": [
+      { "ulke": "SAUDI ARABIA", "unvan": "Defence Minister", "bas": 4.45 },
+      { "ulke": "PAKISTAN", "unvan": "Army Chief", "bas": 6.39 },
+      { "ulke": "TÜRKİYE", "unvan": "Intelligence Chief", "bas": 7.99 }
+    ] },
+    { "tur": "damga", "bas": 10.6, "son": 13.4, "ust": "MECCA DEFENCE\nALLIANCE", "alt": "SIGNED · AUG 2026" },
+    { "tur": "buyuk", "bas": 13.6, "son": 17.3, "satirlar": ["This pact is", "not aimed at", "**Iran**"] },
+    { "tur": "buyuk", "bas": 22.9, "son": 26.9, "satirlar": ["A region building", "its own", "**security order**"] },
+    { "tur": "buyuk", "bas": 27.1, "son": 29.1, "satirlar": ["No new attack", "on **Iran**"] }
+  ]
+}
