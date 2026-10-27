@@ -19,11 +19,14 @@ Instagram'a Reel olarak gider; TikTok'a taslak gider (TikTok → Gelen Kutusu �
 - `/durdur` · `/baslat` → takvimi durdur / başlat
 - `/kling 2` → video başına kaç çekim Kling ile hareketlensin (0–5; kredi tasarrufu)
 
-## Botu çalıştırmak
-- Kalıcı kurulum (Mac açılınca kendiliğinden başlar, uykuya geçmesini engeller):
-  `cd ~/Desktop/ILMSANAT && ./scripts/bot_kur.sh` · kaldırmak: `./scripts/bot_kur.sh kaldir`
-- Geçici: `cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/bot.mjs`
-- Mac kapalıyken / uyurken bot çalışmaz → ileride bulut sunucuya taşınacak.
+## Bot nerede çalışıyor
+- **GitHub Actions** (2026-10-28'den beri): https://github.com/ozturkbusralena-spec/ilmsanat-bot — her 10 dakikada bir tur
+  çalışır, Mac'ten bağımsız. Telegram düğmelerine en geç ~10–15 dk içinde tepki verir.
+  Çalışmaları görmek: depo → **Actions** sekmesi. Elle bir tur başlatmak: Actions → ilmsanat-bot → **Run workflow**.
+- Gizli bilgiler GitHub → Settings → Secrets'ta (`ENV_DOSYASI` = .env'in tamamı, `GH_PAT`).
+- Kodda değişiklik yaptıktan sonra GitHub'a göndermek (botun durum dosyalarına dokunmaz):
+  `cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node scripts/github_yukle.mjs ozturkbusralena-spec/ilmsanat-bot`
+- ⚠️ Mac'te botu **çalıştırma** (`bot.mjs`, `bot_kur.sh`): GitHub'daki bot ile aynı anda çalışırsa her şey iki kez olur.
 
 ## Bakım
 - **Google Drive izni 7 günde bir biter** (Google uygulaması test modunda). Telegram'a uyarı gelince:

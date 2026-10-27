@@ -34,7 +34,7 @@ jobs:
         run: |
           npm ci --no-audit --no-fund
           npm ci --no-audit --no-fund --prefix video
-          npx --prefix video remotion browser ensure
+          cd video && npx remotion browser ensure
 
       - name: Gizli bilgiler
         env:

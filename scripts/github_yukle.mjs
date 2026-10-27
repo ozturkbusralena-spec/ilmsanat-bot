@@ -51,9 +51,6 @@ const IZINLI = [
   "video/tsconfig.json",
   "video/src",
   "video/public/marka",
-  "data/muzik",
-  "data/paylasilanlar.json",
-  "data/bot_ayar.json",
   "KULLANIM.md",
   "STIL_REHBERI.md",
   "YOL_HARITASI.md",
@@ -70,6 +67,8 @@ const gez = (goreli) => {
   else dosyalar.push(goreli);
 };
 IZINLI.forEach(gez);
+// botun durumu (paylaşılanlar, ayarlar, müzik havuzu) yalnızca ilk yüklemede gönderilir; sonra GitHub'daki sürüm esas
+if (process.argv.includes("--ilk")) ["data/muzik", "data/paylasilanlar.json", "data/bot_ayar.json"].forEach(gez);
 
 // ---------- secrets ----------
 
@@ -110,7 +109,9 @@ if (!sadeceSecret) {
     const { j: blob } = await gh(`/repos/${depo}/git/blobs`, { method: "POST", body: JSON.stringify({ content: icerik.toString("base64"), encoding: "base64" }) });
     agac.push({ path: d, mode: d.endsWith(".sh") ? "100755" : "100644", type: "blob", sha: blob.sha });
   }
-  const { j: tree } = await gh(`/repos/${depo}/git/trees`, { method: "POST", body: JSON.stringify({ tree: agac }) });
+  // base_tree: listede olmayan dosyalar (botun GitHub'da yazdığı durum dosyaları, README) korunur
+  const { j: ustCommit } = await gh(`/repos/${depo}/git/commits/${ust}`);
+  const { j: tree } = await gh(`/repos/${depo}/git/trees`, { method: "POST", body: JSON.stringify({ base_tree: ustCommit.tree.sha, tree: agac }) });
   const { j: commit } = await gh(`/repos/${depo}/git/commits`, {
     method: "POST",
     body: JSON.stringify({ message: "İlm Sanat otomasyonu", tree: tree.sha, parents: ust ? [ust] : [] }),
