@@ -398,5 +398,133 @@
     },
     "mesajId": 47,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfCiLySO3vT/\n\n🎵 TikTok taslağı: gelen kutuna gönderildi — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-10-28_1800_haber": {
+    "zaman": "2026-10-28T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-10-28T15:30:12.902Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-28_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1PvUpXzAEI6pLjRIlUXQMRB0n0iGTGuXH&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-28_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Iraqi PM in Damascus, eyes on oil\n\nIraqi Prime Minister Ali al-Zaidi arrived in Damascus on 28 October 2026, the first visit by an Iraqi premier since the fall of Bashar al-Assad in December 2024. Leading a high-level delegation, he was welcomed by Syrian President Ahmed al-Sharaa at Damascus International Airport.\n\nAccording to the Iraqi prime minister's office, the talks covered exporting Iraqi oil through the Baniyas pipeline with a capacity of up to 2 million barrels per day, expanding trade and developing agriculture. In July, the two countries signed a memorandum to rehabilitate the Haditha–Baniyas pipeline, with Chevron expected to implement it. Iraq has begun exporting limited oil volumes via Syria since the US-led war on Iran, and is studying routes through Syria and Turkiye as alternatives to the Strait of Hormuz.\n\nZaidi described Iraqis and Syrians as \"one people in two countries\", while Sharaa stressed Syria's commitment to the highest levels of cooperation. Border security and counter-terrorism were also expected to feature.\n\nSource: Al Jazeera, Middle East Monitor, TRT World\n\n#Iraq #Syria #Damascus #Baniyas #OilPipeline #MiddleEast #Hormuz #Geopolitics #IlmSanat",
+    "baslik": "Iraqi PM in Damascus, eyes on oil",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Iraqi PM in **Damascus**, eyes on **oil**",
+      "hook_satirlar": [
+        "First Iraqi PM",
+        "in Damascus since",
+        "Assad's **fall**"
+      ],
+      "cumleler": [
+        "For the first time since Assad's fall, an Iraqi prime minister is in Damascus.",
+        "Syrian President Ahmed al-Sharaa greeted Prime Minister Ali al-Zaidi at the airport.",
+        "Top of the agenda: Iraqi oil through the Baniyas pipeline, at up to two million barrels a day.",
+        "In July, the two neighbours agreed to revive the Haditha–Baniyas line, with Chevron expected to carry out the work.",
+        "Since the US-led war on Iran, Baghdad has been studying export routes that avoid the Strait of Hormuz.",
+        "Zaidi called Iraqis and Syrians one people in two countries."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of Damascus skyline at dusk, domes and minarets under a heavy navy sky, muted brass light on rooftops, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in over the skyline, faint drifting clouds, soft flicker of evening light"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Academic oil painting of an airport tarmac at twilight, silhouetted delegation figures walking from a government aircraft toward a reception line, faces unseen, dark navy and brass tones, chiaroscuro, visible brushstrokes, no text or flags",
+          "hareket_prompt": "Gentle lateral drift along the tarmac, light mist, subtle glow on the aircraft"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Copperplate engraving style antique map of Iraq and Syria with a long pipeline traced from the Euphrates desert to the Mediterranean coast, aged parchment, desaturated navy and brass tint, no letters or labels",
+          "hareket_prompt": "Slow pan following the pipeline line westward toward the sea, faint dust in the air"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century oil painting of a rusted oil pipeline crossing a vast desert toward a distant Mediterranean port with storage tanks, workers as small silhouettes, dark navy sky, muted brass highlights, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in along the pipeline toward the horizon, drifting heat haze"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Academic oil painting of tankers on a narrow strait at night under stormy clouds, distant coastline silhouettes, brooding navy and brass palette, chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow drift across the water, gentle wave motion, clouds moving slowly"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting of an ornate palace hall in Damascus, two empty carved chairs facing each other beneath a chandelier, warm brass candlelight against deep navy shadows, chiaroscuro, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow push-in toward the chairs, soft candlelight flicker"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "SYRIA",
+              "unvan": "President Ahmed al-Sharaa",
+              "cumle": 1
+            },
+            {
+              "ulke": "IRAQ",
+              "unvan": "PM Ali al-Zaidi, in office since May",
+              "cumle": 1
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "UP TO\n2M BARRELS/DAY",
+          "alt": "Baniyas pipeline capacity"
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "PIPELINE\nREVIVAL",
+          "alt": "July 2026 · Chevron"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 4,
+          "satirlar": [
+            "Routes that",
+            "avoid **Hormuz**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Iraqi PM in Damascus, eyes on oil\n\nIraqi Prime Minister Ali al-Zaidi arrived in Damascus on 28 October 2026, the first visit by an Iraqi premier since the fall of Bashar al-Assad in December 2024. Leading a high-level delegation, he was welcomed by Syrian President Ahmed al-Sharaa at Damascus International Airport.\n\nAccording to the Iraqi prime minister's office, the talks covered exporting Iraqi oil through the Baniyas pipeline with a capacity of up to 2 million barrels per day, expanding trade and developing agriculture. In July, the two countries signed a memorandum to rehabilitate the Haditha–Baniyas pipeline, with Chevron expected to implement it. Iraq has begun exporting limited oil volumes via Syria since the US-led war on Iran, and is studying routes through Syria and Turkiye as alternatives to the Strait of Hormuz.\n\nZaidi described Iraqis and Syrians as \"one people in two countries\", while Sharaa stressed Syria's commitment to the highest levels of cooperation. Border security and counter-terrorism were also expected to feature.\n\nSource: Al Jazeera, Middle East Monitor, TRT World\n\n#Iraq #Syria #Damascus #Baniyas #OilPipeline #MiddleEast #Hormuz #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Iraqi PM Ali al-Zaidi meets Ahmed al-Sharaa in historic Syria visit",
+          "link": "https://www.aljazeera.com/news/2026/10/28/iraqi-pm-ali-al-zaidi-meets-ahmed-al-sharaa-in-historic-syria-visit"
+        },
+        {
+          "ad": "Middle East Monitor",
+          "baslik": "Iraq, Syria discuss oil exports via Baniyas pipeline with capacity of 2M barrels per day",
+          "link": "https://www.middleeastmonitor.com/20261028-iraq-syria-discuss-oil-exports-via-baniyas-pipeline-with-capacity-of-2m-barrels-per-day/"
+        },
+        {
+          "ad": "TRT World",
+          "baslik": "TRT World - Iraqi PM visits Damascus in first such trip since Assad&#x27;s fall",
+          "link": "https://www.trtworld.com/article/e51d8d902c07"
+        }
+      ]
+    },
+    "mesajId": 55
   }
 }
