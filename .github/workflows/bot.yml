@@ -18,7 +18,8 @@ permissions:
 jobs:
   tur:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    # paylaşım saati yakınsa tur 50 dk'ya kadar bekleyip saatinde paylaşır (otomasyon/bot.mjs, BEKLE_DK)
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
 

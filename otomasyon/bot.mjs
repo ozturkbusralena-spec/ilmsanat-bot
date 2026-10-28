@@ -28,6 +28,9 @@ const TAKVIM = [
 ];
 const ONCEDEN_DK = 120;
 const HATIRLAT_DK = 15;
+// tek tur modunda: paylaşım saati turun başından en fazla bu kadar sonraysa tur kapanmadan bekler (bot.yml zaman aşımı 75 dk)
+const BEKLE_DK = 50;
+const BASLANGIC = Date.now();
 const TUR_ADI = { haber: "HABER", analiz: "ANALİZ", tablo: "PAZAR TABLOSU", ozel: "ÖZEL İSTEK" };
 
 // ---------- tek kopya kilidi ----------
@@ -320,6 +323,29 @@ if (TEK_TUR) {
   await takvimKontrol().catch((e) => tgHata("Takvim kontrolü", e));
   await kuyruk;
   await paylasimKuyrugu;
+  // GitHub zamanlanmış turları 40–60 dk gecikebiliyor: paylaşım saati yakınsa kapanmadan bekle, saatinde paylaş.
+  // Beklerken Telegram dinlenir (Paylaş / Değiştir / Atla tıklamaları işlenir).
+  const siradakiPaylasim = () =>
+    Object.values(taslaklar())
+      .filter((t) => t.zaman && ["onay_bekliyor", "onaylandi"].includes(t.durum))
+      .map((t) => new Date(t.zaman).getTime())
+      .filter((z) => z > Date.now() - 60000 && z - BASLANGIC <= BEKLE_DK * 60000)
+      .sort((a, b) => a - b)[0];
+  let z = siradakiPaylasim();
+  if (z) log(`Paylaşım saati bekleniyor (${viyana(new Date(z)).saat})`);
+  while (z) {
+    const kalanSn = Math.ceil((z - Date.now()) / 1000);
+    if (kalanSn > 0)
+      await guncellemeleriIsle(Math.min(30, kalanSn)).catch(async (e) => {
+        log("Telegram:", e.message);
+        await bekle(Math.min(10000, kalanSn * 1000));
+      });
+    else await bekle(5000);
+    await takvimKontrol().catch((e) => tgHata("Takvim kontrolü", e));
+    await paylasimKuyrugu;
+    z = siradakiPaylasim();
+  }
+  await kuyruk;
   // üretim sırasında gelen tıklamaları da kaçırmamak için son bir kez bak
   await guncellemeleriIsle(0).catch((e) => log("Telegram:", e.message));
   await paylasimKuyrugu;
