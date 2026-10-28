@@ -1,0 +1,131 @@
+{
+  "ozel_20261028_mvrcjcyx": {
+    "tur": "ozel",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-10-28T00:08:20.445Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/ozel_20261028_mvrcjcyx/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1MpxfXM6FiLwuOVbm8F06zC-SwTywnsRw&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/ozel_20261028_mvrcjcyx/kapak_kucuk.jpg",
+    "aciklama": "Dozens of nations warn of famine in Sudan\n\nDozens of countries, including the United States and major European powers, have issued a joint statement warning of a worrying deterioration in food security in Sudan. Published by the US State Department, the statement cites the Integrated Food Security Phase Classification (IPC), which has warned of a risk of famine in the coming months, and stresses that the parties to the conflict bear primary responsibility for easing civilian suffering.\n\nThe signatories called on the warring sides to remove all obstacles to humanitarian aid, urged the international community to increase funding, and asked financial institutions to adapt existing programmes to the food crisis.\n\nSudan's army has been fighting the paramilitary Rapid Support Forces (RSF) since April 2023, after disputes over integrating their forces during a planned transition to civilian rule. In June, the UN-backed IPC reported 5.1 million people facing severe hunger, as farmers struggle to harvest amid war and a recent wave of drought.\n\nSource: Middle East Monitor\n\n#Sudan #Famine #Darfur #RSF #HumanitarianAid #FoodSecurity #IPC #Africa #Geopolitics #IlmSanat",
+    "baslik": "Dozens of nations warn of famine in Sudan",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Dozens of nations warn of **famine in Sudan**",
+      "hook_satirlar": [
+        "Dozens of nations warn",
+        "Sudan could face **famine**",
+        "within months."
+      ],
+      "cumleler": [
+        "Dozens of nations now warn that famine could reach Sudan within months.",
+        "In a statement published by the US State Department, Washington and major European powers flagged worsening food security.",
+        "They told the warring sides to lift every barrier to humanitarian aid.",
+        "Donors and financial institutions were urged to step up support.",
+        "Sudan's army has fought the paramilitary Rapid Support Forces since April 2023.",
+        "In June, the UN-backed IPC counted 5.1 million people facing severe hunger.",
+        "War and a recent drought have left farmers struggling to bring in their harvests."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a vast parched Sudanese plain at dusk, cracked earth, empty clay grain jars beside a lone acacia tree, distant silhouettes of displaced families walking, dark desaturated navy sky with muted brass light on the horizon, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the empty grain jars, faint dust drifting across the ground, light slowly dimming on the horizon"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "19th-century academic oil painting of a grand candlelit diplomatic chamber, long polished table with sealed documents, quills and wax seals, empty chairs, tall windows with heavy curtains, dark navy shadows and muted brass candlelight, dramatic chiaroscuro, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "Gentle lateral drift along the table, candle flames flickering softly"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Copperplate engraving style scene of a line of loaded supply carts halted at a desert road barrier of wooden beams and stones, distant river and low town silhouettes, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, no text, no flags",
+          "hareket_prompt": "Slow push-in toward the road barrier, light haze of dust drifting across the scene"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Antique engraved map of Sudan and the Nile valley on aged parchment, Khartoum confluence and Darfur region subtly highlighted with brass tones, smoke rising faintly from distant painted towns, dark navy vignette, dramatic lighting, no letters or text on the map",
+          "hareket_prompt": "Slow drift across the map from the Nile toward Darfur, faint smoke wisps rising"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century academic oil painting of a sprawling displacement camp of makeshift tents in northern Darfur at twilight, silhouettes of mothers and children seated on the ground seen from afar, cooking fires glowing faintly, dark desaturated navy and muted brass tones, dramatic chiaroscuro, visible brushstrokes, no recognisable faces, no text",
+          "hareket_prompt": "Slow pull-back revealing the scale of the camp, firelight flickering gently"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "19th-century academic oil painting of withered sorghum fields under a harsh pale sun, a lone farmer silhouette with a hand tool standing among dry stalks, abandoned plough, distant smoke on the horizon, dark navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the farmer silhouette, dry stalks swaying faintly, heat haze shimmering"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "UNITED STATES",
+              "unvan": "Published joint statement",
+              "cumle": 1
+            },
+            {
+              "ulke": "EUROPEAN POWERS",
+              "unvan": "Co-signatories",
+              "cumle": 1
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "REMOVE AID\nOBSTACLES",
+          "alt": "Call to warring parties"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "SUDANESE ARMY",
+              "unvan": "National armed forces",
+              "cumle": 4
+            },
+            {
+              "ulke": "RSF",
+              "unvan": "Paramilitary rival since April 2023",
+              "cumle": 4
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 5,
+          "satirlar": [
+            "**5.1 million** people",
+            "facing severe hunger"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Dozens of nations warn of famine in Sudan\n\nDozens of countries, including the United States and major European powers, have issued a joint statement warning of a worrying deterioration in food security in Sudan. Published by the US State Department, the statement cites the Integrated Food Security Phase Classification (IPC), which has warned of a risk of famine in the coming months, and stresses that the parties to the conflict bear primary responsibility for easing civilian suffering.\n\nThe signatories called on the warring sides to remove all obstacles to humanitarian aid, urged the international community to increase funding, and asked financial institutions to adapt existing programmes to the food crisis.\n\nSudan's army has been fighting the paramilitary Rapid Support Forces (RSF) since April 2023, after disputes over integrating their forces during a planned transition to civilian rule. In June, the UN-backed IPC reported 5.1 million people facing severe hunger, as farmers struggle to harvest amid war and a recent wave of drought.\n\nSource: Middle East Monitor\n\n#Sudan #Famine #Darfur #RSF #HumanitarianAid #FoodSecurity #IPC #Africa #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Middle East Monitor",
+          "baslik": "International statement warns of imminent famine in Sudan",
+          "link": "https://www.middleeastmonitor.com/20261027-international-statement-warns-of-imminent-famine-in-sudan/"
+        }
+      ]
+    },
+    "mesajId": 37
+  }
+}
