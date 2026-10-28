@@ -259,5 +259,143 @@
     },
     "mesajId": 43,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfB-LOmC82O/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-10-28_1400_analiz": {
+    "zaman": "2026-10-28T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-10-28T11:23:47.340Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-28_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=11L5S2KCziXg9hTc8PAgCHAa4PgJkwNj2&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-28_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Türkiye Bets on Smaller, Sharper Defence Alliances\n\nIn a commentary for SETA dated 26 October 2026, Nebi Miş argues that large multi-member alliances struggle to take decisions on major issues, noting that the Organisation of Islamic Cooperation and the Arab League have for years failed to produce effective responses to their members' shared security crises. He points to the Mecca Medium Defence Agreement signed by Türkiye, Saudi Arabia and Pakistan as potentially one of the most important security alliances of recent years.\n\nAn Anadolu Agency analysis examines a parallel track: on 21 October in Doha, Türkiye, Qatar, Pakistan and Indonesia signed the Badr Memorandum of Understanding, aimed at strengthening defence-industry cooperation and laying the groundwork for technical military training. The piece highlights Qatar's investment-led approach and its ties with firms such as ASELSAN, STM and MKE, Pakistan's record in technical training and its links to programmes like KAAN, and Indonesia's joint drone and tank projects with Ankara. Türkiye signed 15 billion dollars in new defence contracts this year.\n\nSource: SETA (Nebi Miş); Anadolu Agency Analysis\n\n#Türkiye #DefenceIndustry #Geopolitics #Qatar #Pakistan #Indonesia #SaudiArabia #Alliances #MiddleEast #IlmSanat",
+    "baslik": "Türkiye Bets on Smaller, Sharper Defence Alliances",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "Türkiye Bets on **Smaller, Sharper** Defence **Alliances**",
+      "hook_satirlar": [
+        "Türkiye is building",
+        "smaller, sharper",
+        "defence **alliances**"
+      ],
+      "cumleler": [
+        "Türkiye is building smaller, sharper defence alliances with Muslim partners.",
+        "Large blocs like the OIC and the Arab League have failed for years to answer their members' shared security crises, argues SETA's Nebi Miş.",
+        "Now Türkiye, Saudi Arabia and Pakistan have signed the Mecca Medium Defence Agreement.",
+        "On 21 October in Doha, Türkiye, Qatar, Pakistan and Indonesia signed the Badr Memorandum.",
+        "It aims to deepen defence-industry cooperation and lay foundations for technical military training.",
+        "Each partner brings a strength: Qatari capital, Pakistani training expertise, Indonesian co-production and technology transfer.",
+        "Ankara itself signed fifteen billion dollars in new defence contracts this year.",
+        "The bet is clear: compact coalitions may act where crowded ones cannot."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting, a dark council chamber with a long table and a few empty carved chairs facing an antique map of the Islamic world, candlelight, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the map, candle flames flicker gently"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Vast grand assembly hall with rows of empty benches and silhouetted delegates in shadow, dust in shafts of pale light, 19th-century academic oil painting, dark navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow lateral drift across the empty benches, dust motes floating"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Distant view of Mecca's mountains and minarets at dusk under heavy clouds, a sealed parchment and brass seal on a stone ledge in the foreground, 19th-century orientalist oil painting, navy and muted brass tones, chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Gentle push-in on the parchment, clouds drifting slowly behind"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Doha waterfront at night painted as a 19th-century oil seascape, dhows on dark water, a lantern-lit pavilion where four silhouettes stand around a table, dark navy and brass palette, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow drift forward across the water, lantern light shimmering softly"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Antique copperplate engraving style map linking Anatolia, the Arabian Gulf, South Asia and the Indonesian archipelago with fine brass lines, compasses and naval instruments on the margins, dark navy and muted brass tones, chiaroscuro, no text or letters",
+          "hareket_prompt": "Slow pan along the connecting lines, subtle light flicker across the map"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "A small iron-bound chest of brass gears and engineering drawings beside a quiet war room window overlooking a shipyard at dawn, 19th-century academic oil painting, navy and muted brass, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the window as morning mist drifts over the shipyard"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "MECCA\nDEFENCE PACT",
+          "alt": "Türkiye · Saudi Arabia · Pakistan"
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "BADR\nMEMORANDUM",
+          "alt": "Doha, 21 October 2026"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "QATAR",
+              "unvan": "Capital investment",
+              "cumle": 5
+            },
+            {
+              "ulke": "PAKISTAN",
+              "unvan": "Technical training expertise",
+              "cumle": 5
+            },
+            {
+              "ulke": "INDONESIA",
+              "unvan": "Co-production, tech transfer",
+              "cumle": 5
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 6,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "$15 BILLION",
+          "alt": "New Turkish defence contracts in 2026"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 7,
+          "satirlar": [
+            "Fewer members,",
+            "faster **decisions**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Türkiye Bets on Smaller, Sharper Defence Alliances\n\nIn a commentary for SETA dated 26 October 2026, Nebi Miş argues that large multi-member alliances struggle to take decisions on major issues, noting that the Organisation of Islamic Cooperation and the Arab League have for years failed to produce effective responses to their members' shared security crises. He points to the Mecca Medium Defence Agreement signed by Türkiye, Saudi Arabia and Pakistan as potentially one of the most important security alliances of recent years.\n\nAn Anadolu Agency analysis examines a parallel track: on 21 October in Doha, Türkiye, Qatar, Pakistan and Indonesia signed the Badr Memorandum of Understanding, aimed at strengthening defence-industry cooperation and laying the groundwork for technical military training. The piece highlights Qatar's investment-led approach and its ties with firms such as ASELSAN, STM and MKE, Pakistan's record in technical training and its links to programmes like KAAN, and Indonesia's joint drone and tank projects with Ankara. Türkiye signed 15 billion dollars in new defence contracts this year.\n\nSource: SETA (Nebi Miş); Anadolu Agency Analysis\n\n#Türkiye #DefenceIndustry #Geopolitics #Qatar #Pakistan #Indonesia #SaudiArabia #Alliances #MiddleEast #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "SETA",
+          "baslik": "İttifaklar Ne Kadar Etkin Olabilecek?",
+          "link": "https://www.setav.org/ittifaklar-ne-kadar-etkin-olabilecek-1"
+        },
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "Bedir Mutabakat Zaptı: Savunma iş birliklerinde derinleşmeye doğru",
+          "link": "https://www.aa.com.tr/tr/analiz/bedir-mutabakat-zapti-savunma-is-birliklerinde-derinlesmeye-dogru/4098320"
+        }
+      ]
+    },
+    "mesajId": 47
   }
 }
