@@ -263,8 +263,8 @@
   "2026-10-28_1400_analiz": {
     "zaman": "2026-10-28T13:00:00.000Z",
     "tur": "analiz",
-    "durum": "onaylandi",
-    "guncelleme": "2026-10-28T11:47:06.237Z",
+    "durum": "paylasildi",
+    "guncelleme": "2026-10-28T13:26:27.555Z",
     "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-28_1400_analiz/video.mp4",
     "driveUrl": "https://drive.usercontent.google.com/download?id=11L5S2KCziXg9hTc8PAgCHAa4PgJkwNj2&export=download&confirm=t",
     "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-28_1400_analiz/kapak_kucuk.jpg",
@@ -396,6 +396,7 @@
         }
       ]
     },
-    "mesajId": 47
+    "mesajId": 47,
+    "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfCiLySO3vT/\n\n🎵 TikTok taslağı: gelen kutuna gönderildi — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
   }
 }
