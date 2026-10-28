@@ -6,7 +6,7 @@
 | 09:00 | 07:00 | Haber |
 | 11:00 (Pazar) | 09:00 | Oryantalist tablo (Met Müzesi, kamu malı) |
 | 14:00 | 12:00 | Analiz (önce AA Analiz) |
-| 20:00 | 18:00 | Haber |
+| 18:00 | 16:00 | Haber |
 
 Taslağın altında: **✅ Paylaş** (saatinde paylaşılır) · **✏️ Değiştir** (ne istediğini yaz, yeniden üretilir) · **⏭ Atla**.
 Cevap vermezsen 15 dk önce hatırlatılır, saatinde otomatik paylaşılır.

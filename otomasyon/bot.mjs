@@ -1,6 +1,6 @@
 // İlm Sanat botu: takvime göre taslak üretir, Telegram'dan onay alır, paylaşır.
 //
-// Takvim (Viyana): 09:00 haber · 14:00 analiz · 20:00 haber · Pazar ayrıca 11:00 oryantalist tablo.
+// Takvim (Viyana): 09:00 haber · 14:00 analiz · 18:00 haber · Pazar ayrıca 11:00 oryantalist tablo.
 // Taslak paylaşım saatinden 2 saat önce Telegram'a gelir. Onaylanırsa saatinde paylaşılır; cevap yoksa
 // 15 dk önce hatırlatılır ve saatinde otomatik paylaşılır. Atla denirse paylaşılmaz.
 // Telegram komutları: bir haber linki · /konu <konu> · /durum · /durdur · /baslat · /yardim
@@ -23,7 +23,7 @@ const TEK_TUR = process.argv.includes("--tek-tur");
 const TAKVIM = [
   { saat: "09:00", tur: "haber" },
   { saat: "14:00", tur: "analiz" },
-  { saat: "20:00", tur: "haber" },
+  { saat: "18:00", tur: "haber" },
   { saat: "11:00", tur: "tablo", sadecePazar: true },
 ];
 const ONCEDEN_DK = 120;
@@ -358,7 +358,7 @@ if (TEK_TUR) {
 for (const [id, t] of Object.entries(taslaklar())) if (["uretiliyor", "sirada", "paylasiliyor"].includes(t.durum)) taslakYaz(id, { durum: "hata", hata: "bot yeniden başladı" });
 
 log("Bot başladı");
-await tgMesaj(`🤖 İlm Sanat botu çalışıyor. Takvim: 09:00 haber · 14:00 analiz · 20:00 haber · Pazar 11:00 tablo (Viyana). /yardim`).catch((e) => log("Telegram'a ulaşılamadı:", e.message));
+await tgMesaj(`🤖 İlm Sanat botu çalışıyor. Takvim: 09:00 haber · 14:00 analiz · 18:00 haber · Pazar 11:00 tablo (Viyana). /yardim`).catch((e) => log("Telegram'a ulaşılamadı:", e.message));
 telegramDongusu();
 for (;;) {
   await takvimKontrol().catch((e) => tgHata("Takvim kontrolü", e));

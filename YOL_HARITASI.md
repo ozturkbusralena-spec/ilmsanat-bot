@@ -8,7 +8,7 @@
 |---|---|---|
 | Haber 1 | Her gün 09:00 | Orta Doğu ağırlıklı jeopolitik haber, İngilizce uzun akademik metin + klasik sanat havasında görsel |
 | Analiz | Her gün 14:00 | Önce AA Analiz, yoksa SETA / MEE / MEMO; İngilizce kendi cümlelerimizle |
-| Haber 2 | Her gün 20:00 | Aynı (haber) |
+| Haber 2 | Her gün 18:00 | Aynı (haber) |
 | Oryantalist tablo | Her Pazar 11:00 (ek, 4. paylaşım) | Gerçek, kamu malı tablo + eserin hikâyesi + ressamın kısa biyografisi |
 
 Instagram'a doğrudan, TikTok'a **taslak** olarak gider (müzikli Magnific videosu; paylaşımı sen telefondan yaparsın). Hepsi önce **Telegram'dan senin onayına** gelir; cevap vermezsen saatinde otomatik gider.

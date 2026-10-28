@@ -25,11 +25,11 @@ paylasim_saatleri:
   # Günde 3 paylaşım (2026-10-26 kararı): 2 haber + 1 analiz.
   # Viyana 09:00 = Körfez 11:00/12:00 (Avrupa sabahı)
   # Viyana 14:00 = Körfez 16:00/17:00, New York 08:00
-  # Viyana 20:00 = Körfez 22:00/23:00, New York 14:00
+  # Viyana 18:00 = İstanbul 20:00, Körfez 21:00, New York 12:00
   # İlk ay sonunda Instagram istatistiklerine bakıp ayarlanacak.
   haber_1: "09:00"
   analiz: "14:00"
-  haber_2: "20:00"
+  haber_2: "18:00"    # 2026-10-28: 20:00 geç bulundu, 18:00 yapıldı
   pazar_tablo: "11:00"    # Pazar: 2 haber + 1 analiz + 1 tablo = 4 paylaşım (onaylandı 2026-10-26)
 
 haber_secimi:   # ayrıntılı kurallar: config/kaynaklar.yaml → secim
