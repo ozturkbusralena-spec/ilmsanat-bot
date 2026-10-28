@@ -128,5 +128,135 @@
     },
     "mesajId": 37,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfBIHE9q6Yo/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-10-28_0900_haber": {
+    "zaman": "2026-10-28T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-10-28T06:25:03.030Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-28_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1AqWUTOLmHiOrA3TPv9ngbrqFhLvaTcdy&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-28_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Israel Votes: No Majority, Arab Parties Pivotal\n\nEarly results from Israel's general election of 28 October 2026 show neither major bloc reaching the 61 seats required for a parliamentary majority. With more than half of ballots counted, The Times of Israel projected Prime Minister Benjamin Netanyahu's bloc at 56 seats and Gadi Eisenkot's opposition alliance at 49. Likud is projected as the largest single party with 27–28 seats, ahead of Eisenkot's Yashar with 21.\n\nAccording to the Central Elections Committee, Palestinian-led parties have overtaken Naftali Bennett's Together alliance for third place. At an earlier stage of counting, the Joint List and Ra'am were projected to win 16 seats combined, enough to give Eisenkot's bloc 63 seats if they chose to back it.\n\nSpeaking at Likud headquarters in West Jerusalem, Netanyahu said a right-wing government must be formed and ruled out relying on Arab parties, adding that the true results were one or two days away. Al Jazeera analyst Marwan Bishara noted that Likud's tally is its lowest since 2009. All figures remain provisional.\n\nSource: Anadolu Agency, Al Jazeera, Middle East Eye\n\n#Israel #IsraelElection #Netanyahu #Eisenkot #Knesset #Likud #MiddleEast #Geopolitics #IlmSanat",
+    "baslik": "Israel Votes: No Majority, Arab Parties Pivotal",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Israel Votes: **No Majority**, Arab Parties **Pivotal**",
+      "hook_satirlar": [
+        "Israel's election produced",
+        "no majority. Arab parties",
+        "may **decide** who governs."
+      ],
+      "cumleler": [
+        "Israel's election has produced no majority, and Arab parties may decide who governs.",
+        "With more than half the ballots counted, Benjamin Netanyahu's bloc is projected to win 56 seats.",
+        "Gadi Eisenkot's opposition alliance trails with 49.",
+        "A governing majority needs 61.",
+        "Netanyahu's Likud remains the largest party, but one analyst says it is at its weakest since 2009.",
+        "Arab-led parties have now climbed to third place.",
+        "An earlier count showed their 16 seats could hand Eisenkot's bloc a majority of 63.",
+        "Netanyahu rejects any coalition with Arab parties, and says the true results are still days away."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of an austere parliament chamber at night, empty semicircular rows of wooden benches, a single shaft of light falling across the floor, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text, no faces",
+          "hareket_prompt": "slow push-in toward the lit centre of the chamber, faint dust drifting in the light beam"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Oil painting of wooden ballot boxes stacked on a long table in a dim hall, scattered paper ballots without any writing, oil lamps casting warm brass light, navy shadows, chiaroscuro, visible brushstrokes, no text, no people's faces",
+          "hareket_prompt": "gentle lateral drift along the table, lamp light softly flickering"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Antique copperplate engraving style map of the eastern Mediterranean coast with a brass balance scale resting on it, the two pans nearly level, muted navy and brass palette, dramatic side lighting, no letters or labels",
+          "hareket_prompt": "slow push-in on the balance scale, subtle light shift across the map"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century oil painting of a stone hilltop city at dusk, Jerusalem-like skyline of domes and walls, a lone distant silhouette at a lit window, heavy clouds, dark navy and muted brass tones, chiaroscuro, visible brushstrokes, no flags, no text",
+          "hareket_prompt": "slow drift right with clouds moving gently across the sky"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Academic oil painting of a crowd of anonymous silhouettes gathered in a stone courtyard under lantern light, seen from behind, dark navy shadows and brass highlights, cinematic composition, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "slow push-in, lanterns softly flickering, light mist rising"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "Oil painting of an empty ornate chair at the head of a long negotiating table in a shadowed hall, papers without writing, single candle, dark navy and muted brass tones, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "very slow pull-back from the empty chair, candle flame gently wavering"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "NETANYAHU BLOC",
+              "unvan": "Projected 56 seats",
+              "cumle": 1
+            },
+            {
+              "ulke": "EISENKOT BLOC",
+              "unvan": "Projected 49 seats",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "61 SEATS\nNEEDED",
+          "alt": "Neither bloc reaches it"
+        },
+        {
+          "tur": "damga",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "LIKUD\nLOWEST SINCE 2009",
+          "alt": "Projected 27–28 seats"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "16 Arab-led seats",
+            "could build a **majority**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Israel Votes: No Majority, Arab Parties Pivotal\n\nEarly results from Israel's general election of 28 October 2026 show neither major bloc reaching the 61 seats required for a parliamentary majority. With more than half of ballots counted, The Times of Israel projected Prime Minister Benjamin Netanyahu's bloc at 56 seats and Gadi Eisenkot's opposition alliance at 49. Likud is projected as the largest single party with 27–28 seats, ahead of Eisenkot's Yashar with 21.\n\nAccording to the Central Elections Committee, Palestinian-led parties have overtaken Naftali Bennett's Together alliance for third place. At an earlier stage of counting, the Joint List and Ra'am were projected to win 16 seats combined, enough to give Eisenkot's bloc 63 seats if they chose to back it.\n\nSpeaking at Likud headquarters in West Jerusalem, Netanyahu said a right-wing government must be formed and ruled out relying on Arab parties, adding that the true results were one or two days away. Al Jazeera analyst Marwan Bishara noted that Likud's tally is its lowest since 2009. All figures remain provisional.\n\nSource: Anadolu Agency, Al Jazeera, Middle East Eye\n\n#Israel #IsraelElection #Netanyahu #Eisenkot #Knesset #Likud #MiddleEast #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Netanyahu bloc leads Israeli election count with projected 57 seats, short of majority after nearly 42% of votes counted",
+          "link": "https://www.aa.com.tr/en/politics/netanyahu-bloc-leads-israeli-election-count-with-projected-57-seats-short-of-majority-after-nearly-42-of-votes-counted/4103266"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Netanyahu outlines achievements, future plans as Likud leads polls",
+          "link": "https://www.aljazeera.com/news/2026/10/28/netanyahu-outlines-achievements-future-plans-as-likud-leads-polls"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "More than 2.7 million votes counted, Palestinian-led parties overtake Bennett’s Together alliance at third place",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/more-27-million-votes-counted-palestinian-led-parties-overtake-bennetts"
+        }
+      ]
+    },
+    "mesajId": 43
   }
 }
