@@ -671,5 +671,146 @@
     "mesajId": 61,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfEhyt1BpnZ/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-10-29_1400_analiz": {
+    "zaman": "2026-10-29T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-10-29T11:38:34.732Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-29_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1p-wiD58d_POe73mWzHOvxdZz17hxLg0f&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-29_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Libya’s Parliament Backs Türkiye Maritime Deal\n\nOn 20 October, Libya’s House of Representatives, meeting in Benghazi, unanimously approved the Memorandum of Understanding on the Delimitation of Maritime Jurisdiction Areas signed with Türkiye in 2019. The chamber also lifted decision 2020/1, which had rejected the memorandum, and decision No. 6, which had called for severing political relations with Türkiye. The Government of National Unity in Tripoli viewed the decision positively.\n\nWriting for SETA, Tunç Demirtaş describes the approval as an important strategic gain for Ankara’s Eastern Mediterranean policy, arguing that its significance cannot be separated from the security and connectivity order taking shape in the region. He notes that Türkiye advocates an inclusive cooperation mechanism, involving all littoral states, to support regional prosperity and stability.\n\nIn SETA’s Experts Respond series (24 October 2026), Sibel Düz, Yücel Acer, Mehmet Uğur Ekinci, Zuhal Mert Uzuner, Serhat Süha Çubukçuoğlu, Murat Aslan, Ferhat Polat and Bilgehan Öztürk assess the decision’s implications under international law, for Türkiye’s strategic position, for regional actors and for the future of Türkiye–Libya relations.\n\nSource: SETA (Tunç Demirtaş; Experts Respond)\n\n#Libya #Türkiye #EasternMediterranean #MaritimeJurisdiction #Benghazi #Geopolitics #InternationalLaw #SETA #IlmSanat",
+    "baslik": "Libya’s Parliament Backs Türkiye Maritime Deal",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "Libya’s Parliament Backs **Türkiye Maritime Deal**",
+      "hook_satirlar": [
+        "Libya’s eastern parliament",
+        "now backs a deal",
+        "it once **rejected**"
+      ],
+      "cumleler": [
+        "Libya’s eastern parliament now backs a maritime deal it once rejected.",
+        "On 20 October, the House of Representatives in Benghazi unanimously approved the 2019 maritime memorandum with Türkiye.",
+        "It also scrapped decision 2020/1, which had rejected the deal.",
+        "And it lifted decision No. 6, which called for cutting political ties with Ankara.",
+        "Tripoli’s Government of National Unity reacted positively.",
+        "SETA analyst Tunç Demirtaş calls it a major strategic gain for Ankara’s Eastern Mediterranean policy.",
+        "He ties it to the region’s emerging security and connectivity order.",
+        "Türkiye, he notes, seeks an inclusive cooperation mechanism with every coastal state.",
+        "SETA’s experts are now weighing the legal, diplomatic and military fallout."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "Antique copperplate-style map of the Eastern Mediterranean showing the coasts of Anatolia and North Africa, sea between them rendered in dark navy, muted brass compass rose, dramatic chiaroscuro lighting, aged parchment texture, cinematic vertical composition, no text or letters",
+          "hareket_prompt": "Slow push-in across the sea between the two coastlines, faint candlelight flicker on the parchment"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "19th-century academic oil painting of a grand parliamentary chamber in a North African coastal city at dusk, rows of empty wooden benches, raised hands as dark silhouettes, warm brass lamplight against deep navy shadows, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "Gentle drift forward down the aisle, lamplight softly flickering"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Oil painting still life of an old wax-sealed document and a broken chain resting on a dark wooden desk, single brass oil lamp, dramatic chiaroscuro, desaturated navy and brass palette, visible brushstrokes, no writing visible",
+          "hareket_prompt": "Slow push-in on the broken chain, subtle flicker of lamp flame"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Academic oil painting of a steamship and sailing vessels on a calm dark Mediterranean at twilight, distant Anatolian coastline, moody clouds lit in muted brass, deep navy sea, cinematic wide vertical composition, visible brushstrokes",
+          "hareket_prompt": "Slow drift to the right, clouds moving gently, soft shimmer on the water"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "Antique engraving-style map of the Eastern Mediterranean with several coastlines linked by delicate brass sea routes converging at the centre, navy-toned sea, dramatic lighting, aged paper texture, no text or letters",
+          "hareket_prompt": "Slow zoom out revealing all coastlines, faint mist drifting over the map"
+        },
+        {
+          "cumle": 8,
+          "gorsel_prompt": "19th-century oil painting of a lighthouse on a rocky Mediterranean headland at night, beam cutting through mist over a dark navy sea, muted brass highlights, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the lighthouse, beam gently sweeping, mist rolling"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "APPROVED\nUNANIMOUSLY",
+          "alt": "20 October · Benghazi"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "DECISION 2020/1",
+              "unvan": "Rejected the MoU — now lifted",
+              "cumle": 2
+            },
+            {
+              "ulke": "DECISION No. 6",
+              "unvan": "Cut ties with Türkiye — now lifted",
+              "cumle": 3
+            },
+            {
+              "ulke": "TRIPOLI GNU",
+              "unvan": "Reacted positively",
+              "cumle": 4
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 5,
+          "satirlar": [
+            "A major",
+            "**strategic gain**",
+            "for Ankara"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 7,
+          "satirlar": [
+            "Cooperation with",
+            "**every**",
+            "coastal state"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Libya’s Parliament Backs Türkiye Maritime Deal\n\nOn 20 October, Libya’s House of Representatives, meeting in Benghazi, unanimously approved the Memorandum of Understanding on the Delimitation of Maritime Jurisdiction Areas signed with Türkiye in 2019. The chamber also lifted decision 2020/1, which had rejected the memorandum, and decision No. 6, which had called for severing political relations with Türkiye. The Government of National Unity in Tripoli viewed the decision positively.\n\nWriting for SETA, Tunç Demirtaş describes the approval as an important strategic gain for Ankara’s Eastern Mediterranean policy, arguing that its significance cannot be separated from the security and connectivity order taking shape in the region. He notes that Türkiye advocates an inclusive cooperation mechanism, involving all littoral states, to support regional prosperity and stability.\n\nIn SETA’s Experts Respond series (24 October 2026), Sibel Düz, Yücel Acer, Mehmet Uğur Ekinci, Zuhal Mert Uzuner, Serhat Süha Çubukçuoğlu, Murat Aslan, Ferhat Polat and Bilgehan Öztürk assess the decision’s implications under international law, for Türkiye’s strategic position, for regional actors and for the future of Türkiye–Libya relations.\n\nSource: SETA (Tunç Demirtaş; Experts Respond)\n\n#Libya #Türkiye #EasternMediterranean #MaritimeJurisdiction #Benghazi #Geopolitics #InternationalLaw #SETA #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "SETA",
+          "baslik": "Libya’s Approval of the Maritime Delimitation Agreement with Türkiye and Its Regional Implications",
+          "link": "https://www.setav.org/en/libyas-approval-of-the-maritime-delimitation-agreement-with-turkiye-and-its-regional-implications"
+        },
+        {
+          "ad": "SETA",
+          "baslik": "Bingazi’de Değişen Denklem: Ankara Ne Kazandı?",
+          "link": "https://www.setav.org/bingazide-degisen-denklem-ankara-ne-kazandi"
+        },
+        {
+          "ad": "SETA",
+          "baslik": "Libya’nın Türkiye ile Deniz Yetki Alanları Anlaşmasını Onaylaması ve Bölgesel Etkileri",
+          "link": "https://www.setav.org/libyanin-turkiye-ile-deniz-yetki-alanlari-anlasmasini-onaylamasi-ve-bolgesel-etkileri"
+        }
+      ]
+    },
+    "mesajId": 66
   }
 }
