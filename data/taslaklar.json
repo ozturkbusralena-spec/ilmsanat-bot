@@ -528,5 +528,146 @@
     "mesajId": 55,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfC63LfTrtf/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-10-29_0900_haber": {
+    "zaman": "2026-10-29T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-10-29T06:30:43.507Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-29_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1Y8ssRG-X5TzQ-GY5fvesOxBH7J-EzLq3&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-29_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "US Orders Diplomats Out of Saudi Arabia\n\nThe US Mission in Saudi Arabia said in a security alert dated 28 October 2026 that the State Department had ordered non-emergency government employees and their family members to leave the kingdom, effective 23 October. It cited attacks by Iranian-supported Houthis on civilian airports and other critical infrastructure, which caused civilian casualties and severe travel disruptions, and warned the hostilities could escalate rapidly.\n\nUS government staff now require special authorisation from the Chief of Mission to use any Saudi airport. King Khalid International Airport in Riyadh has partially reopened, with some flights shifted to Prince Naif bin Abdulaziz International Airport in Qassim, while Jeddah and Dammam report delays and cancellations.\n\nCoalition spokesman Turki al-Maliki reported the interception of a Houthi ballistic missile aimed at the Eastern Province, a day after another was downed near Taif. In Riyadh, debris from two intercepted missiles damaged a building, a construction project and a vehicle. Saudi Arabia has led a coalition against the Houthis since March 2015.\n\nSource: Middle East Eye, Anadolu Agency\n\n#SaudiArabia #Houthis #Yemen #Riyadh #USEmbassy #MiddleEast #Geopolitics #Gulf #IlmSanat",
+    "baslik": "US Orders Diplomats Out of Saudi Arabia",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "US Orders **Diplomats Out** of **Saudi Arabia**",
+      "hook_satirlar": [
+        "Washington orders its",
+        "diplomats **out**",
+        "of Saudi Arabia"
+      ],
+      "cumleler": [
+        "Washington has ordered non-emergency diplomats and their families out of Saudi Arabia.",
+        "The order took effect on 23 October, amid Houthi missile and drone attacks.",
+        "The US embassy says strikes on civilian airports and critical infrastructure have caused civilian casualties.",
+        "American officials now need special authorisation to use any Saudi airport.",
+        "Debris from two intercepted missiles has already damaged a building in Riyadh.",
+        "The Saudi-led coalition says it also downed missiles aimed at Taif and the Eastern Province.",
+        "Washington warns the fighting could spread quickly."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a fortified embassy compound at dusk in a desert capital, silhouetted figures carrying trunks toward waiting carriages, dark desaturated navy sky, muted brass lamplight, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the compound gate, lamplight flickering gently, faint dust drifting"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Arabian Peninsula from Yemen to the Gulf, faint arcing trails crossing northward over desert, navy and muted brass tones, aged paper texture, dramatic shadows, no letters or labels",
+          "hareket_prompt": "Slow drift upward across the map from south to north, subtle light flicker"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of a deserted airport terminal hall at night, empty benches and silent departure gates, smoke haze beyond tall windows, dark navy shadows, muted brass light, chiaroscuro, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "Gentle lateral drift through the hall, thin smoke slowly moving outside the windows"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Academic oil painting of a lone silhouetted official standing before a vast window overlooking a darkened airfield with grounded aircraft, navy night sky, brass runway lights, dramatic chiaroscuro, cinematic composition, no text",
+          "hareket_prompt": "Slow push-in over the silhouette's shoulder toward the airfield, runway lights softly flickering"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century oil painting of a modern desert city skyline at night, a faint glow of interception high in the clouds, a damaged building facade in the foreground lit by dim brass light, navy tones, chiaroscuro, visible brushstrokes, no blood, no text",
+          "hareket_prompt": "Slow tilt down from the glowing clouds to the city, drifting haze"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Engraving-style antique map of Saudi Arabia with western mountains near Taif and the eastern Gulf coast highlighted in muted brass, storm clouds gathering over the peninsula, dark navy palette, cinematic, no letters",
+          "hareket_prompt": "Slow zoom out revealing the whole peninsula, clouds drifting gently across the map"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "ORDERED\nTO LEAVE",
+          "alt": "Effective 23 October 2026"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "USA",
+              "unvan": "Embassy orders staff departure",
+              "cumle": 2
+            },
+            {
+              "ulke": "HOUTHIS",
+              "unvan": "Iran-backed, striking Saudi airports",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 3,
+          "satirlar": [
+            "**Special** authorisation",
+            "needed for every",
+            "Saudi airport"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "SAUDI-LED COALITION",
+              "unvan": "Fighting Houthis since March 2015",
+              "cumle": 5
+            },
+            {
+              "ulke": "TAIF / EASTERN PROVINCE",
+              "unvan": "Missiles intercepted",
+              "cumle": 5
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "US Orders Diplomats Out of Saudi Arabia\n\nThe US Mission in Saudi Arabia said in a security alert dated 28 October 2026 that the State Department had ordered non-emergency government employees and their family members to leave the kingdom, effective 23 October. It cited attacks by Iranian-supported Houthis on civilian airports and other critical infrastructure, which caused civilian casualties and severe travel disruptions, and warned the hostilities could escalate rapidly.\n\nUS government staff now require special authorisation from the Chief of Mission to use any Saudi airport. King Khalid International Airport in Riyadh has partially reopened, with some flights shifted to Prince Naif bin Abdulaziz International Airport in Qassim, while Jeddah and Dammam report delays and cancellations.\n\nCoalition spokesman Turki al-Maliki reported the interception of a Houthi ballistic missile aimed at the Eastern Province, a day after another was downed near Taif. In Riyadh, debris from two intercepted missiles damaged a building, a construction project and a vehicle. Saudi Arabia has led a coalition against the Houthis since March 2015.\n\nSource: Middle East Eye, Anadolu Agency\n\n#SaudiArabia #Houthis #Yemen #Riyadh #USEmbassy #MiddleEast #Geopolitics #Gulf #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Middle East Eye",
+          "baslik": "US says it ordered non-emergency embassy staff to leave Saudi Arabia",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-it-ordered-non-emergency-embassy-staff-leave-saudi-arabia"
+        },
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Houthi ballistic missile targeting eastern Saudi Arabia intercepted: Coalition",
+          "link": "https://www.aa.com.tr/en/middle-east/houthi-ballistic-missile-targeting-eastern-saudi-arabia-intercepted-coalition/4104441"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Saudi-led coalition claims it destroyed Houthi ballistic missile fired towards kingdom",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-claims-it-destroyed-houthi-ballistic-missile-fired"
+        }
+      ]
+    },
+    "mesajId": 61
   }
 }
