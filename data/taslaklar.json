@@ -814,5 +814,134 @@
     "mesajId": 66,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfFEHmABl35/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-10-29_1800_haber": {
+    "zaman": "2026-10-29T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-10-29T15:45:38.625Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-29_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1WnG203nMh3u8-awDYRQmesn5Bryf1UCW&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-29_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Likud claims Israel's election was stolen\n\nPrime Minister Benjamin Netanyahu's Likud party has claimed the Israeli election was \"stolen\" by Palestinian citizens after their record turnout, warning of an attempted \"Islamisation of Israel\". The claims followed a request by Central Elections Committee chairman Noam Sohlberg to Shin Bet head David Zini to investigate suspected foreign funding aimed at influencing the result. Government-aligned politicians and media accused Qatar; Yair Netanyahu also named Qatar and Turkey.\n\nQatar's foreign ministry spokesperson Majed al-Ansari called the allegations \"ridiculous and dangerous\" and said Qatar should not be a scapegoat for Israeli politicians' failures. Sources cited by Haaretz, Ynet and Kan said the affair was being blown out of proportion, and committee director general Dean Livne said there was no basis for claims the vote was stolen.\n\nWith regular ballots counted, Netanyahu's bloc holds 53 seats and Gadi Eisenkot's opposition bloc 48, while Palestinian-led parties won 19. Neither bloc reaches the 61 needed in the 120-member Knesset. Ra'am and the Joint List rejected the accusations, while Itamar Ben Gvir urged arrests and Moshe Feiglin called for the results to be annulled.\n\nSource: Middle East Eye, Anadolu Agency\n\n#Israel #IsraeliElections #Knesset #Netanyahu #Qatar #PalestinianCitizens #MiddleEast #Geopolitics #IlmSanat",
+    "baslik": "Likud claims Israel's election was stolen",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Likud claims Israel's election was **stolen**",
+      "hook_satirlar": [
+        "Arab parties won 19 seats.",
+        "Likud says the election",
+        "was **stolen**."
+      ],
+      "cumleler": [
+        "Israel's Arab parties won nineteen seats, and Netanyahu's Likud now says the election was stolen.",
+        "Election committee chair Noam Sohlberg asked the Shin Bet to investigate suspected foreign funding.",
+        "Government-aligned figures blamed Qatar for boosting Palestinian turnout.",
+        "Doha rejected the claims as ridiculous and dangerous.",
+        "Israeli outlets quote officials calling it a much smaller affair.",
+        "Netanyahu's bloc holds fifty-three seats and Eisenkot's forty-eight, both short of sixty-one.",
+        "That leaves Arab lawmakers potentially deciding who governs."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a vast parliamentary chamber at night, rows of empty curved benches, a single ballot box on a table lit by a shaft of light, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the ballot box, faint dust drifting in the light beam"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Academic oil painting of a dim official study, a sealed letter and quill on a heavy desk beside an oil lamp, a silhouetted figure at a tall window overlooking a stone city, navy and brass palette, deep shadows, visible brushstrokes, no text or letters",
+          "hareket_prompt": "Gentle drift right across the desk, lamp light softly flickering"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Antique copperplate-style map of the Eastern Mediterranean and Arabian Gulf, engraved coastlines and sea, glowing brass line arching from the Gulf peninsula toward the Levant coast, dark navy and muted brass tones, no labels or text",
+          "hareket_prompt": "Slow pan from the Gulf toward the Levant, subtle shimmer along the brass line"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century oil painting of a Gulf coastal city at dusk, domed buildings and a calm harbour with dhows, a lone silhouetted figure on a terrace, muted brass sky over dark navy water, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in, light mist drifting over the harbour water"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Academic oil painting of an antique brass balance scale on a dark table, two pans holding uneven piles of tokens, a third smaller pile beside them, dramatic side lighting, navy and brass palette, visible brushstrokes, no text",
+          "hareket_prompt": "Very slow push-in with a faint sway of the scale pans"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Oil painting of stone Jerusalem rooftops and walls at twilight under heavy clouds, a single light breaking through onto the city, dark desaturated navy with muted brass highlights, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow drift upward, clouds moving gently, light breaking through"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "ISRAEL",
+              "unvan": "Shin Bet probe requested",
+              "cumle": 1
+            },
+            {
+              "ulke": "QATAR",
+              "unvan": "Accused of funding turnout",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "QATAR\nDENIES",
+          "alt": "\"Ridiculous and dangerous\""
+        },
+        {
+          "tur": "damga",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "53 vs 48\nSEATS",
+          "alt": "61 needed in 120-seat Knesset"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "19 Arab seats",
+            "could prove **decisive**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Likud claims Israel's election was stolen\n\nPrime Minister Benjamin Netanyahu's Likud party has claimed the Israeli election was \"stolen\" by Palestinian citizens after their record turnout, warning of an attempted \"Islamisation of Israel\". The claims followed a request by Central Elections Committee chairman Noam Sohlberg to Shin Bet head David Zini to investigate suspected foreign funding aimed at influencing the result. Government-aligned politicians and media accused Qatar; Yair Netanyahu also named Qatar and Turkey.\n\nQatar's foreign ministry spokesperson Majed al-Ansari called the allegations \"ridiculous and dangerous\" and said Qatar should not be a scapegoat for Israeli politicians' failures. Sources cited by Haaretz, Ynet and Kan said the affair was being blown out of proportion, and committee director general Dean Livne said there was no basis for claims the vote was stolen.\n\nWith regular ballots counted, Netanyahu's bloc holds 53 seats and Gadi Eisenkot's opposition bloc 48, while Palestinian-led parties won 19. Neither bloc reaches the 61 needed in the 120-member Knesset. Ra'am and the Joint List rejected the accusations, while Itamar Ben Gvir urged arrests and Moshe Feiglin called for the results to be annulled.\n\nSource: Middle East Eye, Anadolu Agency\n\n#Israel #IsraeliElections #Knesset #Netanyahu #Qatar #PalestinianCitizens #MiddleEast #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Netanyahu’s Likud claims Palestinians ‘stole’ elections as Qatar denies meddling",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahus-likud-claims-palestinians-stole-elections-qatar-denies"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Netanyahu’s Likud claims Palestinians ‘stole’ elections as Qatar denies meddling",
+          "link": "https://www.middleeasteye.net/news/qatar-rejects-ridiculous-israels-likud-claims-election-interference"
+        },
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Qatar denies interfering in Israeli elections",
+          "link": "https://www.aa.com.tr/en/middle-east/qatar-denies-interfering-in-israeli-elections/4105067"
+        }
+      ]
+    },
+    "mesajId": 72
   }
 }
