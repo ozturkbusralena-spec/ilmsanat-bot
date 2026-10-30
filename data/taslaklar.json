@@ -945,5 +945,145 @@
     "mesajId": 72,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfFflmZsWEx/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-10-30_0900_haber": {
+    "zaman": "2026-10-30T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-10-30T06:49:28.841Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-30_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1xnmye1-bBMfdoH3-jODR6N6laaR5Th9_&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-30_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "US Cargo Planes Land in Israel Amid Iran Fears\n\nIsraeli public broadcaster KAN reported that the United States transferred 10 military cargo aircraft to Ovda and Nevatim air bases in the southern Negev, with further planes reportedly dispatched to Jordan, Saudi Arabia and Qatar. The flights reportedly departed Fort Bliss, Texas, home to one of the US military's largest air defence centres. Washington has not confirmed the deployments, and their cargo remains unclear.\n\nAn Israeli official told KAN that no decision has been made, but that Israel and the US are coordinating closely and preparing for any decision by President Donald Trump. The Wall Street Journal reported that CENTCOM commander General Brad Cooper briefed Trump on strike options. Democratic Senator Chris Murphy, briefed on the plans, called them 'insane' and warned of devastating escalation.\n\nThe US and Israel launched war on Iran on February 28; a ceasefire followed in April. A June memorandum on navigation through the Strait of Hormuz has since stalled.\n\nSource: TRT World, Middle East Eye\n\n#Iran #Israel #USA #MiddleEast #Geopolitics #Negev #StraitOfHormuz #Pentagon #WorldNews #IlmSanat",
+    "baslik": "US Cargo Planes Land in Israel Amid Iran Fears",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "US Cargo Planes **Land in Israel** Amid **Iran Fears**",
+      "hook_satirlar": [
+        "Ten US military",
+        "cargo planes reportedly",
+        "land in **Israel**"
+      ],
+      "cumleler": [
+        "Ten American military cargo planes have reportedly landed in Israel's Negev desert.",
+        "KAN reports they landed at Ovda and Nevatim, with more sent to Jordan, Saudi Arabia and Qatar.",
+        "They reportedly left Fort Bliss, Texas, a major US air defence hub.",
+        "No US confirmation yet.",
+        "An Israeli official said both allies are preparing for whatever President Trump decides.",
+        "Senator Chris Murphy, briefed on the plans, called them insane.",
+        "The two allies first attacked Iran in February; a ceasefire came in April."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of heavy military cargo aircraft silhouettes descending over a vast desert at dusk, dark desaturated navy sky, muted brass horizon glow, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the descending aircraft, faint dust drifting across the desert floor"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Levant and Arabian Peninsula, desert airfields marked by small brass glints, navy and muted brass tones, dramatic shadows, aged paper texture, no letters or text",
+          "hareket_prompt": "Gentle drift across the map from west to east, soft candlelight flicker"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of a sprawling desert military base at night with rows of air defence launchers in silhouette, navy shadows, brass floodlight glow, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow lateral drift along the launcher rows, light haze shimmering"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Dim war room in academic oil painting style, long table with spread maps and brass instruments, empty chairs, single lamp casting deep shadows, navy and muted brass palette, no faces, no text",
+          "hareket_prompt": "Slow push-in toward the lamp-lit maps, gentle flicker of light"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting of a domed legislative building at twilight under heavy storm clouds, navy sky, muted brass highlights on columns, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow tilt up the facade as clouds drift overhead"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Engraving-style seascape of a narrow strait between rugged coasts at dawn, distant warship silhouettes, smoke drifting on the horizon, navy and brass tones, dramatic light, no text",
+          "hareket_prompt": "Gentle drift over the water, mist rolling slowly across the strait"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "ISRAEL",
+              "unvan": "Ovda & Nevatim air bases",
+              "cumle": 1
+            },
+            {
+              "ulke": "GULF & JORDAN",
+              "unvan": "More planes to Jordan, Saudi Arabia, Qatar",
+              "cumle": 1
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "FORT BLISS\nTEXAS",
+          "alt": "Air defence hub"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "ISRAELI OFFICIAL",
+              "unvan": "No decision yet, coordinating closely",
+              "cumle": 4
+            },
+            {
+              "ulke": "CHRIS MURPHY",
+              "unvan": "US Senator: plan is 'insane'",
+              "cumle": 5
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "War began Feb 28",
+            "**Ceasefire** in April"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "US Cargo Planes Land in Israel Amid Iran Fears\n\nIsraeli public broadcaster KAN reported that the United States transferred 10 military cargo aircraft to Ovda and Nevatim air bases in the southern Negev, with further planes reportedly dispatched to Jordan, Saudi Arabia and Qatar. The flights reportedly departed Fort Bliss, Texas, home to one of the US military's largest air defence centres. Washington has not confirmed the deployments, and their cargo remains unclear.\n\nAn Israeli official told KAN that no decision has been made, but that Israel and the US are coordinating closely and preparing for any decision by President Donald Trump. The Wall Street Journal reported that CENTCOM commander General Brad Cooper briefed Trump on strike options. Democratic Senator Chris Murphy, briefed on the plans, called them 'insane' and warned of devastating escalation.\n\nThe US and Israel launched war on Iran on February 28; a ceasefire followed in April. A June memorandum on navigation through the Strait of Hormuz has since stalled.\n\nSource: TRT World, Middle East Eye\n\n#Iran #Israel #USA #MiddleEast #Geopolitics #Negev #StraitOfHormuz #Pentagon #WorldNews #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "TRT World",
+          "baslik": "TRT World - US reportedly deploys 10 military cargo planes to Israel amid fears of renewed war on Iran",
+          "link": "https://www.trtworld.com/article/d994b4919aa2"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Report: US sends 10 military planes to Israel, amid plans for a possible military operation against Iran",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/report-us-sends-10-military-planes-israel-amid-plans-possible-military"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "US senator briefed on Trump's plans to restart Iran war says proposal is 'insane'",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/us-senator-briefed-trumps-plans-restart-iran-war-says-proposal-insane"
+        }
+      ]
+    },
+    "mesajId": 77
   }
 }
