@@ -1086,5 +1086,134 @@
     },
     "mesajId": 77,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfHGlehzK2W/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-10-30_1400_analiz": {
+    "zaman": "2026-10-30T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-10-30T11:43:31.964Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-30_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1mYjAkrxvy31qPtjWH99FsChgJgV_6MU7&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-30_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Mecca Alliance Faces Its Tehran Test\n\nOn 26 October, delegations from Türkiye, Saudi Arabia and Pakistan attended a quadrilateral meeting in Tehran hosted by Mohsen Rezaei, Secretary of Iran's Supreme National Security Council. Iranian President Masoud Pezeshkian and Foreign Minister Abbas Araghchi also attended.\n\nTürkiye was represented by İbrahim Kalın, Director of the National Intelligence Organization (MİT), and Saudi Arabia by Defence Minister Prince Khalid. The composition of the delegations placed security, intelligence and defence figures at the centre of the talks.\n\nIn its \"Experts Respond\" series (29 October 2026), SETA describes the meeting as the Mecca Alliance's first diplomatic test. Experts Sibel Düz, Ali Bakır, Serhan Afacan, Bilgehan Alagöz, Gökhan Ereli, Mustafa Caner and Merve Seren Yeşiltaş assess the nature of the Tehran talks.\n\nSource: SETA (Experts Respond), AA\n\n#MeccaAlliance #Tehran #Türkiye #SaudiArabia #Pakistan #Iran #Geopolitics #MiddleEast #Diplomacy #IlmSanat",
+    "baslik": "Mecca Alliance Faces Its Tehran Test",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "**Mecca Alliance** Faces Its **Tehran Test**",
+      "hook_satirlar": [
+        "The Mecca Alliance",
+        "faced its first",
+        "**test** in Tehran"
+      ],
+      "cumleler": [
+        "The Mecca Alliance has faced its first diplomatic test, and it took place in Tehran.",
+        "On 26 October, delegations from Türkiye, Saudi Arabia and Pakistan joined a four-way meeting in the Iranian capital.",
+        "Their host was Mohsen Rezaei, Secretary of Iran's Supreme National Security Council.",
+        "Iranian President Masoud Pezeshkian and Foreign Minister Abbas Araghchi also took part.",
+        "Ankara sent İbrahim Kalın, the head of its National Intelligence Organization.",
+        "Riyadh was represented by its Defence Minister, Prince Khalid.",
+        "Security, intelligence and defence figures, not only diplomats, filled the room.",
+        "The Ankara-based think tank SETA framed the meeting as the alliance's first diplomatic test.",
+        "Seven of its experts set out to assess what these Tehran talks really mean."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting, panoramic view of Tehran at dusk with domes and minarets beneath the Alborz mountains, dark desaturated navy sky, muted brass light on rooftops, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the city skyline, faint mist drifting over the rooftops, clouds moving gently"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Middle East and South Asia showing Anatolia, Arabia, Persia and the Indus region, brass compass and four candles placed on the parchment, dark navy and muted brass tones, dramatic chiaroscuro, no letters or text",
+          "hareket_prompt": "slow overhead drift across the map, candle flames flickering softly"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century academic oil painting of an ornate Persian palace hall with a long table, four empty high-backed chairs and silhouetted figures in long coats seen from behind, lamplight on brass vessels, dark navy shadows, dramatic chiaroscuro, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "slow lateral drift along the table, lamplight flickering gently"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Symbolic still life oil painting: sealed dispatch cases, a brass spyglass, a wax seal and a folded military map on a dark wooden desk, single window light, desaturated navy and brass palette, strong chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in on the desk, dust motes drifting through the window light"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "19th-century academic oil painting of a scholar's study at night with stacks of books, a globe turned toward the Middle East and an oil lamp, silhouetted figure seen from behind at the window overlooking a distant city, dark navy and muted brass tones, dramatic chiaroscuro, no text",
+          "hareket_prompt": "slow pull-back from the globe, lamp light flickering, faint clouds passing outside the window"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "QUADRILATERAL\nTALKS",
+          "alt": "TEHRAN · 26 OCT"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "IRAN",
+              "unvan": "Host · Mohsen Rezaei, SNSC Secretary",
+              "cumle": 2
+            },
+            {
+              "ulke": "TÜRKİYE",
+              "unvan": "İbrahim Kalın, MİT Director",
+              "cumle": 4
+            },
+            {
+              "ulke": "SAUDI ARABIA",
+              "unvan": "Prince Khalid, Defence Minister",
+              "cumle": 5
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "Not just diplomats:",
+            "**security** chiefs at the table"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 7,
+          "satirlar": [
+            "The Mecca Alliance's",
+            "first **diplomatic** test"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Mecca Alliance Faces Its Tehran Test\n\nOn 26 October, delegations from Türkiye, Saudi Arabia and Pakistan attended a quadrilateral meeting in Tehran hosted by Mohsen Rezaei, Secretary of Iran's Supreme National Security Council. Iranian President Masoud Pezeshkian and Foreign Minister Abbas Araghchi also attended.\n\nTürkiye was represented by İbrahim Kalın, Director of the National Intelligence Organization (MİT), and Saudi Arabia by Defence Minister Prince Khalid. The composition of the delegations placed security, intelligence and defence figures at the centre of the talks.\n\nIn its \"Experts Respond\" series (29 October 2026), SETA describes the meeting as the Mecca Alliance's first diplomatic test. Experts Sibel Düz, Ali Bakır, Serhan Afacan, Bilgehan Alagöz, Gökhan Ereli, Mustafa Caner and Merve Seren Yeşiltaş assess the nature of the Tehran talks.\n\nSource: SETA (Experts Respond), AA\n\n#MeccaAlliance #Tehran #Türkiye #SaudiArabia #Pakistan #Iran #Geopolitics #MiddleEast #Diplomacy #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "SETA",
+          "baslik": "The Mecca Alliance’s First Diplomatic Test: The Tehran Talks",
+          "link": "https://www.setav.org/en/the-mecca-alliances-first-diplomatic-test-the-tehran-talks"
+        },
+        {
+          "ad": "SETA",
+          "baslik": "Mekke İttifakının İlk Diplomatik Sınavı: Tahran Görüşmeleri",
+          "link": "https://www.setav.org/mekke-ittifakinin-ilk-diplomatik-sinavi-tahran-gorusmeleri"
+        }
+      ]
+    },
+    "mesajId": 82
   }
 }
