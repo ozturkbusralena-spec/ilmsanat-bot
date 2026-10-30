@@ -1217,5 +1217,138 @@
     "mesajId": 82,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfHo8ceJACN/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-10-30_1800_haber": {
+    "zaman": "2026-10-30T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-10-30T15:44:43.325Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-30_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=14jjB-cczmDUZrLpBxsPvf1TgLTa0_LaD&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-30_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "US Signals New Strikes on Iran\n\nThe Wall Street Journal reported on Tuesday that Washington told several Gulf Arab countries to prepare for a \"short, intense military campaign\" against Iran after the 3 November US midterm elections, citing people briefed on the conversations. The messages, conveyed through diplomatic and military channels, were described as part of growing signs that the US and Israel are preparing major combat operations to weaken Iran and pressure Tehran to return to negotiations. Al Jazeera reports that US senators have been briefed on the plan, which has been called \"insane\".\n\nSpeaking in Seoul, German Chancellor Friedrich Merz appealed to all parties, saying the conflict cannot be resolved by military means. He said Germany is working through many channels to coordinate and intensify diplomatic efforts, and stressed Berlin's strong economic interest in ending the hostilities.\n\nSource: Al Jazeera, Anadolu Agency\n\n#Iran #UnitedStates #Israel #Gulf #MiddleEast #Geopolitics #Germany #Diplomacy #WorldNews #IlmSanat",
+    "baslik": "US Signals New Strikes on Iran",
+    "plan": {
+      "etiket": "ESCALATION",
+      "baslik": "US Signals **New Strikes** on **Iran**",
+      "hook_satirlar": [
+        "Washington tells Gulf allies",
+        "to brace for a",
+        "new **war** on Iran"
+      ],
+      "cumleler": [
+        "Washington has reportedly told Gulf allies to brace for renewed war on Iran.",
+        "According to The Wall Street Journal, Gulf Arab states were warned of a short, intense campaign after the November 3 midterms.",
+        "The messages reportedly moved through diplomatic and military channels.",
+        "The paper ties them to signs that the US and Israel are readying major combat operations.",
+        "The goal: weaken Iran and force Tehran back to talks.",
+        "Senators have been briefed on the plan, which has been labelled insane.",
+        "In Seoul, German Chancellor Friedrich Merz insisted the conflict has no military solution.",
+        "Berlin, he said, is pushing every diplomatic channel to end it fast."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of warships silhouetted on a dark Gulf sea at dusk, distant desert coastline, storm clouds gathering, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the ships, clouds drifting, faint light flicker on the water"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "antique copperplate engraving style map of the Persian Gulf and surrounding coasts, brass compass and sealed envelopes resting on it under candlelight, dark navy and muted brass tones, dramatic chiaroscuro, no letters or text",
+          "hareket_prompt": "slow drift across the map, candle light gently flickering"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century oil painting of a dim military war room, silhouetted officers leaning over a large table with a map and model ships, lamp light, dark desaturated navy and brass tones, chiaroscuro, visible brushstrokes, faces unseen, no text",
+          "hareket_prompt": "gentle push-in over the table, lamp light softly flickering, faint smoke drifting"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "academic oil painting of a neoclassical domed capitol building at night under heavy clouds, lit windows, dark navy and muted brass palette, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the dome, clouds moving slowly overhead"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "19th-century oil painting of a lone statesman silhouette at a tall window overlooking an Asian city skyline at dusk, papers on a desk, dark navy and brass tones, chiaroscuro, face not visible, visible brushstrokes, no text",
+          "hareket_prompt": "slow drift toward the window, soft mist over the city, light gently fading"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "AFTER\nMIDTERMS",
+          "alt": "Nov. 3"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "UNITED STATES",
+              "unvan": "Preparing major operations",
+              "cumle": 3
+            },
+            {
+              "ulke": "ISRAEL",
+              "unvan": "Partner in planned campaign",
+              "cumle": 3
+            },
+            {
+              "ulke": "GERMANY",
+              "unvan": "Urging diplomacy",
+              "cumle": 6
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 4,
+          "satirlar": [
+            "Weaken Iran",
+            "Force Tehran back to **talks**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "No **military**",
+            "solution"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "US Signals New Strikes on Iran\n\nThe Wall Street Journal reported on Tuesday that Washington told several Gulf Arab countries to prepare for a \"short, intense military campaign\" against Iran after the 3 November US midterm elections, citing people briefed on the conversations. The messages, conveyed through diplomatic and military channels, were described as part of growing signs that the US and Israel are preparing major combat operations to weaken Iran and pressure Tehran to return to negotiations. Al Jazeera reports that US senators have been briefed on the plan, which has been called \"insane\".\n\nSpeaking in Seoul, German Chancellor Friedrich Merz appealed to all parties, saying the conflict cannot be resolved by military means. He said Germany is working through many channels to coordinate and intensify diplomatic efforts, and stressed Berlin's strong economic interest in ending the hostilities.\n\nSource: Al Jazeera, Anadolu Agency\n\n#Iran #UnitedStates #Israel #Gulf #MiddleEast #Geopolitics #Germany #Diplomacy #WorldNews #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Senators briefed on Trump’s ‘insane’ plan to restart war on Iran",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran-2"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Senators briefed on Trump’s ‘insane’ plan to restart war on Iran",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran"
+        },
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "German chancellor urges diplomacy amid reports of possible renewed US strikes on Iran",
+          "link": "https://www.aa.com.tr/en/middle-east/german-chancellor-urges-diplomacy-amid-reports-of-possible-renewed-us-strikes-on-iran/4106187"
+        }
+      ]
+    },
+    "mesajId": 87
   }
 }
