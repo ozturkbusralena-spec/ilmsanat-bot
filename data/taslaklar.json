@@ -1604,5 +1604,150 @@
     },
     "mesajId": 97,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfKNtoQpret/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-10-31_1800_haber": {
+    "zaman": "2026-10-31T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-10-31T15:22:03.438Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-31_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=17PnbyQ7NKCG1vjqJaedtjrzh7SjFM6xH&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-31_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Iran's negotiators arrive in Doha\n\nAn Iranian delegation, including an aide to Foreign Minister Abbas Araghchi, travelled to Doha on 31 October 2026, a day after Qatari mediators held intensive talks in Tehran. Citing an Iranian source, the Qatari newspaper Al-Araby Al-Jadeed reported a breakthrough in indirect negotiations between Tehran and Washington, with sources close to the Qatar- and Pakistan-led mediation saying a US delegation was expected to join.\n\nSpeaking to Al Jazeera, Araghchi described a letter from US Vice President JD Vance as a positive step, but called talk of meetings media speculation and said Iran saw no need to meet US officials at this stage. Tehran's conditions include lifting sanctions imposed after the Islamabad memorandum, reducing US forces in the region, restoring oil waivers and releasing frozen funds, including those held in Qatar.\n\nAraghchi said talks with Qatar had shortened the implementation period of Iran's proposal to reopen the Strait of Hormuz to two days. According to the newspaper, a potential arrangement would cover initial measures on the nuclear programme, Hormuz navigation and financial incentives, with China and Russia as guarantors.\n\nSource: Anadolu Agency, Al Jazeera, Middle East Monitor\n\n#Iran #Qatar #Doha #StraitOfHormuz #USIranTalks #Diplomacy #MiddleEast #Geopolitics #IlmSanat",
+    "baslik": "Iran's negotiators arrive in Doha",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Iran's negotiators arrive in **Doha**",
+      "hook_satirlar": [
+        "Iran's negotiators are in **Doha**",
+        "one day after Qatari mediators",
+        "left Tehran"
+      ],
+      "cumleler": [
+        "Iran's negotiators are in Doha, one day after Qatari mediators left Tehran.",
+        "A Qatari newspaper reports a breakthrough in indirect US-Iran talks.",
+        "Foreign Minister Abbas Araghchi called a letter from JD Vance a positive step.",
+        "But he sees no need to meet the Americans yet.",
+        "Iran wants sanctions lifted, fewer US troops nearby and frozen funds released.",
+        "Its plan to reopen the Strait of Hormuz could now take just two days.",
+        "China and Russia could act as guarantors."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a desert harbour city at dusk with domed buildings and slender minarets along a calm gulf shore, small diplomatic carriages arriving at a palace gate, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the palace gate, gentle flicker of lantern light, faint mist drifting over the water"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Academic oil painting of a candlelit council chamber with a long table covered in folded letters, wax seals and an antique map of the Gulf, empty carved chairs on both sides, navy and brass palette, deep chiaroscuro, visible brushstrokes, no text, no faces",
+          "hareket_prompt": "slow drift along the table, candle flames flickering softly"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of a single sealed letter resting on a brass tray beside an inkwell and quill, on a dark wooden desk by a tall arched window, moonlight falling across it, muted navy and brass tones, dramatic chiaroscuro, visible brushstrokes, no writing visible",
+          "hareket_prompt": "slow push-in on the sealed letter, moonlight slowly shifting across the desk"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Academic oil painting of silhouetted warships anchored in a hazy gulf at twilight beside a quiet merchant port with stacked crates and closed treasury chests, dark navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no flags, no text",
+          "hareket_prompt": "gentle lateral drift across the harbour, slow-moving clouds and light sea mist"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Antique copperplate engraving style map of a narrow strait between two coastlines, with sailing ships passing through the channel and a compass rose, aged parchment tinted in navy and brass, dramatic lighting, no lettering or labels",
+          "hareket_prompt": "slow push-in toward the narrow channel, ships drifting gently, soft light flicker over the parchment"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "19th-century academic oil painting of two monumental stone pillars flanking a grand arched gateway that opens onto a calm sea at dawn, dark navy sky with muted brass light breaking through clouds, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "slow pull-back revealing both pillars, clouds drifting, dawn light slowly brightening"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "QATAR",
+              "unvan": "Lead mediator",
+              "cumle": 1
+            },
+            {
+              "ulke": "IRAN",
+              "unvan": "FM Abbas Araghchi",
+              "cumle": 2
+            },
+            {
+              "ulke": "USA",
+              "unvan": "Letter from VP JD Vance",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "NO MEETING\nYET",
+          "alt": "31 Oct 2026"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 5,
+          "satirlar": [
+            "Hormuz reopening plan",
+            "cut to **two days**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 6,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "CHINA",
+              "unvan": "Possible guarantor",
+              "cumle": 6
+            },
+            {
+              "ulke": "RUSSIA",
+              "unvan": "Possible guarantor",
+              "cumle": 6
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Iran's negotiators arrive in Doha\n\nAn Iranian delegation, including an aide to Foreign Minister Abbas Araghchi, travelled to Doha on 31 October 2026, a day after Qatari mediators held intensive talks in Tehran. Citing an Iranian source, the Qatari newspaper Al-Araby Al-Jadeed reported a breakthrough in indirect negotiations between Tehran and Washington, with sources close to the Qatar- and Pakistan-led mediation saying a US delegation was expected to join.\n\nSpeaking to Al Jazeera, Araghchi described a letter from US Vice President JD Vance as a positive step, but called talk of meetings media speculation and said Iran saw no need to meet US officials at this stage. Tehran's conditions include lifting sanctions imposed after the Islamabad memorandum, reducing US forces in the region, restoring oil waivers and releasing frozen funds, including those held in Qatar.\n\nAraghchi said talks with Qatar had shortened the implementation period of Iran's proposal to reopen the Strait of Hormuz to two days. According to the newspaper, a potential arrangement would cover initial measures on the nuclear programme, Hormuz navigation and financial incentives, with China and Russia as guarantors.\n\nSource: Anadolu Agency, Al Jazeera, Middle East Monitor\n\n#Iran #Qatar #Doha #StraitOfHormuz #USIranTalks #Diplomacy #MiddleEast #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Iranian delegation arrives in Qatar for talks: Report",
+          "link": "https://www.aa.com.tr/en/middle-east/iranian-delegation-arrives-in-qatar-for-talks-report/4107264"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks",
+          "link": "https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks"
+        },
+        {
+          "ad": "Middle East Monitor",
+          "baslik": "Iranian delegation arrives in Qatar for talks: Report",
+          "link": "https://www.middleeastmonitor.com/20261031-iranian-delegation-arrives-in-qatar-for-talks-report/"
+        }
+      ]
+    },
+    "mesajId": 102
   }
 }
