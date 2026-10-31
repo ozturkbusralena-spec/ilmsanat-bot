@@ -1356,8 +1356,8 @@
   "2026-10-31_0900_haber": {
     "zaman": "2026-10-31T08:00:00.000Z",
     "tur": "haber",
-    "durum": "onay_bekliyor",
-    "guncelleme": "2026-10-31T06:42:24.298Z",
+    "durum": "paylasildi",
+    "guncelleme": "2026-10-31T08:03:36.781Z",
     "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-31_0900_haber/video.mp4",
     "driveUrl": "https://drive.usercontent.google.com/download?id=1VyUVRQNqaYfJu4m40R6HNViblzbVu8K3&export=download&confirm=t",
     "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-31_0900_haber/kapak_kucuk.jpg",
@@ -1480,6 +1480,8 @@
         }
       ]
     },
-    "mesajId": 92
+    "mesajId": 92,
+    "hatirlatildi": true,
+    "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfJrYIUR8pj/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
   }
 }
