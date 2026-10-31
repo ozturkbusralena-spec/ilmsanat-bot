@@ -1352,5 +1352,134 @@
     "mesajId": 87,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfIEYtsPbCL/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-10-31_0900_haber": {
+    "zaman": "2026-10-31T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-10-31T06:42:24.298Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-31_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1VyUVRQNqaYfJu4m40R6HNViblzbVu8K3&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-31_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Iran says four tankers ablaze in Hormuz\n\nIran's Islamic Revolutionary Guard Corps (IRGC) says four tankers have caught fire in the Strait of Hormuz since early Friday, claiming the vessels struck naval mines while using what Tehran describes as 'unauthorised routes'. According to the IRGC navy's public relations office, the latest was a supertanker carrying more than 2 million barrels of crude oil that ignored repeated radio warnings against using the southern passage before a mine triggered a powerful explosion.\n\nSeparately, the United Kingdom Maritime Trade Operations (UKMTO) reported that a vessel was struck on its port side by an unidentified projectile 40 nautical miles south of Iran's Lavan Island at 1800 GMT, causing a fire. The crew was reported safe and no environmental impact was recorded. It is not clear whether this incident is connected to the tanker reported by the IRGC.\n\nThe strait links the Gulf to the Gulf of Oman and is among the world's most important routes for oil and liquefied natural gas. Maritime tensions have persisted since the US and Israel launched attacks on Iran on 28 February. Despite a memorandum signed by Washington and Tehran in June, disputes over navigation and maritime security in the strait continue.\n\nSource: Al Jazeera, Anadolu Agency\n\n#StraitOfHormuz #Iran #IRGC #Tankers #OilShipping #MaritimeSecurity #MiddleEast #Geopolitics #UKMTO #IlmSanat",
+    "baslik": "Iran says four tankers ablaze in Hormuz",
+    "plan": {
+      "etiket": "ESCALATION",
+      "baslik": "Iran says **four tankers ablaze** in **Hormuz**",
+      "hook_satirlar": [
+        "Four tankers on fire",
+        "in the Strait of **Hormuz**",
+        "since early Friday"
+      ],
+      "cumleler": [
+        "Iran says four tankers have caught fire in the Strait of Hormuz since early Friday.",
+        "The Revolutionary Guard claims each vessel hit a naval mine on what Tehran calls unauthorised routes.",
+        "The latest was a supertanker carrying more than two million barrels of crude.",
+        "Iran says it ignored repeated radio warnings against taking the southern passage.",
+        "Britain's maritime agency separately reported a vessel struck by an unidentified projectile south of Lavan Island.",
+        "Whether the two incidents are linked remains unclear.",
+        "A June memorandum between Washington and Tehran has not settled the fight over this vital energy route."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of several large oil tankers burning at dusk in a narrow strait, towering black smoke columns against a dark navy sky, muted brass firelight reflecting on choppy water, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the burning ships, smoke drifting gently upward, soft flicker of firelight on the water"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Copperplate engraving style scene of a spherical naval mine floating just beneath dark sea surface, a distant tanker silhouette approaching, desaturated navy and brass tones, moody chiaroscuro, visible linework and brush texture, no text",
+          "hareket_prompt": "Gentle drift across the water surface, slight bobbing of the mine, faint mist rolling in"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Academic oil painting of a massive supertanker hull lit from below by a fierce fire at night, explosion glow on steel plates, dark navy sea, muted brass highlights, dramatic chiaroscuro, cinematic low angle, visible brushstrokes, no text, no people",
+          "hareket_prompt": "Slow upward tilt along the hull, fire glow flickering, smoke drifting across frame"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century oil painting of an old ship radio room interior with brass dials and a glowing receiver, a dark porthole showing a stormy strait beyond, desaturated navy tones, warm brass lamp light, chiaroscuro, visible brushstrokes, no text, no faces",
+          "hareket_prompt": "Slow push-in toward the glowing radio dials, lamp light flickering softly"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Antique engraved map of the Strait of Hormuz and the Gulf with islands and coastlines, aged parchment in muted brass and navy tones, a small burning ship drawn at sea south of an island, dramatic vignette lighting, no letters or labels",
+          "hareket_prompt": "Slow drift across the map toward the island, subtle candlelight flicker over the parchment"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Academic oil painting of a long line of tankers waiting at the mouth of a narrow strait under heavy storm clouds, faint smoke on the horizon, dark navy sea, muted brass sunset light breaking through, cinematic wide composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow pull-back revealing the waiting ships, clouds moving gently, light shifting softly on the water"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "IRAN (IRGC)",
+              "unvan": "Claims four tankers hit mines",
+              "cumle": 1
+            },
+            {
+              "ulke": "UKMTO",
+              "unvan": "Reports projectile strike, crew safe",
+              "cumle": 4
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "2 MILLION+\nBARRELS",
+          "alt": "Fourth tanker since Friday"
+        },
+        {
+          "tur": "damga",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "40 NM SOUTH\nOF LAVAN",
+          "alt": "1800 GMT"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "June memorandum signed",
+            "Hormuz dispute **unresolved**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Iran says four tankers ablaze in Hormuz\n\nIran's Islamic Revolutionary Guard Corps (IRGC) says four tankers have caught fire in the Strait of Hormuz since early Friday, claiming the vessels struck naval mines while using what Tehran describes as 'unauthorised routes'. According to the IRGC navy's public relations office, the latest was a supertanker carrying more than 2 million barrels of crude oil that ignored repeated radio warnings against using the southern passage before a mine triggered a powerful explosion.\n\nSeparately, the United Kingdom Maritime Trade Operations (UKMTO) reported that a vessel was struck on its port side by an unidentified projectile 40 nautical miles south of Iran's Lavan Island at 1800 GMT, causing a fire. The crew was reported safe and no environmental impact was recorded. It is not clear whether this incident is connected to the tanker reported by the IRGC.\n\nThe strait links the Gulf to the Gulf of Oman and is among the world's most important routes for oil and liquefied natural gas. Maritime tensions have persisted since the US and Israel launched attacks on Iran on 28 February. Despite a memorandum signed by Washington and Tehran in June, disputes over navigation and maritime security in the strait continue.\n\nSource: Al Jazeera, Anadolu Agency\n\n#StraitOfHormuz #Iran #IRGC #Tankers #OilShipping #MaritimeSecurity #MiddleEast #Geopolitics #UKMTO #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Iran says four tankers on fire after striking mines in Hormuz",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/iran-says-four-tankers-on-fire-after-striking-mines-in-hormuz"
+        },
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Iran says 4th oil tanker hit mine, caught fire in Strait of Hormuz",
+          "link": "https://www.aa.com.tr/en/middle-east/iran-says-4th-oil-tanker-hit-mine-caught-fire-in-strait-of-hormuz/4107011"
+        },
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Tanker struck by unidentified projectile in Strait of Hormuz: UK maritime agency",
+          "link": "https://www.aa.com.tr/en/middle-east/tanker-struck-by-unidentified-projectile-in-strait-of-hormuz-uk-maritime-agency/4107027"
+        }
+      ]
+    },
+    "mesajId": 92
   }
 }
