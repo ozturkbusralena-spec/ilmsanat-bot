@@ -1487,8 +1487,8 @@
   "2026-10-31_1400_analiz": {
     "zaman": "2026-10-31T13:00:00.000Z",
     "tur": "analiz",
-    "durum": "onay_bekliyor",
-    "guncelleme": "2026-10-31T11:35:23.825Z",
+    "durum": "onaylandi",
+    "guncelleme": "2026-10-31T11:58:17.037Z",
     "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-31_1400_analiz/video.mp4",
     "driveUrl": "https://drive.usercontent.google.com/download?id=1AlpKc4Gz_ACzHjkVeURMURR2OgkfKiS9&export=download&confirm=t",
     "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-31_1400_analiz/kapak_kucuk.jpg",
