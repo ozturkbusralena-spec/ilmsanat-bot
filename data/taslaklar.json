@@ -1483,5 +1483,125 @@
     "mesajId": 92,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfJrYIUR8pj/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-10-31_1400_analiz": {
+    "zaman": "2026-10-31T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-10-31T11:35:23.825Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-31_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1AlpKc4Gz_ACzHjkVeURMURR2OgkfKiS9&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-31_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Baghdad Moves to Reclaim Sinjar From the PKK\n\nIn an analysis for Anadolu Agency, journalist and former senior presidential adviser İlnur Çevik examines how Iraq's government under Prime Minister Ali al-Zaidi is reasserting authority in Sinjar, Nineveh province. After ISIS seized Mosul in June 2014 and committed mass atrocities against the Yazidis (later recognised by the UN as genocide), the KDP-affiliated Peshmerga withdrew on 3 August 2014 and the PKK settled in, backing the Yazidi YBŞ militia. Ankara came to call Sinjar the PKK's \"second Qandil.\"\n\nUnder a new deal, roughly 4,300 PKK and YBŞ-linked members who meet the criteria are being integrated into the Iraqi army, Hashd al-Shaabi and the Interior Ministry, while checkpoints on Mount Sinjar pass to the army. Çevik links this to Baghdad's \"weapons only under state control\" policy, US pressure and the US troop withdrawal, and notes the 2020 Sinjar Agreement had largely stayed on paper.\n\nTürkiye welcomes the shift, in line with understandings reached with Baghdad in New York. Sceptics argue militants may merely change uniforms. Massoud Barzani's KDP feels excluded: its appointed district governor has been removed, leaving only Baghdad's.\n\nSource: Anadolu Agency (AA Analiz), İlnur Çevik\n\n#Sinjar #Iraq #Yazidis #PKK #KDP #Baghdad #Turkiye #MiddleEast #Geopolitics #IlmSanat",
+    "baslik": "Baghdad Moves to Reclaim Sinjar From the PKK",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "Baghdad Moves to **Reclaim Sinjar** From the **PKK**",
+      "hook_satirlar": [
+        "Baghdad is taking back",
+        "the PKK's",
+        "**\"second Qandil\"**"
+      ],
+      "cumleler": [
+        "Baghdad is moving to take back Sinjar, a town Ankara calls the PKK's \"second Qandil.\"",
+        "ISIS overran Sinjar in 2014; when the Peshmerga withdrew, the PKK moved in.",
+        "It then backed a local Yazidi militia, the YBŞ.",
+        "Now about 4,300 fighters are joining Iraq's army, Hashd al-Shaabi and Interior Ministry.",
+        "Checkpoints on Mount Sinjar are passing to the Iraqi army.",
+        "Writing for Anadolu Agency, İlnur Çevik says Ankara is pleased, while sceptics warn militants may simply change uniforms.",
+        "The clear loser is Barzani's KDP: its district governor has been removed."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a lone mountain ridge rising above a dusty Mesopotamian plain town at dusk, flat-roofed houses, distant watchtower silhouettes, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the mountain ridge, thin mist drifting across the plain, faint light flicker on rooftops"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Copperplate engraving style scene of a column of distant armed silhouettes leaving a mountain town under smoky skies, abandoned stone houses, dark navy and brass palette, dramatic chiaroscuro, cinematic composition, no faces, no text",
+          "hareket_prompt": "Gentle lateral drift to the right, slow-moving smoke clouds, subtle dimming light"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century academic oil painting of rows of anonymous uniformed silhouettes seen from behind standing in formation in a desert barracks courtyard, stacked rifles, lantern light, dark desaturated navy and muted brass tones, chiaroscuro, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "Slow push-in along the rows, lantern light softly flickering, faint dust in the air"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Oil painting of a stone military checkpoint and barrier on a winding mountain road at dawn, empty sentry post, low clouds over ridges, dark navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no flags, no text",
+          "hareket_prompt": "Slow upward tilt from the road to the clouded ridge, clouds drifting gently"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Antique engraved map of northern Mesopotamia showing mountains, rivers and borderlands, aged parchment, brass compass and candle on a dark wooden desk, navy and brass tones, chiaroscuro, no letters or text",
+          "hareket_prompt": "Slow drift across the map, candle flame flickering softly, shadows shifting"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "19th-century academic oil painting of an empty government office in an old stone building, a vacant chair behind a desk, an official seal resting on papers, shafts of dim light through a window, dark navy and muted brass tones, chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the empty chair, dust motes floating in the light shaft"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "PESHMERGA\nWITHDRAW",
+          "alt": "3 AUGUST 2014"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 3,
+          "satirlar": [
+            "**4,300** FIGHTERS",
+            "INTO IRAQ'S",
+            "STATE FORCES"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "MOUNT SINJAR\nHANDED OVER",
+          "alt": "TO THE IRAQI ARMY"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "TÜRKİYE",
+              "unvan": "Pleased with Baghdad's steps",
+              "cumle": 5
+            },
+            {
+              "ulke": "KDP",
+              "unvan": "Sidelined, governor removed",
+              "cumle": 6
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Baghdad Moves to Reclaim Sinjar From the PKK\n\nIn an analysis for Anadolu Agency, journalist and former senior presidential adviser İlnur Çevik examines how Iraq's government under Prime Minister Ali al-Zaidi is reasserting authority in Sinjar, Nineveh province. After ISIS seized Mosul in June 2014 and committed mass atrocities against the Yazidis (later recognised by the UN as genocide), the KDP-affiliated Peshmerga withdrew on 3 August 2014 and the PKK settled in, backing the Yazidi YBŞ militia. Ankara came to call Sinjar the PKK's \"second Qandil.\"\n\nUnder a new deal, roughly 4,300 PKK and YBŞ-linked members who meet the criteria are being integrated into the Iraqi army, Hashd al-Shaabi and the Interior Ministry, while checkpoints on Mount Sinjar pass to the army. Çevik links this to Baghdad's \"weapons only under state control\" policy, US pressure and the US troop withdrawal, and notes the 2020 Sinjar Agreement had largely stayed on paper.\n\nTürkiye welcomes the shift, in line with understandings reached with Baghdad in New York. Sceptics argue militants may merely change uniforms. Massoud Barzani's KDP feels excluded: its appointed district governor has been removed, leaving only Baghdad's.\n\nSource: Anadolu Agency (AA Analiz), İlnur Çevik\n\n#Sinjar #Iraq #Yazidis #PKK #KDP #Baghdad #Turkiye #MiddleEast #Geopolitics #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "Irak merkezi hükümetinin Sincar adımı nasıl okunmalı?",
+          "link": "https://www.aa.com.tr/tr/analiz/irak-merkezi-hukumetinin-sincar-adimi-nasil-okunmali/4106125"
+        }
+      ]
+    },
+    "mesajId": 97
   }
 }
