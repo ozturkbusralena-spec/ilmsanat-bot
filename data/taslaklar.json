@@ -1755,8 +1755,8 @@
   "2026-11-01_0900_haber": {
     "zaman": "2026-11-01T08:00:00.000Z",
     "tur": "haber",
-    "durum": "onay_bekliyor",
-    "guncelleme": "2026-11-01T06:31:30.418Z",
+    "durum": "paylasildi",
+    "guncelleme": "2026-11-01T08:03:42.575Z",
     "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-01_0900_haber/video.mp4",
     "driveUrl": "https://drive.usercontent.google.com/download?id=1y5MLbgCYxm2iE4bFapmY7cMDsUeJiZpb&export=download&confirm=t",
     "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-01_0900_haber/kapak_kucuk.jpg",
@@ -1884,6 +1884,137 @@
         }
       ]
     },
-    "mesajId": 109
+    "mesajId": 109,
+    "hatirlatildi": true,
+    "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfMQLNPCOas/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-01_1100_tablo": {
+    "zaman": "2026-11-01T10:00:00.000Z",
+    "tur": "tablo",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-01T08:08:16.193Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-01_1100_tablo/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=17IpqrNnMpun1pxUMLFEYJ-HgLon4B7ac&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-01_1100_tablo/kapak_kucuk.jpg",
+    "aciklama": "Vernet's Mamelouk: The East in French Eyes\n\nPortrait of a \"Mamelouk\" (1810, oil on canvas) is an early work by Horace Vernet (Paris 1789–1863 Paris), painted when the artist was around twenty. The Mamluks were an elite cavalry caste that dominated Egypt for centuries; after Napoleon's Egyptian campaign began in 1798, a Mamluk squadron served in his Imperial Guard, and the figure of the Mamluk entered French visual culture.\n\nThe quotation marks in the title invite caution: the painting tells us as much about French fascination with the 'Orient' as about the sitter himself. Read with scholarly nuance, it shows how costume, military glamour and imagination shaped European images of the Islamic world in the Napoleonic era.\n\nVernet, son of the painter Carle Vernet, later travelled with French forces in Algeria and became one of the best-known painters of large battle scenes in nineteenth-century France. The work is in the collection of The Metropolitan Museum of Art, New York.\n\nSource: The Metropolitan Museum of Art\n\n#HoraceVernet #Orientalism #Mamluks #Napoleon #ArtHistory #FrenchPainting #MetMuseum #IslamicHistory #SundayPainting #IlmSanat",
+    "baslik": "Vernet's Mamelouk: The East in French Eyes",
+    "plan": {
+      "baslik": "Vernet's **Mamelouk**: The East in **French Eyes**",
+      "hook_satirlar": [
+        "In 1810, a young Parisian",
+        "painted a man as Egypt's",
+        "legendary **horseman**"
+      ],
+      "cumleler": [
+        "In 1810, a twenty-year-old Parisian painted a man as one of Egypt's legendary horsemen.",
+        "Horace Vernet titled it Portrait of a \"Mamelouk,\" and those quotation marks matter.",
+        "Mamluks were elite cavalry who dominated Egypt for centuries before Napoleon invaded in 1798.",
+        "After that campaign, a Mamluk squadron rode in Napoleon's Imperial Guard, and Paris grew fascinated with the look.",
+        "So this is the East seen through French eyes: costume and image as much as identity.",
+        "Vernet came from a dynasty of painters, son of Carle Vernet.",
+        "He later followed French armies into Algeria and became famous for vast battle scenes.",
+        "He died in Paris in 1863; this early canvas now belongs to New York's Metropolitan Museum of Art."
+      ],
+      "odaklar": [
+        {
+          "cumle": 0,
+          "odak": "genel"
+        },
+        {
+          "cumle": 1,
+          "odak": "orta"
+        },
+        {
+          "cumle": 2,
+          "odak": "sol_ust"
+        },
+        {
+          "cumle": 4,
+          "odak": "sag_ust"
+        },
+        {
+          "cumle": 5,
+          "odak": "sol_alt"
+        },
+        {
+          "cumle": 7,
+          "odak": "genel"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "MAMLUKS",
+              "unvan": "Elite cavalry of Egypt",
+              "cumle": 2
+            },
+            {
+              "ulke": "NAPOLEON",
+              "unvan": "Invaded Egypt, 1798",
+              "cumle": 2
+            },
+            {
+              "ulke": "IMPERIAL GUARD",
+              "unvan": "Included a Mamluk squadron",
+              "cumle": 3
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 4,
+          "satirlar": [
+            "The East,",
+            "seen through **French** eyes"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "HORACE\nVERNET",
+          "alt": "1789–1863"
+        },
+        {
+          "tur": "damga",
+          "cumle": 7,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "THE MET\nNEW YORK",
+          "alt": "Oil on canvas, 1810"
+        }
+      ],
+      "aciklama": "Vernet's Mamelouk: The East in French Eyes\n\nPortrait of a \"Mamelouk\" (1810, oil on canvas) is an early work by Horace Vernet (Paris 1789–1863 Paris), painted when the artist was around twenty. The Mamluks were an elite cavalry caste that dominated Egypt for centuries; after Napoleon's Egyptian campaign began in 1798, a Mamluk squadron served in his Imperial Guard, and the figure of the Mamluk entered French visual culture.\n\nThe quotation marks in the title invite caution: the painting tells us as much about French fascination with the 'Orient' as about the sitter himself. Read with scholarly nuance, it shows how costume, military glamour and imagination shaped European images of the Islamic world in the Napoleonic era.\n\nVernet, son of the painter Carle Vernet, later travelled with French forces in Algeria and became one of the best-known painters of large battle scenes in nineteenth-century France. The work is in the collection of The Metropolitan Museum of Art, New York.\n\nSource: The Metropolitan Museum of Art\n\n#HoraceVernet #Orientalism #Mamluks #Napoleon #ArtHistory #FrenchPainting #MetMuseum #IslamicHistory #SundayPainting #IlmSanat",
+      "etiket": "ORIENTALIST ART",
+      "tur": "tablo",
+      "eser": {
+        "baslik": "Portrait of a \"Mamelouk\"",
+        "ressam": "Horace Vernet",
+        "ressamBilgi": "French, Paris 1789–1863 Paris",
+        "tarih": "1810",
+        "teknik": "Oil on canvas",
+        "gorsel": "https://images.metmuseum.org/CRDImages/ep/original/DP331536.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/439337",
+        "kaynak": "The Metropolitan Museum of Art"
+      },
+      "kaynaklar": [
+        {
+          "ad": "The Metropolitan Museum of Art",
+          "baslik": "Portrait of a \"Mamelouk\"",
+          "link": "https://www.metmuseum.org/art/collection/search/439337"
+        }
+      ]
+    },
+    "mesajId": 114
   }
 }
