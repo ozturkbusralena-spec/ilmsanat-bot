@@ -2018,5 +2018,131 @@
     "mesajId": 114,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfMd592OQK7/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-01_1400_analiz": {
+    "zaman": "2026-11-01T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-01T11:32:30.499Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-01_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1ZPjrZ-T19S7ttKRS6bag7Z8NcEs1gI7O&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-01_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Türkiye's Diplomacy: From Libya to Iran\n\nIn an opinion piece for SETA dated 30 October 2026, Murat Yeşiltaş argues that Turkish foreign policy is entering a period of significant activity at a moment when the likelihood of renewed war in the Middle East is rising and the Trump administration keeps the option of a new military intervention against Iran on the table.\n\nHe points to several parallel developments: Libya's recent decision on a maritime jurisdiction agreement with Türkiye, the Istanbul meeting between the R4 countries and European countries, defense cooperation initiatives centered in Mecca and Doha, and the visit by members of the Mecca Alliance to Tehran.\n\nTaken together, Yeşiltaş writes, these steps indicate that regional security relations are being reshaped, with Türkiye expanding its regional diplomacy through new security partnerships, maritime ties with Libya and talks with Iran.\n\nSource: SETA (Murat Yeşiltaş)\n\n#Türkiye #ForeignPolicy #Libya #Iran #MiddleEast #Geopolitics #EasternMediterranean #RegionalSecurity #SETA #IlmSanat",
+    "baslik": "Türkiye's Diplomacy: From Libya to Iran",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "Türkiye's Diplomacy: **From Libya** to **Iran**",
+      "hook_satirlar": [
+        "From Libya to Iran,",
+        "Türkiye's diplomacy is moving",
+        "on **several** fronts at once."
+      ],
+      "cumleler": [
+        "From Libya to Iran, Türkiye's diplomacy is moving on several fronts at once.",
+        "The backdrop is tense: the risk of renewed war in the Middle East is rising.",
+        "The Trump administration still keeps a new military intervention against Iran on the table.",
+        "Against that backdrop, Libya has taken a decision on a maritime jurisdiction agreement with Türkiye.",
+        "In Istanbul, the R4 countries met with European states.",
+        "Defense cooperation initiatives are taking shape around Mecca and Doha.",
+        "And members of the Mecca Alliance have travelled to Tehran.",
+        "For Murat Yeşiltaş, writing for SETA, these moves share a single meaning.",
+        "Regional security relations are being reshaped, as Türkiye widens its diplomacy through new partnerships."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Eastern Mediterranean and Middle East, from the Libyan coast to the Iranian plateau, brass compass and dividers resting on the parchment, dark desaturated navy and muted brass tones, dramatic chiaroscuro candlelight, cinematic composition, visible brushstrokes, no text or letters",
+          "hareket_prompt": "Slow push-in across the map from west to east, faint candlelight flicker on the brass instruments"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "19th-century academic oil painting of a desert horizon at dusk under heavy storm clouds, distant silhouettes of fortress walls, dark navy sky with muted brass light breaking through, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "Slow drift to the right as storm clouds roll gently across the sky, subtle flicker of distant light"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century academic oil painting of a Mediterranean harbour at night on the North African coast, old sailing ships and a stone lighthouse, calm dark sea reflecting brass lantern light, desaturated navy tones, dramatic chiaroscuro, visible brushstrokes, no text or flags",
+          "hareket_prompt": "Gentle push-in toward the lighthouse, soft mist drifting over the water, lantern light flickering"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century academic oil painting of a grand Ottoman-era hall overlooking the Bosphorus, a long empty negotiating table with candles and folded documents, domes and minarets silhouetted through tall windows, dark navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "Slow dolly along the table toward the windows, candle flames flickering softly"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "19th-century academic oil painting of Persian city gates at twilight with tiled domes and mountains behind, a small caravan of silhouetted travellers approaching, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "Slow push-in toward the gates, light mist rising, faint warm glow in the archway"
+        },
+        {
+          "cumle": 8,
+          "gorsel_prompt": "Antique engraved chart of the Middle East and Mediterranean on a dark wooden desk, brass astrolabe and chess pieces placed across the regions, single lamp casting deep shadows, navy and muted brass tones, dramatic chiaroscuro, visible brushstrokes, no text or letters",
+          "hareket_prompt": "Slow overhead drift and gentle pull-back revealing the whole chart, lamp light softly flickering"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "IRAN OPTION\nON THE TABLE",
+          "alt": "Trump administration"
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "MARITIME\nJURISDICTION",
+          "alt": "Libya – Türkiye"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "R4 & EUROPE",
+              "unvan": "Meeting in Istanbul",
+              "cumle": 4
+            },
+            {
+              "ulke": "MECCA & DOHA",
+              "unvan": "Defense cooperation hubs",
+              "cumle": 5
+            },
+            {
+              "ulke": "TEHRAN",
+              "unvan": "Mecca Alliance visit",
+              "cumle": 6
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 8,
+          "satirlar": [
+            "Regional security",
+            "is being **reshaped**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Türkiye's Diplomacy: From Libya to Iran\n\nIn an opinion piece for SETA dated 30 October 2026, Murat Yeşiltaş argues that Turkish foreign policy is entering a period of significant activity at a moment when the likelihood of renewed war in the Middle East is rising and the Trump administration keeps the option of a new military intervention against Iran on the table.\n\nHe points to several parallel developments: Libya's recent decision on a maritime jurisdiction agreement with Türkiye, the Istanbul meeting between the R4 countries and European countries, defense cooperation initiatives centered in Mecca and Doha, and the visit by members of the Mecca Alliance to Tehran.\n\nTaken together, Yeşiltaş writes, these steps indicate that regional security relations are being reshaped, with Türkiye expanding its regional diplomacy through new security partnerships, maritime ties with Libya and talks with Iran.\n\nSource: SETA (Murat Yeşiltaş)\n\n#Türkiye #ForeignPolicy #Libya #Iran #MiddleEast #Geopolitics #EasternMediterranean #RegionalSecurity #SETA #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "SETA",
+          "baslik": "Turkish Foreign Policy From Libya to Iran",
+          "link": "https://www.setav.org/en/turkish-foreign-policy-from-libya-to-iran"
+        }
+      ]
+    },
+    "mesajId": 119
   }
 }
