@@ -2150,8 +2150,8 @@
   "2026-11-01_1800_haber": {
     "zaman": "2026-11-01T17:00:00.000Z",
     "tur": "haber",
-    "durum": "onay_bekliyor",
-    "guncelleme": "2026-11-01T15:27:55.499Z",
+    "durum": "paylasildi",
+    "guncelleme": "2026-11-01T17:01:14.141Z",
     "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-01_1800_haber/video.mp4",
     "driveUrl": "https://drive.usercontent.google.com/download?id=1igJRQ3-da4Z_YEpl-oWTrH9JnhTOho37&export=download&confirm=t",
     "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-01_1800_haber/kapak_kucuk.jpg",
@@ -2274,6 +2274,8 @@
         }
       ]
     },
-    "mesajId": 124
+    "mesajId": 124,
+    "hatirlatildi": true,
+    "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfNOCSwMyAv/\n\n❌ TikTok hatası: Unexpected token '<', \"<HTML><HEA\"... is not valid JSON"
   }
 }
