@@ -1751,5 +1751,139 @@
     "mesajId": 102,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfKpLIaRIod/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-01_0900_haber": {
+    "zaman": "2026-11-01T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-01T06:31:30.418Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-01_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1y5MLbgCYxm2iE4bFapmY7cMDsUeJiZpb&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-01_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Iran eyes 2-day plan to reopen Hormuz\n\nIran's Foreign Minister Araghchi told Al Jazeera that Tehran has reached a plan with Qatari mediators to reopen the Strait of Hormuz within two days, provided the United States meets its conditions. He described a US offer of dialogue as a positive step. An Iranian delegation is in Doha, though no direct US-Iran talks are planned.\n\nSpeaking at a Halloween event in Florida, US President Donald Trump said Iran wants to make a deal and that negotiations are going fine, while questioning Tehran's reliability and saying Washington is not in a hurry. He repeated claims that the US destroyed Iran's navy, air force and manufacturing capabilities, and renewed his threat to strike Pick Axe Mountain, which Washington says hosts a nuclear site.\n\nMeanwhile, Iran's Supreme Leader has told the military to prepare to defend the country, even as both foreign ministers say a diplomatic end to the war remains possible.\n\nSource: Al Jazeera, Middle East Eye\n\n#Iran #StraitOfHormuz #Qatar #Diplomacy #Trump #MiddleEast #Geopolitics #WorldNews #IlmSanat",
+    "baslik": "Iran eyes 2-day plan to reopen Hormuz",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Iran eyes **2-day plan** to reopen **Hormuz**",
+      "hook_satirlar": [
+        "Iran says Hormuz",
+        "could reopen in",
+        "**two days**"
+      ],
+      "cumleler": [
+        "Iran says the Strait of Hormuz could reopen within two days.",
+        "Foreign Minister Araghchi says the plan was agreed with Qatari mediators.",
+        "The condition: Washington must meet Tehran's demands.",
+        "An Iranian delegation is in Doha, but no direct US-Iran talks are planned.",
+        "Trump says negotiations are going fine, yet doubts Tehran's reliability.",
+        "He also renewed threats against Pick Axe Mountain, an alleged nuclear site.",
+        "Meanwhile, Iran's Supreme Leader has told the military to prepare for defence."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a narrow sea strait at dusk, rugged arid coastlines on both sides, silhouettes of tankers anchored and waiting on still dark water, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in over the water, faint mist drifting across the strait, gentle shimmer of light on the waves"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Persian Gulf and the Strait of Hormuz laid on a wooden diplomatic table, brass compass and quill beside it, candlelight, dark navy and muted brass tones, dramatic chiaroscuro, no letters or text",
+          "hareket_prompt": "Slow overhead drift across the map, candle flame flickering softly"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century oil painting of an elegant Gulf palace hall at night, long negotiation table with empty chairs, silhouettes of distant figures in conversation by arched windows, warm brass lamplight against deep navy shadows, chiaroscuro, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "Slow dolly forward along the table, lamplight gently flickering"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Academic oil painting of a grand neoclassical mansion by the sea at night, palm silhouettes, lit windows, stormy clouds gathering overhead, dark desaturated navy and muted brass palette, dramatic chiaroscuro, cinematic composition, no people's faces, no text",
+          "hareket_prompt": "Slow push-in toward the lit windows, clouds drifting slowly across the sky"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting of a massive rocky mountain under a brooding sky, dark tunnel entrances at its base, distant silhouettes of aircraft high in the clouds, muted brass light breaking through navy storm clouds, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow upward tilt along the mountain face, storm clouds rolling gently"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Academic oil painting of a fortified hilltop citadel at twilight, silhouettes of soldiers standing guard on the ramparts, distant city lights below, dark navy and muted brass tones, dramatic chiaroscuro, cinematic composition, no faces, no flags with text",
+          "hareket_prompt": "Slow pull-back revealing the citadel, torchlight flickering, light mist drifting"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "2-DAY\nPLAN",
+          "alt": "Hormuz reopening via Qatar"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 2,
+          "satirlar": [
+            "Reopening hinges",
+            "on **US** conditions"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "IRAN",
+              "unvan": "Delegation in Doha",
+              "cumle": 3
+            },
+            {
+              "ulke": "QATAR",
+              "unvan": "Mediator",
+              "cumle": 3
+            },
+            {
+              "ulke": "USA",
+              "unvan": "Trump: talks 'going fine'",
+              "cumle": 4
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "PICK AXE\nMOUNTAIN",
+          "alt": "Renewed US strike threat"
+        }
+      ],
+      "aciklama": "Iran eyes 2-day plan to reopen Hormuz\n\nIran's Foreign Minister Araghchi told Al Jazeera that Tehran has reached a plan with Qatari mediators to reopen the Strait of Hormuz within two days, provided the United States meets its conditions. He described a US offer of dialogue as a positive step. An Iranian delegation is in Doha, though no direct US-Iran talks are planned.\n\nSpeaking at a Halloween event in Florida, US President Donald Trump said Iran wants to make a deal and that negotiations are going fine, while questioning Tehran's reliability and saying Washington is not in a hurry. He repeated claims that the US destroyed Iran's navy, air force and manufacturing capabilities, and renewed his threat to strike Pick Axe Mountain, which Washington says hosts a nuclear site.\n\nMeanwhile, Iran's Supreme Leader has told the military to prepare to defend the country, even as both foreign ministers say a diplomatic end to the war remains possible.\n\nSource: Al Jazeera, Middle East Eye\n\n#Iran #StraitOfHormuz #Qatar #Diplomacy #Trump #MiddleEast #Geopolitics #WorldNews #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Iran war live: Tehran eyes 2-day Hormuz plan; Trump says talks ‘going fine’",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "What we know about latest efforts to end US war on Iran",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/iran-wrap-iran-latest-developments-011126"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "'Negotiations going fine': Trump says Iran wants to make a deal",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/negotiations-going-fine-trump-says-iran-wants-make-deal"
+        }
+      ]
+    },
+    "mesajId": 109
   }
 }
