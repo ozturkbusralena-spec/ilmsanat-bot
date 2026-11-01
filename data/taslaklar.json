@@ -2146,5 +2146,134 @@
     "mesajId": 119,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfMym__pMQu/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-01_1800_haber": {
+    "zaman": "2026-11-01T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-01T15:27:55.499Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-01_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1igJRQ3-da4Z_YEpl-oWTrH9JnhTOho37&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-01_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Qatari LNG tanker struck in the Gulf\n\nQatar on Sunday condemned an attack on the LNG tanker Al Mayeda, owned by Qatar Gas Transport Company (Nakilat). The company said the vessel was hit by \"unidentified objects\" while sailing in Gulf waters on Friday, Oct. 30, with no crew injuries or environmental damage. It did not disclose the nature of the objects, the exact location, or who was responsible.\n\nThe Foreign Ministry called the attack a dangerous act threatening maritime navigation and global energy supplies, warned of risks to the marine environment and regional water security, and said Qatar reserves the right to take all necessary measures under international law and the UN Charter. Authorities have opened investigations to identify those responsible.\n\nThe incident follows a series of October attacks on commercial tankers in the Gulf, the Strait of Hormuz and the Gulf of Oman, amid tensions between the US and Iran. The US and Israel launched a war on Iran on Feb. 28; a ceasefire in April was followed by renewed fighting in July.\n\nSource: Anadolu Agency, Middle East Monitor, Middle East Eye\n\n#Qatar #LNG #Nakilat #StraitOfHormuz #PersianGulf #EnergySecurity #MaritimeSecurity #Iran #MiddleEast #IlmSanat",
+    "baslik": "Qatari LNG tanker struck in the Gulf",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Qatari **LNG tanker** struck in the **Gulf**",
+      "hook_satirlar": [
+        "A Qatari gas tanker struck in the Gulf",
+        "and **no one** has named",
+        "the attacker"
+      ],
+      "cumleler": [
+        "A Qatari gas tanker was struck in the Gulf, and no one has named the attacker.",
+        "Nakilat's LNG carrier Al Mayeda was hit by unidentified objects on October 30.",
+        "No crew were hurt, and no environmental damage was reported.",
+        "Doha called it a dangerous act threatening shipping and global energy supplies.",
+        "Qatar says it reserves the right to respond under international law and the UN Charter.",
+        "The strike caps a month of repeated tanker attacks across the Gulf and Hormuz, amid renewed US-Iran fighting."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a large gas tanker silhouette on a dark night sea in the Gulf, faint distant glow on the horizon, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the tanker, gentle swell on the water, faint light flicker on the horizon"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "academic oil painting of a liquefied natural gas carrier with spherical cargo domes on its deck, sailing through calm moonlit waters, thin smoke drifting from the hull, navy and brass palette, chiaroscuro, visible brushstrokes, no text or markings",
+          "hareket_prompt": "slow lateral drift along the hull, wisps of smoke rising gently"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "oil painting of a quiet tanker deck at dawn, empty walkways and railings, still sea beyond, soft mist, muted navy and brass tones, dramatic low light, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "gentle push-in across the deck, mist drifting slowly"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century oil painting of a stately government building on a Gulf waterfront at dusk, lit windows reflecting on the water, dark navy sky, brass highlights, chiaroscuro, cinematic composition, visible brushstrokes, no flags with text",
+          "hareket_prompt": "slow push-in toward the building, light shimmering on the water"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "still life oil painting of an antique desk with sealed documents, a brass inkwell and a quill beside an old map of the Gulf, candlelight, deep shadows, navy and muted brass palette, visible brushstrokes, no readable text",
+          "hareket_prompt": "slow push-in on the desk, candle flame flickering softly"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "antique copperplate-style map of the Persian Gulf, the Strait of Hormuz and the Gulf of Oman, small ship silhouettes scattered along the sea lanes, aged paper in navy and brass tones, dramatic vignette lighting, no letters or labels",
+          "hareket_prompt": "slow drift across the map toward the Strait of Hormuz, subtle light flicker"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "NAKILAT",
+              "unvan": "Qatar Gas Transport Company",
+              "cumle": 1
+            },
+            {
+              "ulke": "AL MAYEDA",
+              "unvan": "LNG tanker struck Oct. 30",
+              "cumle": 1
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "NO CREW\nINJURED",
+          "alt": "No environmental damage"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 3,
+          "satirlar": [
+            "A threat to",
+            "global **energy**",
+            "supplies"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "OCTOBER\nATTACKS",
+          "alt": "Gulf · Hormuz · Gulf of Oman"
+        }
+      ],
+      "aciklama": "Qatari LNG tanker struck in the Gulf\n\nQatar on Sunday condemned an attack on the LNG tanker Al Mayeda, owned by Qatar Gas Transport Company (Nakilat). The company said the vessel was hit by \"unidentified objects\" while sailing in Gulf waters on Friday, Oct. 30, with no crew injuries or environmental damage. It did not disclose the nature of the objects, the exact location, or who was responsible.\n\nThe Foreign Ministry called the attack a dangerous act threatening maritime navigation and global energy supplies, warned of risks to the marine environment and regional water security, and said Qatar reserves the right to take all necessary measures under international law and the UN Charter. Authorities have opened investigations to identify those responsible.\n\nThe incident follows a series of October attacks on commercial tankers in the Gulf, the Strait of Hormuz and the Gulf of Oman, amid tensions between the US and Iran. The US and Israel launched a war on Iran on Feb. 28; a ceasefire in April was followed by renewed fighting in July.\n\nSource: Anadolu Agency, Middle East Monitor, Middle East Eye\n\n#Qatar #LNG #Nakilat #StraitOfHormuz #PersianGulf #EnergySecurity #MaritimeSecurity #Iran #MiddleEast #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Qatar condemns attack on LNG tanker in Gulf, warns of threat to global energy supplies",
+          "link": "https://www.aa.com.tr/en/middle-east/qatar-condemns-attack-on-lng-tanker-in-gulf-warns-of-threat-to-global-energy-supplies/4108039"
+        },
+        {
+          "ad": "Middle East Monitor",
+          "baslik": "Qatar condemns attack on LNG tanker in Gulf, warns of threat to global energy supplies",
+          "link": "https://www.middleeastmonitor.com/20261101-qatar-condemns-attack-on-lng-tanker-in-gulf-warns-of-threat-to-global-energy-supplies/"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Qatar condemns tanker attack in the Gulf as threat to global energy security",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-condemns-tanker-attack-gulf-threat-global-energy-security"
+        }
+      ]
+    },
+    "mesajId": 124
   }
 }
