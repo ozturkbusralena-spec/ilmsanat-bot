@@ -2409,5 +2409,118 @@
     "mesajId": 131,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfO09_4xLNu/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-02_1400_analiz": {
+    "zaman": "2026-11-02T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-02T11:42:31.644Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-02_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1QGe-epnReIhvJbVZi_EWTWt0dD8HPCGC&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-02_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "One Year After El Fasher: Enough Witnessed\n\nOne year after the fall of El Fasher, an analysis published by Anadolu Agency argues that the world has now witnessed enough. Written by Tunç Demirtaş and released on 27 October 2026, the piece revisits the city's fall on its first anniversary.\n\nDemirtaş cautions against a tempting simplification: portraying Sudan's war as a tragedy caused by a single actor. In his reading, the reality on the ground is considerably more complex, and any serious understanding of the conflict must start from that complexity.\n\nSource: Anadolu Agency (Analysis, Tunç Demirtaş)\n\n#Sudan #ElFasher #SudanWar #Africa #Geopolitics #Analysis #HumanitarianCrisis #AnadoluAgency #IlmSanat",
+    "baslik": "One Year After El Fasher: Enough Witnessed",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "One Year After **El Fasher**: **Enough Witnessed**",
+      "hook_satirlar": [
+        "One year after El Fasher fell,",
+        "the world has seen",
+        "**enough**"
+      ],
+      "cumleler": [
+        "One year after El Fasher fell, the world has seen enough.",
+        "That is the verdict of a new analysis from Anadolu Agency.",
+        "Its author, Tunç Demirtaş, revisits the city's fall on its first anniversary.",
+        "He warns against an easy temptation.",
+        "It is tempting to paint Sudan's war as a tragedy driven by a single actor.",
+        "But the reality on the ground, he argues, is far more complex.",
+        "Blaming one side alone may simplify the story.",
+        "It does not explain the war.",
+        "A year on, the message is blunt: the world has watched long enough."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a silent desert city at dusk, low mud-brick walls and empty streets under a heavy sky, distant smoke rising, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "Slow push-in toward the city walls, thin smoke drifting upward, faint flicker of dying light on the horizon"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Antique copperplate engraving style map of a vast arid region with a single walled city marked by a brass compass rose, aged parchment texture, navy ink washes and muted brass highlights, dramatic shadows, no letters or text",
+          "hareket_prompt": "Gentle drift across the map toward the marked city, soft candlelight flicker over the parchment"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century oil painting of a lone dark silhouette standing on a ridge above a burning plain, symbolic of a single blamed figure, dark navy sky, muted brass firelight, strong chiaroscuro, visible brushstrokes, figure seen from behind, no face, no text",
+          "hareket_prompt": "Slow push-in on the silhouette, embers and mist drifting slowly across the plain"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Academic oil painting of a tangled crossroads in a desert landscape, many faint tracks and shadowed silhouettes of riders converging from different directions under storm clouds, desaturated navy and brass palette, dramatic chiaroscuro, cinematic composition, no faces, no text",
+          "hareket_prompt": "Slow pull-back revealing the many converging tracks, clouds moving gently overhead"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "Still life oil painting of a broken brass balance scale resting on a dark table beside a folded antique map and a guttering candle, deep navy shadows, muted brass reflections, chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Very slow push-in on the tilted scale, candle flame flickering softly"
+        },
+        {
+          "cumle": 8,
+          "gorsel_prompt": "19th-century oil painting of a vast desert horizon at dawn seen through the empty arched window of a ruined building, pale light breaking over darkness, navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow drift toward the window, dawn light gradually brightening, fine dust floating in the air"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "ANADOLU AGENCY",
+              "unvan": "Analysis desk, Istanbul",
+              "cumle": 1
+            },
+            {
+              "ulke": "TUNÇ DEMIRTAŞ",
+              "unvan": "Author of the analysis",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 5,
+          "satirlar": [
+            "Not **one** actor",
+            "A far more complex war"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 8,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "WITNESSED\nENOUGH",
+          "alt": "27 Oct 2026"
+        }
+      ],
+      "aciklama": "One Year After El Fasher: Enough Witnessed\n\nOne year after the fall of El Fasher, an analysis published by Anadolu Agency argues that the world has now witnessed enough. Written by Tunç Demirtaş and released on 27 October 2026, the piece revisits the city's fall on its first anniversary.\n\nDemirtaş cautions against a tempting simplification: portraying Sudan's war as a tragedy caused by a single actor. In his reading, the reality on the ground is considerably more complex, and any serious understanding of the conflict must start from that complexity.\n\nSource: Anadolu Agency (Analysis, Tunç Demirtaş)\n\n#Sudan #ElFasher #SudanWar #Africa #Geopolitics #Analysis #HumanitarianCrisis #AnadoluAgency #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "Faşir'in düşüşünden bir yıl sonra: Dünya artık yeteri kadar tanık oldu",
+          "link": "https://www.aa.com.tr/tr/analiz/fasirin-dususunden-bir-yil-sonra-dunya-artik-yeteri-kadar-tanik-oldu/4102466"
+        }
+      ]
+    },
+    "mesajId": 136
   }
 }
