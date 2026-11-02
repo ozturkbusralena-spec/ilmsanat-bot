@@ -2277,5 +2277,135 @@
     "mesajId": 124,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfNOCSwMyAv/\n\n❌ TikTok hatası: Unexpected token '<', \"<HTML><HEA\"... is not valid JSON"
+  },
+  "2026-11-02_0900_haber": {
+    "zaman": "2026-11-02T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-02T06:30:27.879Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-02_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=17s_RyugweNeQ81PKJEn5s4fcRI0-VHSE&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-02_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Bennett backs Eisenkot as Israel faces deadlock\n\nFormer Israeli Prime Minister Naftali Bennett has said his Together party will recommend that President Isaac Herzog task Yashar party leader Gadi Eisenkot with forming the next government. Israel's Channel 12 reported that Yair Golan's Democrats also intend to recommend Eisenkot, though Golan has not made an official announcement.\n\nFinal results of the 26th Knesset election gave Benjamin Netanyahu's Likud 27 seats, Yashar 21, Together 12 and the Democrats 8, with the Joint List on 11 and Ra'am on 8. Netanyahu's bloc holds 53 seats, the opposition 48 and Arab parties 19, leaving no main bloc with the 61 seats required in the 120-member parliament. Turnout reached 77.9%, the highest since 1999.\n\nLikud has alleged Qatari interference and vote buying but has not publicly presented evidence; Qatar called the claims a disinformation campaign. Central Elections Committee Chairman Justice Noam Sohlberg said voting proceeded properly. He is due to submit the results to Herzog on Nov. 4, when consultations begin; the designated candidate gets 28 days, extendable by 14, to form a government.\n\nSource: Anadolu Agency, TRT World\n\n#Israel #Knesset #IsraelElections #Eisenkot #Bennett #Netanyahu #Herzog #MiddleEast #Geopolitics #IlmSanat",
+    "baslik": "Bennett backs Eisenkot as Israel faces deadlock",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Bennett backs **Eisenkot** as Israel faces **deadlock**",
+      "hook_satirlar": [
+        "Israel's election left",
+        "no majority, and rivals",
+        "are rallying behind **one man**"
+      ],
+      "cumleler": [
+        "Israel's election left no majority, and Netanyahu's rivals are rallying behind one man.",
+        "Former prime minister Naftali Bennett will recommend Gadi Eisenkot to form the next government.",
+        "Channel 12 reports that Yair Golan's Democrats plan to do the same.",
+        "Netanyahu's bloc won 53 seats, the opposition 48, and Arab parties 19.",
+        "No main bloc reached the 61 seats needed to govern.",
+        "Likud alleges Qatari-funded vote buying but has presented no public evidence.",
+        "Election chief Justice Noam Sohlberg says the vote was conducted properly.",
+        "Consultations with President Isaac Herzog begin on November 4."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a grand empty parliament chamber at dusk, semicircular rows of dark wooden seats, a single shaft of light falling on the central lectern, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow push-in toward the lit lectern, dust motes drifting in the light shaft"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "19th-century oil painting of two anonymous silhouetted statesmen in long coats shaking hands in a dim stone corridor, faces hidden in shadow, lamplight behind them, dark navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Gentle lateral drift, soft lamplight flicker on the stone walls"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Antique brass balance scale on a dark oak table, small piles of brass tokens unevenly weighed on each side, candlelight, 19th-century academic still-life oil painting, navy and muted brass tones, deep chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in on the scale, candle flame flickering gently"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting of a sealed wooden ballot box on a table beside scattered unmarked papers and a magnifying glass, a shadowed figure's silhouette in the background doorway, dark navy and brass palette, dramatic chiaroscuro, visible brushstrokes, no text or letters",
+          "hareket_prompt": "Slow drift across the table, faint mist in the background doorway"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Copperplate-engraving style interior of a stately courtroom with high arched windows and an empty judge's bench, pale light through tall windows, muted navy and brass tones, cinematic composition, no people's faces, no text",
+          "hareket_prompt": "Slow tilt up toward the arched windows, light gently shifting"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "19th-century academic oil painting of a stone presidential residence in Jerusalem at dawn, cypress trees and hills behind, soft clouds, dark desaturated navy and muted brass tones, dramatic chiaroscuro, visible brushstrokes, no flags, no text",
+          "hareket_prompt": "Slow push-in toward the residence, clouds drifting across the dawn sky"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "BENNETT",
+              "unvan": "Together party, 12 seats — backs Eisenkot",
+              "cumle": 1
+            },
+            {
+              "ulke": "GOLAN",
+              "unvan": "Democrats, 8 seats — reportedly backs Eisenkot",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 4,
+          "satirlar": [
+            "53 vs 48",
+            "No bloc reaches **61**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "NO PUBLIC\nEVIDENCE",
+          "alt": "Qatar rejects claims"
+        },
+        {
+          "tur": "damga",
+          "cumle": 7,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "PRESIDENTIAL\nCONSULTATIONS",
+          "alt": "NOV. 4"
+        }
+      ],
+      "aciklama": "Bennett backs Eisenkot as Israel faces deadlock\n\nFormer Israeli Prime Minister Naftali Bennett has said his Together party will recommend that President Isaac Herzog task Yashar party leader Gadi Eisenkot with forming the next government. Israel's Channel 12 reported that Yair Golan's Democrats also intend to recommend Eisenkot, though Golan has not made an official announcement.\n\nFinal results of the 26th Knesset election gave Benjamin Netanyahu's Likud 27 seats, Yashar 21, Together 12 and the Democrats 8, with the Joint List on 11 and Ra'am on 8. Netanyahu's bloc holds 53 seats, the opposition 48 and Arab parties 19, leaving no main bloc with the 61 seats required in the 120-member parliament. Turnout reached 77.9%, the highest since 1999.\n\nLikud has alleged Qatari interference and vote buying but has not publicly presented evidence; Qatar called the claims a disinformation campaign. Central Elections Committee Chairman Justice Noam Sohlberg said voting proceeded properly. He is due to submit the results to Herzog on Nov. 4, when consultations begin; the designated candidate gets 28 days, extendable by 14, to form a government.\n\nSource: Anadolu Agency, TRT World\n\n#Israel #Knesset #IsraelElections #Eisenkot #Bennett #Netanyahu #Herzog #MiddleEast #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Former Israeli Prime Minister Bennett’s party backs Eisenkot to form next government",
+          "link": "https://www.aa.com.tr/en/middle-east/former-israeli-prime-minister-bennett-s-party-backs-eisenkot-to-form-next-government/4108241"
+        },
+        {
+          "ad": "TRT World",
+          "baslik": "TRT World - Former Israeli Prime Minister Bennett&#x27;s party backs Eisenkot to form next government",
+          "link": "https://www.trtworld.com/article/295b6afc900f"
+        },
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Eisenkot says Netanyahu’s bid to discredit Israeli election results has ‘failed’",
+          "link": "https://www.aa.com.tr/en/middle-east/eisenkot-says-netanyahu-s-bid-to-discredit-israeli-election-results-has-failed-/4108248"
+        }
+      ]
+    },
+    "mesajId": 131
   }
 }
