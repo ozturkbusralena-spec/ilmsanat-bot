@@ -2524,5 +2524,129 @@
     "mesajId": 136,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfPXTMkB3pC/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-02_1800_haber": {
+    "zaman": "2026-11-02T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-02T15:49:29.395Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-02_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1wcssySH9hKYTerZOnH2vumsRxHldIOow&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-02_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Iran's security chief calls Putin amid war\n\nGeneral Mohsen Rezaei, secretary of Iran's Supreme National Security Council, held a telephone conversation with Russian President Vladimir Putin on the situation in the Middle East, according to the state-run IRNA news agency. Middle East Eye reported that the talks addressed the US-Israel war on Iran, and IRNA described the call as part of high-level Iran-Russia consultations following recent meetings between senior officials.\n\nAccording to state broadcaster IRIB, Rezaei expressed appreciation for remarks by Putin and other Russian officials praising Iran's late Supreme Leader Ali Khamenei and other national figures, as well as their support for the resilience of the Iranian people. Both sides stressed continuing strategic cooperation in line with the roadmap set by the two countries' leaders. IRIB gave no further details on specific regional issues or concrete measures.\n\nSource: Anadolu Agency, Middle East Eye\n\n#Iran #Russia #Putin #MohsenRezaei #MiddleEast #Geopolitics #Diplomacy #IranRussia #IlmSanat",
+    "baslik": "Iran's security chief calls Putin amid war",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Iran's security chief calls **Putin** amid **war**",
+      "hook_satirlar": [
+        "Iran's top security official",
+        "calls **Putin**",
+        "amid the US-Israel war"
+      ],
+      "cumleler": [
+        "Iran's top security official has called Vladimir Putin directly, amid the US-Israel war on Iran.",
+        "General Mohsen Rezaei is secretary of Iran's Supreme National Security Council.",
+        "State media say the call centred on the situation across the Middle East.",
+        "Rezaei thanked Moscow for praising Iran's late Supreme Leader, Ali Khamenei.",
+        "He also welcomed Russian support for the Iranian people's resilience.",
+        "Both sides pledged to keep strategic cooperation on the roadmap set by their leaders.",
+        "Iran's state broadcaster gave no further details."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting, a vast dim palace study at night, an antique brass telephone on a heavy wooden desk beside a candle, tall windows showing distant onion domes under a stormy sky, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the telephone, candle flame flickering gently, clouds drifting outside the windows"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "19th-century academic oil painting, silhouette of a uniformed figure seen from behind standing at a tall window overlooking a Persian city with domes and minarets at dusk, face not visible, dark navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "slow drift to the right, soft mist rising over the city, light dimming gently"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "antique copperplate engraving style map of the Middle East and the Caucasus on aged parchment, brass compass and dividers resting on it, candlelight, dark desaturated navy and brass tones, dramatic chiaroscuro, cinematic composition, no letters or text",
+          "hareket_prompt": "slow overhead push-in across the map, candlelight flickering softly"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century academic oil painting, an empty ornate Persian hall with a carved chair beneath arches, shafts of pale light through lattice windows, solemn mourning atmosphere, dark navy and muted brass tones, dramatic chiaroscuro, visible brushstrokes, no people, no text",
+          "hareket_prompt": "slow push-in toward the empty chair, dust motes drifting in the light shafts"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century academic oil painting, two silhouetted envoys facing each other across a long table with a sealed scroll and a brass inkwell, grand hall with Persian and Russian architectural motifs, faces in shadow, dark navy and muted brass palette, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "gentle slow push-in toward the scroll, candlelight flickering"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "19th-century academic oil painting, a closed leather dossier tied with cord on a dark desk, a dimmed oil lamp beside it, deep shadows, dark navy and muted brass tones, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "slow pull-back, lamp light slowly fading, faint smoke drifting"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "IRAN",
+              "unvan": "Mohsen Rezaei, SNSC secretary",
+              "cumle": 1
+            },
+            {
+              "ulke": "RUSSIA",
+              "unvan": "Vladimir Putin, President",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "PHONE CALL\nTEHRAN–MOSCOW",
+          "alt": "Reported by IRNA and IRIB"
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "LATE SUPREME\nLEADER",
+          "alt": "Ali Khamenei"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 5,
+          "satirlar": [
+            "Strategic **cooperation**",
+            "on the leaders' roadmap"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Iran's security chief calls Putin amid war\n\nGeneral Mohsen Rezaei, secretary of Iran's Supreme National Security Council, held a telephone conversation with Russian President Vladimir Putin on the situation in the Middle East, according to the state-run IRNA news agency. Middle East Eye reported that the talks addressed the US-Israel war on Iran, and IRNA described the call as part of high-level Iran-Russia consultations following recent meetings between senior officials.\n\nAccording to state broadcaster IRIB, Rezaei expressed appreciation for remarks by Putin and other Russian officials praising Iran's late Supreme Leader Ali Khamenei and other national figures, as well as their support for the resilience of the Iranian people. Both sides stressed continuing strategic cooperation in line with the roadmap set by the two countries' leaders. IRIB gave no further details on specific regional issues or concrete measures.\n\nSource: Anadolu Agency, Middle East Eye\n\n#Iran #Russia #Putin #MohsenRezaei #MiddleEast #Geopolitics #Diplomacy #IranRussia #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Iran’s national security chief, Russian president discuss regional developments, reaffirm strategic cooperation",
+          "link": "https://www.aa.com.tr/en/world/iran-s-national-security-chief-russian-president-discuss-regional-developments-reaffirm-strategic-cooperation/4108965"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Iran security chief discusses US-Israel war with Russian president: state media",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-security-chief-discusses-us-israel-war-russian-president-state"
+        }
+      ]
+    },
+    "mesajId": 141
   }
 }
