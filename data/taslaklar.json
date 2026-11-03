@@ -2657,5 +2657,134 @@
     "durum": "hata",
     "guncelleme": "2026-11-03T06:28:02.361Z",
     "hata": "Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs"
+  },
+  "ozel_20261103_mw0fjmwm": {
+    "tur": "ozel",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-03T08:46:01.614Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/ozel_20261103_mw0fjmwm/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=14TqScrhWrCSvarmvc22oU9XiS7_S9W42&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/ozel_20261103_mw0fjmwm/kapak_kucuk.jpg",
+    "aciklama": "US strikes hit Iran's Qeshm Island\n\nIranian agencies IRNA and Fars reported several explosions on Qeshm Island and in the port city of Bandar Lengeh, near the Strait of Hormuz. The Wall Street Journal, citing US officials, reported that the US military carried out the strikes, which officials described as defensive measures against Iranians using surface-to-air missiles against US assets and as an effort to limit Iran's ability to threaten commercial shipping.\n\nFox News and Axios said the attacks followed IRGC fire on a US aircraft in the strait. Earlier the same day, the IRGC claimed it had captured two US reconnaissance drones south of Qeshm and destroyed an MQ-9. US officials told the Journal that smaller-scale strikes had continued for several weeks, kept quiet to avoid signalling a return to major combat.\n\nThe strikes came on the eve of the US midterm elections. President Donald Trump said \"We had a war with Iran. We won,\" ruled out new strikes after the vote, and said a deal was likely. Iran's Foreign Ministry spokesperson Esmaeil Baghaei said \"the ball is in the US court.\"\n\nSource: Anadolu Agency, Al Jazeera, TRT World\n\n#Iran #UnitedStates #StraitOfHormuz #QeshmIsland #IRGC #MiddleEast #Geopolitics #Trump #News #IlmSanat",
+    "baslik": "US strikes hit Iran's Qeshm Island",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "US strikes hit Iran's **Qeshm Island**",
+      "hook_satirlar": [
+        "Explosions shake",
+        "Iran's **Qeshm** Island",
+        "on the eve of the midterms"
+      ],
+      "cumleler": [
+        "Explosions shook Iran's Qeshm Island on the eve of the US midterm elections.",
+        "The Wall Street Journal, citing US officials, says American forces carried out the strikes.",
+        "Officials called them defensive, aimed at Iranians firing surface-to-air missiles at US assets.",
+        "Reports link them to IRGC fire on a US aircraft in the Strait of Hormuz.",
+        "Earlier, the IRGC claimed it captured two US drones south of Qeshm.",
+        "Officials say smaller strikes have quietly continued for weeks.",
+        "Yet Trump insists the war is won, and a deal is close."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a rugged island coastline at night in the Persian Gulf, distant orange flashes of explosions reflected on dark water, low clouds, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the coastline, faint light flicker from the distant glow, drifting smoke"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Copperplate engraving style scene of two military aircraft silhouettes crossing a moonlit sky over a narrow sea strait, dark navy and muted brass palette, dramatic chiaroscuro, visible hatching, no text or markings",
+          "hareket_prompt": "Gentle lateral drift across the sky, clouds slowly moving"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of a coastal missile battery silhouette on a rocky shore under a stormy night sky, searchlight beam cutting through mist, dark desaturated navy and brass tones, chiaroscuro, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "Slow push-in, mist drifting, searchlight beam softly flickering"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Antique engraved map of the Strait of Hormuz with Qeshm Island and the southern Iranian coast, aged parchment, muted brass and navy ink, compass rose and sailing ships, dramatic vignette lighting, no letters or labels",
+          "hareket_prompt": "Slow zoom toward the narrow strait, candlelight flicker across the parchment"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Academic oil painting of a lone warship silhouette on a calm dark sea at dusk, faint distant glow on the horizon, heavy clouds, dark navy and muted brass tones, cinematic chiaroscuro, visible brushstrokes, no text or flags",
+          "hareket_prompt": "Very slow drift forward, gentle waves, clouds rolling slowly"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "19th-century oil painting of an empty grand diplomatic hall with a long polished table, two chairs facing each other, tall windows with dim moonlight, dark navy and brass tones, dramatic chiaroscuro, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow push-in toward the table, soft dust in the light beams"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "UNITED STATES",
+              "unvan": "Reported strikes on Qeshm",
+              "cumle": 1
+            },
+            {
+              "ulke": "IRAN · IRGC",
+              "unvan": "Claims two US drones captured",
+              "cumle": 4
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "DEFENSIVE\nSTRIKES",
+          "alt": "Strait of Hormuz"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 5,
+          "satirlar": [
+            "Smaller strikes",
+            "quietly ongoing",
+            "for **weeks**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 6,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "\"WE WON\"",
+          "alt": "Trump, on the eve of the midterms"
+        }
+      ],
+      "aciklama": "US strikes hit Iran's Qeshm Island\n\nIranian agencies IRNA and Fars reported several explosions on Qeshm Island and in the port city of Bandar Lengeh, near the Strait of Hormuz. The Wall Street Journal, citing US officials, reported that the US military carried out the strikes, which officials described as defensive measures against Iranians using surface-to-air missiles against US assets and as an effort to limit Iran's ability to threaten commercial shipping.\n\nFox News and Axios said the attacks followed IRGC fire on a US aircraft in the strait. Earlier the same day, the IRGC claimed it had captured two US reconnaissance drones south of Qeshm and destroyed an MQ-9. US officials told the Journal that smaller-scale strikes had continued for several weeks, kept quiet to avoid signalling a return to major combat.\n\nThe strikes came on the eve of the US midterm elections. President Donald Trump said \"We had a war with Iran. We won,\" ruled out new strikes after the vote, and said a deal was likely. Iran's Foreign Ministry spokesperson Esmaeil Baghaei said \"the ball is in the US court.\"\n\nSource: Anadolu Agency, Al Jazeera, TRT World\n\n#Iran #UnitedStates #StraitOfHormuz #QeshmIsland #IRGC #MiddleEast #Geopolitics #Trump #News #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "US carries out 'defensive' strikes on Iran’s Qeshm Island: Report",
+          "link": "https://www.aa.com.tr/en/world/us-carries-out-defensive-strikes-on-iran-s-qeshm-island-report/4109260"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Explosions hit Iran’s Qeshm Island as US media report US strikes in Hormuz",
+          "link": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz"
+        },
+        {
+          "ad": "TRT World",
+          "baslik": "TRT World - US carries out strikes on Iran&#x27;s Qeshm Island — report",
+          "link": "https://www.trtworld.com/article/e4c34cb55979"
+        }
+      ]
+    },
+    "mesajId": 155
   }
 }
