@@ -2650,5 +2650,12 @@
     "mesajId": 141,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfPyxPUxjZu/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-03_0900_haber": {
+    "zaman": "2026-11-03T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "hata",
+    "guncelleme": "2026-11-03T06:28:02.361Z",
+    "hata": "Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs"
   }
 }
