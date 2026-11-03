@@ -2786,5 +2786,124 @@
       ]
     },
     "mesajId": 155
+  },
+  "2026-11-03_1400_analiz": {
+    "zaman": "2026-11-03T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-03T11:27:25.384Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-03_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=14weqZYp6xqXtYjL9brC65xTXdEbzJCzk&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-03_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Saudi Arabia Nationalises Its Security\n\nIn an analysis published by Anadolu Agency on 3 November 2026, Metin Mutanoğlu argues that Saudi Arabia is building a new security paradigm. His central comparison: just as the kingdom nationalised its oil in 1980, it is now nationalising its security policies.\n\nThe analogy frames security as the next domain Riyadh seeks to bring under national control, following the precedent set by its energy sector more than four decades ago.\n\nThe Turkish think tank SETA has likewise framed the current period as \"a new security moment in the Middle East\" in a recent podcast episode.\n\nSource: Anadolu Agency (Metin Mutanoğlu, Analysis); SETA\n\n#SaudiArabia #MiddleEast #Security #Geopolitics #Riyadh #GulfPolitics #DefencePolicy #Analysis #IlmSanat",
+    "baslik": "Saudi Arabia Nationalises Its Security",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "Saudi Arabia **Nationalises** Its **Security**",
+      "hook_satirlar": [
+        "In 1980, Riyadh nationalised its oil.",
+        "Now it is nationalising its **security**."
+      ],
+      "cumleler": [
+        "Saudi Arabia nationalised its oil in 1980, and now it is nationalising its security.",
+        "That is the central argument of a new Anadolu Agency analysis by Metin Mutanoğlu.",
+        "He describes a new security paradigm taking shape in Riyadh.",
+        "The comparison with oil is deliberate.",
+        "In 1980, the kingdom brought its most valuable resource under national control.",
+        "Today, the analysis argues, Riyadh is applying that same logic to its security policies.",
+        "Defence, in this reading, becomes a matter of national ownership.",
+        "And the shift is not happening in isolation.",
+        "The Turkish think tank SETA describes the wider picture as a new security moment in the Middle East.",
+        "Oil defined the kingdom's first great act of control; security may define its next."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a vast desert at dusk with silhouetted oil derricks beside an ancient walled Arabian fortress, dark desaturated navy sky, muted brass highlights, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the fortress, faint drifting dust over the dunes, soft flicker of evening light"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Copperplate engraving style antique map of the Arabian Peninsula with ornate brass compass rose and sea routes, dark navy and aged brass tones, dramatic lighting across the parchment, no letters or labels, visible engraved texture",
+          "hareket_prompt": "Gentle downward drift across the map, subtle candlelight flicker on the parchment"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century oil painting of a brass oil valve and heavy iron key resting on a dark wooden desk beside a sealed document with wax seal, chiaroscuro lighting, desaturated navy shadows, muted brass glow, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in on the key and seal, soft flickering lamp light"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Academic oil painting of silhouetted guards on the ramparts of a desert citadel at night, banners without any markings, moonlit navy sky, muted brass torchlight, dramatic chiaroscuro, cinematic composition, visible brushstrokes",
+          "hareket_prompt": "Slow lateral drift along the ramparts, torchlight gently flickering, thin mist moving below"
+        },
+        {
+          "cumle": 8,
+          "gorsel_prompt": "Antique engraved map of the Middle East spread on a table with brass dividers and chess pieces placed across the region, dark navy and brass palette, dramatic overhead lamp, no text or letters, visible engraving texture",
+          "hareket_prompt": "Slow overhead push-in, soft shadows shifting as the lamp gently sways"
+        },
+        {
+          "cumle": 9,
+          "gorsel_prompt": "19th-century oil painting of a lone silhouetted figure on a dune facing a distant fortress and oil derricks under a breaking dawn, desaturated navy sky turning brass at the horizon, dramatic chiaroscuro, visible brushstrokes",
+          "hareket_prompt": "Slow pull-back revealing the horizon, clouds drifting, light gradually warming"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "ANADOLU AGENCY",
+              "unvan": "Analysis by Metin Mutanoğlu",
+              "cumle": 1
+            },
+            {
+              "ulke": "SETA",
+              "unvan": "A New Security Moment in the Middle East",
+              "cumle": 8
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "OIL\nNATIONALISED",
+          "alt": "1980"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "From oil",
+            "to **security**",
+            "under national control"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Saudi Arabia Nationalises Its Security\n\nIn an analysis published by Anadolu Agency on 3 November 2026, Metin Mutanoğlu argues that Saudi Arabia is building a new security paradigm. His central comparison: just as the kingdom nationalised its oil in 1980, it is now nationalising its security policies.\n\nThe analogy frames security as the next domain Riyadh seeks to bring under national control, following the precedent set by its energy sector more than four decades ago.\n\nThe Turkish think tank SETA has likewise framed the current period as \"a new security moment in the Middle East\" in a recent podcast episode.\n\nSource: Anadolu Agency (Metin Mutanoğlu, Analysis); SETA\n\n#SaudiArabia #MiddleEast #Security #Geopolitics #Riyadh #GulfPolitics #DefencePolicy #Analysis #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "Suudi Arabistan’ın yeni güvenlik paradigması",
+          "link": "https://www.aa.com.tr/tr/analiz/suudi-arabistan-in-yeni-guvenlik-paradigmasi/4109710"
+        },
+        {
+          "ad": "SETA",
+          "baslik": "PODCAST | A New Security Moment in the Middle East",
+          "link": "https://www.setav.org/en/podcast/podcast-a-new-security-moment-in-the-middle-east"
+        }
+      ]
+    },
+    "mesajId": 157
   }
 }
