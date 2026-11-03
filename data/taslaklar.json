@@ -2907,5 +2907,133 @@
     "mesajId": 157,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfR8GSAMzr9/\n\n❌ TikTok hatası: Unexpected token '<', \"<HTML><HEA\"... is not valid JSON"
+  },
+  "2026-11-03_1800_haber": {
+    "zaman": "2026-11-03T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-03T15:44:10.038Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-03_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1RtT0HgVWYLqgy5rVAN6X-aAUkrB8jnUM&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-03_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Trump says US aid to Israel ends this year\n\nUS President Donald Trump told Fox News on Tuesday that he and Israeli Prime Minister Benjamin Netanyahu agreed months ago to stop the roughly $4 billion in annual US assistance by the end of this year, arguing that Israel no longer needs it. He said Washington would still help if needed and that Israel remains free to buy American weapons, adding that left-wing critics had turned the payment into a political target.\n\nUnder the 2019–2028 Memorandum of Understanding signed during the Obama administration, the US provides Israel $3.8 billion a year: $3.3 billion in foreign military financing and $500 million for missile defence. A June Quinnipiac poll found 48 percent of American voters and 66 percent of Democrats believe Washington is too supportive of Israel, up from 16 and 20 percent in 2017.\n\nIsraeli government officials have not confirmed a formal accord. Israel's defence ministry has said talks on a new security framework, focused on joint research, development and weapons production, are already underway.\n\nSource: Anadolu Agency, Middle East Eye, TRT World\n\n#Trump #Israel #Netanyahu #USForeignPolicy #MilitaryAid #MiddleEast #Geopolitics #WorldNews #IlmSanat",
+    "baslik": "Trump says US aid to Israel ends this year",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Trump says **US aid to Israel** ends **this year**",
+      "hook_satirlar": [
+        "Trump says US military aid",
+        "to Israel will **stop**",
+        "by the end of this year"
+      ],
+      "cumleler": [
+        "Trump says America will stop paying Israel's yearly military aid by the end of this year.",
+        "He told Fox News that he and Netanyahu agreed months ago, saying Israel no longer needs it.",
+        "The current deal sends $3.8 billion a year through 2028.",
+        "Weapons sales, Trump said, will continue.",
+        "He argued critics on the left had turned the payment into a political target.",
+        "Israel has not confirmed any accord, but talks on a new framework are underway."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a neoclassical government building with white columns at dusk, a heavy iron strongbox closing on its steps, dark desaturated navy sky and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text, no people's faces",
+          "hareket_prompt": "Slow push-in toward the strongbox, faint clouds drifting across the dusk sky"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Dimly lit 19th-century diplomatic study, two empty leather chairs facing each other across a polished table with a sealed document and a candle, navy shadows and brass highlights, dramatic chiaroscuro, academic oil painting, visible brushstrokes, no text",
+          "hareket_prompt": "Gentle lateral drift across the table, candle flame flickering softly"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Antique copperplate engraving style still life of stacked gold coins and an hourglass beside a rolled treaty ribbon, muted brass and dark navy palette, dramatic side lighting, cinematic composition, no letters or numbers visible",
+          "hareket_prompt": "Slow push-in on the hourglass, sand trickling gently, soft light flicker"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century oil painting of a vast arsenal warehouse interior with rows of covered artillery crates under high iron trusses, shafts of light through dusty windows, navy and brass tones, chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow forward dolly down the aisle, dust motes drifting in the light beams"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Academic oil painting of a crowded 19th-century public square seen from behind as dark silhouettes facing a domed capitol under stormy skies, desaturated navy and muted brass, dramatic chiaroscuro, cinematic, no faces, no text",
+          "hareket_prompt": "Slow pull-back revealing the crowd, storm clouds rolling gently"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Antique map of the eastern Mediterranean and Atlantic on an old desk, a brass compass and an unsigned parchment beside it, candlelight, dark navy and brass palette, engraving texture, chiaroscuro, no legible text or letters",
+          "hareket_prompt": "Slow overhead drift across the map, candlelight flickering, light mist"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "UNITED STATES",
+              "unvan": "Trump: aid ends by year-end",
+              "cumle": 1
+            },
+            {
+              "ulke": "ISRAEL",
+              "unvan": "Netanyahu agreed, per Trump",
+              "cumle": 1
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "$3.8 BILLION\nPER YEAR",
+          "alt": "MoU 2019–2028"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 3,
+          "satirlar": [
+            "Aid **ends**",
+            "Arms sales continue"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "NOT\nCONFIRMED",
+          "alt": "Israeli government silent"
+        }
+      ],
+      "aciklama": "Trump says US aid to Israel ends this year\n\nUS President Donald Trump told Fox News on Tuesday that he and Israeli Prime Minister Benjamin Netanyahu agreed months ago to stop the roughly $4 billion in annual US assistance by the end of this year, arguing that Israel no longer needs it. He said Washington would still help if needed and that Israel remains free to buy American weapons, adding that left-wing critics had turned the payment into a political target.\n\nUnder the 2019–2028 Memorandum of Understanding signed during the Obama administration, the US provides Israel $3.8 billion a year: $3.3 billion in foreign military financing and $500 million for missile defence. A June Quinnipiac poll found 48 percent of American voters and 66 percent of Democrats believe Washington is too supportive of Israel, up from 16 and 20 percent in 2017.\n\nIsraeli government officials have not confirmed a formal accord. Israel's defence ministry has said talks on a new security framework, focused on joint research, development and weapons production, are already underway.\n\nSource: Anadolu Agency, Middle East Eye, TRT World\n\n#Trump #Israel #Netanyahu #USForeignPolicy #MilitaryAid #MiddleEast #Geopolitics #WorldNews #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Trump pledges end to US aid for Israel by year’s end",
+          "link": "https://www.aa.com.tr/en/americas/trump-pledges-end-to-us-aid-for-israel-by-year-s-end/4110118"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Trump says US will end $4bn annual military aid to Israel in 2027",
+          "link": "https://www.middleeasteye.net/news/trump-says-us-will-end-4bn-annual-military-aid-israel-2027"
+        },
+        {
+          "ad": "TRT World",
+          "baslik": "TRT World - Trump declares end to US military aid to Israel by year-end",
+          "link": "https://www.trtworld.com/article/5300f214167d"
+        }
+      ]
+    },
+    "mesajId": 162
   }
 }
