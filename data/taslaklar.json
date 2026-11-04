@@ -3174,5 +3174,140 @@
     "mesajId": 169,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfT-mk-s_Qj/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-04_1400_analiz": {
+    "zaman": "2026-11-04T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-04T11:47:09.865Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-04_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1H0JWHCVHk_NJoV4LUrq_-xV9gj2Spbhb&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-04_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Israel's Hung Knesset: A Majority Nobody Can Use\n\nIn an analysis for Anadolu Agency, Prof. Dr. Tuğçe Ersoy Ceylan of İzmir Katip Çelebi University argues that Israel's 27 October election left Benjamin Netanyahu without his parliamentary majority, while the opposition has not yet built a coalition able to take power. In the distribution published on 28 October, before special envelopes were counted, Netanyahu's bloc held 52 seats (down from 64 in 2022), the Eisenkot-led opposition 48 and Arab parties 20. Likud remained the largest party with 26 seats; turnout was reported at 77.7%.\n\nThe author outlines three paths: an opposition government backed by both Arab lists (68 seats), cross-bloc defections or a deal with the two Haredi parties (62 seats, blocked by the conscription dispute), or a broad unity government, kept alive by President Isaac Herzog's call to avoid a repeat election. Netanyahu's emphasis on a 'Zionist majority' moves the debate from seat counts to which partnerships are deemed legitimate, exposing tension between equal citizenship and coalition practice.\n\nIf all routes close, a prolonged search or new election could extend Netanyahu's tenure. SETA commentators likewise note that neither bloc reached a governing majority on its own.\n\nSource: Anadolu Agency (Analysis, Prof. Dr. Tuğçe Ersoy Ceylan); SETA\n\n#Israel #Knesset #IsraelElection #Netanyahu #Eisenkot #MiddleEast #Geopolitics #CoalitionPolitics #Analysis #IlmSanat",
+    "baslik": "Israel's Hung Knesset: A Majority Nobody Can Use",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "Israel's **Hung Knesset**: A Majority **Nobody Can Use**",
+      "hook_satirlar": [
+        "On paper, Netanyahu's rivals",
+        "hold a **majority**.",
+        "In practice, they may not use it."
+      ],
+      "cumleler": [
+        "On paper, Netanyahu's rivals now hold a majority; in practice, they may not be able to use it.",
+        "In Israel's October 27 election, his bloc fell to 52 seats, down from 64 in 2022.",
+        "Eisenkot's opposition took 48, while Arab parties climbed to 20.",
+        "Count both Arab lists with the opposition, and the anti-Netanyahu camp reaches 68 seats.",
+        "But Netanyahu's talk of a 'Zionist majority' shifts the fight from arithmetic to legitimacy.",
+        "A pact with two Haredi parties would give the opposition 62, yet military conscription divides them.",
+        "President Isaac Herzog's call to avoid a repeat vote keeps a unity government in play.",
+        "If every path closes, a long deadlock could simply extend Netanyahu's time in office."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a grand empty parliamentary chamber at dusk, semicircle of dark wooden benches split into two halves by a shaft of light, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no people, no text",
+          "hareket_prompt": "slow push-in toward the centre aisle, dust motes drifting in the light beam"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Copperplate engraving style scene of a wooden ballot box on a stone table beside an oil lamp, scattered blank paper slips, navy and brass palette, deep shadows, antique texture, visible hatching, no text or letters",
+          "hareket_prompt": "gentle drift right, lamp flame flickering softly"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of an old Levantine town at evening with stone houses and minarets and church towers, small silhouettes queuing at a lit doorway, desaturated navy sky, muted brass window light, chiaroscuro, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "slow pull-back revealing the town, light mist drifting through the streets"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Antique brass balance scale on a dark desk, one pan heavier with many small brass tokens, the other lighter, academic oil painting, navy and brass tones, dramatic side light, visible brushstrokes, no text",
+          "hareket_prompt": "very slow push-in on the scale, faint shimmer of light on the brass"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Shadowy silhouettes of statesmen gathered around a long candlelit negotiating table covered with an antique map of the eastern Mediterranean, figures seen from behind, 19th-century oil painting, navy and muted brass, heavy chiaroscuro, no faces, no text",
+          "hareket_prompt": "slow lateral drift along the table, candles flickering gently"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Stately stone presidential residence at night under a cloudy sky, a single lit window, cypress trees, 19th-century academic oil painting, dark navy and brass tones, cinematic composition, visible brushstrokes, no flags, no text",
+          "hareket_prompt": "slow push-in toward the lit window, clouds drifting slowly overhead"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "NETANYAHU BLOC",
+              "unvan": "52 seats (64 in 2022)",
+              "cumle": 1
+            },
+            {
+              "ulke": "EISENKOT OPPOSITION",
+              "unvan": "48 seats",
+              "cumle": 2
+            },
+            {
+              "ulke": "ARAB PARTIES",
+              "unvan": "20 seats",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "68 SEATS\nON PAPER",
+          "alt": "Opposition + both Arab lists"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 4,
+          "satirlar": [
+            "Not a question of numbers",
+            "but of **legitimacy**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 7,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "DEADLOCK\nRISK",
+          "alt": "Repeat election possible"
+        }
+      ],
+      "aciklama": "Israel's Hung Knesset: A Majority Nobody Can Use\n\nIn an analysis for Anadolu Agency, Prof. Dr. Tuğçe Ersoy Ceylan of İzmir Katip Çelebi University argues that Israel's 27 October election left Benjamin Netanyahu without his parliamentary majority, while the opposition has not yet built a coalition able to take power. In the distribution published on 28 October, before special envelopes were counted, Netanyahu's bloc held 52 seats (down from 64 in 2022), the Eisenkot-led opposition 48 and Arab parties 20. Likud remained the largest party with 26 seats; turnout was reported at 77.7%.\n\nThe author outlines three paths: an opposition government backed by both Arab lists (68 seats), cross-bloc defections or a deal with the two Haredi parties (62 seats, blocked by the conscription dispute), or a broad unity government, kept alive by President Isaac Herzog's call to avoid a repeat election. Netanyahu's emphasis on a 'Zionist majority' moves the debate from seat counts to which partnerships are deemed legitimate, exposing tension between equal citizenship and coalition practice.\n\nIf all routes close, a prolonged search or new election could extend Netanyahu's tenure. SETA commentators likewise note that neither bloc reached a governing majority on its own.\n\nSource: Anadolu Agency (Analysis, Prof. Dr. Tuğçe Ersoy Ceylan); SETA\n\n#Israel #Knesset #IsraelElection #Netanyahu #Eisenkot #MiddleEast #Geopolitics #CoalitionPolitics #Analysis #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "SETA",
+          "baslik": "İsrail Siyasetinde Dönüşüm Beklentileri ve Seçimlerin Bölgesel Yansımaları",
+          "link": "https://www.setav.org/israil-siyasetinde-donusum-beklentileri-ve-secimlerin-bolgesel-yansimalari"
+        },
+        {
+          "ad": "SETA",
+          "baslik": "İsrail’de Seçim Sonrası Planları",
+          "link": "https://www.setav.org/israilde-secim-sonrasi-planlari"
+        },
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "İsrail seçimleri: Çoğunluk kaybı, koalisyon açmazı ve yeni pazarlıklar",
+          "link": "https://www.aa.com.tr/tr/analiz/israil-secimleri-cogunluk-kaybi-koalisyon-acmazi-ve-yeni-pazarliklar/4104700"
+        }
+      ]
+    },
+    "mesajId": 174
   }
 }
