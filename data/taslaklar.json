@@ -3037,5 +3037,140 @@
     "mesajId": 162,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfSXjzhztso/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-04_0900_haber": {
+    "zaman": "2026-11-04T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-04T06:24:31.836Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-04_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=14o7bdRU3uqCcWbysnRcrSDAqMMZLYyOr&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-04_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "US Approves Qatari Draft Deal With Iran\n\nThe United States has approved a draft memorandum of understanding that Qatari mediators presented to Iran on Monday, sources told the Qatari newspaper Al-Araby Al-Jadeed. Saudi Arabia and the UAE were briefed on the text and also approved it. Under the reported arrangement, Tehran would announce a concession on its nuclear program while Washington simultaneously announces the release of part of Iran's frozen assets, paving the way for an interim deal and renewed negotiations.\n\nQatari Foreign Ministry spokesman Majed al-Ansari said on Tuesday that both sides are studying proposals and remain committed to the negotiating track, stressing that freedom of navigation is \"non-negotiable.\" Iranian Parliament Speaker Mohammad Bagher Qalibaf, who leads Tehran's negotiating team, said Iran had delivered a \"firm and rational\" response and warned that any renewed US military action would trigger a response without geographical limitations.\n\nTensions have remained high since the US and Israel launched attacks on Iran on 28 February, followed by Iranian retaliation and an April ceasefire. A 18 June US-Iran memorandum on navigation in the Strait of Hormuz stalled over security disagreements.\n\nSource: Anadolu Agency, Middle East Monitor\n\n#Iran #UnitedStates #Qatar #Diplomacy #MiddleEast #NuclearDeal #Geopolitics #StraitOfHormuz #IlmSanat",
+    "baslik": "US Approves Qatari Draft Deal With Iran",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "US Approves **Qatari Draft Deal** With **Iran**",
+      "hook_satirlar": [
+        "The US has approved",
+        "a Qatari-drafted",
+        "**deal** with Iran"
+      ],
+      "cumleler": [
+        "The United States has approved a Qatari-drafted deal with Iran, sources say.",
+        "Qatari mediators handed the memorandum to Tehran on Monday.",
+        "Saudi Arabia and the UAE were briefed, and backed it too.",
+        "The core trade: Iran offers a nuclear concession, while Washington frees part of its frozen assets.",
+        "Both steps would be announced at once, opening the way to an interim deal and renewed talks.",
+        "Doha says both sides remain committed to negotiations.",
+        "But Tehran's lead negotiator, Mohammad Bagher Qalibaf, warns any new US strike would bring a response without geographical limits."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a grand candlelit diplomatic hall, a long polished table with a single sealed parchment memorandum and a brass inkwell, empty chairs on both sides, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the parchment on the table, candle flames flickering gently"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Copperplate engraving style antique map of the Persian Gulf with the Qatar peninsula and the Iranian coast, a small sailing dhow crossing the water, aged paper in navy and brass tones, dramatic shading, no letters or labels",
+          "hareket_prompt": "Gentle drift across the map from the peninsula toward the Iranian coast, soft light shift"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of a desert palace courtyard at dusk, silhouetted robed envoys conversing beneath arched colonnades, lanterns glowing, dark navy sky, muted brass highlights, chiaroscuro, visible brushstrokes, faces unseen",
+          "hareket_prompt": "Slow lateral drift along the colonnade, lantern light flickering softly"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Symbolic academic oil painting of an antique brass balance scale, one pan holding a small glowing atom-like brass sphere, the other holding stacked gold coins and a heavy vault key, dark navy background, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in on the balance scale, faint dust drifting in the light beam"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting of a domed Gulf city skyline at dawn over calm sea, minarets and towers in silhouette, soft mist, desaturated navy and muted brass tones, cinematic wide composition, visible brushstrokes",
+          "hareket_prompt": "Slow drift forward over the water, mist rolling gently, clouds moving slowly"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Dramatic academic oil painting of a Persian mountain fortress under a stormy night sky, distant warships silhouetted on a dark sea below, lightning glow on clouds, navy and brass palette, strong chiaroscuro, visible brushstrokes, no figures' faces",
+          "hareket_prompt": "Slow push-in toward the fortress, storm clouds drifting, faint lightning flicker"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "QATAR",
+              "unvan": "Mediator, presented draft",
+              "cumle": 1
+            },
+            {
+              "ulke": "SAUDI ARABIA",
+              "unvan": "Briefed, approved",
+              "cumle": 2
+            },
+            {
+              "ulke": "UAE",
+              "unvan": "Briefed, approved",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 3,
+          "satirlar": [
+            "Nuclear concession",
+            "in exchange for",
+            "**frozen assets**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "INTERIM\nDEAL",
+          "alt": "Simultaneous announcements"
+        },
+        {
+          "tur": "damga",
+          "cumle": 6,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "NO GEOGRAPHICAL\nLIMITS",
+          "alt": "Qalibaf warning, Nov 3"
+        }
+      ],
+      "aciklama": "US Approves Qatari Draft Deal With Iran\n\nThe United States has approved a draft memorandum of understanding that Qatari mediators presented to Iran on Monday, sources told the Qatari newspaper Al-Araby Al-Jadeed. Saudi Arabia and the UAE were briefed on the text and also approved it. Under the reported arrangement, Tehran would announce a concession on its nuclear program while Washington simultaneously announces the release of part of Iran's frozen assets, paving the way for an interim deal and renewed negotiations.\n\nQatari Foreign Ministry spokesman Majed al-Ansari said on Tuesday that both sides are studying proposals and remain committed to the negotiating track, stressing that freedom of navigation is \"non-negotiable.\" Iranian Parliament Speaker Mohammad Bagher Qalibaf, who leads Tehran's negotiating team, said Iran had delivered a \"firm and rational\" response and warned that any renewed US military action would trigger a response without geographical limitations.\n\nTensions have remained high since the US and Israel launched attacks on Iran on 28 February, followed by Iranian retaliation and an April ceasefire. A 18 June US-Iran memorandum on navigation in the Strait of Hormuz stalled over security disagreements.\n\nSource: Anadolu Agency, Middle East Monitor\n\n#Iran #UnitedStates #Qatar #Diplomacy #MiddleEast #NuclearDeal #Geopolitics #StraitOfHormuz #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "US approves Qatar-presented draft deal with Iran: Sources",
+          "link": "https://www.aa.com.tr/en/americas/us-approves-qatar-presented-draft-deal-with-iran-sources/4110260"
+        },
+        {
+          "ad": "Middle East Monitor",
+          "baslik": "US approves Qatar-presented draft deal with Iran: Sources",
+          "link": "https://www.middleeastmonitor.com/20261103-us-approves-qatar-presented-draft-deal-with-iran-sources/"
+        },
+        {
+          "ad": "Middle East Monitor",
+          "baslik": "Qatar says US, Iran studying proposals aimed at reaching agreement",
+          "link": "https://www.middleeastmonitor.com/20261103-qatar-says-us-iran-studying-proposals-aimed-at-reaching-agreement/"
+        }
+      ]
+    },
+    "mesajId": 169
   }
 }
