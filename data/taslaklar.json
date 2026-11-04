@@ -3311,5 +3311,142 @@
     "mesajId": 174,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfUg5AGhcPE/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-04_1800_haber": {
+    "zaman": "2026-11-04T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-04T15:37:16.012Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-04_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1tYjoSJ_EChQqdQpyXDm-gWDR7A1yHgr2&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-04_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Trump admits Iran war cost midterms\n\nUS President Donald Trump has acknowledged that the US-Israeli war on Iran played a part in the Republican Party's heavy midterm defeats, as Democrats won control of both the House of Representatives and the Senate, including a Senate race in Texas won by a Democrat for the first time in decades. \"I think a part of it was Iran,\" Trump said, while telling the Wall Street Journal he did the right thing and would have done it again. He has also vowed to veto what he called 'insane' legislation.\n\nThe US and Israel attacked Iran on 28 February 2026. Tehran's government remained intact despite the killing of senior leaders, and Iran's closure of the Strait of Hormuz sent global oil and gas prices sharply higher. Democratic candidates across the country blamed the war, consistently unpopular with Americans, for the rising cost of living.\n\nIn Tehran, Parliament Speaker Mohammad Bagher Ghalibaf said Americans had said 'No to war', and the newspaper Jam-e Jam called the result 'The twilight of Trumpism'. Yet senior Iranian sources told Reuters that Tehran remains on high alert, fearing Trump could answer the defeat with renewed strikes, as mediators intensify efforts to end the war.\n\nSource: Al Jazeera, Middle East Eye, TRT World\n\n#Trump #Iran #Midterms #USPolitics #StraitOfHormuz #MiddleEast #Geopolitics #IranWar #IlmSanat",
+    "baslik": "Trump admits Iran war cost midterms",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Trump admits **Iran war** cost **midterms**",
+      "hook_satirlar": [
+        "Trump concedes the",
+        "**Iran** war sank",
+        "Republicans at the polls"
+      ],
+      "cumleler": [
+        "Trump now concedes the Iran war helped sink Republicans in the midterms.",
+        "Democrats took both the House and the Senate.",
+        "\"A part of it was Iran,\" Trump said, but he insists he would do it again.",
+        "The war began on February 28, and Iran's grip on Hormuz sent oil prices soaring.",
+        "Democrats blamed it for rising living costs.",
+        "Tehran welcomed the result as Americans rejecting war.",
+        "Yet Iranian officials remain on high alert for renewed strikes."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of the White House at dusk under heavy storm clouds, a lone lit window, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the lit window, clouds drifting slowly, faint light flicker"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "19th-century oil painting of the United States Capitol dome at night, wet marble steps reflecting lamplight, dark navy and muted brass palette, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no people, no text",
+          "hareket_prompt": "gentle upward tilt toward the dome, light mist rolling across the steps"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Academic oil painting of an empty presidential desk in a dim oval room, a single brass lamp, scattered unmarked papers, heavy curtains, dark navy and brass tones, dramatic chiaroscuro, visible brushstrokes, no text, no faces",
+          "hareket_prompt": "slow drift across the desk, lamp light flickering softly"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Strait of Hormuz with tankers silhouetted on dark water, smoke on the horizon, navy and muted brass tones, dramatic lighting, cinematic composition, no text or letters",
+          "hareket_prompt": "slow push-in over the strait, smoke drifting gently on the horizon"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting of Tehran rooftops and domes at dawn with snowy Alborz mountains behind, dark desaturated navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no flags, no text",
+          "hareket_prompt": "slow lateral drift across the skyline, morning mist rising"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Academic oil painting of a silhouetted watchtower above a dark coastline at night, searchlight beam cutting through haze over the sea, navy and brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in, searchlight beam sweeping gently, haze drifting"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "DEMOCRATS",
+              "unvan": "Won House and Senate",
+              "cumle": 1
+            },
+            {
+              "ulke": "TRUMP",
+              "unvan": "\"I would have done it again\"",
+              "cumle": 2
+            },
+            {
+              "ulke": "IRAN",
+              "unvan": "\"Americans said no to war\"",
+              "cumle": 5
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "WAR\nBEGAN",
+          "alt": "28 February 2026"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 4,
+          "satirlar": [
+            "War blamed for",
+            "rising **living costs**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "Tehran stays on",
+            "**high alert**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Trump admits Iran war cost midterms\n\nUS President Donald Trump has acknowledged that the US-Israeli war on Iran played a part in the Republican Party's heavy midterm defeats, as Democrats won control of both the House of Representatives and the Senate, including a Senate race in Texas won by a Democrat for the first time in decades. \"I think a part of it was Iran,\" Trump said, while telling the Wall Street Journal he did the right thing and would have done it again. He has also vowed to veto what he called 'insane' legislation.\n\nThe US and Israel attacked Iran on 28 February 2026. Tehran's government remained intact despite the killing of senior leaders, and Iran's closure of the Strait of Hormuz sent global oil and gas prices sharply higher. Democratic candidates across the country blamed the war, consistently unpopular with Americans, for the rising cost of living.\n\nIn Tehran, Parliament Speaker Mohammad Bagher Ghalibaf said Americans had said 'No to war', and the newspaper Jam-e Jam called the result 'The twilight of Trumpism'. Yet senior Iranian sources told Reuters that Tehran remains on high alert, fearing Trump could answer the defeat with renewed strikes, as mediators intensify efforts to end the war.\n\nSource: Al Jazeera, Middle East Eye, TRT World\n\n#Trump #Iran #Midterms #USPolitics #StraitOfHormuz #MiddleEast #Geopolitics #IranWar #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Trump admits Iran war hurt Republican vote, vows to veto ‘insane’ bills",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-admits-iran-war-hurt-republican-vote-vows-to-veto-insane-bills"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "'I think a part of it was Iran': Trump acknowledges war's impact on midterm election losses",
+          "link": "https://www.middleeasteye.net/news/I-think-part-of-it-was-iran-trump-acknowledges-impact-war-midterm-election-losses"
+        },
+        {
+          "ad": "TRT World",
+          "baslik": "TRT World - Iran claims &#x27;twilight of Trumpism&#x27; after US midterm defeat",
+          "link": "https://www.trtworld.com/article/0beab10b2352"
+        }
+      ]
+    },
+    "mesajId": 179
   }
 }
