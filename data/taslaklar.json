@@ -3449,5 +3449,150 @@
     },
     "mesajId": 179,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfU8Wn1BTf8/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-05_0900_haber": {
+    "zaman": "2026-11-05T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-05T06:41:39.645Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-05_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1rBI_9iieY2G9Y4uIV4pCYDGyEIJD0viO&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-05_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Syria and Saudi Arabia sign defence pact\n\nOn Wednesday, 4 November 2026, Syrian President Ahmed al-Sharaa and Saudi Crown Prince Mohammed bin Salman oversaw the signing of several agreements at Al-Yamamah Palace in Riyadh, including a cooperation deal between the two defence ministries. Syria's Foreign Ministry described it as the most notable agreement but did not disclose its terms. It was al-Sharaa's second visit to Riyadh in less than a month, following talks on 6 October, and his sixth trip to the kingdom since taking office in January 2025.\n\nThe Saudi Fund for Development agreed $403m in concessional loans under six agreements: $100m for healthcare facilities, $60m for housing, $105m for civil defence, $90m for the Aleppo thermal power plant and $30m for drinking water in Damascus and Idlib. Memoranda on industry, agriculture and environmental protection were also signed.\n\nThe deal comes as Saudi Arabia wages a renewed war against Yemen's Houthis, and days after Foreign Minister Asaad al-Shaibani told the Manama Dialogue that Syria was evaluating entry into the Mecca alliance with Saudi Arabia, Turkiye and Pakistan. Both leaders urged an immediate halt to threats against navigation in the Red Sea, Bab al-Mandeb and the Strait of Hormuz.\n\nSource: Al Jazeera, Reuters, Middle East Eye, TRT World\n\n#Syria #SaudiArabia #Riyadh #MiddleEast #Geopolitics #DefencePact #Yemen #RedSea #MeccaAlliance #IlmSanat",
+    "baslik": "Syria and Saudi Arabia sign defence pact",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Syria and Saudi Arabia sign **defence pact**",
+      "hook_satirlar": [
+        "Syria signs a defence pact",
+        "with Saudi Arabia",
+        "its terms stay **secret**"
+      ],
+      "cumleler": [
+        "Syria has signed a defence pact with Saudi Arabia, and its terms remain secret.",
+        "President Ahmed al-Sharaa met Crown Prince Mohammed bin Salman in Riyadh on November 4, his second visit in under a month.",
+        "The kingdom also pledged $403 million in concessional loans for hospitals, housing, civil defence, power and water.",
+        "Saudi Arabia is fighting a renewed war against Yemen's Houthis, who have struck its airports and oil sites.",
+        "Days earlier, Damascus said it was weighing entry into the Mecca alliance with Saudi Arabia, Turkiye and Pakistan.",
+        "Both leaders demanded an end to threats against shipping from the Red Sea to Hormuz."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting, a heavy wax-sealed treaty document resting on a dark carved wooden table beside an unsheathed curved sword and a brass inkwell, single candle light, dramatic chiaroscuro, dark desaturated navy and muted brass tones, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the sealed document, candle flame flickering gently"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "19th-century academic oil painting of a grand Arabian palace hall at dusk, tall arches and brass lanterns, two distant robed silhouettes facing each other across a long table, faces not visible, dramatic chiaroscuro, dark navy and muted brass palette, visible brushstrokes, cinematic wide composition",
+          "hareket_prompt": "slow lateral drift across the hall, lantern light softly flickering"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of a war-damaged Levantine city at dawn, scaffolding rising around a hospital and stone houses, a thermal power plant chimney on the horizon, mist over rooftops, dark desaturated navy and muted brass tones, dramatic light breaking through clouds, visible brushstrokes",
+          "hareket_prompt": "gentle slow push-in, mist drifting between buildings, clouds moving slowly"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century academic oil painting of desert oil installations and storage tanks under a smoky night sky, distant glow on the horizon, rugged Yemeni mountains beyond, dramatic chiaroscuro, dark navy and muted brass palette, cinematic composition, visible brushstrokes, no people",
+          "hareket_prompt": "slow push-in, smoke drifting slowly across the sky, faint glow pulsing on horizon"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "antique copperplate engraving style map of the Middle East and South Asia spread on a desk, brass compass and calipers linking Arabia, Anatolia and the Indian subcontinent, aged parchment, dark navy and muted brass tones, dramatic side lighting, no letters or text on the map",
+          "hareket_prompt": "slow overhead drift across the map, soft light shifting over the parchment"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century marine oil painting of merchant steamships passing through a narrow strait between dark rocky coasts, stormy sky, moonlight on choppy water, dramatic chiaroscuro, dark desaturated navy and muted brass tones, visible brushstrokes, cinematic composition",
+          "hareket_prompt": "slow push-in toward the ships, gentle waves moving, clouds drifting across the moon"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "SYRIA",
+              "unvan": "President Ahmed al-Sharaa",
+              "cumle": 1
+            },
+            {
+              "ulke": "SAUDI ARABIA",
+              "unvan": "Crown Prince Mohammed bin Salman",
+              "cumle": 1
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 2,
+          "satirlar": [
+            "$403 million",
+            "in Saudi **loans**",
+            "six agreements"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "WAR WITH\nTHE HOUTHIS",
+          "alt": "Airports and oil sites hit"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "SAUDI ARABIA",
+              "unvan": "Mecca alliance member",
+              "cumle": 4
+            },
+            {
+              "ulke": "TURKIYE",
+              "unvan": "Mecca alliance member",
+              "cumle": 4
+            },
+            {
+              "ulke": "PAKISTAN",
+              "unvan": "Mecca alliance member",
+              "cumle": 4
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Syria and Saudi Arabia sign defence pact\n\nOn Wednesday, 4 November 2026, Syrian President Ahmed al-Sharaa and Saudi Crown Prince Mohammed bin Salman oversaw the signing of several agreements at Al-Yamamah Palace in Riyadh, including a cooperation deal between the two defence ministries. Syria's Foreign Ministry described it as the most notable agreement but did not disclose its terms. It was al-Sharaa's second visit to Riyadh in less than a month, following talks on 6 October, and his sixth trip to the kingdom since taking office in January 2025.\n\nThe Saudi Fund for Development agreed $403m in concessional loans under six agreements: $100m for healthcare facilities, $60m for housing, $105m for civil defence, $90m for the Aleppo thermal power plant and $30m for drinking water in Damascus and Idlib. Memoranda on industry, agriculture and environmental protection were also signed.\n\nThe deal comes as Saudi Arabia wages a renewed war against Yemen's Houthis, and days after Foreign Minister Asaad al-Shaibani told the Manama Dialogue that Syria was evaluating entry into the Mecca alliance with Saudi Arabia, Turkiye and Pakistan. Both leaders urged an immediate halt to threats against navigation in the Red Sea, Bab al-Mandeb and the Strait of Hormuz.\n\nSource: Al Jazeera, Reuters, Middle East Eye, TRT World\n\n#Syria #SaudiArabia #Riyadh #MiddleEast #Geopolitics #DefencePact #Yemen #RedSea #MeccaAlliance #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Syria, Saudi Arabia sign defence cooperation deal, agree $403m in loans",
+          "link": "https://www.aljazeera.com/news/2026/11/5/syria-saudi-arabia-sign-defence-cooperation-deal-agree-403m-in-loans"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Saudi, Syrian defence ministries sign cooperation agreement",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-syrian-defence-ministries-sign-cooperation-agreement"
+        },
+        {
+          "ad": "TRT World",
+          "baslik": "TRT World - Syrian president, Saudi crown prince discuss bilateral cooperation, regional situation in Riyadh",
+          "link": "https://www.trtworld.com/article/90d7ef1ce8ff"
+        }
+      ]
+    },
+    "mesajId": 184
   }
 }
