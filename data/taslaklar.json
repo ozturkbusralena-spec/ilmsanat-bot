@@ -3596,5 +3596,143 @@
     "mesajId": 184,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfWjWe8SJ3x/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-05_1400_analiz": {
+    "zaman": "2026-11-05T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-05T11:51:14.341Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-05_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=10FI-eA5P74JH7fyWP7shiKDvM91GbQnK&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-05_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Why Democrats Won Both Chambers of Congress\n\nIn the US congressional elections held on November 3, 2026, Democrats emerged with a major victory, winning control of the House of Representatives as well as the Senate. Before the vote, a change of hands in the House was widely regarded as certain, while the Senate was considered much more difficult terrain for the party.\n\nIn an analysis for SETA published on November 4, 2026, Bedirhan Kır argues that the economy alone does not explain the outcome. Political factors also played a role, above all a well-established tendency in American political history: the president's party is typically punished by voters in midterm elections, and that pattern showed itself once more.\n\nAnadolu Agency's analysis section framed the result as a \"blue wind\" and turned to the question of what comes next.\n\nSource: SETA (Bedirhan Kır), Anadolu Agency Analysis\n\n#USMidterms #Congress #Democrats #Republicans #USSenate #HouseOfRepresentatives #AmericanPolitics #Geopolitics #Analysis #IlmSanat",
+    "baslik": "Why Democrats Won Both Chambers of Congress",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "Why Democrats Won **Both Chambers** of Congress",
+      "hook_satirlar": [
+        "Democrats took the House.",
+        "They took the **Senate** too."
+      ],
+      "cumleler": [
+        "Democrats did not just take the House; they took the Senate too.",
+        "In the US congressional elections held on November 3, the party won control of both chambers.",
+        "Before the vote, a House flip was widely treated as a near certainty.",
+        "The Senate, by contrast, was seen as far harder ground for Democrats.",
+        "Yet the night ended in a sweeping victory.",
+        "Writing for SETA, analyst Bedirhan Kır argues the economy was only part of the story.",
+        "Political factors shaped the outcome as well.",
+        "Chief among them is a long-standing pattern in American politics.",
+        "Voters tend to punish the president's party in midterm elections.",
+        "In 2026, that pattern held once again, in what Anadolu Agency's analysis calls a blue wind."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a great neoclassical capitol dome at night under a stormy sky, dark desaturated navy and muted brass tones, dramatic chiaroscuro, moonlight on marble columns, cinematic low-angle composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the dome, clouds drifting gently across the moon"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Grand legislative chamber with tiered wooden desks and empty chairs, oil lamps glowing, 19th-century academic oil painting, navy and brass palette, deep shadows, dramatic chiaroscuro, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow lateral drift across the rows of desks, soft lamp light flicker"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Smaller ornate senate hall with a semicircle of mahogany desks beneath a coffered ceiling, a single shaft of light through high windows, 19th-century academic oil painting, dark navy and muted brass tones, chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Gentle push-in toward the central rostrum, dust motes floating in the light beam"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Scholar's desk by candlelight with stacked ledgers, coins, an inkwell and quill, scattered papers without legible writing, silhouette of a figure seen from behind, 19th-century academic oil painting, navy and brass palette, dramatic chiaroscuro, visible brushstrokes",
+          "hareket_prompt": "Slow push-in on the desk, candle flame flickering softly"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "Antique copperplate engraving style map of the North American continent on aged parchment, compass rose and decorative border without lettering, brass dividers resting on top, dark navy and muted brass tones, dramatic side lighting",
+          "hareket_prompt": "Slow overhead drift across the map, subtle light shifting over the parchment"
+        },
+        {
+          "cumle": 9,
+          "gorsel_prompt": "Vast windswept prairie under a dramatic deep blue storm front rolling in, tall grass bending in the wind, distant capitol dome on the horizon, 19th-century academic landscape oil painting, navy and muted brass tones, chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow pull-back as clouds roll forward and grass sways gently"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "US MIDTERMS\nBOTH CHAMBERS",
+          "alt": "November 3, 2026"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "HOUSE",
+              "unvan": "Flip seen as near certain",
+              "cumle": 2
+            },
+            {
+              "ulke": "SENATE",
+              "unvan": "Harder ground for Democrats",
+              "cumle": 3
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "ECONOMY",
+              "unvan": "Only part of the story",
+              "cumle": 5
+            },
+            {
+              "ulke": "POLITICS",
+              "unvan": "Shaped the outcome too",
+              "cumle": 6
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 8,
+          "satirlar": [
+            "The president's party",
+            "gets **punished**",
+            "in the midterms"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Why Democrats Won Both Chambers of Congress\n\nIn the US congressional elections held on November 3, 2026, Democrats emerged with a major victory, winning control of the House of Representatives as well as the Senate. Before the vote, a change of hands in the House was widely regarded as certain, while the Senate was considered much more difficult terrain for the party.\n\nIn an analysis for SETA published on November 4, 2026, Bedirhan Kır argues that the economy alone does not explain the outcome. Political factors also played a role, above all a well-established tendency in American political history: the president's party is typically punished by voters in midterm elections, and that pattern showed itself once more.\n\nAnadolu Agency's analysis section framed the result as a \"blue wind\" and turned to the question of what comes next.\n\nSource: SETA (Bedirhan Kır), Anadolu Agency Analysis\n\n#USMidterms #Congress #Democrats #Republicans #USSenate #HouseOfRepresentatives #AmericanPolitics #Geopolitics #Analysis #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "SETA",
+          "baslik": "ABD 2026 Kongre Seçim Sonuçları: Cumhuriyetçiler Neden Kaybetti, Demokratlar Nasıl Kazandı?",
+          "link": "https://www.setav.org/abd-2026-kongre-secim-sonuclari-cumhuriyetciler-neden-kaybetti-demokratlar-nasil-kazandi"
+        },
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "ABD ara seçimleri: Mavi rüzgar esti, sırada ne var?",
+          "link": "https://www.aa.com.tr/tr/analiz/abd-ara-secimleri-mavi-ruzgar-esti-sirada-ne-var/4112851"
+        }
+      ]
+    },
+    "mesajId": 189
   }
 }
