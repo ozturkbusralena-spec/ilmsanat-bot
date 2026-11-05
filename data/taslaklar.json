@@ -3736,5 +3736,135 @@
     "mesajId": 189,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfXFy-aBLWu/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-05_1800_haber": {
+    "zaman": "2026-11-05T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-05T15:55:14.923Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-05_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1oHS3yqi4FTv01gBNjswKdXuPS2hIHdSF&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-05_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Arab-led parties tip the Eisenkot majority\n\nThe Joint List, an alliance of Arab-led parties, announced on 5 November 2026 that it would unanimously recommend opposition leader Gadi Eisenkot, head of the Yashar party, to President Isaac Herzog as the lawmaker to form Israel's next government. The alliance said the decision was not easy, criticising the opposition for not yet confronting Netanyahu's policies or incitement against Arab citizens. Ra'am, led by Mansour Abbas, had already backed Eisenkot.\n\nArab-led parties won a record 19 seats in the 120-seat Knesset on 27 October. With the Joint List's 11 lawmakers, Eisenkot is expected to have 67 recommendations, above the 61-seat threshold. Prime Minister Benjamin Netanyahu's bloc won 53 seats, but ultra-Orthodox allies declined to endorse him after the coalition failed to pass draft exemptions for Haredi men. The Central Elections Committee certified the results after finding no evidence of fraud, despite Netanyahu's claims.\n\nRecommendations do not form a coalition but guide Herzog's choice. The nominee will have 28 days to form a government, with a possible 14-day extension; failure would mean another election early next year.\n\nSource: Anadolu Agency, Al Jazeera\n\n#Israel #Knesset #Eisenkot #Netanyahu #JointList #Raam #IsraelElection #MiddleEast #Geopolitics #IlmSanat",
+    "baslik": "Arab-led parties tip the Eisenkot majority",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Arab-led parties tip the **Eisenkot majority**",
+      "hook_satirlar": [
+        "Arab-led parties may decide",
+        "who forms Israel's",
+        "next **government**"
+      ],
+      "cumleler": [
+        "Arab-led parties may now decide who forms Israel's next government.",
+        "The Joint List says it will recommend opposition leader Gadi Eisenkot to President Isaac Herzog.",
+        "With its 11 lawmakers, Eisenkot is expected to reach 67 recommendations, above the 61-seat majority.",
+        "Arab-led parties won a record 19 seats in the October 27 election, and Ra'am had already backed him.",
+        "Netanyahu's bloc took 53 seats, but an ultra-Orthodox ally refused to endorse him over military draft exemptions.",
+        "Recommendations are not a coalition, but Herzog weighs them when choosing a nominee.",
+        "That lawmaker will have 28 days to form a government, with a possible 14-day extension.",
+        "If no one succeeds, Israel heads to another election early next year."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a modern stone parliament building on a hill at dusk, silhouetted against a stormy sky, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the building as clouds drift slowly across the sky"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Academic oil painting of a dim stately reception hall with a long wooden table, sealed blank letters and an inkwell under a single lamp, anonymous silhouetted figures in the background, navy and brass palette, strong chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Gentle drift across the table with soft lamplight flicker"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Copperplate engraving style scene of a wooden ballot box on a table with folded blank papers, lit by a narrow beam of light, muted brass and dark navy tones, dramatic shadows, antique texture, no text or letters",
+          "hareket_prompt": "Slow push-in on the ballot box with dust motes floating in the light"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century oil painting of a semicircular parliamentary chamber with rows of empty seats half in shadow, one side brightly lit and the other dark, navy and muted brass palette, cinematic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow lateral drift across the rows as light shifts subtly"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Academic still-life oil painting of a brass hourglass beside rolled antique documents and a quill on a dark desk, deep navy shadows, warm brass highlights, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Very slow push-in on the hourglass as sand trickles gently"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "Romantic 19th-century oil painting of a lone stone government building under heavy gathering storm clouds at twilight, mist at its base, dark desaturated navy and brass tones, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow pull-back as mist rolls and clouds move slowly overhead"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "JOINT LIST",
+              "unvan": "11 seats · backs Eisenkot",
+              "cumle": 1
+            },
+            {
+              "ulke": "RA'AM",
+              "unvan": "8 seats · backed him earlier",
+              "cumle": 3
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 2,
+          "satirlar": [
+            "**67** recommendations",
+            "61 needed for a majority"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "NETANYAHU BLOC\n53 SEATS",
+          "alt": "Oct. 27 election"
+        },
+        {
+          "tur": "damga",
+          "cumle": 6,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "28 DAYS\nTO FORM",
+          "alt": "+14-day possible extension"
+        }
+      ],
+      "aciklama": "Arab-led parties tip the Eisenkot majority\n\nThe Joint List, an alliance of Arab-led parties, announced on 5 November 2026 that it would unanimously recommend opposition leader Gadi Eisenkot, head of the Yashar party, to President Isaac Herzog as the lawmaker to form Israel's next government. The alliance said the decision was not easy, criticising the opposition for not yet confronting Netanyahu's policies or incitement against Arab citizens. Ra'am, led by Mansour Abbas, had already backed Eisenkot.\n\nArab-led parties won a record 19 seats in the 120-seat Knesset on 27 October. With the Joint List's 11 lawmakers, Eisenkot is expected to have 67 recommendations, above the 61-seat threshold. Prime Minister Benjamin Netanyahu's bloc won 53 seats, but ultra-Orthodox allies declined to endorse him after the coalition failed to pass draft exemptions for Haredi men. The Central Elections Committee certified the results after finding no evidence of fraud, despite Netanyahu's claims.\n\nRecommendations do not form a coalition but guide Herzog's choice. The nominee will have 28 days to form a government, with a possible 14-day extension; failure would mean another election early next year.\n\nSource: Anadolu Agency, Al Jazeera\n\n#Israel #Knesset #Eisenkot #Netanyahu #JointList #Raam #IsraelElection #MiddleEast #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Israel’s Eisenkot set to secure 67 recommendations after Arab Joint List announces support",
+          "link": "https://www.aa.com.tr/en/middle-east/israel-s-eisenkot-set-to-secure-67-recommendations-after-arab-joint-list-announces-support/4113117"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Joint List says it will back Eisenkot to form Israel’s next government",
+          "link": "https://www.aljazeera.com/news/2026/11/5/joint-list-says-it-will-back-eisenkot-to-form-israels-next-government"
+        },
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Arab party recommends opposition leader Eisenkot to form Israeli government",
+          "link": "https://www.aa.com.tr/en/middle-east/arab-party-recommends-opposition-leader-eisenkot-to-form-israeli-government/4112840"
+        }
+      ]
+    },
+    "mesajId": 194
   }
 }
