@@ -4008,5 +4008,117 @@
     "mesajId": 199,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfZIJb1T4AP/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-06_1400_analiz": {
+    "zaman": "2026-11-06T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-06T11:40:27.933Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-06_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1Gy52P-a--hh5VumsHn4wvuttw5nJDaU8&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-06_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Somalia: End of Tutelage, Start of Rivalry?\n\nA new piece in Anadolu Agency's Analysis section, titled \"Somalia: The end of tutelage, the beginning of rivalry?\", frames Somalia's current moment around two ideas: the possible end of outside guardianship over the country, and the competition that could follow it.\n\nThe analysis poses this as an open question rather than a settled verdict, asking whether the close of one period of external oversight in Somalia could give way to a new phase of rivalry.\n\nSource: Anadolu Agency (AA Analysis)\n\n#Somalia #HornOfAfrica #Geopolitics #Africa #Analysis #InternationalRelations #AnadoluAgency #EastAfrica #IlmSanat",
+    "baslik": "Somalia: End of Tutelage, Start of Rivalry?",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "Somalia: End of **Tutelage**, Start of **Rivalry**?",
+      "hook_satirlar": [
+        "Somalia's era of",
+        "outside **tutelage**",
+        "may be ending"
+      ],
+      "cumleler": [
+        "Somalia's era of outside tutelage may be ending, and a new contest may be starting.",
+        "That is the question at the heart of a new Anadolu Agency analysis.",
+        "Its argument turns on two words: tutelage and rivalry.",
+        "Tutelage means outside guardianship over a state's affairs.",
+        "The analysis asks whether that guardianship over Somalia is now drawing to a close.",
+        "If it is, the space it leaves may not stay empty for long.",
+        "Rivalry, the piece suggests, could be what comes next.",
+        "For Somalia, closing one chapter may simply open another."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a lone coastal fortress on the Horn of Africa at dusk, waves breaking on dark rocks, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the fortress, gentle sea mist drifting, clouds moving slowly"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Horn of Africa and the Indian Ocean coastline, brass compass and dividers resting on aged parchment, navy and brass palette, candlelit chiaroscuro, no letters or text",
+          "hareket_prompt": "Slow overhead drift across the map, soft candlelight flicker"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Academic oil painting of a large shadowed hand-shaped silhouette of a cloak hovering protectively over a small stone town by the sea, symbolic guardianship, muted navy and brass, dramatic chiaroscuro, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "Gentle tilt down from the shadowed cloak to the town, faint mist rolling"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century oil painting of an old harbour gate slowly opening toward the sea at dawn, worn wooden doors and iron hinges, dark navy sky with brass light on the horizon, chiaroscuro, cinematic, no text",
+          "hareket_prompt": "Slow push-in through the opening gate, light gradually brightening on the horizon"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Academic oil painting of an empty chessboard on a table beside a window overlooking a dark ocean, several sailing ships approaching on the horizon as silhouettes, muted navy and brass tones, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow drift from the chessboard toward the window and the distant ships, soft cloud movement"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "19th-century romantic oil painting of a coastal city skyline under a stormy navy sky with a narrow band of brass light breaking through, sea calm in the foreground, chiaroscuro, cinematic vertical composition, no text, no people",
+          "hareket_prompt": "Very slow pull-back revealing the skyline, light rays flickering through clouds"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "ANADOLU AGENCY",
+              "unvan": "Publisher of the analysis",
+              "cumle": 1
+            },
+            {
+              "ulke": "SOMALIA",
+              "unvan": "Subject: end of tutelage?",
+              "cumle": 4
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "TUTELAGE\nVS RIVALRY",
+          "alt": "AA Analysis"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "After guardianship,",
+            "**rivalry**?"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Somalia: End of Tutelage, Start of Rivalry?\n\nA new piece in Anadolu Agency's Analysis section, titled \"Somalia: The end of tutelage, the beginning of rivalry?\", frames Somalia's current moment around two ideas: the possible end of outside guardianship over the country, and the competition that could follow it.\n\nThe analysis poses this as an open question rather than a settled verdict, asking whether the close of one period of external oversight in Somalia could give way to a new phase of rivalry.\n\nSource: Anadolu Agency (AA Analysis)\n\n#Somalia #HornOfAfrica #Geopolitics #Africa #Analysis #InternationalRelations #AnadoluAgency #EastAfrica #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "Somali’de vesayetin sonu, rekabetin başlangıcı mı?",
+          "link": "https://www.aa.com.tr/tr/analiz/somali-de-vesayetin-sonu-rekabetin-baslangici-mi/4113788"
+        }
+      ]
+    },
+    "mesajId": 204
   }
 }
