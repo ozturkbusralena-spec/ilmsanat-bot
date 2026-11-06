@@ -3868,5 +3868,143 @@
     "mesajId": 194,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfXhJ0loi6b/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-06_0900_haber": {
+    "zaman": "2026-11-06T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-06T06:38:24.891Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-06_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1kmllNxHxEbLs8ynZidbI35JPy81SEiU2&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-06_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Türkiye Ratifies the Mecca Defence Pact\n\nTürkiye's parliament has ratified the Mecca Joint Defence Agreement with Saudi Arabia and Pakistan, passing it by 279 votes to 119, with 398 of the chamber's 592 members voting. The pact was signed at a trilateral summit in Mecca on 7 August 2026 and contains 16 articles. Its Article 2 obliges members to assist any party subjected to armed attack, a clause that mirrors Article 5 of the North Atlantic Treaty. It binds members for 10 years and allows new members with unanimous approval; Syria has expressed interest.\n\nThe ratification comes as Riyadh faces escalating attacks from Yemen's Iran-backed Houthis. AK Party MP Ziya Altunyaldiz said the agreement targets no third country, while CHP MP Mehmet Guzelmansur called for clear rules so it does not contradict Türkiye's other international obligations. Critics have raised questions of a conflict of interest with NATO commitments, which Turkish officials dismiss.\n\nDefence Minister Yasar Guler has said Türkiye does not foresee conflict with the Houthis and that its support would aim to strengthen deterrence. Any troop deployment would require a separate parliamentary mandate.\n\nSource: Anadolu Agency, Al Jazeera, Middle East Eye\n\n#Turkey #Türkiye #SaudiArabia #Pakistan #MeccaPact #NATO #Houthis #MiddleEast #Geopolitics #IlmSanat",
+    "baslik": "Türkiye Ratifies the Mecca Defence Pact",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Türkiye Ratifies the **Mecca Defence Pact**",
+      "hook_satirlar": [
+        "NATO's second-largest military",
+        "now pledged to defend",
+        "**Saudi Arabia** and Pakistan"
+      ],
+      "cumleler": [
+        "NATO's second-largest military is now pledged to defend Saudi Arabia and Pakistan.",
+        "Türkiye's parliament ratified the Mecca Joint Defence Agreement on Thursday, by 279 votes to 119.",
+        "Signed in Mecca in August, the pact treats an attack on one member as an attack on all.",
+        "That clause mirrors NATO's own Article 5.",
+        "The vote comes as Riyadh faces escalating Houthi strikes.",
+        "Critics see a possible conflict of interest; Ankara dismisses that concern.",
+        "Defence Minister Yasar Guler says the aim is deterrence, not war with the Houthis.",
+        "Any troop deployment would still need a separate parliamentary mandate."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting, three silhouetted fortress towers on a desert ridge at dusk joined by a single brass chain, dark desaturated navy sky, muted brass highlights, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the chained towers, faint drifting dust, subtle light flicker on the brass chain"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "19th-century academic oil painting of a grand domed parliament chamber interior seen from the gallery, rows of empty benches under a vast chandelier, candlelight glow, navy and brass palette, deep shadows, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "gentle downward drift from the chandelier to the benches, soft candlelight flicker"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "antique copperplate engraving style map of the Middle East and South Asia, Anatolia, Arabian Peninsula and the Indus region highlighted in muted brass, compass rose, dark navy sea, aged paper texture, dramatic vignette, no letters or text",
+          "hareket_prompt": "slow pan across the map from Anatolia to Arabia to the Indus, slight parchment light shimmer"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century academic oil painting of a walled desert city at night under a stormy navy sky, distant faint glows on the horizon, watchtowers in silhouette, muted brass lantern light, dramatic chiaroscuro, visible brushstrokes, no blood, no text",
+          "hareket_prompt": "slow push-in on the city walls, drifting clouds, distant glows gently pulsing"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "19th-century academic oil painting of a lone sentinel silhouette standing on a fortress rampart overlooking a vast desert plain, shield resting at his side, navy dusk and brass sunset light, calm deterrent mood, visible brushstrokes, face not visible, no text",
+          "hareket_prompt": "slow lateral drift past the sentinel, mist rolling across the plain"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "19th-century still life oil painting of a sealed parchment document with a wax seal and a brass quill on a dark wooden desk, single candle, deep navy shadows, muted brass tones, dramatic chiaroscuro, visible brushstrokes, no legible text",
+          "hareket_prompt": "slow push-in on the wax seal, candle flame gently flickering"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "PARLIAMENT\nRATIFIES",
+          "alt": "279 for, 119 against"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "TÜRKİYE",
+              "unvan": "NATO's second-largest military",
+              "cumle": 2
+            },
+            {
+              "ulke": "SAUDI ARABIA",
+              "unvan": "Host of the Mecca summit",
+              "cumle": 2
+            },
+            {
+              "ulke": "PAKISTAN",
+              "unvan": "Third signatory",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 3,
+          "satirlar": [
+            "An attack on **one**",
+            "is an attack on all"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 7,
+          "satirlar": [
+            "Troops need a",
+            "**separate** mandate"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Türkiye Ratifies the Mecca Defence Pact\n\nTürkiye's parliament has ratified the Mecca Joint Defence Agreement with Saudi Arabia and Pakistan, passing it by 279 votes to 119, with 398 of the chamber's 592 members voting. The pact was signed at a trilateral summit in Mecca on 7 August 2026 and contains 16 articles. Its Article 2 obliges members to assist any party subjected to armed attack, a clause that mirrors Article 5 of the North Atlantic Treaty. It binds members for 10 years and allows new members with unanimous approval; Syria has expressed interest.\n\nThe ratification comes as Riyadh faces escalating attacks from Yemen's Iran-backed Houthis. AK Party MP Ziya Altunyaldiz said the agreement targets no third country, while CHP MP Mehmet Guzelmansur called for clear rules so it does not contradict Türkiye's other international obligations. Critics have raised questions of a conflict of interest with NATO commitments, which Turkish officials dismiss.\n\nDefence Minister Yasar Guler has said Türkiye does not foresee conflict with the Houthis and that its support would aim to strengthen deterrence. Any troop deployment would require a separate parliamentary mandate.\n\nSource: Anadolu Agency, Al Jazeera, Middle East Eye\n\n#Turkey #Türkiye #SaudiArabia #Pakistan #MeccaPact #NATO #Houthis #MiddleEast #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Turkish parliament approves Mecca joint defense pact with Pakistan and Saudi Arabia",
+          "link": "https://www.aa.com.tr/en/politics/turkish-parliament-approves-mecca-joint-defense-pact-with-pakistan-and-saudi-arabia/4113522"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Turkiye’s parliament ratifies Mecca defence agreement",
+          "link": "https://www.aljazeera.com/news/2026/11/6/turkiyes-parliament-ratifies-mecca-defence-agreement"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Turkey's parliament ratifies Mecca defence pact, clearing way for military support to Saudi Arabia",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/turkeys-parliament-ratifies-mecca-defence-pact-clearing-way-military"
+        }
+      ]
+    },
+    "mesajId": 199
   }
 }
