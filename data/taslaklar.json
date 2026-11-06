@@ -4122,5 +4122,139 @@
     "mesajId": 204,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfZqiOjBaNv/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-06_1800_haber": {
+    "zaman": "2026-11-06T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-06T15:25:53.970Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-06_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1uqOuG8MrxvEgB05FxP90-KecjU_Y843L&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-06_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Iran weighs nuclear proposals as Qatar mediates\n\nThe United States and Iran are moving closer to a possible breakthrough in efforts to end the war, Bloomberg reported, citing a diplomat familiar with the talks. Tehran is studying proposals on its nuclear activities presented by Qatar, the main mediator, on issues it had previously been unwilling to discuss. Negotiations have stalled since the collapse of an interim agreement reached in June.\n\nOn Friday, the office of Qatar's Emir Sheikh Tamim bin Hamad Al Thani said he spoke by phone with US President Donald Trump about de-escalation and a comprehensive agreement, stressing freedom of navigation and the security of energy supplies. Qatar, alongside Pakistan, has been mediating since the war began with US and Israeli attacks on Iran in late February; Qatari officials have shuttled between Doha and Tehran, including over the US naval blockade of Iranian ports.\n\nAli Baqeri, deputy secretary of Iran's Supreme National Security Council, said Tehran will not rely on US commitments on paper, arguing Washington derailed four rounds of talks over 18 months, and that practical American actions must come first.\n\nSource: Middle East Eye, Anadolu Agency (citing Bloomberg, Fars)\n\n#Iran #UnitedStates #Qatar #Diplomacy #NuclearTalks #MiddleEast #Geopolitics #PersianGulf #IlmSanat",
+    "baslik": "Iran weighs nuclear proposals as Qatar mediates",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Iran weighs **nuclear proposals** as **Qatar mediates**",
+      "hook_satirlar": [
+        "Iran is weighing",
+        "nuclear proposals it once",
+        "**refused** to discuss"
+      ],
+      "cumleler": [
+        "Iran is now weighing nuclear proposals it once refused to discuss.",
+        "Bloomberg reports that Washington and Tehran are edging toward a possible breakthrough.",
+        "The proposals come from Qatar, the main mediator.",
+        "Talks stalled after an interim deal collapsed in June.",
+        "On Friday, Trump discussed de-escalation with Qatar's emir by phone.",
+        "Qatari envoys keep shuttling to Tehran, including over the US naval blockade of Iranian ports.",
+        "But Tehran wants deeds, not paper: security official Ali Baqeri says Washington must act first."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a dim Persian chancery chamber at night, a single oil lamp illuminating sealed documents and a brass astrolabe on a carved walnut desk, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text, no people's faces",
+          "hareket_prompt": "slow push-in toward the lamp-lit documents, gentle flicker of the flame, faint dust drifting in the light"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "antique copperplate engraving style map of the Persian Gulf and the Atlantic joined by a faint arc of light, aged parchment tones washed in navy and brass, dramatic vignette lighting, cinematic composition, no letters or labels",
+          "hareket_prompt": "slow lateral drift across the map, soft light sweeping along the arc"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century oil painting of an empty negotiating table in a grand hall, chairs pushed back, a torn wax-sealed document lying across polished wood, cold moonlight from tall windows, dark navy and muted brass palette, heavy chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "very slow push-in toward the torn document, moonlight gently shifting, faint mist near the windows"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "academic oil painting of an ornate Gulf palace audience hall at dusk, brass lanterns and an antique telephone on a marble table, silhouetted arches, desaturated navy and brass tones, dramatic chiaroscuro, cinematic vertical framing, no faces, no text",
+          "hareket_prompt": "slow drift toward the telephone, lantern light flickering softly"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century marine oil painting of grey warships silhouetted on a misty gulf at dawn blockading a distant port with minarets and cranes, dark navy sea, muted brass sky, dramatic chiaroscuro, visible brushstrokes, no flags, no text",
+          "hareket_prompt": "slow push-in across the water, mist rolling gently, clouds drifting overhead"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "academic oil painting of a solitary robed silhouette standing at a tall window overlooking Tehran's rooftops and mountains at twilight, a blank sealed scroll set aside on a table, dark navy and muted brass tones, deep chiaroscuro, cinematic composition, no face visible, no text",
+          "hareket_prompt": "slow pull-back from the window, twilight clouds drifting over the mountains, faint candle flicker"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "POSSIBLE\nBREAKTHROUGH",
+          "alt": "Bloomberg, citing a diplomat"
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "INTERIM DEAL\nCOLLAPSED",
+          "alt": "June"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "USA",
+              "unvan": "President Donald Trump",
+              "cumle": 4
+            },
+            {
+              "ulke": "QATAR",
+              "unvan": "Emir Tamim · main mediator",
+              "cumle": 4
+            },
+            {
+              "ulke": "IRAN",
+              "unvan": "Ali Baqeri · SNSC deputy",
+              "cumle": 6
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "**Deeds**, not paper",
+            "Iran wants US action first"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Iran weighs nuclear proposals as Qatar mediates\n\nThe United States and Iran are moving closer to a possible breakthrough in efforts to end the war, Bloomberg reported, citing a diplomat familiar with the talks. Tehran is studying proposals on its nuclear activities presented by Qatar, the main mediator, on issues it had previously been unwilling to discuss. Negotiations have stalled since the collapse of an interim agreement reached in June.\n\nOn Friday, the office of Qatar's Emir Sheikh Tamim bin Hamad Al Thani said he spoke by phone with US President Donald Trump about de-escalation and a comprehensive agreement, stressing freedom of navigation and the security of energy supplies. Qatar, alongside Pakistan, has been mediating since the war began with US and Israeli attacks on Iran in late February; Qatari officials have shuttled between Doha and Tehran, including over the US naval blockade of Iranian ports.\n\nAli Baqeri, deputy secretary of Iran's Supreme National Security Council, said Tehran will not rely on US commitments on paper, arguing Washington derailed four rounds of talks over 18 months, and that practical American actions must come first.\n\nSource: Middle East Eye, Anadolu Agency (citing Bloomberg, Fars)\n\n#Iran #UnitedStates #Qatar #Diplomacy #NuclearTalks #MiddleEast #Geopolitics #PersianGulf #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Middle East Eye",
+          "baslik": "US and Iran edge closer to potential breakthrough in talks to end war, Bloomberg reports",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/us-and-iran-edge-closer-potential-breakthrough-talks-end-war-bloomberg"
+        },
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Qatari emir, Trump discuss efforts to ease US-Iran tensions in phone call",
+          "link": "https://www.aa.com.tr/en/middle-east/qatari-emir-trump-discuss-efforts-to-ease-us-iran-tensions-in-phone-call/4113811"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Iran demands US action, says it will not accept commitments on paper",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-demands-us-action-says-it-will-not-accept-commitments-paper"
+        }
+      ]
+    },
+    "mesajId": 209
   }
 }
