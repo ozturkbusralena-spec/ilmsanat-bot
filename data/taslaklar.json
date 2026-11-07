@@ -4394,5 +4394,141 @@
     "mesajId": 214,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfbtBAPqOT1/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-07_1400_analiz": {
+    "zaman": "2026-11-07T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-07T11:25:24.658Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-07_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1fF1RXF9wVdE5oTem4kglq6tvElZNllMI&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-07_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Iran war costs Trump Congress\n\n\nKadir Üstün (SETA) argues the results show Trumpism being heavily punished for losing touch with the priorities of the lower and middle classes it once promised to serve, including ending endless wars. Trump accepted defeat on behalf of Republicans rather than himself, citing his veto power while signalling he could work with Democrats.\n\nMiş notes that Congress will seek to limit the president through budget constraints and investigations, yet Trump retains significant foreign-policy powers and may prioritise shaping his legacy abroad. SETA also asks what the new Congress means for Turkey's return to the F-35 programme and the lifting of CAATSA sanctions.\n\nSource: SETA (Nebi Miş, Kadir Üstün, 6 November 2026)\n\n#USPolitics #Trump #Congress #IranWar #Midterms #ForeignPolicy #F35 #CAATSA #Turkey #IlmSanat",
+    "baslik": "Iran war costs Trump Congress",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "**Iran war** costs Trump **Congress**",
+      "hook_satirlar": [
+        "Trump's own vice president",
+        "blames the Iran war",
+        "for losing **Congress**"
+      ],
+      "cumleler": [
+        "Trump's own vice president blames the Iran war for losing Congress.",
+        "Republicans suffered a heavy defeat in the 2026 congressional elections.",
+        "JD Vance named the war as the cause, saying Trump shared that view.",
+        "War-driven inflation and living costs pushed some Republican voters to the Democrats.",
+        "SETA's Kadir Üstün argues voters punished Trumpism for drifting from the priorities that built it.",
+        "Nebi Miş expects Congress to restrain Trump through budgets and investigations.",
+        "Squeezed at home but still powerful abroad, he may build his legacy through foreign policy.",
+        "For Turkey, the new balance reopens the F-35 and CAATSA question."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a neoclassical capitol dome at dusk under heavy storm clouds, distant smoke on the horizon suggesting a far-off war, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the dome, storm clouds drifting slowly, faint light flicker on the horizon"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Dim 19th-century government chamber interior, empty lectern under a single shaft of lamplight, a lone silhouetted figure seen from behind at a tall window, desaturated navy and brass palette, dramatic chiaroscuro, oil painting with visible brushstrokes, no faces, no text",
+          "hareket_prompt": "gentle drift toward the window, lamplight softly flickering, dust motes floating"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century oil painting of a crowded city market street at twilight, silhouetted townspeople at stalls with sparse goods, worn coin purses and scales on a counter in the foreground, muted navy and brass tones, chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "slow lateral drift across the market, light mist rolling at street level"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Copperplate-engraving style still life of a heavy ledger, sealed documents, an inkwell and a brass balance scale on a dark legislative desk, candlelight, desaturated navy and muted brass, dramatic chiaroscuro, cinematic composition, no letters or writing visible",
+          "hareket_prompt": "slow push-in on the balance scale, candle flame gently flickering"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Antique engraved world map spread on a table under lamplight, brass compass and navigational dividers resting across oceans, dark navy and muted brass tones, chiaroscuro, 19th-century cartographic style, visible texture, no text or labels",
+          "hareket_prompt": "slow overhead drift across the map, lamplight subtly pulsing"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "19th-century oil painting of the Bosphorus at dawn with domes and minarets in silhouette, a modern jet fighter silhouette faintly crossing a cloudy sky above, desaturated navy and brass palette, dramatic chiaroscuro, visible brushstrokes, no flags, no text",
+          "hareket_prompt": "slow push-in over the water, mist drifting, clouds moving gently"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "MIDTERM\nDEFEAT",
+          "alt": "Congress majority lost"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "JD VANCE",
+              "unvan": "US Vice President — blamed the Iran war",
+              "cumle": 2
+            },
+            {
+              "ulke": "KADİR ÜSTÜN",
+              "unvan": "SETA — Trumpism punished",
+              "cumle": 4
+            },
+            {
+              "ulke": "NEBİ MİŞ",
+              "unvan": "SETA — Congress will restrain Trump",
+              "cumle": 5
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "Boxed in at **home**",
+            "Powerful abroad",
+            "Legacy through foreign policy"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 7,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "F-35 &\nCAATSA",
+          "alt": "Turkey watches the new Congress"
+        }
+      ],
+      "aciklama": "Iran war costs Trump Congress\n\n\nKadir Üstün (SETA) argues the results show Trumpism being heavily punished for losing touch with the priorities of the lower and middle classes it once promised to serve, including ending endless wars. Trump accepted defeat on behalf of Republicans rather than himself, citing his veto power while signalling he could work with Democrats.\n\nMiş notes that Congress will seek to limit the president through budget constraints and investigations, yet Trump retains significant foreign-policy powers and may prioritise shaping his legacy abroad. SETA also asks what the new Congress means for Turkey's return to the F-35 programme and the lifting of CAATSA sanctions.\n\nSource: SETA (Nebi Miş, Kadir Üstün, 6 November 2026)\n\n#USPolitics #Trump #Congress #IranWar #Midterms #ForeignPolicy #F35 #CAATSA #Turkey #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "SETA",
+          "baslik": "ABD Seçimleri Sonrası Dünya İçin Ne Değişecek?",
+          "link": "https://www.setav.org/abd-secimleri-sonrasi-dunya-icin-ne-degisecek"
+        },
+        {
+          "ad": "SETA",
+          "baslik": "Trumpçı Siyasetin Kırılma Noktası",
+          "link": "https://www.setav.org/trumpci-siyasetin-kirilma-noktasi"
+        },
+        {
+          "ad": "SETA",
+          "baslik": "Yeni Kongre, F-35 ve CAATSA Yaptırımları Açısından Türkiye için Ne Anlama Geliyor?",
+          "link": "https://www.setav.org/video/yeni-kongre-f-35-ve-caatsa-yaptirimlari-acisindan-turkiye-icin-ne-anlama-geliyor"
+        }
+      ]
+    },
+    "mesajId": 219
   }
 }
