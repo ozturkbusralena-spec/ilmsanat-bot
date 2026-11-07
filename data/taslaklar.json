@@ -4532,5 +4532,116 @@
     "mesajId": 219,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfcPRzJz7JE/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-07_1800_haber": {
+    "zaman": "2026-11-07T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-07T15:36:44.352Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-07_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1SZWUXB_JjVN8xVz07A9-cOXE5T7KJFru&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-07_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Iran's IRGC Says Missile Range Limits Are Lifted\n\nIran's Islamic Revolutionary Guard Corps says it has lifted restrictions on the range of the country's missiles. IRGC spokesman Brigadier General Hossein Mohebbi reportedly made the statement at a press conference on Saturday. He was answering a question about a warning to the United States from Iran's supreme leader, Mojtaba Khamenei.\n\nKhamenei had earlier told senior military commanders that any renewed US or Israeli attack would be met with an immediate, impactful and geographically unrestricted response. He also reportedly ordered an update of Iran's military target database.\n\nAccording to the Tasnim news agency, Mohebbi was asked whether these remarks meant range limits had been removed. He replied that the restriction had been lifted, adding that Iran's duty is to show its capabilities on the battlefield.\n\nSource: Middle East Eye, Tasnim\n\n#Iran #IRGC #Missiles #MiddleEast #Geopolitics #Israel #UnitedStates #Khamenei #IlmSanat",
+    "baslik": "Iran's IRGC Says Missile Range Limits Are Lifted",
+    "plan": {
+      "etiket": "ESCALATION",
+      "baslik": "Iran's IRGC Says **Missile Range Limits** Are **Lifted**",
+      "hook_satirlar": [
+        "Iran's missiles",
+        "no longer have",
+        "a **range** limit"
+      ],
+      "cumleler": [
+        "Iran's Revolutionary Guards say their missiles no longer have a range limit.",
+        "IRGC spokesman Brigadier General Hossein Mohebbi made the claim at a Saturday press conference.",
+        "He was responding to a warning from supreme leader Mojtaba Khamenei.",
+        "Khamenei had told senior commanders that any new US or Israeli attack would face an immediate, geographically unrestricted response.",
+        "He also reportedly ordered an update of Iran's military target database.",
+        "Asked whether range limits were now gone, Mohebbi replied, according to Tasnim, that the restriction had been lifted.",
+        "Iran's duty, he added, is to show its capabilities on the battlefield."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a row of tall ballistic missiles silhouetted on mobile launchers in a vast Persian desert at dusk, dark desaturated navy sky, muted brass highlights, dramatic chiaroscuro, cinematic low angle, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the launchers, faint dust drifting across the ground, sky light dimming gently"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Academic oil painting of an empty press conference hall with a single wooden lectern and clustered microphones under a hanging lamp, heavy curtains, dark navy and muted brass tones, strong chiaroscuro, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow drift toward the lectern, soft flicker of the overhead lamp"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Middle East with Iran at center, faint radiating arcs spreading outward across the region, aged paper in navy and brass tones, dramatic shadowed vignette, no letters or labels",
+          "hareket_prompt": "Slow pull-back revealing the widening arcs, gentle light sweep across the map"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century oil painting of a dim military war room, a large table covered with unlabeled maps, brass compasses and pins, silhouettes of officers seen from behind, navy shadows and brass lamplight, chiaroscuro, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "Slow overhead drift across the table, candlelight flickering softly"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Academic oil painting of a missile rising from a desert launch site at night, long trail of smoke curling into a dark navy sky, muted brass glow at the base, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow tilt upward following the smoke trail, mist drifting across the frame"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "19th-century oil painting of a vast empty battlefield plain beneath storm clouds, distant mountains, a faint brass glow on the horizon, desaturated navy palette, dramatic chiaroscuro, visible brushstrokes, no figures, no text",
+          "hareket_prompt": "Slow push-in toward the horizon, clouds rolling gently overhead"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "IRGC",
+              "unvan": "Spokesman Brig. Gen. Hossein Mohebbi",
+              "cumle": 1
+            },
+            {
+              "ulke": "IRAN",
+              "unvan": "Supreme Leader Mojtaba Khamenei",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "GEOGRAPHICALLY\nUNRESTRICTED",
+          "alt": "Warning against any new US or Israeli attack"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 5,
+          "satirlar": [
+            "Range restriction:",
+            "**Lifted**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Iran's IRGC Says Missile Range Limits Are Lifted\n\nIran's Islamic Revolutionary Guard Corps says it has lifted restrictions on the range of the country's missiles. IRGC spokesman Brigadier General Hossein Mohebbi reportedly made the statement at a press conference on Saturday. He was answering a question about a warning to the United States from Iran's supreme leader, Mojtaba Khamenei.\n\nKhamenei had earlier told senior military commanders that any renewed US or Israeli attack would be met with an immediate, impactful and geographically unrestricted response. He also reportedly ordered an update of Iran's military target database.\n\nAccording to the Tasnim news agency, Mohebbi was asked whether these remarks meant range limits had been removed. He replied that the restriction had been lifted, adding that Iran's duty is to show its capabilities on the battlefield.\n\nSource: Middle East Eye, Tasnim\n\n#Iran #IRGC #Missiles #MiddleEast #Geopolitics #Israel #UnitedStates #Khamenei #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Middle East Eye",
+          "baslik": "IRGC spokesman announces lifting of restrictions on Iranian missiles",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-spokesman-announces-lifting-restrictions-iranian-missiles"
+        }
+      ]
+    },
+    "mesajId": 224
   }
 }
