@@ -4258,5 +4258,139 @@
     "mesajId": 209,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfaF8lSspln/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-07_0900_haber": {
+    "zaman": "2026-11-07T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-07T06:39:23.798Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-07_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1IS4GbjGcuhyHyTEhsfnew9p-U-xyttzg&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-07_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Coalition downs Houthi missile and drone near Riyadh\n\nThe Saudi-led coalition says its air defences intercepted and destroyed a cruise missile launched by Yemen's Houthi group toward the Riyadh region. In a separate announcement, it reported intercepting and destroying a drone in the area of the Saudi capital. Both statements were posted on X by coalition spokesman Maj. Gen. Turki al-Maliki, who described the Houthis as a terrorist militia.\n\nThe incidents come amid escalating hostilities between the coalition and the Houthis, who have launched repeated missile and drone attacks toward Saudi territory.\n\nSaudi Arabia has led a military coalition supporting Yemen's internationally recognised government against the Houthis since 2015, a year after the group seized the capital Sanaa and other parts of the country.\n\nSource: Anadolu Agency, Middle East Eye\n\n#Yemen #SaudiArabia #Houthis #Riyadh #MiddleEast #Geopolitics #AirDefence #YemenWar #IlmSanat",
+    "baslik": "Coalition downs Houthi missile and drone near Riyadh",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Coalition downs **Houthi missile** and **drone** near Riyadh",
+      "hook_satirlar": [
+        "Two Houthi attacks",
+        "aimed at **Riyadh**",
+        "shot down"
+      ],
+      "cumleler": [
+        "Two Houthi attacks aimed at Riyadh were shot down, the Saudi-led coalition says.",
+        "Air defences destroyed a cruise missile heading for the Riyadh region.",
+        "A drone was also intercepted over the same area.",
+        "Spokesman Major General Turki al-Maliki announced both on X.",
+        "Hostilities between the coalition and Yemen's Houthis are escalating.",
+        "The group has repeatedly fired missiles and drones toward Saudi territory.",
+        "Riyadh has backed Yemen's recognised government since 2015, after the Houthis seized Sanaa."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a vast desert city skyline at night, low-rise buildings and distant towers under a dark navy sky, a faint streak of light arcing high above, dramatic chiaroscuro, desaturated navy and muted brass tones, cinematic wide composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the skyline, faint light flicker in the sky, gentle drifting haze"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Academic oil painting of a burst of brass-coloured light high in a night sky above a desert plain, a thin trail of smoke dissolving, silhouetted city lights on the horizon, dark navy palette, dramatic chiaroscuro, visible brushstrokes, cinematic, no text",
+          "hareket_prompt": "Slow upward tilt, soft glow pulsing gently, smoke drifting slowly"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of a small dark winged silhouette against a moonlit cloudy sky over desert rooftops, searchlight beams crossing faintly, muted brass and navy tones, strong chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Gentle lateral drift, clouds moving slowly, searchlight beams sweeping softly"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Antique copperplate-style map of the Arabian Peninsula and Yemen, aged parchment tinted in muted navy and brass, mountains and coastlines finely engraved, candlelit chiaroscuro on the paper, no letters or text",
+          "hareket_prompt": "Slow push-in from the southern highlands toward the north, flickering candlelight across the map"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Academic oil painting of rugged Yemeni mountains at dusk, faint trails of light rising northward into a darkening sky, stone villages silhouetted on ridges, desaturated navy and brass palette, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow drift to the right, mist rolling through valleys, light trails fading gently"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "19th-century oil painting of an old highland city with tall mud-brick tower houses and ornate white-trimmed windows, under heavy storm clouds, muted navy and brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow push-in toward the tower houses, clouds drifting overhead, soft light flicker"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "CRUISE MISSILE\nDESTROYED",
+          "alt": "Riyadh region"
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "DRONE\nINTERCEPTED",
+          "alt": "Riyadh region"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 4,
+          "satirlar": [
+            "Coalition vs Houthis:",
+            "hostilities **escalating**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 6,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "SAUDI ARABIA",
+              "unvan": "Leads coalition since 2015",
+              "cumle": 6
+            },
+            {
+              "ulke": "YEMEN GOVERNMENT",
+              "unvan": "Internationally recognised",
+              "cumle": 6
+            },
+            {
+              "ulke": "HOUTHIS",
+              "unvan": "Seized Sanaa",
+              "cumle": 6
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Coalition downs Houthi missile and drone near Riyadh\n\nThe Saudi-led coalition says its air defences intercepted and destroyed a cruise missile launched by Yemen's Houthi group toward the Riyadh region. In a separate announcement, it reported intercepting and destroying a drone in the area of the Saudi capital. Both statements were posted on X by coalition spokesman Maj. Gen. Turki al-Maliki, who described the Houthis as a terrorist militia.\n\nThe incidents come amid escalating hostilities between the coalition and the Houthis, who have launched repeated missile and drone attacks toward Saudi territory.\n\nSaudi Arabia has led a military coalition supporting Yemen's internationally recognised government against the Houthis since 2015, a year after the group seized the capital Sanaa and other parts of the country.\n\nSource: Anadolu Agency, Middle East Eye\n\n#Yemen #SaudiArabia #Houthis #Riyadh #MiddleEast #Geopolitics #AirDefence #YemenWar #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Saudi-led coalition says it intercepted Houthi cruise missile over Riyadh",
+          "link": "https://www.aa.com.tr/en/middle-east/saudi-led-coalition-says-it-intercepted-houthi-cruise-missile-over-riyadh/4114872"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Saudi-led coalition forces destroy Houthi missile over Riyadh region",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-forces-destroy-houthi-missile-over-riyadh-region"
+        },
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Saudi-led coalition says it intercepted, destroyed drone in region of Saudi capital Riyadh",
+          "link": "https://www.aa.com.tr/en/middle-east/saudi-led-coalition-says-it-intercepted-destroyed-drone-in-region-of-saudi-capital-riyadh/4114767"
+        }
+      ]
+    },
+    "mesajId": 214
   }
 }
