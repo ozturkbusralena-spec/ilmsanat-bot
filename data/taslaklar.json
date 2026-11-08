@@ -4649,8 +4649,8 @@
   "2026-11-08_0900_haber": {
     "zaman": "2026-11-08T08:00:00.000Z",
     "tur": "haber",
-    "durum": "onay_bekliyor",
-    "guncelleme": "2026-11-08T06:12:19.513Z",
+    "durum": "paylasildi",
+    "guncelleme": "2026-11-08T08:03:35.623Z",
     "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-08_0900_haber/video.mp4",
     "driveUrl": "https://drive.usercontent.google.com/download?id=1aVeWtOzd_ale3VTZcGd9PM9B_Lhm7_YO&export=download&confirm=t",
     "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-08_0900_haber/kapak_kucuk.jpg",
@@ -4778,6 +4778,136 @@
         }
       ]
     },
-    "mesajId": 229
+    "mesajId": 229,
+    "hatirlatildi": true,
+    "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfeRvMaBx9Y/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-08_1100_tablo": {
+    "zaman": "2026-11-08T10:00:00.000Z",
+    "tur": "tablo",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-08T08:09:29.505Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-08_1100_tablo/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1DabdPID1FB2xWeTP0KdmYdhEq7-cQ09T&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-08_1100_tablo/kapak_kucuk.jpg",
+    "aciklama": "Bonnat's Egyptian Mother: A Quiet Orientalism\n\nLéon Bonnat (Bayonne 1833 – Monchy-Saint-Eloi 1922) painted \"An Egyptian Peasant Woman and Her Child\" in 1869–70, after travelling to Egypt. The oil on canvas shows a barefoot woman standing against a dark ground, carrying her child on her shoulder, rendered with the strong light and restrained palette that defined his work.\n\nBonnat spent part of his youth in Spain, where the Spanish masters, above all Velázquez and Ribera, left a lasting mark on his realism. Back in France, he became one of the most celebrated portraitists of his era and an influential teacher at the École des Beaux-Arts. His own collection later formed the core of the Musée Bonnat in Bayonne.\n\nUnlike the sensational harem and palace scenes common in nineteenth-century Orientalism, this image centres on ordinary work and care. Still, it is shaped by a European viewpoint: the sitter remains unnamed, presented as a representative \"type\" for Parisian audiences rather than as an individual. The painting is in the collection of The Metropolitan Museum of Art, New York.\n\nSource: The Metropolitan Museum of Art\n\n#Orientalism #LeonBonnat #OrientalistArt #Egypt #19thCenturyArt #MetMuseum #ArtHistory #FrenchPainting #SundayPainting #IlmSanat",
+    "baslik": "Bonnat's Egyptian Mother: A Quiet Orientalism",
+    "plan": {
+      "baslik": "Bonnat's **Egyptian Mother**: A Quiet Orientalism",
+      "hook_satirlar": [
+        "A French painter went to **Egypt**",
+        "and returned with",
+        "a mother and her child"
+      ],
+      "cumleler": [
+        "A French painter travelled to Egypt and returned with a portrait of a mother and her child.",
+        "Léon Bonnat completed this canvas in 1869 and 1870.",
+        "A barefoot peasant woman stands against deep shadow, her child perched on her shoulder.",
+        "There is no palace and no harem; only weight, balance and everyday labour.",
+        "Born in Bayonne in 1833, Bonnat spent part of his youth in Madrid, where Velázquez and Ribera shaped his sombre realism.",
+        "He became one of France's most sought-after portraitists and a leading teacher at the École des Beaux-Arts.",
+        "Yet his Egypt remains a European gaze: dignified, but nameless, a type rather than a person.",
+        "The painting now belongs to the Metropolitan Museum of Art in New York."
+      ],
+      "odaklar": [
+        {
+          "cumle": 0,
+          "odak": "genel"
+        },
+        {
+          "cumle": 2,
+          "odak": "orta"
+        },
+        {
+          "cumle": 3,
+          "odak": "sol_alt"
+        },
+        {
+          "cumle": 4,
+          "odak": "sol_ust"
+        },
+        {
+          "cumle": 6,
+          "odak": "orta"
+        },
+        {
+          "cumle": 7,
+          "odak": "genel"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "FRANCE",
+              "unvan": "Painter's homeland, Bayonne",
+              "cumle": 1
+            },
+            {
+              "ulke": "EGYPT",
+              "unvan": "Subject, painted 1869–70",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 3,
+          "satirlar": [
+            "No palace.",
+            "No harem.",
+            "Only **labour**."
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "LÉON\nBONNAT",
+          "alt": "1833–1922"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "Dignified,",
+            "but **nameless**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Bonnat's Egyptian Mother: A Quiet Orientalism\n\nLéon Bonnat (Bayonne 1833 – Monchy-Saint-Eloi 1922) painted \"An Egyptian Peasant Woman and Her Child\" in 1869–70, after travelling to Egypt. The oil on canvas shows a barefoot woman standing against a dark ground, carrying her child on her shoulder, rendered with the strong light and restrained palette that defined his work.\n\nBonnat spent part of his youth in Spain, where the Spanish masters, above all Velázquez and Ribera, left a lasting mark on his realism. Back in France, he became one of the most celebrated portraitists of his era and an influential teacher at the École des Beaux-Arts. His own collection later formed the core of the Musée Bonnat in Bayonne.\n\nUnlike the sensational harem and palace scenes common in nineteenth-century Orientalism, this image centres on ordinary work and care. Still, it is shaped by a European viewpoint: the sitter remains unnamed, presented as a representative \"type\" for Parisian audiences rather than as an individual. The painting is in the collection of The Metropolitan Museum of Art, New York.\n\nSource: The Metropolitan Museum of Art\n\n#Orientalism #LeonBonnat #OrientalistArt #Egypt #19thCenturyArt #MetMuseum #ArtHistory #FrenchPainting #SundayPainting #IlmSanat",
+      "etiket": "ORIENTALIST ART",
+      "tur": "tablo",
+      "eser": {
+        "baslik": "An Egyptian Peasant Woman and Her Child",
+        "ressam": "Léon Bonnat",
+        "ressamBilgi": "French, Bayonne 1833–1922 Monchy-Saint-Eloi",
+        "tarih": "1869–70",
+        "teknik": "Oil on canvas",
+        "gorsel": "https://images.metmuseum.org/CRDImages/ep/original/DT234058.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/435711",
+        "kaynak": "The Metropolitan Museum of Art"
+      },
+      "kaynaklar": [
+        {
+          "ad": "The Metropolitan Museum of Art",
+          "baslik": "An Egyptian Peasant Woman and Her Child",
+          "link": "https://www.metmuseum.org/art/collection/search/435711"
+        }
+      ]
+    },
+    "mesajId": 234
   }
 }
