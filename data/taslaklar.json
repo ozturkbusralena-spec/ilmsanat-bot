@@ -4645,5 +4645,139 @@
     "mesajId": 224,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfcqvfHBmn_/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-08_0900_haber": {
+    "zaman": "2026-11-08T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-08T06:12:19.513Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-08_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1aVeWtOzd_ale3VTZcGd9PM9B_Lhm7_YO&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-08_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Herzog passes over Netanyahu, taps Eisenkot\n\nIsraeli President Isaac Herzog has tasked Gadi Eisenkot, former army chief (2015–2019) and leader of the Yashar party, with forming the next government, passing over Prime Minister Benjamin Netanyahu after the inconclusive October 27 general election. Factions representing 67 lawmakers, including Arab-led parties, recommended Eisenkot, while 46 backed Netanyahu's right-wing and religious alliance.\n\nEisenkot has 28 days, with a possible 14-day extension, to build a coalition of at least 61 seats in the 120-member Knesset. His four-party alliance won 48 seats and Netanyahu's bloc 53, while Arab-led parties won a record 19. Eisenkot has ruled out a coalition directly dependent on Arab-led parties; winning over United Torah Judaism and Shas would give him exactly 61. Netanyahu warned an opposition government backed by Arab-led parties would lead to Israel's collapse.\n\nIf Eisenkot fails, Herzog will nominate another candidate; if no government emerges, a new election would be held within 90 days, with Netanyahu as caretaker.\n\nSource: TRT World, Al Jazeera\n\n#Israel #Knesset #Eisenkot #Netanyahu #Herzog #IsraelElection #MiddleEast #Geopolitics #IlmSanat",
+    "baslik": "Herzog passes over Netanyahu, taps Eisenkot",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Herzog **passes over Netanyahu**, taps **Eisenkot**",
+      "hook_satirlar": [
+        "Israel's president",
+        "has **passed over**",
+        "Benjamin Netanyahu"
+      ],
+      "cumleler": [
+        "Israel's president has passed over Benjamin Netanyahu to form the next government.",
+        "Isaac Herzog chose Gadi Eisenkot, the former army chief who leads the Yashar party.",
+        "After an inconclusive October 27 election, factions representing 67 lawmakers backed Eisenkot, against 46 for Netanyahu.",
+        "He now has 28 days to secure at least 61 of the Knesset's 120 seats.",
+        "Eisenkot has ruled out depending directly on Arab-led parties, which won a record 19 seats.",
+        "Winning over the ultra-Orthodox United Torah Judaism and Shas would give him exactly 61.",
+        "Netanyahu warned that an opposition government backed by Arab-led parties would lead to Israel's collapse."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a stately stone presidential residence in Jerusalem at dusk, empty ceremonial hall with a single carved wooden chair turned away, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the empty chair, soft candlelight flicker"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "academic oil painting of a lone silhouetted figure in a long coat standing before tall arched windows overlooking old Jerusalem stone rooftops, military cap resting on a table, navy and brass palette, deep shadows, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "gentle drift right, faint mist moving past the windows"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of a dim parliamentary chamber with rows of empty curved benches split into two uneven sides, shafts of light falling on one side, muted navy and brass tones, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "slow pan across the benches, light shafts subtly shifting"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "still life oil painting of a brass hourglass and an antique wall calendar block beside a sealed scroll on a dark wooden desk, candlelit, navy and muted brass palette, chiaroscuro, visible brushstrokes, no letters or numbers",
+          "hareket_prompt": "slow push-in on the hourglass, sand gently falling, candle flicker"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "antique copperplate-style map of the Levant and Jerusalem region on aged parchment, brass compass and chess pieces resting on it, dark navy vignette, dramatic side lighting, no lettering",
+          "hareket_prompt": "slow overhead drift across the map, soft light flicker"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "academic oil painting of a storm gathering over a grand stone building with cracked columns, dark clouds and distant lightning glow, desaturated navy and brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow pull-back, clouds rolling slowly, faint lightning flicker"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "HERZOG",
+              "unvan": "President of Israel",
+              "cumle": 1
+            },
+            {
+              "ulke": "EISENKOT",
+              "unvan": "Yashar leader · 67 backers",
+              "cumle": 2
+            },
+            {
+              "ulke": "NETANYAHU",
+              "unvan": "Prime Minister · 46 backers",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "28 DAYS\nTO FORM",
+          "alt": "Possible 14-day extension"
+        },
+        {
+          "tur": "damga",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "RECORD\n19 SEATS",
+          "alt": "Arab-led parties · Oct 27 vote"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 5,
+          "satirlar": [
+            "**61** of 120 seats",
+            "UTJ + Shas = exact majority"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Herzog passes over Netanyahu, taps Eisenkot\n\nIsraeli President Isaac Herzog has tasked Gadi Eisenkot, former army chief (2015–2019) and leader of the Yashar party, with forming the next government, passing over Prime Minister Benjamin Netanyahu after the inconclusive October 27 general election. Factions representing 67 lawmakers, including Arab-led parties, recommended Eisenkot, while 46 backed Netanyahu's right-wing and religious alliance.\n\nEisenkot has 28 days, with a possible 14-day extension, to build a coalition of at least 61 seats in the 120-member Knesset. His four-party alliance won 48 seats and Netanyahu's bloc 53, while Arab-led parties won a record 19. Eisenkot has ruled out a coalition directly dependent on Arab-led parties; winning over United Torah Judaism and Shas would give him exactly 61. Netanyahu warned an opposition government backed by Arab-led parties would lead to Israel's collapse.\n\nIf Eisenkot fails, Herzog will nominate another candidate; if no government emerges, a new election would be held within 90 days, with Netanyahu as caretaker.\n\nSource: TRT World, Al Jazeera\n\n#Israel #Knesset #Eisenkot #Netanyahu #Herzog #IsraelElection #MiddleEast #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "TRT World",
+          "baslik": "TRT World - Herzog picks Eisenkot to form next Israeli government, passing over Netanyahu",
+          "link": "https://www.trtworld.com/article/9ccf3c01be69"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Eisenkot chosen over Netanyahu to form Israel’s next government",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/eisenkot-chosen-over-netanyahu-to-form-israels-next-government"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Israel’s president picks Eisenkot over Netanyahu to form next government",
+          "link": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+        }
+      ]
+    },
+    "mesajId": 229
   }
 }
