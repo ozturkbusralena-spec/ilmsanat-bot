@@ -5024,5 +5024,136 @@
     "mesajId": 239,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/Dfe0JBLpXdv/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-08_1800_haber": {
+    "zaman": "2026-11-08T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-08T15:33:44.161Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-08_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1DIP6NxVr9bpaGureEigx51sacYWUINpU&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-08_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Houthi missiles hit Aramco tower in Riyadh\n\nAn administrative building of Saudi state oil company Aramco in Riyadh's King Abdullah Financial District was damaged on Sunday after falling shrapnel struck it during a series of missile attacks launched by Yemen's Houthi movement. An Energy Ministry official said the damage was minor and that no injuries or deaths were reported, while a Reuters witness saw windows blown out across several floors.\n\nThe Saudi-led coalition said it intercepted ballistic missiles aimed at Riyadh and the Eastern Province, as well as cruise missiles over the capital and the southern region. The Houthis, also known as Ansar Allah, claimed operations using ballistic and cruise missiles and drones against the financial centre, Riyadh airport, Aramco oil storage tanks and Abqaiq. A day earlier, the Houthi-run Health Ministry said coalition air strikes killed at least 33 people in al-Shariyah near Sanaa, figures that could not be independently verified.\n\nThe escalation follows the collapse of a 2022 truce and a campaign launched last month by Yemen's internationally recognised government to retake Houthi-held territory, including Sanaa, which the group has controlled since 2014.\n\nSource: Middle East Eye\n\n#Yemen #SaudiArabia #Houthis #Riyadh #Aramco #MiddleEast #Geopolitics #Sanaa #IlmSanat",
+    "baslik": "Houthi missiles hit Aramco tower in Riyadh",
+    "plan": {
+      "etiket": "ESCALATION",
+      "baslik": "**Houthi missiles** hit **Aramco tower** in Riyadh",
+      "hook_satirlar": [
+        "Houthi missile shrapnel",
+        "hits **Aramco's** tower",
+        "in Riyadh"
+      ],
+      "cumleler": [
+        "Houthi missile shrapnel has blown out windows at Aramco's tower in Riyadh.",
+        "Saudi officials report minor damage and no injuries.",
+        "The Saudi-led coalition says it intercepted ballistic and cruise missiles over Riyadh, the south and the Eastern Province.",
+        "The Houthis claim strikes on the financial district, the airport, Aramco storage tanks and Abqaiq.",
+        "A day earlier, Houthi officials said coalition air strikes near Sanaa killed at least 33 people.",
+        "With the 2022 truce collapsed, Yemen's government is now fighting to retake Sanaa."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a modern glass skyscraper rising over a desert city at night, several floors of shattered windows glinting, faint smoke drifting, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic low-angle composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the damaged upper floors, faint smoke drifting, subtle light flicker in the windows"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Academic oil painting of empty office floors with scattered glass fragments on polished stone, moonlight through broken window frames, silent and deserted, navy and brass palette, chiaroscuro, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Gentle lateral drift across the floor, dust motes floating in the moonlight"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of a night sky over a desert capital, distant bright trails of intercepting projectiles meeting high above, soft glowing bursts reflected on dunes, dark navy sky with muted brass light, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow upward tilt toward the glowing sky, clouds drifting gently, soft light pulses"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Antique copperplate-style map of the Arabian Peninsula engraved in brass and navy tones, Yemen in the south and Riyadh and the eastern oil region marked by small glowing points, faint arcs across the desert, aged paper texture, no letters or text",
+          "hareket_prompt": "Slow push-in from southern Arabia toward the glowing points in the centre and east, gentle parchment light flicker"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Academic oil painting of a mountain village of stone tower houses near Sanaa at dusk, smoke rising in the distance over the valley, sombre mood, desaturated navy and muted brass, dramatic chiaroscuro, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow drift across the village, smoke rising softly, fading dusk light"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting of the old city of Sanaa with its ornamented tower houses under a heavy stormy sky, silhouetted distant armed figures on a ridge, navy and brass tones, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow pull-back revealing the city, storm clouds moving gently, mist drifting through the streets"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "MINOR DAMAGE\nNO INJURIES",
+          "alt": "Riyadh · Sunday"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "SAUDI-LED COALITION",
+              "unvan": "Reports ballistic and cruise missiles intercepted",
+              "cumle": 2
+            },
+            {
+              "ulke": "HOUTHIS",
+              "unvan": "Claim strikes on Riyadh, Aramco and Abqaiq",
+              "cumle": 3
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 4,
+          "satirlar": [
+            "At least **33** killed",
+            "near Sanaa, per Houthi officials"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 5,
+          "satirlar": [
+            "2022 truce **collapsed**",
+            "Battle for Sanaa renewed"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Houthi missiles hit Aramco tower in Riyadh\n\nAn administrative building of Saudi state oil company Aramco in Riyadh's King Abdullah Financial District was damaged on Sunday after falling shrapnel struck it during a series of missile attacks launched by Yemen's Houthi movement. An Energy Ministry official said the damage was minor and that no injuries or deaths were reported, while a Reuters witness saw windows blown out across several floors.\n\nThe Saudi-led coalition said it intercepted ballistic missiles aimed at Riyadh and the Eastern Province, as well as cruise missiles over the capital and the southern region. The Houthis, also known as Ansar Allah, claimed operations using ballistic and cruise missiles and drones against the financial centre, Riyadh airport, Aramco oil storage tanks and Abqaiq. A day earlier, the Houthi-run Health Ministry said coalition air strikes killed at least 33 people in al-Shariyah near Sanaa, figures that could not be independently verified.\n\nThe escalation follows the collapse of a 2022 truce and a campaign launched last month by Yemen's internationally recognised government to retake Houthi-held territory, including Sanaa, which the group has controlled since 2014.\n\nSource: Middle East Eye\n\n#Yemen #SaudiArabia #Houthis #Riyadh #Aramco #MiddleEast #Geopolitics #Sanaa #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Saudi Aramco tower damaged after Houthi missile attacks on Riyadh",
+          "link": "https://www.middleeasteye.net/news/saudi-aramco-tower-damaged-after-houthi-missile-attacks-riyadh"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Houthis claim attack on Saudi Arabia's King Khalad airport",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attack-saudi-arabias-king-khalad-airport"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Houthis claim attack on Riyadh financial centre",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attack-riyadh-financial-centre"
+        }
+      ]
+    },
+    "mesajId": 244
   }
 }
