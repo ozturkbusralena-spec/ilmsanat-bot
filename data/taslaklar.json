@@ -4911,5 +4911,116 @@
     "mesajId": 234,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfefeYMI3gX/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-08_1400_analiz": {
+    "zaman": "2026-11-08T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-08T11:38:08.736Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-08_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=15EAld4XCEoO9tzIj_yyLglGs1XE7_dcG&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-08_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Kurdistan Region crisis: a new Ashbatal?\n\nAn analysis published by Anadolu Agency (AA) examines the growing crisis within Iraq's Kurdistan Regional Government, referred to in Turkish as IKBY (Irak Kürt Bölgesel Yönetimi).\n\nThe piece is framed around a pointed question: whether the region is heading toward a new \"Ashbatal\" (Aşbetal). By invoking the term as a precedent, the analysis sets the current turmoil against an earlier rupture in the region's political memory, treating the present moment as a possible turning point rather than a routine dispute.\n\nSource: Anadolu Agency (AA) Analysis\n\n#Iraq #KurdistanRegion #KRG #Erbil #MiddleEast #Geopolitics #Analysis #AnadoluAgency #IlmSanat",
+    "baslik": "Kurdistan Region crisis: a new Ashbatal?",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "Kurdistan Region crisis: a **new Ashbatal**?",
+      "hook_satirlar": [
+        "Iraq's Kurdistan Region",
+        "faces a deepening **crisis**",
+        "is history repeating?"
+      ],
+      "cumleler": [
+        "Iraq's Kurdistan Region faces a deepening crisis, and one analysis asks whether history is repeating.",
+        "Anadolu Agency's analysis desk examines the growing turmoil inside the Kurdistan Regional Government, known in Turkish as IKBY.",
+        "Its central question rests on a single loaded word: Ashbatal.",
+        "By asking about a new Ashbatal, the analysis points to an earlier rupture as its reference.",
+        "The comparison frames today's crisis not as a passing dispute, but as a potential turning point.",
+        "Whether the parallel truly holds is the question the analysis places on the table.",
+        "For the Kurdistan Region, the answer may define what comes next."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of rugged northern Iraqi mountains at dusk, a lone stone citadel on a hill, storm clouds gathering, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the citadel, clouds drifting slowly, faint light flicker on the stone"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Antique copperplate engraving style map of the upper Tigris region and surrounding mountains, aged parchment, navy ink washes and brass highlights, candlelit desk with brass compass and quill, dramatic chiaroscuro, no letters or text",
+          "hareket_prompt": "Gentle overhead drift across the map, candle flame flickering softly"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Academic oil painting of an empty council chamber with a long wooden table, scattered papers and an overturned chair, single shaft of light through a tall window, navy and brass palette, deep shadows, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in along the table, dust motes drifting in the light beam"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century oil painting of a broken stone bridge over a mountain river, mist rising, silhouettes of distant figures walking away on a ridge, muted navy and brass tones, dramatic chiaroscuro, cinematic composition, no faces, no text",
+          "hareket_prompt": "Slow lateral drift, mist rolling gently over the water"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Academic oil painting of a mountain crossroads at twilight, two diverging paths, a solitary lantern on a stone marker, heavy clouds, dark navy and muted brass palette, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the lantern, light flickering, clouds moving slowly"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Antique oil painting of brass balance scales on a dark table beside an old rolled map and an hourglass, dramatic chiaroscuro, navy shadows and brass glints, cinematic close composition, no text",
+          "hareket_prompt": "Gentle slow push-in, sand trickling in the hourglass, soft light flicker"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "KRG / IKBY",
+              "unvan": "Kurdistan Regional Government",
+              "cumle": 1
+            },
+            {
+              "ulke": "ANADOLU AGENCY",
+              "unvan": "Analysis desk",
+              "cumle": 1
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "A NEW\nASHBATAL?",
+          "alt": "AA Analysis"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 4,
+          "satirlar": [
+            "Not a passing dispute",
+            "A potential **turning point**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Kurdistan Region crisis: a new Ashbatal?\n\nAn analysis published by Anadolu Agency (AA) examines the growing crisis within Iraq's Kurdistan Regional Government, referred to in Turkish as IKBY (Irak Kürt Bölgesel Yönetimi).\n\nThe piece is framed around a pointed question: whether the region is heading toward a new \"Ashbatal\" (Aşbetal). By invoking the term as a precedent, the analysis sets the current turmoil against an earlier rupture in the region's political memory, treating the present moment as a possible turning point rather than a routine dispute.\n\nSource: Anadolu Agency (AA) Analysis\n\n#Iraq #KurdistanRegion #KRG #Erbil #MiddleEast #Geopolitics #Analysis #AnadoluAgency #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "IKBY’de kriz büyüyor: Yeni bir “Aşbetal” mi?",
+          "link": "https://www.aa.com.tr/tr/analiz/ikby-de-kriz-buyuyor-yeni-bir-asbetal-mi/4115740"
+        }
+      ]
+    },
+    "mesajId": 239
   }
 }
