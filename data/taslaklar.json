@@ -5281,5 +5281,130 @@
     "mesajId": 249,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/Dfg2mOVofw_/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-09_1400_analiz": {
+    "zaman": "2026-11-09T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-09T11:51:42.029Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-09_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1_JojTnTC7VSYibCW4cyzI4cQ9LxAQX-n&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-09_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Israel Votes: Coalitions and the Limits of Change\n\nIsrael held elections for the 26th Knesset on 27 October 2026. Beyond the question of who will form the next government, the vote has raised a broader issue: how far change can reach in Israel's regional policies.\n\nIn an edition of its \"Experts Respond\" series published on 4 November 2026, SETA brought together Tuğçe Ersoy Ceylan, Serhan Afacan, Abdulgani Bozkurt and Sibel Düz. The analysts assessed the coalition possibilities arising from the results, the elements of continuity and change in Israeli politics, and the regional implications of the outcome.\n\nSource: SETA – \"Prospects for Transformation in Israeli Politics and the Regional Implications of the Elections\" (Experts Respond: Sibel Düz, Tuğçe Ersoy Ceylan, Serhan Afacan, Abdulgani Bozkurt)\n\n#Israel #Knesset #IsraelElections #MiddleEast #Geopolitics #CoalitionPolitics #SETA #RegionalPolitics #Analysis #IlmSanat",
+    "baslik": "Israel Votes: Coalitions and the Limits of Change",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "Israel Votes: **Coalitions** and the **Limits of Change**",
+      "hook_satirlar": [
+        "Israel has voted.",
+        "Now the question is",
+        "how much can **change**."
+      ],
+      "cumleler": [
+        "Israel has voted, and the real question is how much can actually change.",
+        "Elections for the 26th Knesset took place on 27 October 2026.",
+        "The vote raised questions that go beyond who will govern Israel.",
+        "It also tested the limits of change in Israel's regional policies.",
+        "In a new edition of its Experts Respond series, SETA asked four analysts to weigh in.",
+        "Tuğçe Ersoy Ceylan, Serhan Afacan, Abdulgani Bozkurt and Sibel Düz examined the coalition options the results opened up.",
+        "They traced what continues and what shifts in Israeli politics.",
+        "And they assessed what the outcome could mean for the wider region.",
+        "The ballots are cast; the coalition talks will show how far change can really go."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a stone parliament hall at dusk seen from a distance, empty ballot boxes on a long table in the foreground, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text, no people's faces",
+          "hareket_prompt": "slow push-in toward the hall, faint candlelight flicker on the table"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Interior of a grand legislative chamber painted in 19th-century academic style, semicircular rows of empty wooden benches, brass lamps glowing, deep navy shadows, dramatic chiaroscuro, visible brushstrokes, no text, no figures",
+          "hareket_prompt": "gentle lateral drift across the benches, soft light flicker from lamps"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Eastern Mediterranean and Levant coastline, aged parchment toned in muted brass and navy, compass rose and sea waves, dramatic vignette lighting, no letters or labels",
+          "hareket_prompt": "slow push-in on the coastline, subtle drifting light across the parchment"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Four dark silhouettes seated around a candlelit round table covered with maps and papers in a study, 19th-century academic oil painting, navy and brass palette, strong chiaroscuro, visible brushstrokes, faces in shadow, no text",
+          "hareket_prompt": "slow orbit-like drift around the table, candle flames gently flickering"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "Panoramic 19th-century oil painting of a hilly Levantine landscape at twilight with distant cities and roads converging, heavy clouds, dark navy sky with muted brass horizon light, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow pull-back revealing the landscape, clouds drifting slowly"
+        },
+        {
+          "cumle": 8,
+          "gorsel_prompt": "Still life oil painting of a brass balance scale on a dark wooden desk beside a sealed ballot box and folded papers, single window light, deep navy shadows, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in on the scale, faint dust motes drifting in the window light"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "26TH\nKNESSET",
+          "alt": "27 October 2026"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 3,
+          "satirlar": [
+            "Who governs?",
+            "And the **limits**",
+            "of regional change"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "SETA",
+              "unvan": "Experts Respond series",
+              "cumle": 4
+            },
+            {
+              "ulke": "FOUR ANALYSTS",
+              "unvan": "Ersoy Ceylan, Afacan, Bozkurt, Düz",
+              "cumle": 5
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "**Continuity**",
+            "or change?"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Israel Votes: Coalitions and the Limits of Change\n\nIsrael held elections for the 26th Knesset on 27 October 2026. Beyond the question of who will form the next government, the vote has raised a broader issue: how far change can reach in Israel's regional policies.\n\nIn an edition of its \"Experts Respond\" series published on 4 November 2026, SETA brought together Tuğçe Ersoy Ceylan, Serhan Afacan, Abdulgani Bozkurt and Sibel Düz. The analysts assessed the coalition possibilities arising from the results, the elements of continuity and change in Israeli politics, and the regional implications of the outcome.\n\nSource: SETA – \"Prospects for Transformation in Israeli Politics and the Regional Implications of the Elections\" (Experts Respond: Sibel Düz, Tuğçe Ersoy Ceylan, Serhan Afacan, Abdulgani Bozkurt)\n\n#Israel #Knesset #IsraelElections #MiddleEast #Geopolitics #CoalitionPolitics #SETA #RegionalPolitics #Analysis #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "SETA",
+          "baslik": "Prospects for Transformation in Israeli Politics and the Regional Implications of the Elections",
+          "link": "https://www.setav.org/en/prospects-for-transformation-in-israeli-politics-and-the-regional-implications-of-the-elections"
+        }
+      ]
+    },
+    "mesajId": 254
   }
 }
