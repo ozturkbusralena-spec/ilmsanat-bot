@@ -5157,5 +5157,127 @@
     "mesajId": 244,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DffPiV4PEu9/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-09_0900_haber": {
+    "zaman": "2026-11-09T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-09T06:51:39.601Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-09_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1xRUHz2_PQ81fwgaE2Z9CORKwVORbwGAC&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-09_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "US Moves to Seal Iran's Land Borders\n\nUS Central Command (CENTCOM) announced on Saturday the creation of Task Force Iron Gate, a 20-member civilian and military team operating from Florida. Its stated aim is to stop advanced weapons, dual-use technologies, sanctioned materials and illegal revenue moving across Iran's land borders and the Caspian Sea. President Donald Trump said on Sunday the unit was 'in full force and effect', pairing it with what he called history's greatest naval blockade. CENTCOM commander Admiral Brad Cooper said it would further constrain Iran's ability to rebuild weapons factories and replenish its military.\n\nThe move builds on a naval blockade of Iranian ports that CENTCOM says has prevented more than $25 billion in crude exports, part of an 'economic asphyxiation' campaign launched in August during the eight-month conflict. Iraqi Foreign Minister Fuad Hussein said Washington has asked Baghdad to close all but two border crossings with Iran, warning that trade and movement would stop and Iraq's economy would suffer. Iraq estimates it lost about $60 billion when it could not export oil through the Strait of Hormuz for roughly four months.\n\nIran's Revolutionary Guard rejected the plan. Spokesperson Hossein Mohebi said the United States would never be able to impose the economic blockade it is pursuing, according to Fars news agency.\n\nSource: Middle East Eye, TRT World, Anadolu Agency\n\n#Iran #UnitedStates #CENTCOM #Iraq #Blockade #CaspianSea #MiddleEast #Geopolitics #IlmSanat",
+    "baslik": "US Moves to Seal Iran's Land Borders",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "US Moves to Seal **Iran's Land Borders**",
+      "hook_satirlar": [
+        "Washington is now trying",
+        "to seal Iran's **land** borders,",
+        "not just its ports."
+      ],
+      "cumleler": [
+        "Washington is now trying to seal Iran's land borders, not just its ports.",
+        "US Central Command has launched Task Force Iron Gate, a 20-member team based in Florida.",
+        "Its target: weapons, dual-use technology and illicit revenue crossing Iran's land borders and the Caspian Sea.",
+        "It extends a naval blockade that CENTCOM says has stopped over 25 billion dollars in Iranian oil exports.",
+        "Washington has also asked Iraq to close all but two border crossings with Iran.",
+        "Baghdad warns that would hurt Iraq's own economy too.",
+        "Iran's Revolutionary Guard insists the plan will fail."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "Antique copperplate-style map of Iran and its neighbours, mountain ranges and frontier lines rendered in muted brass ink on dark navy parchment, an iron gate silhouette overlaid symbolically across the borders, dramatic chiaroscuro, 19th-century academic oil painting texture, visible brushstrokes, no text or letters",
+          "hareket_prompt": "Slow push-in toward the center of the map, faint candlelight flicker across the parchment"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Dim 19th-century style war room interior, long wooden table covered with maps and brass instruments, silhouettes of officers and civilians standing in shadow, single lamp casting deep chiaroscuro, dark desaturated navy and brass palette, academic oil painting, no faces visible, no text",
+          "hareket_prompt": "Gentle lateral drift along the table, lamp light softly flickering"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Rugged mountain pass at dusk with a lonely caravan of covered wagons and crates silhouetted against the sky, the grey Caspian Sea glimpsed in the distance, mist in the valleys, dark navy and muted brass tones, dramatic cinematic composition, 19th-century oil painting with visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the pass while mist drifts through the valley"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Line of dark warships on a stormy sea at night blocking the approach to a distant harbour, idle oil tankers anchored in the background, moonlight breaking through heavy clouds, deep navy and brass palette, chiaroscuro, academic maritime oil painting, visible brushstrokes, no flags or text",
+          "hareket_prompt": "Slow drift across the fleet, clouds moving gently over the moon, subtle wave motion"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Remote desert border crossing with a weathered stone gatehouse and lowered wooden barrier, a line of halted trucks and carts fading into dusty haze, low sun casting long shadows, muted brass and navy tones, 19th-century academic oil painting, cinematic composition, no text or signage",
+          "hareket_prompt": "Slow push-in toward the closed barrier, dust drifting in the light"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Silhouette of a fortified Persian citadel on a hill under a brooding stormy sky, faint lights in the walls, dramatic chiaroscuro, dark desaturated navy and muted brass palette, 19th-century oil painting with visible brushstrokes, no people's faces, no flags, no text",
+          "hareket_prompt": "Slow upward tilt toward the citadel as storm clouds roll slowly overhead"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "TASK FORCE\nIRON GATE",
+          "alt": "20 members · Florida"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 3,
+          "satirlar": [
+            "$25 BILLION",
+            "in oil exports",
+            "**blocked**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "IRAQ",
+              "unvan": "Asked to keep only 2 crossings open",
+              "cumle": 4
+            },
+            {
+              "ulke": "IRAN",
+              "unvan": "IRGC: blockade 'will fail'",
+              "cumle": 6
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "US Moves to Seal Iran's Land Borders\n\nUS Central Command (CENTCOM) announced on Saturday the creation of Task Force Iron Gate, a 20-member civilian and military team operating from Florida. Its stated aim is to stop advanced weapons, dual-use technologies, sanctioned materials and illegal revenue moving across Iran's land borders and the Caspian Sea. President Donald Trump said on Sunday the unit was 'in full force and effect', pairing it with what he called history's greatest naval blockade. CENTCOM commander Admiral Brad Cooper said it would further constrain Iran's ability to rebuild weapons factories and replenish its military.\n\nThe move builds on a naval blockade of Iranian ports that CENTCOM says has prevented more than $25 billion in crude exports, part of an 'economic asphyxiation' campaign launched in August during the eight-month conflict. Iraqi Foreign Minister Fuad Hussein said Washington has asked Baghdad to close all but two border crossings with Iran, warning that trade and movement would stop and Iraq's economy would suffer. Iraq estimates it lost about $60 billion when it could not export oil through the Strait of Hormuz for roughly four months.\n\nIran's Revolutionary Guard rejected the plan. Spokesperson Hossein Mohebi said the United States would never be able to impose the economic blockade it is pursuing, according to Fars news agency.\n\nSource: Middle East Eye, TRT World, Anadolu Agency\n\n#Iran #UnitedStates #CENTCOM #Iraq #Blockade #CaspianSea #MiddleEast #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Middle East Eye",
+          "baslik": "US launches task force to disrupt land transit routes into Iran",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/us-launches-task-force-disrupt-land-transit-routes-iran"
+        },
+        {
+          "ad": "TRT World",
+          "baslik": "TRT World - Trump announces new task force to tighten US blockade on Iran",
+          "link": "https://www.trtworld.com/article/5f6d80c5b87b"
+        },
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "US asks Iraq to close all but 2 border crossings with Iran: Iraqi foreign minister",
+          "link": "https://www.aa.com.tr/en/americas/us-asks-iraq-to-close-all-but-2-border-crossings-with-iran-iraqi-foreign-minister/4116349"
+        }
+      ]
+    },
+    "mesajId": 249
   }
 }
