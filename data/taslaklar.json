@@ -5408,5 +5408,135 @@
     "mesajId": 254,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfhY3YUx5zB/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-09_1800_haber": {
+    "zaman": "2026-11-09T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-09T15:55:42.985Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-09_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=12fEKE0tHdqrVx1DIG_WOFUjc2cAztJOp&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-09_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Tankers ablaze in the Strait of Hormuz\n\nOn Sunday, 9 November 2026, Iran's Islamic Revolutionary Guard Corps (IRGC) said it had struck three tankers near the Strait of Hormuz for using 'unauthorised routes' through the waterway in coordination with the US military. One oil tanker caught fire. The Iranian army's naval command said the vessel hit a sea mine in the eastern strait before noon while sailing in a prohibited area with its navigation and identification systems switched off.\n\nLate on Saturday, the IRGC Navy had reported two other oil tankers burning after striking naval mines, one inside the strait and one east of it, accusing both of switching off positioning systems and taking an unauthorised route. Earlier that day, US Central Command (CENTCOM) said an American aircraft disabled the St. Kitts-flagged cargo ship Huda in the Gulf of Oman after repeated attempts to breach the US naval blockade of Iran, noting it had visited an Iranian port.\n\nNavigation in the strait has remained tense since the US and Israeli offensive against Iran began in late February, a conflict that has yet to be settled.\n\nSource: Al Jazeera, Middle East Monitor (Anadolu)\n\n#StraitOfHormuz #Iran #IRGC #OilTankers #CENTCOM #GulfOfOman #MiddleEast #Geopolitics #IlmSanat",
+    "baslik": "Tankers ablaze in the Strait of Hormuz",
+    "plan": {
+      "etiket": "ESCALATION",
+      "baslik": "**Tankers ablaze** in the **Strait of Hormuz**",
+      "hook_satirlar": [
+        "Tankers are",
+        "**burning** again",
+        "in Hormuz"
+      ],
+      "cumleler": [
+        "Tankers are burning again in the Strait of Hormuz.",
+        "On Sunday, Iran's Revolutionary Guards said they struck three tankers for using unauthorised routes in coordination with the US military.",
+        "Iran's army said one of them hit a sea mine with its tracking systems switched off.",
+        "On Saturday, the Guards had already reported two tankers on fire after striking mines.",
+        "That same day, a US aircraft disabled the cargo ship Huda in the Gulf of Oman.",
+        "Washington says the vessel had called at an Iranian port and kept trying to breach the US blockade.",
+        "The waterway has stayed contested since the US-Israeli offensive on Iran began in late February."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a large oil tanker burning at dusk in a narrow strait, thick black smoke rising against a stormy sky, rugged arid coastline in the distance, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the burning ship, smoke drifting upward, gentle flicker of firelight on the water"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "antique copperplate engraving style map of the Strait of Hormuz and the Gulf of Oman, three small tanker silhouettes marked along a winding sea route, aged parchment texture tinted navy and brass, dramatic vignette lighting, no letters or text",
+          "hareket_prompt": "slow drift across the map from west to east, subtle candlelight flicker over the parchment"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of a dark spherical naval sea mine floating just beneath choppy night water, a massive tanker hull looming above in shadow, moonlight glinting on the waves, muted navy and brass palette, strong chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in on the mine, gentle swell of the waves, faint mist moving across the surface"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "academic oil painting of two distant tankers burning on a calm sea at twilight, orange glow reflected on dark water, silhouetted rocky headlands, desaturated navy and muted brass tones, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow lateral drift along the horizon, smoke columns rising gently, soft flicker of distant flames"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century oil painting of a military aircraft silhouette passing low over a lone cargo ship on the open Gulf of Oman under heavy clouds, sea spray and grey light, dark navy and brass palette, dramatic chiaroscuro, visible brushstrokes, no markings or text",
+          "hareket_prompt": "slow push-in on the cargo ship, clouds drifting overhead, light shifting across the waves"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "wide academic oil painting of the Strait of Hormuz at dusk, anchored tankers and warship silhouettes scattered across the water, mountainous coastline under a brooding sky, muted navy and brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "very slow pull-back revealing the strait, low mist rolling across the water, clouds moving slowly"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "IRAN – IRGC",
+              "unvan": "Says it struck three tankers",
+              "cumle": 1
+            },
+            {
+              "ulke": "USA – CENTCOM",
+              "unvan": "Disabled cargo ship Huda",
+              "cumle": 4
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "SEA MINE\nHIT",
+          "alt": "Eastern Hormuz · 9 Nov 2026"
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "2 TANKERS\nON FIRE",
+          "alt": "8 Nov 2026"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "Hormuz remains",
+            "**contested**",
+            "since February"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Tankers ablaze in the Strait of Hormuz\n\nOn Sunday, 9 November 2026, Iran's Islamic Revolutionary Guard Corps (IRGC) said it had struck three tankers near the Strait of Hormuz for using 'unauthorised routes' through the waterway in coordination with the US military. One oil tanker caught fire. The Iranian army's naval command said the vessel hit a sea mine in the eastern strait before noon while sailing in a prohibited area with its navigation and identification systems switched off.\n\nLate on Saturday, the IRGC Navy had reported two other oil tankers burning after striking naval mines, one inside the strait and one east of it, accusing both of switching off positioning systems and taking an unauthorised route. Earlier that day, US Central Command (CENTCOM) said an American aircraft disabled the St. Kitts-flagged cargo ship Huda in the Gulf of Oman after repeated attempts to breach the US naval blockade of Iran, noting it had visited an Iranian port.\n\nNavigation in the strait has remained tense since the US and Israeli offensive against Iran began in late February, a conflict that has yet to be settled.\n\nSource: Al Jazeera, Middle East Monitor (Anadolu)\n\n#StraitOfHormuz #Iran #IRGC #OilTankers #CENTCOM #GulfOfOman #MiddleEast #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Al Jazeera",
+          "baslik": "IRGC strikes three tankers near Hormuz over ‘US links’",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/irgc-strikes-three-tankers-near-hormuz-over-us"
+        },
+        {
+          "ad": "Middle East Monitor",
+          "baslik": "Iranian army says oil tanker catches fire after hitting mine in Strait of Hormuz",
+          "link": "https://www.middleeastmonitor.com/20261109-iranian-army-says-oil-tanker-catches-fire-after-hitting-mine-in-strait-of-hormuz/"
+        },
+        {
+          "ad": "Middle East Monitor",
+          "baslik": "Iran’s Revolutionary Guards say 2 oil tankers hit mines, caught fire near Strait of Hormuz",
+          "link": "https://www.middleeastmonitor.com/20261108-irans-revolutionary-guards-say-2-oil-tankers-hit-mines-caught-fire-near-strait-of-hormuz/"
+        }
+      ]
+    },
+    "mesajId": 259
   }
 }
