@@ -5540,5 +5540,126 @@
     "mesajId": 259,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/Dfh0VZ3oPJp/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-10_0900_haber": {
+    "zaman": "2026-11-10T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-10T06:30:00.389Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-10_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1Eo39GrK9d58yb-QToXPS40mn3bZG0R5R&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-10_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Trump: Iran War 'Effectively Over', Blockade Stays\n\nOn 9 November 2026, US President Donald Trump said Iran was 'militarily effectively over' after a closed-door meeting in Washington with Vice President JD Vance and Qatar's Prime Minister and Foreign Minister Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani, who reportedly delivered a proposal from Tehran to end the war. Trump spoke of 'positive momentum' but said the US would keep the status quo, including its naval blockade of Iranian ports and the newly announced Task Force Iron Gate targeting land and Caspian Sea trade, at the request of Gulf neighbours.\n\nIran's Supreme National Security Council Secretary Mohsen Rezaei dismissed the remarks as 'fake news' about 'imaginary talks'. President Masoud Pezeshkian said Iran was open to negotiations but would not surrender to force. Tehran says it will negotiate only within seven conditions, including lifting sanctions and the blockade, releasing frozen assets and ending the war on all fronts.\n\nThe US and Israel launched attacks on Iran on 28 February. A ceasefire reached in April collapsed in July as diplomacy stalled.\n\nSource: Al Jazeera, Anadolu Agency\n\n#Iran #Qatar #Trump #StraitOfHormuz #MiddleEast #Diplomacy #Geopolitics #GulfStates #IlmSanat",
+    "baslik": "Trump: Iran War 'Effectively Over', Blockade Stays",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Trump: Iran War **'Effectively Over'**, Blockade **Stays**",
+      "hook_satirlar": [
+        "Trump says Iran's military",
+        "is effectively **finished**",
+        "but the war has not ended"
+      ],
+      "cumleler": [
+        "Trump now says Iran's military is effectively finished, yet the war on Iran has not ended.",
+        "He spoke after closed-door talks with Qatar's prime minister in Washington.",
+        "Qatar reportedly carried a proposal from Tehran to end the fighting.",
+        "Trump wants the status quo: a naval blockade of Iranian ports and a new effort to choke land trade.",
+        "Gulf neighbours, he says, prefer it.",
+        "Iran's security council chief Mohsen Rezaei dismissed the talk as fake news.",
+        "Tehran insists on seven conditions, including lifting sanctions and the blockade."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a grand neoclassical government building at dusk, columns lit by lamplight, storm clouds gathering over the dome, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the building, clouds drifting overhead, gentle lamplight flicker"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "academic oil painting of an ornate closed-door meeting room, long polished table with two empty chairs facing each other, papers and a brass lamp, heavy curtains, silhouettes of diplomats in shadow, navy and brass palette, chiaroscuro, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "slow lateral drift along the table, soft flicker of lamplight"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century marine oil painting of a line of dark warships blockading a desert coastline at a narrow strait, misty sea, low brass-coloured sun, navy desaturated tones, dramatic chiaroscuro, visible brushstrokes, no flags with text",
+          "hareket_prompt": "slow push-in over the water, mist rolling, gentle swell on the sea"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "antique copperplate engraving style map of the Persian Gulf and surrounding coasts, aged parchment tinted navy and muted brass, compass rose, ship silhouettes, no lettering or labels, dramatic vignette lighting",
+          "hareket_prompt": "slow drift across the map, subtle light sweep over the parchment"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "academic oil painting of a Persian city skyline at night with domes and minarets, a lone silhouette on a balcony, smoke on the horizon, dark navy and brass tones, chiaroscuro, cinematic composition, visible brushstrokes, no faces",
+          "hareket_prompt": "slow push-in toward the silhouette, faint smoke drifting, flickering distant lights"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "still life oil painting of a sealed diplomatic document with wax seal and quill on a dark wooden desk beside a brass candlestick, deep shadows, navy and muted brass palette, visible brushstrokes, no legible text",
+          "hareket_prompt": "very slow push-in on the wax seal, candle flame gently flickering"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "QATAR",
+              "unvan": "PM & FM Sheikh Mohammed, mediator",
+              "cumle": 1
+            },
+            {
+              "ulke": "IRAN",
+              "unvan": "Rezaei: 'Fake news'",
+              "cumle": 5
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "NAVAL\nBLOCKADE",
+          "alt": "Plus Task Force Iron Gate"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "Iran's **seven** conditions",
+            "Sanctions, blockade, frozen funds"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Trump: Iran War 'Effectively Over', Blockade Stays\n\nOn 9 November 2026, US President Donald Trump said Iran was 'militarily effectively over' after a closed-door meeting in Washington with Vice President JD Vance and Qatar's Prime Minister and Foreign Minister Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani, who reportedly delivered a proposal from Tehran to end the war. Trump spoke of 'positive momentum' but said the US would keep the status quo, including its naval blockade of Iranian ports and the newly announced Task Force Iron Gate targeting land and Caspian Sea trade, at the request of Gulf neighbours.\n\nIran's Supreme National Security Council Secretary Mohsen Rezaei dismissed the remarks as 'fake news' about 'imaginary talks'. President Masoud Pezeshkian said Iran was open to negotiations but would not surrender to force. Tehran says it will negotiate only within seven conditions, including lifting sanctions and the blockade, releasing frozen assets and ending the war on all fronts.\n\nThe US and Israel launched attacks on Iran on 28 February. A ceasefire reached in April collapsed in July as diplomacy stalled.\n\nSource: Al Jazeera, Anadolu Agency\n\n#Iran #Qatar #Trump #StraitOfHormuz #MiddleEast #Diplomacy #Geopolitics #GulfStates #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Al Jazeera",
+          "baslik": "After meeting Qatar PM, Trump calls Iran war ‘effectively over’ militarily",
+          "link": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Trump signals ‘positive momentum’ with Iran after meeting Qatari PM",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/trump-signals-positive-momentum-with-iran-after-meeting-qatari-pm"
+        },
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Qatari prime minister welcomes ‘positive discussions’ with Trump and Vance on US-Iran deal",
+          "link": "https://www.aa.com.tr/en/middle-east/qatari-prime-minister-welcomes-positive-discussions-with-trump-and-vance-on-us-iran-deal/4118076"
+        }
+      ]
+    },
+    "mesajId": 264
   }
 }
