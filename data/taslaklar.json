@@ -5670,5 +5670,133 @@
     "durum": "hata",
     "guncelleme": "2026-11-10T11:27:37.125Z",
     "hata": "Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs"
+  },
+  "2026-11-10_1800_haber": {
+    "zaman": "2026-11-10T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-10T15:12:38.891Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-10_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1gIIaa6KRW8Yz63IzFgONk_qmsDwj12P-&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-10_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Gulf states set up forward command in Kuwait\n\nOn 10 November 2026, Gulf Cooperation Council defence ministers agreed at the 23rd session of the Joint Defence Council in Manama, chaired by Bahrain's Lt. Gen. Abdullah bin Hassan Al Nuaimi, to establish a forward headquarters for the bloc's Unified Military Command in Kuwait and assign forces to it. GCC Secretary-General Jasem Mohamed Albudaiwi announced the decision. Its location, troop numbers and force types have not been disclosed.\n\nThe Unified Military Command was created in 2013, with its Riyadh headquarters opening in 2021. The new post at the northern end of the Gulf comes after Iranian missile and drone attacks on Gulf states during the US-Israel war on Iran that began on 28 February, continued disruption in the Strait of Hormuz, and Houthi attacks on Saudi Arabia, including the 10 October strike on King Khalid International Airport.\n\nMuhanad Seloom of the Middle East Council on Global Affairs described it as a message to Iran and Iraq and a wake-up call for the GCC, while Albert Vidal of the IISS said it does not signal a shift away from the United States. The GCC was founded in 1981 by Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain and Oman.\n\nSource: Anadolu Agency, Middle East Monitor, Al Jazeera\n\n#GCC #Kuwait #GulfSecurity #Iran #Houthis #StraitOfHormuz #MiddleEast #Geopolitics #Defence #IlmSanat",
+    "baslik": "Gulf states set up forward command in Kuwait",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Gulf states set up **forward command** in **Kuwait**",
+      "hook_satirlar": [
+        "Six Gulf states",
+        "move a joint command",
+        "north to **Kuwait**"
+      ],
+      "cumleler": [
+        "Six Gulf states will place a joint military command at the top of the Gulf, in Kuwait.",
+        "On Tuesday, GCC defence ministers approved a forward headquarters for their Unified Military Command, with forces assigned.",
+        "Its location, troop numbers and force types remain undisclosed.",
+        "It follows Iranian missile and drone strikes on Gulf states during the US-Israel war on Iran.",
+        "Houthi attacks on Saudi Arabia have deepened the alarm.",
+        "Analysts see a message to Iran and Iraq, not a break with Washington."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Persian Gulf, the northern tip near Kuwait highlighted by a warm brass glow, dark desaturated navy sea, aged parchment texture, dramatic chiaroscuro, cinematic vertical composition, no text or letters",
+          "hareket_prompt": "Slow push-in toward the glowing northern tip of the Gulf, faint candlelight flicker across the parchment"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "19th-century academic oil painting of a grand council chamber at night, long polished table with six empty high-backed chairs, brass lamps, military maps spread on the table, deep navy shadows and muted brass highlights, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "Gentle lateral drift along the table, lamp flames flickering softly"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Shadowy desert fortress command post at dusk wrapped in haze, silhouettes of sentries on walls, sealed doors, dark navy sky with muted brass horizon, oil painting with dramatic chiaroscuro and visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in as drifting mist veils the fortress walls"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Night sky over a coastal Gulf oil terminal, faint streaks of distant projectiles high above, storage tanks and pipelines in silhouette, dark navy and muted brass tones, 19th-century oil painting style, cinematic chiaroscuro, no blood, no text",
+          "hareket_prompt": "Slow upward tilt toward the sky, distant light streaks moving very gently, smoke drifting"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Rugged Yemeni mountain ridges at twilight seen from afar, smoke rising faintly on the horizon toward a desert city skyline, dark desaturated navy and brass palette, academic oil painting, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow drift across the ridges, smoke rising softly, clouds moving gently"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Antique engraved map table with brass compass and dividers resting over the Gulf region, a distant warship silhouette painted at the map edge, dramatic chiaroscuro, navy and muted brass tones, visible brushstrokes, no text or letters",
+          "hareket_prompt": "Slow pull-back revealing the whole map, soft lamplight flicker"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "FORWARD\nHQ APPROVED",
+          "alt": "Manama, 10 Nov 2026"
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "DETAILS\nUNDISCLOSED",
+          "alt": "Location, troops, forces"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "IRAN",
+              "unvan": "Missile and drone strikes on Gulf states",
+              "cumle": 3
+            },
+            {
+              "ulke": "HOUTHIS",
+              "unvan": "Attacks on Saudi Arabia",
+              "cumle": 4
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 5,
+          "satirlar": [
+            "A message to **Iran** and Iraq",
+            "Not a break with Washington"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Gulf states set up forward command in Kuwait\n\nOn 10 November 2026, Gulf Cooperation Council defence ministers agreed at the 23rd session of the Joint Defence Council in Manama, chaired by Bahrain's Lt. Gen. Abdullah bin Hassan Al Nuaimi, to establish a forward headquarters for the bloc's Unified Military Command in Kuwait and assign forces to it. GCC Secretary-General Jasem Mohamed Albudaiwi announced the decision. Its location, troop numbers and force types have not been disclosed.\n\nThe Unified Military Command was created in 2013, with its Riyadh headquarters opening in 2021. The new post at the northern end of the Gulf comes after Iranian missile and drone attacks on Gulf states during the US-Israel war on Iran that began on 28 February, continued disruption in the Strait of Hormuz, and Houthi attacks on Saudi Arabia, including the 10 October strike on King Khalid International Airport.\n\nMuhanad Seloom of the Middle East Council on Global Affairs described it as a message to Iran and Iraq and a wake-up call for the GCC, while Albert Vidal of the IISS said it does not signal a shift away from the United States. The GCC was founded in 1981 by Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain and Oman.\n\nSource: Anadolu Agency, Middle East Monitor, Al Jazeera\n\n#GCC #Kuwait #GulfSecurity #Iran #Houthis #StraitOfHormuz #MiddleEast #Geopolitics #Defence #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Gulf states agree to establish forward military command in Kuwait",
+          "link": "https://www.aa.com.tr/en/middle-east/-gulf-states-agree-to-establish-forward-military-command-in-kuwait/4118648"
+        },
+        {
+          "ad": "Middle East Monitor",
+          "baslik": "Gulf states agree to establish forward military command in Kuwait",
+          "link": "https://www.middleeastmonitor.com/20261110-gulf-states-agree-to-establish-forward-military-command-in-kuwait/"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Why the GCC is setting up an advanced military command base in Kuwait",
+          "link": "https://www.aljazeera.com/news/2026/11/10/gcc-agrees-to-set-up-advanced-military-command-headquarters-in-kuwait"
+        }
+      ]
+    },
+    "mesajId": 270
   }
 }
