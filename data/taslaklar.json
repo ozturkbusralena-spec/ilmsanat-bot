@@ -6070,5 +6070,140 @@
     "mesajId": 280,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/Dfmigb3hqiP/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-11_1800_haber": {
+    "zaman": "2026-11-11T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-11T15:32:50.116Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-11_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1VFt9izBYYxBQQiBe3FCkWi_37bWwrRo4&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-11_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Egypt's secret deployment in Saudi Arabia\n\nEgyptian Foreign Minister Badr Abdelatty told France 24 that Egyptian forces have been stationed in Saudi Arabia for several months, after attacks on the kingdom during the escalation with Iran, and that Cairo is now strengthening the deployment. Egyptian military sources told Middle East Eye the presence includes a squadron of Rafale fighter jets, eight helicopters, four large transport aircraft and repositioned air defence systems, while naval warships moved toward the Bab al-Mandab Strait.\n\nThe deployment preceded formal approval. President Abdel Fattah el-Sisi asked parliament on 17 October to authorise the defence of Saudi Arabia; under Article 152 of the constitution, lawmakers approved the request by a two-thirds majority on 26 October. The scope of Egypt's commitment has not been publicly clarified.\n\nThe disclosures come as Saudi Arabia faces renewed Houthi missile and drone attacks. A senior Egyptian official described disagreements within the military leadership over sending ground troops into northern Yemen, a step one source said was not an option at present.\n\nSource: Middle East Eye, Middle East Monitor, France 24\n\n#Egypt #SaudiArabia #Houthis #Yemen #RedSea #BabAlMandab #MiddleEast #Geopolitics #IlmSanat",
+    "baslik": "Egypt's secret deployment in Saudi Arabia",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Egypt's **secret deployment** in **Saudi Arabia**",
+      "hook_satirlar": [
+        "Egyptian troops have been",
+        "inside Saudi Arabia",
+        "for **months**"
+      ],
+      "cumleler": [
+        "Egyptian troops have been inside Saudi Arabia for months, long before Cairo said so publicly.",
+        "Foreign Minister Badr Abdelatty confirmed it, saying Cairo is now strengthening the deployment.",
+        "Sources say it includes Rafale jets, eight helicopters and four transport aircraft.",
+        "Egyptian warships also moved toward the Bab al-Mandab Strait.",
+        "Parliament only approved a combat mission on 26 October, by a two-thirds majority.",
+        "The aim: helping Riyadh against renewed Houthi missile and drone attacks.",
+        "Whether Egyptian ground troops enter Yemen remains unclear."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a vast desert airfield at dusk, silhouettes of soldiers and parked aircraft under a heavy sky, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the silhouetted figures, faint dust drifting, dim light flicker on the horizon"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Academic oil painting of an ornate diplomatic hall with a long polished table, empty chairs and a single lamp, dark navy and brass palette, deep chiaroscuro, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "Gentle lateral drift across the table, soft lamplight flicker"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Copperplate engraving style scene of fighter jets and helicopters resting on a moonlit desert runway, large transport aircraft in the background, muted brass and navy tones, dramatic shadows, cinematic composition, no markings or text",
+          "hareket_prompt": "Slow push-in along the runway, thin mist rolling across the ground"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century maritime oil painting of grey warships sailing through a narrow strait between rocky coasts at twilight, stormy clouds, dark navy and muted brass tones, dramatic chiaroscuro, visible brushstrokes, no flags or text",
+          "hareket_prompt": "Slow drift forward with the ships, clouds moving gently, soft wave motion"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Academic oil painting of a grand parliamentary chamber in shadow, tiered empty benches under a domed ceiling, shafts of pale light, navy and brass palette, chiaroscuro, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow tilt up toward the dome, light rays shimmering faintly"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Antique engraved map style view of rugged mountains along a desert frontier at night, distant glow on the horizon, dark desaturated navy and brass tones, dramatic chiaroscuro, cinematic, no letters or text",
+          "hareket_prompt": "Slow push-in toward the mountain ridge, mist drifting through the valleys"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "buyuk",
+          "cumle": 2,
+          "satirlar": [
+            "**Rafale** squadron",
+            "8 helicopters",
+            "4 transport aircraft"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "BAB AL-MANDAB",
+          "alt": "Warships moved south"
+        },
+        {
+          "tur": "damga",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "PARLIAMENT\nAPPROVAL",
+          "alt": "26 October · two-thirds"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "SAUDI ARABIA",
+              "unvan": "Under missile and drone attack",
+              "cumle": 5
+            },
+            {
+              "ulke": "HOUTHIS",
+              "unvan": "Yemen's armed movement",
+              "cumle": 5
+            },
+            {
+              "ulke": "EGYPT",
+              "unvan": "Ground role undecided",
+              "cumle": 6
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Egypt's secret deployment in Saudi Arabia\n\nEgyptian Foreign Minister Badr Abdelatty told France 24 that Egyptian forces have been stationed in Saudi Arabia for several months, after attacks on the kingdom during the escalation with Iran, and that Cairo is now strengthening the deployment. Egyptian military sources told Middle East Eye the presence includes a squadron of Rafale fighter jets, eight helicopters, four large transport aircraft and repositioned air defence systems, while naval warships moved toward the Bab al-Mandab Strait.\n\nThe deployment preceded formal approval. President Abdel Fattah el-Sisi asked parliament on 17 October to authorise the defence of Saudi Arabia; under Article 152 of the constitution, lawmakers approved the request by a two-thirds majority on 26 October. The scope of Egypt's commitment has not been publicly clarified.\n\nThe disclosures come as Saudi Arabia faces renewed Houthi missile and drone attacks. A senior Egyptian official described disagreements within the military leadership over sending ground troops into northern Yemen, a step one source said was not an option at present.\n\nSource: Middle East Eye, Middle East Monitor, France 24\n\n#Egypt #SaudiArabia #Houthis #Yemen #RedSea #BabAlMandab #MiddleEast #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Middle East Monitor",
+          "baslik": "Egypt confirms military presence in Saudi Arabia, plans to strengthen defensive deployment",
+          "link": "https://www.middleeastmonitor.com/20261111-egypt-confirms-military-presence-in-saudi-arabia-plans-to-strengthen-defensive-deployment/"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Egypt deployed forces to Saudi Arabia before Sisi's public pledge, sources say",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/egypt-deployed-forces-saudi-arabia-sisis-public-pledge-sources-say"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Egypt deployed forces to Saudi Arabia before Sisi's public pledge of military support, sources say",
+          "link": "https://www.middleeasteye.net/news/egypt-deployed-forces-saudi-arabia-before-sisi-pledge-military-support"
+        }
+      ]
+    },
+    "mesajId": 285
   }
 }
