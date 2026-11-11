@@ -5937,5 +5937,136 @@
     "mesajId": 275,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfmAH8XqG5F/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-11_1400_analiz": {
+    "zaman": "2026-11-11T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-11T11:38:10.967Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-11_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1GqBSRtYtbduZuEN-8A884WtKWD6Q3rVz&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-11_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Russia and China: Partnership With Limits\n\nIn an analysis for Anadolu Agency, Assoc. Prof. Dr. Merve Suna Özel Özcan of Kırıkkale University's Department of International Relations examines whether the Moscow–Beijing rapprochement can shift the global military balance. She points to the 3 November meeting in Beijing between Russian Defence Minister Andrey Belousov and Zhang Shengmin, Vice Chairman of China's Central Military Commission, where both sides backed stronger strategic consultations, joint training and scientific-technological cooperation. The relationship builds on the 2001 Treaty of Good-Neighbourliness and the 2022 'no limits' partnership.\n\nThe author highlights a growing asymmetry. According to SIPRI, Russia's share of global major arms exports fell to 6.8% in 2021–2025, with volumes down 64%, while China's share stood at 5.6% and its exports rose 11%. Their markets also diverge: 48% of Russian exports went to India, 61% of Chinese exports to Pakistan, suggesting their strategic interests in Asia do not fully overlap.\n\nYet cooperation is widening: Joint Sea-2026 in Qingdao, an 11th joint strategic air patrol, Border Defense Cooperation-2026 with Mongolia, and Will for Peace-2026 off South Africa with Iran and the UAE. The author argues this could narrow US strategic room across several regions simultaneously.\n\nSource: Anadolu Ajansı (Analysis by Assoc. Prof. Dr. Merve Suna Özel Özcan), SIPRI\n\n#Russia #China #Geopolitics #SIPRI #IndoPacific #MilitaryCooperation #SCO #GlobalPower #Analysis #IlmSanat",
+    "baslik": "Russia and China: Partnership With Limits",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "Russia and China: **Partnership** With **Limits**",
+      "hook_satirlar": [
+        "Russian and Chinese forces",
+        "now drill from the Pacific",
+        "to **South Africa**"
+      ],
+      "cumleler": [
+        "Russian and Chinese forces now drill together from the Pacific to waters off South Africa.",
+        "In Beijing on November 3, defence minister Andrey Belousov and China's Zhang Shengmin pledged deeper military cooperation.",
+        "Russia brings nuclear deterrence and Ukraine war experience; China brings economic and technological scale.",
+        "Yet asymmetry grows: Russian arms exports fell 64 percent in 2021–2025.",
+        "Interests diverge too: Russia sells mostly to India, China to Pakistan.",
+        "Still, joint exercises now draw in Mongolia, Iran and the UAE.",
+        "The author argues this could shrink Washington's room to manoeuvre in several regions at once."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of two dark steel warships sailing side by side across a stormy grey ocean at dusk, distant coastline, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no text, no flags",
+          "hareket_prompt": "Slow push-in toward the ships, gentle rolling waves, drifting sea mist, soft flicker of light on the clouds"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Grand candlelit hall in a classical Beijing palace, long polished table with two empty chairs facing each other, folded maps and brass inkwells, silhouettes of officials in the shadowed background, faces not visible, 19th-century academic oil painting, navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow drift along the table toward the empty chairs, candle flames flickering softly"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Symbolic still life: a heavy brass missile shell beside a stack of gears, coins and telegraph instruments on an antique map of Eurasia, 19th-century academic oil painting, dark navy and muted brass tones, dramatic side lighting, visible brushstrokes, no text or letters",
+          "hareket_prompt": "Gentle slow push-in across the objects, light slowly shifting across the brass surfaces"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Vast dim armoury hall with rows of idle cannons and empty crates under high arched windows, dust in shafts of pale light, 19th-century academic oil painting, desaturated navy and brass tones, dramatic chiaroscuro, cinematic perspective, visible brushstrokes, no text",
+          "hareket_prompt": "Slow dolly forward down the rows, floating dust motes, soft light flicker"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Antique copperplate-style map of Asia, the Indian Ocean and the African coast, small engraved ships and compass roses, sea routes traced in faded brass lines, aged paper with navy wash, dramatic vignette lighting, no lettering or text",
+          "hareket_prompt": "Slow pan from Asia southwest toward the African coast, slight parchment light flicker"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Lone silhouetted figure at a large globe in a dark study, storm clouds visible through tall windows, lamplight on brass instruments, 19th-century academic oil painting, navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no face visible, no text",
+          "hareket_prompt": "Very slow push-in toward the globe, clouds drifting outside the window, lamplight flickering gently"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "RUSSIA",
+              "unvan": "Defence Minister Andrey Belousov",
+              "cumle": 1
+            },
+            {
+              "ulke": "CHINA",
+              "unvan": "CMC Vice Chairman Zhang Shengmin",
+              "cumle": 1
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "RUSSIAN ARMS\nEXPORTS -64%",
+          "alt": "SIPRI, 2021–2025"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "INDIA",
+              "unvan": "48% of Russian arms exports",
+              "cumle": 4
+            },
+            {
+              "ulke": "PAKISTAN",
+              "unvan": "61% of Chinese arms exports",
+              "cumle": 4
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "Not just stronger militaries",
+            "but pressure on Washington",
+            "in **several regions** at once"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Russia and China: Partnership With Limits\n\nIn an analysis for Anadolu Agency, Assoc. Prof. Dr. Merve Suna Özel Özcan of Kırıkkale University's Department of International Relations examines whether the Moscow–Beijing rapprochement can shift the global military balance. She points to the 3 November meeting in Beijing between Russian Defence Minister Andrey Belousov and Zhang Shengmin, Vice Chairman of China's Central Military Commission, where both sides backed stronger strategic consultations, joint training and scientific-technological cooperation. The relationship builds on the 2001 Treaty of Good-Neighbourliness and the 2022 'no limits' partnership.\n\nThe author highlights a growing asymmetry. According to SIPRI, Russia's share of global major arms exports fell to 6.8% in 2021–2025, with volumes down 64%, while China's share stood at 5.6% and its exports rose 11%. Their markets also diverge: 48% of Russian exports went to India, 61% of Chinese exports to Pakistan, suggesting their strategic interests in Asia do not fully overlap.\n\nYet cooperation is widening: Joint Sea-2026 in Qingdao, an 11th joint strategic air patrol, Border Defense Cooperation-2026 with Mongolia, and Will for Peace-2026 off South Africa with Iran and the UAE. The author argues this could narrow US strategic room across several regions simultaneously.\n\nSource: Anadolu Ajansı (Analysis by Assoc. Prof. Dr. Merve Suna Özel Özcan), SIPRI\n\n#Russia #China #Geopolitics #SIPRI #IndoPacific #MilitaryCooperation #SCO #GlobalPower #Analysis #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "Rusya-Çin yakınlaşması küresel askeri güç dengelerini etkileyebilir mi?",
+          "link": "https://www.aa.com.tr/tr/analiz/rusya-cin-yakinlasmasi-kuresel-askeri-guc-dengelerini-etkileyebilir-mi/4118958"
+        }
+      ]
+    },
+    "mesajId": 280
   }
 }
