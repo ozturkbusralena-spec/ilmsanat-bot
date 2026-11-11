@@ -5800,5 +5800,140 @@
     "mesajId": 270,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfkZJRwsONP/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-11_0900_haber": {
+    "zaman": "2026-11-11T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-11T06:21:52.103Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-11_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1uLBP29U4gH4YqWfBItoT3-f5wEX0zg3o&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-11_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Trump and Netanyahu clash over Iran strikes\n\nIsraeli daily Yedioth Ahronoth, citing sources familiar with the exchange, reported that a weekend call between Israeli Prime Minister Benjamin Netanyahu and US President Donald Trump was highly confrontational, focused on differences over a possible renewal of the war on Iran. One source described it as \"a screaming conversation from hell.\" Netanyahu's office rejected the account as \"fake news,\" while a senior Israeli official confirmed the call but denied it was difficult.\n\nThe report followed a Financial Times account that Netanyahu had been calling Trump daily to urge renewed military action, alarming Arab and Muslim leaders who urged diplomacy. Trump said Gulf allies, including Saudi Arabia, Qatar, the UAE, Bahrain and Kuwait, oppose a new campaign, and called renewed strikes \"quite unlikely.\" Secretary of State Marco Rubio said economic pressure was achieving its goals, while US forces remain ready if Iran crosses Washington's \"red lines.\"\n\nQatar reported positive responses from both Washington and Tehran on mediation. The US and Israel launched their offensive on Feb. 28; despite a memorandum signed by Washington and Tehran, no settlement has been reached.\n\nSource: Anadolu Agency, TRT World, Middle East Monitor\n\n#Iran #Israel #Trump #Netanyahu #Qatar #GulfStates #Diplomacy #MiddleEast #Geopolitics #IlmSanat",
+    "baslik": "Trump and Netanyahu clash over Iran strikes",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Trump and Netanyahu **clash** over **Iran strikes**",
+      "hook_satirlar": [
+        "Trump–Netanyahu call on Iran:",
+        "a **screaming** conversation",
+        "from hell"
+      ],
+      "cumleler": [
+        "One source called the latest Trump–Netanyahu call on Iran a screaming conversation from hell.",
+        "Israel's Yedioth Ahronoth says the two leaders split over renewing the war.",
+        "Netanyahu's office dismissed the report as fake news.",
+        "The Financial Times says he has phoned Trump daily, pressing for new strikes.",
+        "Saudi Arabia, Qatar, the UAE, Bahrain and Kuwait all oppose another campaign.",
+        "Trump now calls renewed US strikes quite unlikely.",
+        "Rubio says economic pressure is already doing the work.",
+        "Qatar reports positive mediation responses, but still no deal."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting, an antique brass telephone receiver resting on a dark mahogany desk in a shadowed study, a single oil lamp casting dramatic chiaroscuro, dark desaturated navy and muted brass tones, cinematic composition, visible brushstrokes, no people, no text",
+          "hareket_prompt": "slow push-in toward the receiver, lamp light flickering gently"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century academic oil painting, a stately government building with tall columns at night, lit windows, rain-slick stone steps, dark navy sky and muted brass lamplight, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no flags, no text",
+          "hareket_prompt": "slow drift to the right, light mist rolling across the steps"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Middle East and Persian Gulf on aged parchment, brass compass and dividers lying across it, dark navy and muted brass tones, dramatic side lighting, cinematic composition, no lettering, no text",
+          "hareket_prompt": "slow push-in across the map, faint candlelight flicker"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century academic oil painting, desert palace courtyard on the Gulf coast at dusk, arched colonnades and distant dhows on calm water, dark desaturated navy and muted brass tones, dramatic chiaroscuro, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "gentle drift forward, clouds moving slowly over the water"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "19th-century academic oil painting, a heavy brass balance scale on a marble table, stacks of coins on one pan, a shadowed helmet on the other, dark navy background, dramatic chiaroscuro, muted brass tones, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in, subtle light shimmer on the brass"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "19th-century academic oil painting, a long empty negotiating table in a grand hall with two chairs facing each other, tall windows with pale light, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no people, no text",
+          "hareket_prompt": "slow dolly along the table, dust motes drifting in the window light"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "REPORT\nDENIED",
+          "alt": "Netanyahu's office: \"fake news\""
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "ISRAEL",
+              "unvan": "Pressing for renewed strikes",
+              "cumle": 3
+            },
+            {
+              "ulke": "GULF ALLIES",
+              "unvan": "Oppose a new campaign",
+              "cumle": 4
+            },
+            {
+              "ulke": "USA",
+              "unvan": "Strikes \"quite unlikely\"",
+              "cumle": 5
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "Economic **pressure**",
+            "over renewed war"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 7,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "QATAR\nMEDIATION",
+          "alt": "No settlement since Feb. 28 offensive"
+        }
+      ],
+      "aciklama": "Trump and Netanyahu clash over Iran strikes\n\nIsraeli daily Yedioth Ahronoth, citing sources familiar with the exchange, reported that a weekend call between Israeli Prime Minister Benjamin Netanyahu and US President Donald Trump was highly confrontational, focused on differences over a possible renewal of the war on Iran. One source described it as \"a screaming conversation from hell.\" Netanyahu's office rejected the account as \"fake news,\" while a senior Israeli official confirmed the call but denied it was difficult.\n\nThe report followed a Financial Times account that Netanyahu had been calling Trump daily to urge renewed military action, alarming Arab and Muslim leaders who urged diplomacy. Trump said Gulf allies, including Saudi Arabia, Qatar, the UAE, Bahrain and Kuwait, oppose a new campaign, and called renewed strikes \"quite unlikely.\" Secretary of State Marco Rubio said economic pressure was achieving its goals, while US forces remain ready if Iran crosses Washington's \"red lines.\"\n\nQatar reported positive responses from both Washington and Tehran on mediation. The US and Israel launched their offensive on Feb. 28; despite a memorandum signed by Washington and Tehran, no settlement has been reached.\n\nSource: Anadolu Agency, TRT World, Middle East Monitor\n\n#Iran #Israel #Trump #Netanyahu #Qatar #GulfStates #Diplomacy #MiddleEast #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Netanyahu, Trump reportedly clash over Iran in tense call: Report",
+          "link": "https://www.aa.com.tr/en/middle-east/netanyahu-trump-reportedly-clash-over-iran-in-tense-call-report/4119501"
+        },
+        {
+          "ad": "TRT World",
+          "baslik": "TRT World - Trump, Netanyahu clash over renewed Iran strikes in &#x27;screaming&#x27; call — report",
+          "link": "https://www.trtworld.com/article/b1476a848413"
+        },
+        {
+          "ad": "Middle East Monitor",
+          "baslik": "Netanyahu, Trump reportedly clash over Iran in tense call: Report",
+          "link": "https://www.middleeastmonitor.com/20261110-netanyahu-trump-reportedly-clash-over-iran-in-tense-call-report/"
+        }
+      ]
+    },
+    "mesajId": 275
   }
 }
