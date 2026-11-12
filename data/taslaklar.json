@@ -6473,5 +6473,133 @@
     "mesajId": 295,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfpHP8sBJjA/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-12_1800_haber": {
+    "zaman": "2026-11-12T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-12T15:49:40.299Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-12_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1GfCH4vItmbgXQWTzc1BvtCBlkbQzJ6dg&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-12_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Trump: US doesn't need a deal with Iran\n\nUS President Donald Trump said on Thursday that Washington no longer needs an agreement with Iran. Writing on his Truth Social platform, he stated that the days of such a deal had long since passed, arguing that the United States now holds significant leverage over Tehran.\n\nTrump claimed that Washington has secured Iranian financial assets amounting to hundreds of billions of dollars, and asserted control of the Strait of Hormuz, writing that the US has got Iran's money and its strait. The remarks were reported by Anadolu.\n\nSource: Middle East Monitor, Middle East Eye\n\n#Iran #UnitedStates #Trump #StraitOfHormuz #Tehran #MiddleEast #Geopolitics #Diplomacy #WorldNews #IlmSanat",
+    "baslik": "Trump: US doesn't need a deal with Iran",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Trump: US **doesn't need** a **deal with Iran**",
+      "hook_satirlar": [
+        "Trump says Washington",
+        "no longer needs",
+        "a **deal** with Iran"
+      ],
+      "cumleler": [
+        "Donald Trump says Washington no longer needs a deal with Iran.",
+        "The US president made the claim on Thursday, in a post on his Truth Social platform.",
+        "He wrote that the time for an agreement with Tehran had long since passed.",
+        "Trump argued that the United States now holds significant leverage over Iran.",
+        "He claimed Washington has secured Iranian money worth hundreds of billions of dollars.",
+        "He also claimed control of the Strait of Hormuz, declaring that America has got their strait.",
+        "The remarks were first reported by the Anadolu news agency."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a grand neoclassical government building at dusk, columns lit by a single warm lamp, storm clouds above, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text, no people's faces",
+          "hareket_prompt": "Slow push-in toward the lit columns, clouds drifting gently overhead, soft lamp flicker"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Academic oil painting of a dim study with a writing desk, an inkwell, a quill and a sealed blank letter under a brass lamp, dark navy shadows, muted brass highlights, dramatic chiaroscuro, visible brushstrokes, no text or letters anywhere",
+          "hareket_prompt": "Gentle drift across the desk, lamp light flickering softly, faint dust in the air"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of an empty negotiating table in a vast candlelit hall, two vacant chairs facing each other, long shadows, dark desaturated navy and brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow pull-back from the empty chairs, candle flames flickering gently"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Persian Gulf and surrounding lands, aged parchment tinted in muted navy and brass, compass rose, dramatic vignette lighting, no lettering or labels",
+          "hareket_prompt": "Slow push-in across the map toward the Gulf, subtle light sweep over the parchment"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Academic oil painting of a heavy iron vault door half open, stacks of gold coins and bullion glowing inside, deep navy shadows, muted brass light, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the glowing vault interior, soft flicker of reflected light"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century maritime oil painting of a narrow strait between rugged cliffs at twilight, silhouettes of large warships and a tanker on dark water, misty horizon, desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no flags, no text",
+          "hareket_prompt": "Slow drift along the strait, mist rolling over the water, ships gliding almost imperceptibly"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "TRUTH SOCIAL\nPOST",
+          "alt": "Thursday, 12 Nov 2026"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "UNITED STATES",
+              "unvan": "Says no deal is needed",
+              "cumle": 3
+            },
+            {
+              "ulke": "IRAN",
+              "unvan": "Target of claimed US leverage",
+              "cumle": 3
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 4,
+          "satirlar": [
+            "Hundreds of **billions**",
+            "in Iranian money",
+            "claimed secured"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 5,
+          "satirlar": [
+            "\"We've got their",
+            "**strait**\""
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Trump: US doesn't need a deal with Iran\n\nUS President Donald Trump said on Thursday that Washington no longer needs an agreement with Iran. Writing on his Truth Social platform, he stated that the days of such a deal had long since passed, arguing that the United States now holds significant leverage over Tehran.\n\nTrump claimed that Washington has secured Iranian financial assets amounting to hundreds of billions of dollars, and asserted control of the Strait of Hormuz, writing that the US has got Iran's money and its strait. The remarks were reported by Anadolu.\n\nSource: Middle East Monitor, Middle East Eye\n\n#Iran #UnitedStates #Trump #StraitOfHormuz #Tehran #MiddleEast #Geopolitics #Diplomacy #WorldNews #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Middle East Monitor",
+          "baslik": "Trump says US ‘doesn’t need’ deal with Iran, claims control of Strait of Hormuz",
+          "link": "https://www.middleeastmonitor.com/20261112-trump-says-us-doesnt-need-deal-with-iran-claims-control-of-strait-of-hormuz/"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Trump says US does not 'need a deal' with Iran",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-us-does-not-need-deal-iran"
+        }
+      ]
+    },
+    "mesajId": 300
   }
 }
