@@ -6207,5 +6207,139 @@
     "mesajId": 285,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/Dfm961QBe3L/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-12_0900_haber": {
+    "zaman": "2026-11-12T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-12T06:57:15.690Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-12_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1ohKNyzhrrV6pNcGKxKSdhHXe5baAQE0o&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-12_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Israel Orders Army to Prepare for Iran Strike\n\nIsrael's security cabinet has instructed the military to step up preparations for a possible attack on Iran, public broadcaster KAN reported, warning the directives could lead to activities that trigger a war. The cabinet last met in person on 5 October, weeks before the 27 October legislative elections, and is scheduled to meet on Sunday, according to Yedioth Ahronoth.\n\nThe directives became public after Yashar party leader Gadi Eisenkot, tasked with forming the next government, urged caretaker Prime Minister Benjamin Netanyahu to avoid deploying forces without a direct and immediate threat. In a letter reported by Ynet, he wrote that only 46 Knesset members still support Netanyahu's tenure, and warned of devastating consequences for Israeli democracy and public trust.\n\nChannel 12 reported that Army Chief of Staff Eyal Zamir considers the steps ill-advised, particularly as US President Donald Trump has shown no desire for another conflict. The US and Israel struck Iran on 28 February; despite an April ceasefire and a June framework agreement, fighting later resumed as talks stalled.\n\nSource: Anadolu Agency, Middle East Eye, TRT World\n\n#Israel #Iran #Netanyahu #Eisenkot #MiddleEast #Knesset #Geopolitics #WorldNews #IlmSanat",
+    "baslik": "Israel Orders Army to Prepare for Iran Strike",
+    "plan": {
+      "etiket": "ESCALATION",
+      "baslik": "Israel Orders Army to **Prepare for Iran** Strike",
+      "hook_satirlar": [
+        "Israel's caretaker government",
+        "orders its army to prepare",
+        "for a possible **attack** on Iran"
+      ],
+      "cumleler": [
+        "Israel's caretaker government has ordered its army to prepare for a possible attack on Iran.",
+        "Public broadcaster KAN says the security cabinet's directives could lead to actions that trigger a war.",
+        "The orders surfaced after Gadi Eisenkot, now tasked with forming a government, urged Netanyahu to hold back.",
+        "He warned against deploying forces without a direct and immediate threat.",
+        "In a letter, he noted only 46 Knesset members still back Netanyahu.",
+        "Army chief Eyal Zamir reportedly sees the steps as ill-advised.",
+        "The cabinet is expected to meet on Sunday."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a dim military war room at night, long table covered with an antique map of the Middle East, brass oil lamps, silhouetted officers without visible faces, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the map on the table, lamp light flickering gently"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Copperplate engraving style antique map of Israel and Iran separated by desert and mountains, storm clouds gathering over the eastern horizon, dark navy and muted brass tones, dramatic chiaroscuro, no letters or labels",
+          "hareket_prompt": "slow drift from west to east across the map, clouds moving softly"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of a stone government building in Jerusalem at dusk, a lone silhouetted figure at a window holding a letter, navy and brass palette, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "gentle push-in toward the lit window, faint mist drifting"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Academic oil painting of a grand parliamentary chamber with semicircular empty benches, a few lamps lit, deep shadows, dark navy and muted brass tones, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow pan across the benches, light flickering softly"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting of a military headquarters corridor, a silhouetted officer seen from behind facing tall closed doors, dramatic chiaroscuro, navy and brass tones, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "slow push-in down the corridor, dust motes drifting in the light"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Antique oil painting of an empty cabinet table with chairs and a single brass lamp, a calendar-free wall, heavy curtains, dawn light faintly entering, dark navy and muted brass tones, dramatic chiaroscuro, no text",
+          "hareket_prompt": "slow pull-back from the table, soft light gradually brightening"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "buyuk",
+          "cumle": 1,
+          "satirlar": [
+            "Directives that could",
+            "**trigger** a war"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "NETANYAHU",
+              "unvan": "Caretaker prime minister",
+              "cumle": 2
+            },
+            {
+              "ulke": "EISENKOT",
+              "unvan": "Yashar leader, PM-designate",
+              "cumle": 2
+            },
+            {
+              "ulke": "ZAMIR",
+              "unvan": "Army chief of staff",
+              "cumle": 5
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "ONLY 46\nMPs",
+          "alt": "Knesset support for Netanyahu"
+        },
+        {
+          "tur": "damga",
+          "cumle": 6,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "CABINET\nMEETS",
+          "alt": "Sunday"
+        }
+      ],
+      "aciklama": "Israel Orders Army to Prepare for Iran Strike\n\nIsrael's security cabinet has instructed the military to step up preparations for a possible attack on Iran, public broadcaster KAN reported, warning the directives could lead to activities that trigger a war. The cabinet last met in person on 5 October, weeks before the 27 October legislative elections, and is scheduled to meet on Sunday, according to Yedioth Ahronoth.\n\nThe directives became public after Yashar party leader Gadi Eisenkot, tasked with forming the next government, urged caretaker Prime Minister Benjamin Netanyahu to avoid deploying forces without a direct and immediate threat. In a letter reported by Ynet, he wrote that only 46 Knesset members still support Netanyahu's tenure, and warned of devastating consequences for Israeli democracy and public trust.\n\nChannel 12 reported that Army Chief of Staff Eyal Zamir considers the steps ill-advised, particularly as US President Donald Trump has shown no desire for another conflict. The US and Israel struck Iran on 28 February; despite an April ceasefire and a June framework agreement, fighting later resumed as talks stalled.\n\nSource: Anadolu Agency, Middle East Eye, TRT World\n\n#Israel #Iran #Netanyahu #Eisenkot #MiddleEast #Knesset #Geopolitics #WorldNews #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Israeli security cabinet orders military to prepare for possible attack on Iran: Report",
+          "link": "https://www.aa.com.tr/en/middle-east/israeli-security-cabinet-orders-military-to-prepare-for-possible-attack-on-iran-report/4121434"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Netanyahu orders Israeli army to prepare for possible attack on Iran",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-orders-israeli-army-prepare-possible-attack-iran"
+        },
+        {
+          "ad": "TRT World",
+          "baslik": "TRT World - Israeli war cabinet orders military to prepare for possible Iran attack — report",
+          "link": "https://www.trtworld.com/article/788026fd2736"
+        }
+      ]
+    },
+    "mesajId": 290
   }
 }
