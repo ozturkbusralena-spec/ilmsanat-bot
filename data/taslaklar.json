@@ -6343,5 +6343,133 @@
     "mesajId": 290,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/Dfok6sXS20H/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-12_1400_analiz": {
+    "zaman": "2026-11-12T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-12T11:53:17.822Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-12_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1h05CjNXzCphCcrhh8j5dR1luyIoFThMb&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-12_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "After the Democratic win: Washington and Ankara\n\nDemocrats have won the US midterm elections, and Anadolu Agency's analysis section has published two pieces examining the consequences. The first asks what now awaits the Trump administration following the Democrats' midterm victory.\n\nThe second turns to bilateral ties, asking how the Democrats' Congress victory could affect Turkish-American relations, and why the balance in Congress matters for Ankara alongside the White House.\n\nSource: Anadolu Agency (AA) Analysis\n\n#USPolitics #Midterms #Democrats #Trump #Congress #TurkiyeUSA #Ankara #Geopolitics #Analysis #IlmSanat",
+    "baslik": "After the Democratic win: Washington and Ankara",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "After the **Democratic win**: Washington and **Ankara**",
+      "hook_satirlar": [
+        "Democrats win the",
+        "US **midterms**",
+        "Trump faces a new reality"
+      ],
+      "cumleler": [
+        "Democrats have won the US midterm elections, handing the Trump administration a new political reality.",
+        "Anadolu Agency's analysis desk has examined what comes next.",
+        "The first question is domestic: what now awaits the Trump administration after this Democratic victory?",
+        "At the centre of that question is Congress, where Democrats have now prevailed.",
+        "The second question reaches beyond Washington.",
+        "Anadolu's analysts ask how the Democrats' Congress victory could shape relations between Türkiye and the United States.",
+        "For Ankara, the balance on Capitol Hill now enters the calculation alongside the White House.",
+        "Two analyses, two questions: Washington's next steps, and Ankara's."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a great neoclassical domed capitol building at dusk, storm clouds parting over the dome, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow push-in toward the dome, clouds drifting gently across the sky, faint light flicker on the columns"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of a white neoclassical executive mansion with columned portico at night, a single lit window, bare trees and mist on the lawn, dark navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no figures, no text",
+          "hareket_prompt": "Gentle drift to the right, mist slowly rolling across the lawn, soft flicker in the lit window"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Interior of a grand 19th-century legislative chamber, empty curved rows of wooden desks under a vaulted ceiling, shafts of light from high windows, dark navy and brass tones, academic oil painting style, deep chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in down the central aisle, dust motes drifting in the light beams"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Antique copperplate-style engraved map of the Atlantic Ocean and Mediterranean on aged parchment, compass rose and sailing ship silhouettes, muted brass and dark navy wash, dramatic vignette lighting, no letters or labels",
+          "hareket_prompt": "Slow pan eastward across the map, subtle candlelight flicker over the parchment"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century academic oil painting of Ankara's ancient hilltop citadel at twilight, stone walls above old houses on the slope, dark desaturated navy sky with muted brass light on the ramparts, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no people, no flags, no text",
+          "hareket_prompt": "Slow upward tilt toward the citadel walls, clouds drifting slowly, warm light flickering faintly"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "Symbolic still life oil painting: an antique brass balance scale on a dark wooden desk beside a folded parchment map and a quill, candlelight, deep navy shadows and muted brass highlights, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Very slow push-in on the balance scale, candle flame flickering gently, faint smoke drifting"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "AA\nANALYSIS",
+          "alt": "Two analyses"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 3,
+          "satirlar": [
+            "Democrats prevail",
+            "in **Congress**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "TÜRKIYE",
+              "unvan": "Weighing the new Congress",
+              "cumle": 5
+            },
+            {
+              "ulke": "UNITED STATES",
+              "unvan": "Trump administration after midterms",
+              "cumle": 6
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 7,
+          "satirlar": [
+            "Two questions:",
+            "**Washington** and Ankara"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "After the Democratic win: Washington and Ankara\n\nDemocrats have won the US midterm elections, and Anadolu Agency's analysis section has published two pieces examining the consequences. The first asks what now awaits the Trump administration following the Democrats' midterm victory.\n\nThe second turns to bilateral ties, asking how the Democrats' Congress victory could affect Turkish-American relations, and why the balance in Congress matters for Ankara alongside the White House.\n\nSource: Anadolu Agency (AA) Analysis\n\n#USPolitics #Midterms #Democrats #Trump #Congress #TurkiyeUSA #Ankara #Geopolitics #Analysis #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "Demokratların ara seçim zaferinin ardından Trump yönetimini ne bekliyor?",
+          "link": "https://www.aa.com.tr/tr/analiz/demokratlarin-ara-secim-zaferinin-ardindan-trump-yonetimini-ne-bekliyor/4122237"
+        },
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "Demokratların Kongre zaferi Türk-Amerikan ilişkilerini nasıl etkiler?",
+          "link": "https://www.aa.com.tr/tr/analiz/demokratlarin-kongre-zaferi-turk-amerikan-iliskilerini-nasil-etkiler/4122329"
+        }
+      ]
+    },
+    "mesajId": 295
   }
 }
