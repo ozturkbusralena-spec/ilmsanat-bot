@@ -6746,5 +6746,141 @@
     "mesajId": 305,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfrJtZzhjqq/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-13_1400_analiz": {
+    "zaman": "2026-11-13T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-13T11:42:08.508Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-13_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1Yn-Gn3pwgq8g6ILPRC-bSakkkeBxH9qh&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-13_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "US–Israel ties: interest, faith, ideology\n\nAn analysis published by Anadolu Agency (AA Analiz) examines the multi-layered dimensions of the relationship between the United States and Israel, framing it around three intertwined layers: national interest, religion and ideology.\n\nA second AA Analiz piece, titled \"Four continents, four countries, one result: Israel makes you lose,\" looks at cases from four countries on four different continents and argues that each arrives at the same outcome.\n\nRead together, the two analyses explore why the alliance endures and what it may cost those who align with it.\n\nSource: Anadolu Agency (AA Analiz)\n\n#USIsrael #Geopolitics #MiddleEast #ForeignPolicy #Israel #UnitedStates #Analysis #InternationalRelations #AnadoluAgency #IlmSanat",
+    "baslik": "US–Israel ties: interest, faith, ideology",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "US–Israel ties: **interest, faith, ideology**",
+      "hook_satirlar": [
+        "Washington's bond with Israel",
+        "runs on more than",
+        "**strategy**"
+      ],
+      "cumleler": [
+        "Washington's bond with Israel runs on more than strategy alone.",
+        "An Anadolu Agency analysis breaks the relationship into three layers.",
+        "The first layer is national interest.",
+        "The second is religion.",
+        "The third is ideology.",
+        "In this reading, interest, faith and worldview are woven together.",
+        "A second AA analysis widens the lens beyond Washington.",
+        "It examines four countries, spread across four continents.",
+        "Its verdict is the same in every case: Israel makes you lose.",
+        "The argument is that the partnership carries a price for those who embrace it.",
+        "Two analyses, one theme: the true cost of this alliance."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting, a grand neoclassical domed capitol building at dusk seen across dark water, a distant eastern Mediterranean harbour city faintly mirrored in the clouds, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the dome, clouds drifting gently, soft light flicker on the water"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "copperplate engraving style antique map of the Atlantic and the eastern Mediterranean, brass compass and old ledgers resting on the map, candlelight, dark navy and muted brass palette, dramatic chiaroscuro, visible texture, no letters or labels",
+          "hareket_prompt": "slow drift across the map from west to east, candle flame flickering softly"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting, a dim study with three symbolic objects on a desk: a brass scale, an old closed leather-bound book, and a sealed scroll, shafts of light through a tall window, navy and brass tones, chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "gentle push-in on the three objects, dust motes drifting in the light beam"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "antique engraved world globe on a brass stand in a darkened room, oceans in deep navy, continents in muted brass, dramatic side lighting, cinematic composition, 19th-century academic painting style, no text or labels",
+          "hareket_prompt": "globe turning very slowly, slow push-in, soft light flicker"
+        },
+        {
+          "cumle": 8,
+          "gorsel_prompt": "19th-century academic oil painting, an overturned chess king lying on a marble board beside a guttering candle, dark navy shadows and muted brass highlights, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in on the fallen piece, candle smoke curling upward"
+        },
+        {
+          "cumle": 10,
+          "gorsel_prompt": "silhouetted ship at anchor in a misty harbour at twilight, a lone lighthouse beam crossing heavy clouds, 19th-century oil painting, dark navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, no text",
+          "hareket_prompt": "slow pull-back, mist drifting across the water, lighthouse beam sweeping gently"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "INTEREST",
+              "unvan": "Layer 1: national interest",
+              "cumle": 2
+            },
+            {
+              "ulke": "RELIGION",
+              "unvan": "Layer 2: faith",
+              "cumle": 3
+            },
+            {
+              "ulke": "IDEOLOGY",
+              "unvan": "Layer 3: worldview",
+              "cumle": 4
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 7,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "4 CONTINENTS\n4 COUNTRIES",
+          "alt": "One result"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 8,
+          "satirlar": [
+            "Israel makes",
+            "you **lose**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 10,
+          "satirlar": [
+            "Two analyses",
+            "one **cost**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "US–Israel ties: interest, faith, ideology\n\nAn analysis published by Anadolu Agency (AA Analiz) examines the multi-layered dimensions of the relationship between the United States and Israel, framing it around three intertwined layers: national interest, religion and ideology.\n\nA second AA Analiz piece, titled \"Four continents, four countries, one result: Israel makes you lose,\" looks at cases from four countries on four different continents and argues that each arrives at the same outcome.\n\nRead together, the two analyses explore why the alliance endures and what it may cost those who align with it.\n\nSource: Anadolu Agency (AA Analiz)\n\n#USIsrael #Geopolitics #MiddleEast #ForeignPolicy #Israel #UnitedStates #Analysis #InternationalRelations #AnadoluAgency #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "Amerika-İsrail ilişkilerinin çok katmanlı boyutları: Ulusal çıkar, din ve ideoloji",
+          "link": "https://www.aa.com.tr/tr/analiz/amerika-israil-iliskilerinin-cok-katmanli-boyutlari-ulusal-cikar-din-ve-ideoloji/4123852"
+        },
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "Dört kıta, dört ülke tek sonuç: İsrail kaybettirir",
+          "link": "https://www.aa.com.tr/tr/analiz/dort-kita-dort-ulke-tek-sonuc-israil-kaybettirir/4121910"
+        }
+      ]
+    },
+    "mesajId": 310
   }
 }
