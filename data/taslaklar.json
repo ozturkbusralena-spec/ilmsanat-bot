@@ -6603,5 +6603,146 @@
     "mesajId": 300,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfpittWh185/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-13_0900_haber": {
+    "zaman": "2026-11-13T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-13T06:37:57.893Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-13_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1OeDtOnzFSiiP3epznGIpd3_UHrpPpTQr&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-13_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Iran claims strike on US radar in Bahrain\n\nIran's Islamic Revolutionary Guard Corps (IRGC) said on 13 November 2026 that its Aerospace Force targeted a US early-warning radar in Bahrain, calling it retaliation for an air attack on a telecommunications tower in Sirik, Hormozgan province. The IRGC described the strike as a serious warning against aerial provocations and oil smuggling in the Strait of Hormuz, adding it was ready to engage without limits if they recur.\n\nBahrain hosts the US Fifth Fleet headquarters in Manama, which was hit in the opening hours of the war on 28 February. According to Reuters, this is the first time since early September that Iran has claimed an attack on US military assets in a Gulf country. A Pentagon inspector general's report found Iranian attacks damaged or destroyed hundreds of buildings at US installations in eight countries in the war's first four months.\n\nIsraeli media report the security cabinet ordered the military to step up preparations for a possible attack on Iran, while President Donald Trump said Gulf allies asked him to hold off on further strikes. Secretary of State Marco Rubio has said economic pressure is working, and Qatar continues to mediate.\n\nSource: Al Jazeera, Middle East Eye, Reuters\n\n#Iran #Bahrain #IRGC #StraitOfHormuz #FifthFleet #MiddleEast #Geopolitics #USIran #IlmSanat",
+    "baslik": "Iran claims strike on US radar in Bahrain",
+    "plan": {
+      "etiket": "ESCALATION",
+      "baslik": "Iran claims strike on **US radar** in **Bahrain**",
+      "hook_satirlar": [
+        "Iran says it struck",
+        "a US **radar**",
+        "in Bahrain"
+      ],
+      "cumleler": [
+        "Iran says it has struck a US early-warning radar in Bahrain.",
+        "The Revolutionary Guard calls it retaliation for an air attack on a telecom tower in Sirik, southern Iran.",
+        "Its Aerospace Force says it stands ready to engage without limits if provocations continue.",
+        "Bahrain hosts the US Fifth Fleet headquarters in Manama, hit on the war's first day, February 28.",
+        "Reuters says it is Iran's first claimed attack on US assets in a Gulf country since early September.",
+        "Israel's security cabinet has reportedly ordered the military to prepare for a possible new attack.",
+        "Trump says Gulf allies asked him to hold off."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a large white radar dome on a desert coastline at night, distant glow of fire on the horizon, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the dome, faint flickering glow on the horizon, drifting smoke"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "19th-century oil painting of a lone telecommunications tower above a small southern Iranian port town at dusk, fishing boats in the harbour, smoke rising softly, dark navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "gentle upward tilt along the tower, slow drifting smoke and clouds"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "academic oil painting of silhouetted missile launchers in a rocky mountain valley under a stormy night sky, muted brass highlights, deep navy shadows, cinematic chiaroscuro, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "slow lateral drift, clouds moving across the sky, subtle light flicker"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century oil painting of a naval harbour with grey warships moored at a long pier, low coastal buildings and domes behind, hazy Gulf evening, dark desaturated navy and brass tones, dramatic light, visible brushstrokes, no text or flags",
+          "hareket_prompt": "slow push-in over the water, gentle mist rolling across the harbour"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "antique copperplate engraving style map of the Persian Gulf and Strait of Hormuz, Bahrain island highlighted with a soft brass glow, aged parchment, navy ink tones, no lettering or text",
+          "hareket_prompt": "slow zoom toward Bahrain, faint candlelight flicker across the parchment"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "academic oil painting of a dim war council chamber, long table with maps and brass lamps, empty chairs, silhouettes in shadow, dark navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "slow push-in along the table, lamp light gently flickering"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "IRAN",
+              "unvan": "IRGC claims radar strike as retaliation",
+              "cumle": 1
+            },
+            {
+              "ulke": "BAHRAIN",
+              "unvan": "Hosts US Fifth Fleet HQ",
+              "cumle": 3
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "WAR\nBEGAN",
+          "alt": "28 FEB 2026"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 4,
+          "satirlar": [
+            "**First** claimed strike",
+            "on US assets in the Gulf",
+            "since early September"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "ISRAEL",
+              "unvan": "Cabinet orders attack preparations",
+              "cumle": 5
+            },
+            {
+              "ulke": "USA",
+              "unvan": "Trump: Gulf allies urged pause",
+              "cumle": 6
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Iran claims strike on US radar in Bahrain\n\nIran's Islamic Revolutionary Guard Corps (IRGC) said on 13 November 2026 that its Aerospace Force targeted a US early-warning radar in Bahrain, calling it retaliation for an air attack on a telecommunications tower in Sirik, Hormozgan province. The IRGC described the strike as a serious warning against aerial provocations and oil smuggling in the Strait of Hormuz, adding it was ready to engage without limits if they recur.\n\nBahrain hosts the US Fifth Fleet headquarters in Manama, which was hit in the opening hours of the war on 28 February. According to Reuters, this is the first time since early September that Iran has claimed an attack on US military assets in a Gulf country. A Pentagon inspector general's report found Iranian attacks damaged or destroyed hundreds of buildings at US installations in eight countries in the war's first four months.\n\nIsraeli media report the security cabinet ordered the military to step up preparations for a possible attack on Iran, while President Donald Trump said Gulf allies asked him to hold off on further strikes. Secretary of State Marco Rubio has said economic pressure is working, and Qatar continues to mediate.\n\nSource: Al Jazeera, Middle East Eye, Reuters\n\n#Iran #Bahrain #IRGC #StraitOfHormuz #FifthFleet #MiddleEast #Geopolitics #USIran #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Iran says it targeted US radar site in Bahrain",
+          "link": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Iran’s IRGC says it targeted US radar in Bahrain",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-says-it-targeted-us-radar-bahrain"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Iran war live: Trump says Gulf allies urged pause in Iran strikes",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks"
+        }
+      ]
+    },
+    "mesajId": 305
   }
 }
