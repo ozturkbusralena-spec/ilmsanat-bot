@@ -6884,5 +6884,133 @@
     "mesajId": 310,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfrsHxeCtr3/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-13_1800_haber": {
+    "zaman": "2026-11-13T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-13T15:33:56.885Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-13_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1ItyM1SC2kKESc3s24ZakebKxsXD7Mgm1&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-13_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "CENTCOM denies Iranian radar strike claim\n\nOn Friday, Iran's Islamic Revolutionary Guard Corps (IRGC) claimed its forces had targeted and destroyed a US early-warning radar installation in Bahrain. US Central Command (CENTCOM) rejected the claim as false in a statement posted on X.\n\nAccording to CENTCOM, the IRGC launched two one-way attack drones toward Bahrain, and both were intercepted by US forces. The two sides' accounts of the day remain sharply at odds.\n\nThe competing versions emerge amid questions from some US lawmakers about how the Pentagon discloses details of incidents in the conflict, while scepticism has also circulated on social media.\n\nSource: Middle East Monitor, Middle East Eye, Anadolu\n\n#Iran #Bahrain #CENTCOM #IRGC #PersianGulf #MiddleEast #Geopolitics #USMilitary #IlmSanat",
+    "baslik": "CENTCOM denies Iranian radar strike claim",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "**CENTCOM denies** Iranian **radar strike** claim",
+      "hook_satirlar": [
+        "Iran says it hit a US radar",
+        "in **Bahrain**.",
+        "Washington says it never happened."
+      ],
+      "cumleler": [
+        "Iran says it destroyed a US radar in Bahrain, but Washington says the strike never happened.",
+        "On Friday, the Islamic Revolutionary Guard Corps claimed it had struck a US early-warning radar installation in the Gulf kingdom.",
+        "US Central Command rejected that account in a statement on X, calling the claim false.",
+        "According to CENTCOM, the IRGC launched two one-way attack drones toward Bahrain.",
+        "Both, it said, were intercepted by US forces.",
+        "That leaves two competing versions of the same day.",
+        "The dispute comes as some US lawmakers question how much the Pentagon discloses about incidents in this conflict.",
+        "Online, scepticism is spreading too."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a lone coastal radar dome on a low desert shoreline at night, Gulf waters beyond, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the dome, faint mist drifting over the water"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "antique copperplate engraving style map of the Persian Gulf showing Iran's coast and the island of Bahrain, no lettering, aged paper toned in navy and brass, dramatic shadow vignette, cinematic composition",
+          "hareket_prompt": "gentle drift across the map from the Iranian coast to Bahrain, soft candlelight flicker"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of a dim military command room with a large table covered in charts and brass instruments, silhouetted officers seen from behind, navy and muted brass palette, strong chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in on the chart table, lamplight flickering softly"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "academic oil painting of two small dark winged silhouettes crossing a stormy twilight sky above the sea, distant low coastline, dark navy and brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes",
+          "hareket_prompt": "slow drift following the silhouettes, clouds moving gently"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting of a faint burst of light high in a night sky over a calm gulf, smoke dissipating, a warship silhouette on the horizon, muted navy and brass palette, chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "slow pull-back, smoke drifting and fading, gentle light flicker"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "academic oil painting of a grand neoclassical government chamber in shadow, empty benches and a single lit lectern, dark navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "slow push-in toward the lit lectern, dust motes drifting in the light"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "IRGC",
+              "unvan": "Claims strike on US radar",
+              "cumle": 1
+            },
+            {
+              "ulke": "CENTCOM",
+              "unvan": "Calls the claim false",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "2 DRONES\nINTERCEPTED",
+          "alt": "Friday, over Bahrain"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 5,
+          "satirlar": [
+            "Two accounts.",
+            "One **disputed** day."
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "Lawmakers question",
+            "Pentagon **disclosure**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "CENTCOM denies Iranian radar strike claim\n\nOn Friday, Iran's Islamic Revolutionary Guard Corps (IRGC) claimed its forces had targeted and destroyed a US early-warning radar installation in Bahrain. US Central Command (CENTCOM) rejected the claim as false in a statement posted on X.\n\nAccording to CENTCOM, the IRGC launched two one-way attack drones toward Bahrain, and both were intercepted by US forces. The two sides' accounts of the day remain sharply at odds.\n\nThe competing versions emerge amid questions from some US lawmakers about how the Pentagon discloses details of incidents in the conflict, while scepticism has also circulated on social media.\n\nSource: Middle East Monitor, Middle East Eye, Anadolu\n\n#Iran #Bahrain #CENTCOM #IRGC #PersianGulf #MiddleEast #Geopolitics #USMilitary #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Middle East Monitor",
+          "baslik": "CENTCOM denies Iranian claim of attack on US radar in Bahrain, says 2 drones shot down",
+          "link": "https://www.middleeastmonitor.com/20261113-centcom-denies-iranian-claim-of-attack-on-us-radar-in-bahrain-says-2-drones-shot-down/"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "US says it shot down two Iranian drones heading towards Bahrain",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-it-shot-down-two-iranian-drones-heading-towards-bahrain"
+        }
+      ]
+    },
+    "mesajId": 315
   }
 }
