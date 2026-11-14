@@ -7147,5 +7147,130 @@
     "mesajId": 320,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/Dftugdshwz6/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-14_1400_analiz": {
+    "zaman": "2026-11-14T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-14T11:37:22.710Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-14_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=10YNo0m5WK0D077tDOnbVqS-QXSSa7IjY&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-14_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Sinjar: From Second Qandil to Iraqi State\n\nIn an analysis for SETA dated 10 November 2026, Bilgay Duman examines the process in Sinjar, a district of Iraq's Nineveh (Mosul) province often described as a \"second Qandil\" and one of the PKK's main areas of activity. On 26 October 2026, the process centred on the PKK-linked Sinjar Resistance Units (YBŞ), and a ceremony was held for their integration into Iraqi security forces.\n\nDuman reads these developments through the lens of the Terror-Free Türkiye process. He argues that the revolution in Syria on 8 December 2024 has also shaped events in Iraq, and that the PKK's 2025 decision to dissolve, together with the symbolic weapons-burning ceremony in Sulaymaniyah, laid the groundwork for reassessing organisational and political relations in northern Iraq.\n\nSource: SETA (Bilgay Duman)\n\n#Sinjar #Iraq #PKK #YBS #TerrorFreeTurkiye #Turkey #MiddleEast #Geopolitics #Analysis #IlmSanat",
+    "baslik": "Sinjar: From Second Qandil to Iraqi State",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "Sinjar: From **Second Qandil** to **Iraqi State**",
+      "hook_satirlar": [
+        "Sinjar, once called",
+        "a second **Qandil**,",
+        "is joining the Iraqi state"
+      ],
+      "cumleler": [
+        "Sinjar, once called a second Qandil, is being folded into the Iraqi state.",
+        "The town lies in Iraq's Nineveh province, near Mosul, and has been one of the PKK's main bases of operation.",
+        "On 26 October 2026, the focus fell on the PKK-linked Sinjar Resistance Units, known as the YBŞ.",
+        "A ceremony was held to integrate them into Iraq's security forces.",
+        "Bilgay Duman of SETA reads this through Ankara's Terror-Free Türkiye process.",
+        "He argues that Syria's revolution of 8 December 2024 has also shaped events in Iraq.",
+        "In 2025, the PKK's decision to dissolve and a symbolic weapons-burning ceremony in Sulaymaniyah prepared the ground.",
+        "Now, organisational and political ties across northern Iraq are being reassessed."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a lone rocky mountain ridge rising above a dry plain at dusk, scattered stone villages at its foot, dark desaturated navy sky with muted brass light on the slopes, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow push-in toward the mountain ridge, thin mist drifting across the plain, faint clouds moving"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Antique copperplate engraving style map of upper Mesopotamia showing the Tigris river, mountains and a plain west of Mosul, aged parchment in navy and brass tones, compass rose ornament, dramatic vignette lighting, no letters or text",
+          "hareket_prompt": "Gentle drift across the map from the river toward the western mountains, soft candlelight flicker"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century oil painting of a formal parade ground before a stone fortress, rows of silhouetted uniformed figures seen from behind, banners without markings, dark navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "Slow push-in over the rows of silhouettes, banners stirring slightly in a light breeze"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Academic oil painting of a scholar's study at night, desk with folded maps, an oil lamp and stacked documents, window showing distant mountains, deep navy shadows and brass lamplight, chiaroscuro, visible brushstrokes, no people, no legible text",
+          "hareket_prompt": "Slow push-in toward the desk, lamp flame flickering gently, dust motes drifting"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "19th-century oil painting of a pile of old rifles smouldering on open ground at twilight, smoke rising into a dark navy sky, muted brass embers glowing, silhouetted onlookers far in the distance, dramatic chiaroscuro, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "Slow push-in, smoke curling upward slowly, embers softly flickering"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "Antique engraved map of northern Iraq laid on a dark table with a brass compass and dividers, threads linking mountain regions, navy and brass tones, dramatic side lighting, visible brushstrokes, no letters or text",
+          "hareket_prompt": "Slow overhead drift across the map, light shifting gently as if from a passing lamp"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "SINJAR\nPROCESS",
+          "alt": "26 October 2026"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "YBŞ",
+              "unvan": "PKK-linked Sinjar Resistance Units",
+              "cumle": 2
+            },
+            {
+              "ulke": "IRAQ",
+              "unvan": "Integrating YBŞ into security forces",
+              "cumle": 3
+            },
+            {
+              "ulke": "PKK",
+              "unvan": "Dissolution decision, 2025",
+              "cumle": 6
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "SYRIAN\nREVOLUTION",
+          "alt": "8 December 2024"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 7,
+          "satirlar": [
+            "Northern Iraq's ties",
+            "are being **reassessed**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Sinjar: From Second Qandil to Iraqi State\n\nIn an analysis for SETA dated 10 November 2026, Bilgay Duman examines the process in Sinjar, a district of Iraq's Nineveh (Mosul) province often described as a \"second Qandil\" and one of the PKK's main areas of activity. On 26 October 2026, the process centred on the PKK-linked Sinjar Resistance Units (YBŞ), and a ceremony was held for their integration into Iraqi security forces.\n\nDuman reads these developments through the lens of the Terror-Free Türkiye process. He argues that the revolution in Syria on 8 December 2024 has also shaped events in Iraq, and that the PKK's 2025 decision to dissolve, together with the symbolic weapons-burning ceremony in Sulaymaniyah, laid the groundwork for reassessing organisational and political relations in northern Iraq.\n\nSource: SETA (Bilgay Duman)\n\n#Sinjar #Iraq #PKK #YBS #TerrorFreeTurkiye #Turkey #MiddleEast #Geopolitics #Analysis #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "SETA",
+          "baslik": "Sincar’daki Süreç Terörsüz Türkiye Açısından Nasıl Okunmalı?",
+          "link": "https://www.setav.org/sincardaki-surec-terorsuz-turkiye-acisindan-nasil-okunmali"
+        }
+      ]
+    },
+    "mesajId": 325
   }
 }
