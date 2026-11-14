@@ -7014,5 +7014,136 @@
     "mesajId": 315,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfsHgpdhW_e/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-14_0900_haber": {
+    "zaman": "2026-11-14T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-14T06:10:31.219Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-14_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1vApd_3teOMF2nR3GNKXwow5qB9l6q0AZ&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-14_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Trump, Xi and Putin to meet in Shenzhen\n\nUS President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin will hold their first-ever three-way meeting next week on the sidelines of the Asia-Pacific Economic Cooperation (APEC) summit in Shenzhen, the White House has announced. Spokeswoman Olivia Wales said Trump will discuss reducing nuclear weapons, which he considers dangerously proliferated.\n\nThe talks come nine months after New START, the last nuclear arms treaty between Washington and Moscow, lapsed in February, leaving the two largest arsenals uncapped for the first time in over 50 years. Trump rejected a Russian offer of a one-year extension and is seeking a modernised deal that includes China. A senior US official said Trump will raise the Iran war, but not Ukraine, which is handled on a separate track with Kyiv and Moscow.\n\nExpectations are low: officials describe the meeting as the beginning of a conversation. Kremlin spokesman Dmitry Peskov rejected comparisons with the 1945 Yalta Conference but called the meeting extremely significant, while Ukrainian President Volodymyr Zelenskyy warned against any deal on Ukraine made behind Kyiv's back.\n\nSource: Al Jazeera, Middle East Eye\n\n#Geopolitics #NuclearArms #NewSTART #APEC #Shenzhen #USChinaRussia #Diplomacy #WorldNews #IlmSanat",
+    "baslik": "Trump, Xi, Putin to meet in Shenzhen",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "**Trump, Xi, Putin** to meet in **Shenzhen**",
+      "hook_satirlar": [
+        "America, China and Russia",
+        "will meet together",
+        "for the **first** time"
+      ],
+      "cumleler": [
+        "For the first time, the leaders of America, China and Russia will meet together.",
+        "Trump, Xi and Putin will hold talks next week in Shenzhen, on the sidelines of the APEC summit.",
+        "The meeting comes nine months after New START expired, leaving the two largest nuclear arsenals without caps.",
+        "Trump wants a new nuclear deal that brings China in.",
+        "He also plans to raise the Iran war, but not Ukraine.",
+        "Washington expects no agreement, calling the meeting the start of a conversation."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a grand empty conference hall with a round table and three ornate empty chairs, tall arched windows, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow push-in toward the three empty chairs, soft light flicker from the windows"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Antique copperplate engraving style view of a modern coastal Chinese city skyline at dusk with harbour and towers, rendered as a 19th-century oil painting, navy and brass palette, dramatic clouds, chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Gentle lateral drift across the skyline, clouds moving slowly, faint mist over the harbour"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of a torn parchment treaty with broken wax seal lying on a dark wooden desk beside a quill and an extinguished candle, dark navy and muted brass tones, dramatic chiaroscuro, visible brushstrokes, no legible text",
+          "hareket_prompt": "Slow push-in on the broken seal, thin smoke curling from the candle"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Antique map of the Northern Hemisphere engraved in copperplate style showing Eurasia and North America, three brass compass markers placed on it, navy and brass tones, chiaroscuro lighting, no text or letters",
+          "hareket_prompt": "Slow overhead drift across the map, soft candlelight flicker"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century academic oil painting of a desert landscape at twilight with distant smoke rising over mountains, a lone fortress silhouette, dark desaturated navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow push-in toward the horizon, smoke drifting gently, clouds moving"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting of three silhouetted figures seen from behind standing at a tall window overlooking a misty city at night, faces not visible, navy and brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow pull-back from the window, mist drifting outside, subtle light flicker"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "USA",
+              "unvan": "President Donald Trump",
+              "cumle": 1
+            },
+            {
+              "ulke": "CHINA",
+              "unvan": "President Xi Jinping, host",
+              "cumle": 1
+            },
+            {
+              "ulke": "RUSSIA",
+              "unvan": "President Vladimir Putin",
+              "cumle": 1
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "NEW START\nEXPIRED",
+          "alt": "February 2026"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 4,
+          "satirlar": [
+            "Iran: on the table",
+            "Ukraine: **off** the agenda"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 5,
+          "satirlar": [
+            "No deal expected",
+            "Only the start of a **conversation**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Trump, Xi and Putin to meet in Shenzhen\n\nUS President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin will hold their first-ever three-way meeting next week on the sidelines of the Asia-Pacific Economic Cooperation (APEC) summit in Shenzhen, the White House has announced. Spokeswoman Olivia Wales said Trump will discuss reducing nuclear weapons, which he considers dangerously proliferated.\n\nThe talks come nine months after New START, the last nuclear arms treaty between Washington and Moscow, lapsed in February, leaving the two largest arsenals uncapped for the first time in over 50 years. Trump rejected a Russian offer of a one-year extension and is seeking a modernised deal that includes China. A senior US official said Trump will raise the Iran war, but not Ukraine, which is handled on a separate track with Kyiv and Moscow.\n\nExpectations are low: officials describe the meeting as the beginning of a conversation. Kremlin spokesman Dmitry Peskov rejected comparisons with the 1945 Yalta Conference but called the meeting extremely significant, while Ukrainian President Volodymyr Zelenskyy warned against any deal on Ukraine made behind Kyiv's back.\n\nSource: Al Jazeera, Middle East Eye\n\n#Geopolitics #NuclearArms #NewSTART #APEC #Shenzhen #USChinaRussia #Diplomacy #WorldNews #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Trump, Xi and Putin to hold first three-way summit in China",
+          "link": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Trump to discuss Iran war, but not Ukraine, at China summit",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-discuss-iran-war-not-ukraine-china-summit"
+        }
+      ]
+    },
+    "mesajId": 320
   }
 }
