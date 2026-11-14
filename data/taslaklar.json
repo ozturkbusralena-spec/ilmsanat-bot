@@ -7274,5 +7274,139 @@
     "mesajId": 325,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfuQ2Ofiie9/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-14_1800_haber": {
+    "zaman": "2026-11-14T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-14T15:21:30.264Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-14_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=132Y3ew9Mj-YsGqKGWqG-cn-JFOca1gY-&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-14_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Ethiopia Blames Eritrea and Egypt for Tigray Attacks\n\nField Marshal Birhanu Jula, chief of general staff of the Ethiopian National Defense Forces, said the Tigray People's Liberation Front (TPLF) launched a fourth round of attacks on military positions in the Amhara and Afar regions. He claimed the offensive was led by Eritrea with logistical support and supplies from Egypt, that it was repelled, and that its commanders fled to Adi Keyh, Mendefera and Asmara. He further accused Eritrea of assembling a coalition including the TPLF, the Fano militia, the Oromo Liberation Front, Sudan and Egypt.\n\nThe claims could not be independently verified, and Eritrea and Egypt have previously rejected Ethiopian accusations of interference. Relations between Addis Ababa and Asmara, allies during the 2020–2022 Tigray war, have deteriorated sharply, including over Ethiopia's push for Red Sea access.\n\nConflict monitors report drone and artillery exchanges near Badme, centre of the 1998–2000 border war, after Ethiopian forces captured Sheraro on 3 November. Following their 9–10 November meeting in Paris, G7 foreign ministers urged both countries to exercise maximum restraint and pursue diplomatic solutions.\n\nSource: Anadolu Agency, Al Jazeera\n\n#Ethiopia #Eritrea #Egypt #Tigray #TPLF #HornOfAfrica #Badme #Geopolitics #AfricaNews #IlmSanat",
+    "baslik": "Ethiopia Blames Eritrea and Egypt for Tigray Attacks",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Ethiopia Blames **Eritrea** and **Egypt** for Tigray Attacks",
+      "hook_satirlar": [
+        "Ethiopia says Eritrea",
+        "led the Tigray offensive,",
+        "with **Egyptian** supplies"
+      ],
+      "cumleler": [
+        "Ethiopia says Eritrea led the latest Tigray offensive, with Egyptian supplies.",
+        "Army chief Birhanu Jula called it the TPLF's fourth round of attacks across Amhara and Afar.",
+        "He said the assault was repelled and its commanders fled into Eritrea.",
+        "He also accused Asmara of building a coalition including Fano, Sudan and Egypt.",
+        "Eritrea and Egypt rejected earlier accusations, and these claims cannot be verified.",
+        "Meanwhile, drone and artillery exchanges are reported near Badme, flashpoint of the 1998–2000 war.",
+        "The G7 has urged both sides to exercise maximum restraint."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of the rugged Ethiopian highlands at dusk, jagged escarpments and distant smoke columns rising over a plateau, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "Slow push-in toward the distant smoke columns, drifting low clouds, subtle flicker of fading light"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Antique copperplate engraving style map of northern Ethiopia showing mountain ranges and river valleys of the Amhara and Afar regions, aged parchment tinted navy and brass, brass compass and dividers resting on the map, dramatic side lighting, no letters or text",
+          "hareket_prompt": "Gentle drift across the map from west to east, soft candlelight flicker over the parchment"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of small silhouetted columns of figures retreating along a mountain pass at night toward distant highland towns, moonlit ridgelines, dark navy and muted brass palette, strong chiaroscuro, visible brushstrokes, no faces, no flags",
+          "hareket_prompt": "Slow lateral drift following the mountain pass, thin mist rolling across the ridges"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Symbolic academic oil painting of a candlelit war table with an unrolled antique map of the Horn of Africa and the Nile, scattered brass markers and chess pieces, shadowed empty chairs around it, dark navy and brass tones, dramatic chiaroscuro, no text or letters",
+          "hareket_prompt": "Slow push-in on the map and brass markers, flickering candlelight, faint drifting smoke"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting of a lonely dusty border town on a dry plain at night, distant artillery flashes lighting the horizon, closed shuttered buildings, deep navy sky with brass-coloured glow, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Very slow push-in toward the town, soft intermittent light flicker on the horizon, drifting dust"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Academic oil painting of a grand 19th-century diplomatic hall in Paris with a long empty table, tall windows and heavy curtains, quills and sealed documents on the table, muted navy and brass tones, dramatic window light, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "Slow dolly forward along the table, dust motes drifting through window light"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "ETHIOPIA",
+              "unvan": "Accuser — army chief Birhanu Jula",
+              "cumle": 1
+            },
+            {
+              "ulke": "ERITREA",
+              "unvan": "Accused of leading the offensive",
+              "cumle": 2
+            },
+            {
+              "ulke": "EGYPT",
+              "unvan": "Accused of supplying logistics",
+              "cumle": 3
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "UNVERIFIED\nCLAIMS",
+          "alt": "Eritrea & Egypt rejected past charges"
+        },
+        {
+          "tur": "damga",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "BADME\nFLASHPOINT",
+          "alt": "1998–2000 border war"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "G7 urges",
+            "maximum **restraint**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Ethiopia Blames Eritrea and Egypt for Tigray Attacks\n\nField Marshal Birhanu Jula, chief of general staff of the Ethiopian National Defense Forces, said the Tigray People's Liberation Front (TPLF) launched a fourth round of attacks on military positions in the Amhara and Afar regions. He claimed the offensive was led by Eritrea with logistical support and supplies from Egypt, that it was repelled, and that its commanders fled to Adi Keyh, Mendefera and Asmara. He further accused Eritrea of assembling a coalition including the TPLF, the Fano militia, the Oromo Liberation Front, Sudan and Egypt.\n\nThe claims could not be independently verified, and Eritrea and Egypt have previously rejected Ethiopian accusations of interference. Relations between Addis Ababa and Asmara, allies during the 2020–2022 Tigray war, have deteriorated sharply, including over Ethiopia's push for Red Sea access.\n\nConflict monitors report drone and artillery exchanges near Badme, centre of the 1998–2000 border war, after Ethiopian forces captured Sheraro on 3 November. Following their 9–10 November meeting in Paris, G7 foreign ministers urged both countries to exercise maximum restraint and pursue diplomatic solutions.\n\nSource: Anadolu Agency, Al Jazeera\n\n#Ethiopia #Eritrea #Egypt #Tigray #TPLF #HornOfAfrica #Badme #Geopolitics #AfricaNews #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Ethiopia accuses Eritrea of leading Tigray rebel offensive with Egyptian support",
+          "link": "https://www.aa.com.tr/en/africa/ethiopia-accuses-eritrea-of-leading-tigray-rebel-offensive-with-egyptian-support/4125272"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Ethiopia blames Egypt, Eritrea for Tigray attacks",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/ethiopia-blames-egypt-eritrea-for-tigray-attacks"
+        },
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Ethiopia, Eritrea reportedly exchange drone, artillery strikes as border fighting intensifies",
+          "link": "https://www.aa.com.tr/en/africa/ethiopia-eritrea-reportedly-exchange-drone-artillery-strikes-as-border-fighting-intensifies/4124999"
+        }
+      ]
+    },
+    "mesajId": 330
   }
 }
