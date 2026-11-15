@@ -7666,5 +7666,134 @@
     "mesajId": 342,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfwhCMchbUm/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-15_1400_analiz": {
+    "zaman": "2026-11-15T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-15T11:41:57.791Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-15_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1LQ8OjKIhcQTCwtFHG9MghblyfeRAvkjl&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-15_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Blue Homeland and the Eastern Mediterranean\n\nAn analysis published by Anadolu Agency argues that the Eastern Mediterranean, linking three continents and the trade routes running through Suez, the Red Sea and the Indian Ocean, has become a basin of global competition. The United States, European states, Russia and China all pursue interests there alongside the coastal states, while crises in Gaza, Lebanon, Syria and the Red Sea spill quickly into the maritime domain.\n\nOn maritime jurisdiction, the piece sets out Türkiye's position: with a coastline exceeding 2,500 km, Ankara invokes equity and proportionality and rejects maps under which a 10 km² island just 3 km off its coast would claim some 40,000 km² of sea. Greece and the Greek Cypriot administration emphasise islands' maritime rights. The analysis cites the North Sea (1969), Channel Islands (1977) and Jan Mayen (1993) cases, and the Greece–Italy Ionian Sea agreement, as supporting precedents. Türkiye is not party to UNCLOS but says it observes provisions that have become customary law.\n\nThe author concludes that naval strength rests not on platform numbers but on persistence at sea, logistics, port access and diplomacy.\n\nSource: Anadolu Agency (AA Analiz)\n\n#BlueHomeland #MaviVatan #EasternMediterranean #Turkey #Greece #MaritimeLaw #Geopolitics #SeaPower #IlmSanat",
+    "baslik": "Blue Homeland and the Eastern Mediterranean",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "**Blue Homeland** and the **Eastern Mediterranean**",
+      "hook_satirlar": [
+        "A 10 km² island,",
+        "40,000 km² of **sea**?",
+        "Ankara says no."
+      ],
+      "cumleler": [
+        "Ankara argues a ten-square-kilometre island cannot claim forty thousand square kilometres of sea.",
+        "That is the heart of Türkiye's Blue Homeland case in the Eastern Mediterranean.",
+        "The basin links three continents, and outside powers now compete there too.",
+        "Türkiye holds the region's longest coastline, at over 2,500 kilometres.",
+        "It invokes proportionality: coastline length should shape maritime zones.",
+        "Greece and the Greek Cypriot administration instead stress full maritime rights for islands.",
+        "Ankara points to rulings like Jan Mayen, where islands received reduced zones.",
+        "The analysis says lasting sea power means staying at sea, not simply counting ships."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a tiny rocky island close to a long mountainous coastline at dusk, vast dark navy sea stretching outward, muted brass light on the water, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the small island, gentle mist drifting over the water"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Eastern Mediterranean basin with coastlines, islands and compass rose, sepia and muted brass tones on dark navy, ornate cartographic details, no letters or text, dramatic lighting",
+          "hareket_prompt": "Slow drift across the map from west to east, soft candlelight flicker"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Academic oil painting of merchant steamships and naval frigates silhouetted near a canal entrance under a stormy twilight sky, dark desaturated navy and brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no flags or text",
+          "hareket_prompt": "Gentle lateral drift, slow-moving clouds and faint smoke from funnels"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Sweeping 19th-century oil painting of a long rugged Anatolian coastline with cliffs and coves receding into haze, dark navy sea, muted brass sunset light, chiaroscuro, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow aerial-style drift along the coastline, light mist rolling over cliffs"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Oil painting of scattered Aegean islands under a heavy dusk sky, lighthouses glowing faintly, dark desaturated navy water, muted brass highlights, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the islands, lighthouse light gently flickering"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "19th-century academic oil painting of a grand wood-panelled courtroom interior with an empty bench, law books and nautical charts on a table, single shaft of light, dark navy and brass tones, chiaroscuro, no faces, no text",
+          "hareket_prompt": "Slow push-in toward the charts on the table, dust motes drifting in the light beam"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "BLUE\nHOMELAND",
+          "alt": "Anadolu Agency analysis"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "TÜRKIYE",
+              "unvan": "Longest coastline, 2,500+ km",
+              "cumle": 3
+            },
+            {
+              "ulke": "GREECE",
+              "unvan": "Stresses island rights",
+              "cumle": 5
+            },
+            {
+              "ulke": "GREEK CYPRIOT ADMIN.",
+              "unvan": "Stresses island rights",
+              "cumle": 5
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 4,
+          "satirlar": [
+            "Coastline length",
+            "should shape",
+            "**maritime zones**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 7,
+          "satirlar": [
+            "Sea power means",
+            "**staying** at sea"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Blue Homeland and the Eastern Mediterranean\n\nAn analysis published by Anadolu Agency argues that the Eastern Mediterranean, linking three continents and the trade routes running through Suez, the Red Sea and the Indian Ocean, has become a basin of global competition. The United States, European states, Russia and China all pursue interests there alongside the coastal states, while crises in Gaza, Lebanon, Syria and the Red Sea spill quickly into the maritime domain.\n\nOn maritime jurisdiction, the piece sets out Türkiye's position: with a coastline exceeding 2,500 km, Ankara invokes equity and proportionality and rejects maps under which a 10 km² island just 3 km off its coast would claim some 40,000 km² of sea. Greece and the Greek Cypriot administration emphasise islands' maritime rights. The analysis cites the North Sea (1969), Channel Islands (1977) and Jan Mayen (1993) cases, and the Greece–Italy Ionian Sea agreement, as supporting precedents. Türkiye is not party to UNCLOS but says it observes provisions that have become customary law.\n\nThe author concludes that naval strength rests not on platform numbers but on persistence at sea, logistics, port access and diplomacy.\n\nSource: Anadolu Agency (AA Analiz)\n\n#BlueHomeland #MaviVatan #EasternMediterranean #Turkey #Greece #MaritimeLaw #Geopolitics #SeaPower #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "Mavi Vatan ve Doğu Akdeniz: Değişen konjonktürler, değişmeyen stratejik önem",
+          "link": "https://www.aa.com.tr/tr/analiz/mavi-vatan-ve-dogu-akdeniz-degisen-konjonkturler-degismeyen-stratejik-onem/4119936"
+        }
+      ]
+    },
+    "mesajId": 347
   }
 }
