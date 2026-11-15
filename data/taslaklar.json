@@ -7414,8 +7414,8 @@
   "2026-11-15_0900_haber": {
     "zaman": "2026-11-15T08:00:00.000Z",
     "tur": "haber",
-    "durum": "onay_bekliyor",
-    "guncelleme": "2026-11-15T06:56:21.561Z",
+    "durum": "paylasildi",
+    "guncelleme": "2026-11-15T08:04:47.812Z",
     "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-15_0900_haber/video.mp4",
     "driveUrl": "https://drive.usercontent.google.com/download?id=1myuBcOMJ2ZrB2B7wx2wN5yKLsyEu2Zn5&export=download&confirm=t",
     "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-15_0900_haber/kapak_kucuk.jpg",
@@ -7537,6 +7537,132 @@
         }
       ]
     },
-    "mesajId": 337
+    "mesajId": 337,
+    "hatirlatildi": true,
+    "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfwTaNsBQyD/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-15_1100_tablo": {
+    "zaman": "2026-11-15T10:00:00.000Z",
+    "tur": "tablo",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-15T08:09:57.191Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-15_1100_tablo/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1-xwRkWonz0hFpe1T0hL7688-57xEgt8A&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-15_1100_tablo/kapak_kucuk.jpg",
+    "aciklama": "An Gyeon's Misty Temple and Autumn Moon\n\nThis pair of hanging scrolls in ink on silk, dated ca. 1450–1500 and attributed to An Gyeon, depicts two scenes from the Eight Views of the Xiao and Xiang Rivers: an evening bell sounding from a mist-shrouded temple (left) and the autumn moon over Lake Dongting (right). The Eight Views was a long-established poetic and painterly theme across East Asia.\n\nAn Gyeon was the foremost court painter of the early Joseon dynasty. His most celebrated surviving work, Dream Journey to the Peach Blossom Land (1447), was painted for Prince Anpyeong. Few works can be securely assigned to him, which is why paintings in his manner are often described as attributed.\n\nSeen beside European Orientalism, these scrolls offer a useful contrast: a Korean painter portraying Chinese places not as a foreign spectacle, but as an idealised landscape belonging to a shared literary culture. The work is held by The Metropolitan Museum of Art, New York.\n\nSource: The Metropolitan Museum of Art\n\n#AnGyeon #KoreanArt #JoseonDynasty #EightViews #InkPainting #LandscapePainting #MetMuseum #ArtHistory #IlmSanat",
+    "baslik": "An Gyeon's Misty Temple and Autumn Moon",
+    "plan": {
+      "baslik": "An Gyeon's **Misty Temple** and **Autumn Moon**",
+      "hook_satirlar": [
+        "A Korean painter turned",
+        "two Chinese poems",
+        "into **mist** and moonlight"
+      ],
+      "cumleler": [
+        "A Korean painter turned two Chinese poems into mist, moonlight and silence.",
+        "These two hanging scrolls, ink on silk, date to around 1450 to 1500.",
+        "On the left, a temple dissolves into mist as an evening bell sounds.",
+        "On the right, an autumn moon hangs over Lake Dongting in southern China.",
+        "Both scenes come from the Eight Views of the Xiao and Xiang Rivers, a celebrated poetic theme.",
+        "The pair is attributed to An Gyeon, the leading court painter of early Joseon Korea.",
+        "His best-known surviving work, Dream Journey to the Peach Blossom Land, was painted in 1447 for Prince Anpyeong.",
+        "Here, China is not exotic but ideal: a landscape shared by the classical imagination."
+      ],
+      "odaklar": [
+        {
+          "cumle": 0,
+          "odak": "genel"
+        },
+        {
+          "cumle": 2,
+          "odak": "sol_ust"
+        },
+        {
+          "cumle": 3,
+          "odak": "sag_ust"
+        },
+        {
+          "cumle": 4,
+          "odak": "orta"
+        },
+        {
+          "cumle": 5,
+          "odak": "sol_alt"
+        },
+        {
+          "cumle": 7,
+          "odak": "genel"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "LEFT SCROLL",
+              "unvan": "Evening bell from a mist-shrouded temple",
+              "cumle": 2
+            },
+            {
+              "ulke": "RIGHT SCROLL",
+              "unvan": "Autumn moon over Lake Dongting",
+              "cumle": 3
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "AN GYEON\nJoseon court painter",
+          "alt": "Active mid-15th century"
+        },
+        {
+          "tur": "damga",
+          "cumle": 6,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "PEACH BLOSSOM\nDREAM JOURNEY",
+          "alt": "1447"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 7,
+          "satirlar": [
+            "Not an exotic East —",
+            "an **imagined** shared landscape"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "An Gyeon's Misty Temple and Autumn Moon\n\nThis pair of hanging scrolls in ink on silk, dated ca. 1450–1500 and attributed to An Gyeon, depicts two scenes from the Eight Views of the Xiao and Xiang Rivers: an evening bell sounding from a mist-shrouded temple (left) and the autumn moon over Lake Dongting (right). The Eight Views was a long-established poetic and painterly theme across East Asia.\n\nAn Gyeon was the foremost court painter of the early Joseon dynasty. His most celebrated surviving work, Dream Journey to the Peach Blossom Land (1447), was painted for Prince Anpyeong. Few works can be securely assigned to him, which is why paintings in his manner are often described as attributed.\n\nSeen beside European Orientalism, these scrolls offer a useful contrast: a Korean painter portraying Chinese places not as a foreign spectacle, but as an idealised landscape belonging to a shared literary culture. The work is held by The Metropolitan Museum of Art, New York.\n\nSource: The Metropolitan Museum of Art\n\n#AnGyeon #KoreanArt #JoseonDynasty #EightViews #InkPainting #LandscapePainting #MetMuseum #ArtHistory #IlmSanat",
+      "etiket": "ORIENTALIST ART",
+      "tur": "tablo",
+      "eser": {
+        "baslik": "Evening bell from mist-shrouded temple (left); Autumn moon over Lake Dongting (right)",
+        "ressam": "An Gyeon",
+        "ressamBilgi": "Korean",
+        "tarih": "ca. 1450–1500",
+        "teknik": "Pair of hanging scrolls; ink on silk",
+        "gorsel": "https://images.metmuseum.org/CRDImages/as/original/DP-36421-001.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/50897",
+        "kaynak": "The Metropolitan Museum of Art"
+      },
+      "kaynaklar": [
+        {
+          "ad": "The Metropolitan Museum of Art",
+          "baslik": "Evening bell from mist-shrouded temple (left); Autumn moon over Lake Dongting (right)",
+          "link": "https://www.metmuseum.org/art/collection/search/50897"
+        }
+      ]
+    },
+    "mesajId": 342
   }
 }
