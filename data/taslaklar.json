@@ -7801,8 +7801,8 @@
   "2026-11-15_1800_haber": {
     "zaman": "2026-11-15T17:00:00.000Z",
     "tur": "haber",
-    "durum": "onay_bekliyor",
-    "guncelleme": "2026-11-15T15:27:11.282Z",
+    "durum": "paylasildi",
+    "guncelleme": "2026-11-15T17:00:58.557Z",
     "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-15_1800_haber/video.mp4",
     "driveUrl": "https://drive.usercontent.google.com/download?id=1CC5vNjIY1zFttT7mfY9c6wI8WbnEFNoZ&export=download&confirm=t",
     "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-15_1800_haber/kapak_kucuk.jpg",
@@ -7917,6 +7917,8 @@
         }
       ]
     },
-    "mesajId": 352
+    "mesajId": 352,
+    "hatirlatildi": true,
+    "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfxRGuEAGYf/\n\n❌ TikTok hatası: TikTok başlatma: spam_risk_too_many_pending_share"
   }
 }
