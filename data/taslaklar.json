@@ -7410,5 +7410,133 @@
     "mesajId": 330,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfusTcyMwQD/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-15_0900_haber": {
+    "zaman": "2026-11-15T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-15T06:56:21.561Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-15_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1myuBcOMJ2ZrB2B7wx2wN5yKLsyEu2Zn5&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-15_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Iraq hits militia oil money in Jurf al-Nasr\n\nIraqi Prime Minister Ali al-Zaidi has dismissed nine senior officials over an alleged oil smuggling operation in Jurf al-Nasr (also called Jurf al-Sakher), Babil province, a stronghold of the Iran-backed Kataib Hezbollah. Those removed include security and intelligence officers in Babil, the provincial police chief, an Interior Ministry commander and the director of the Oil Pipelines Company at the Ministry of Oil. Military spokesperson Sabah al-Numan said all suspects would be referred to the judiciary.\n\nAn investigating committee confirmed intelligence, including satellite imagery, showing illegal refineries and pipelines tapped by an armed faction. Al Jazeera's Peter Smith reported the network was worth up to $30m a month, and that previous governments had avoided the issue.\n\nAkeel Abbas of the Atlantic Council's Iraq Initiative said the move is framed as anticorruption but aims to cut the financial lifeline of a group resisting militia disarmament. Kataib Hezbollah has recently issued sharp statements threatening al-Zaidi's government.\n\nSource: Al Jazeera, Middle East Eye, AFP\n\n#Iraq #KataibHezbollah #OilSmuggling #Baghdad #MiddleEast #Militias #Geopolitics #Energy #IlmSanat",
+    "baslik": "Iraq hits militia oil money in Jurf al-Nasr",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Iraq hits **militia oil money** in Jurf al-Nasr",
+      "hook_satirlar": [
+        "Iraq's prime minister",
+        "is going after",
+        "a militia's **money**"
+      ],
+      "cumleler": [
+        "Iraq's prime minister is going after the money of one of its most powerful militias.",
+        "Ali al-Zaidi sacked nine senior officials over oil smuggling in Jurf al-Nasr, a Kataib Hezbollah stronghold.",
+        "Among them: Babil's police chief and the head of the state pipelines company.",
+        "Investigators found illegal refineries and tapped pipelines feeding a black market worth up to $30m a month.",
+        "All suspects go to the judiciary.",
+        "Analysts say the real target is cash for a faction resisting disarmament."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting, a government palace on the Tigris at dusk, lone lit window, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in toward the lit window, faint river mist drifting"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "antique copperplate engraving style map of central Iraq south of Baghdad, Euphrates river winding through Babil plains, a fortified walled enclave among palm groves, navy and brass tones, chiaroscuro, no letters or text",
+          "hareket_prompt": "slow drift across the map settling on the walled enclave, subtle light flicker"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of an empty official chamber with a long table, vacant chairs and a brass desk lamp, silhouetted guards at a doorway, dark navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "gentle lateral drift along the empty chairs, lamp light flickering softly"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "academic oil painting of a long iron oil pipeline across desert at night, crude makeshift refinery with smoking stills beside it, silhouetted tanker trucks, navy sky and brass firelight, chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "slow push-in along the pipeline, smoke rising gently, firelight flicker"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century oil painting of a classical courthouse interior, scales of justice in brass on a dark wooden bench, shafts of light through high windows, navy and brass tones, dramatic chiaroscuro, no text",
+          "hareket_prompt": "slow tilt up toward the scales, dust drifting in light beams"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "symbolic academic oil painting, stacked brass coins and rifles on a table in shadow, a hand-sized cut chain lying between them, dark navy background, dramatic chiaroscuro, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "very slow push-in on the cut chain, candlelight flickering"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "ALI AL-ZAIDI",
+              "unvan": "Prime Minister of Iraq",
+              "cumle": 1
+            },
+            {
+              "ulke": "KATAIB HEZBOLLAH",
+              "unvan": "Iran-backed armed group",
+              "cumle": 1
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "9 OFFICIALS\nDISMISSED",
+          "alt": "15 Nov 2026"
+        },
+        {
+          "tur": "damga",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "UP TO $30M\nPER MONTH",
+          "alt": "Alleged smuggling network"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 5,
+          "satirlar": [
+            "Not just corruption",
+            "It's about **disarmament**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Iraq hits militia oil money in Jurf al-Nasr\n\nIraqi Prime Minister Ali al-Zaidi has dismissed nine senior officials over an alleged oil smuggling operation in Jurf al-Nasr (also called Jurf al-Sakher), Babil province, a stronghold of the Iran-backed Kataib Hezbollah. Those removed include security and intelligence officers in Babil, the provincial police chief, an Interior Ministry commander and the director of the Oil Pipelines Company at the Ministry of Oil. Military spokesperson Sabah al-Numan said all suspects would be referred to the judiciary.\n\nAn investigating committee confirmed intelligence, including satellite imagery, showing illegal refineries and pipelines tapped by an armed faction. Al Jazeera's Peter Smith reported the network was worth up to $30m a month, and that previous governments had avoided the issue.\n\nAkeel Abbas of the Atlantic Council's Iraq Initiative said the move is framed as anticorruption but aims to cut the financial lifeline of a group resisting militia disarmament. Kataib Hezbollah has recently issued sharp statements threatening al-Zaidi's government.\n\nSource: Al Jazeera, Middle East Eye, AFP\n\n#Iraq #KataibHezbollah #OilSmuggling #Baghdad #MiddleEast #Militias #Geopolitics #Energy #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Iraq PM sacks nine officials over oil smuggling in pro-Iran stronghold",
+          "link": "https://www.aljazeera.com/news/2026/11/15/iraq-pm-sacks-nine-officials-over-oil-smuggling-in-pro-iran-stronghold"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Iraq sacks nine officials over oil smuggling in pro-Iran group's bastion",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-sacks-nine-officials-over-oil-smuggling-pro-iran-groups-bastion"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Iraq PM targets powerful militia stronghold in $30m oil smuggling probe",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_iraq-pm-targets-militia-stronghold-in-oil-smuggling-141126"
+        }
+      ]
+    },
+    "mesajId": 337
   }
 }
