@@ -7797,5 +7797,126 @@
     "mesajId": 347,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/Dfw1t94BsyF/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-15_1800_haber": {
+    "zaman": "2026-11-15T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-15T15:27:11.282Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-15_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1CC5vNjIY1zFttT7mfY9c6wI8WbnEFNoZ&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-15_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Supertanker sinks after mine strikes near Hormuz\n\nIran's Islamic Revolutionary Guard Corps (IRGC) said on Sunday, 15 November 2026, that two oil tankers struck naval mines and caught fire while trying to cross the southern part of the Strait of Hormuz. According to the IRGC Navy, one of them, a supertanker carrying more than 2 million barrels of crude oil, sank in the southern Gulf. The statement did not identify the vessels or give details on their crews.\n\nThe force alleged the tankers used an \"unauthorized\" route with their navigation and automatic identification systems switched off, and with support from the US military. Iran announced on 12 July that it had closed the strait again after the US resumed strikes, warning it would target ships that transit without its permission or outside designated routes.\n\nThe war began with US and Israeli attacks on Iran on 28 February, followed by an April ceasefire and a memorandum of understanding in June, before fighting resumed as talks stalled. The Strait of Hormuz is a major route for global oil and liquefied natural gas shipments.\n\nSource: Anadolu Agency, Middle East Monitor\n\n#StraitOfHormuz #Iran #IRGC #OilTanker #EnergySecurity #MiddleEast #Geopolitics #PersianGulf #Shipping #IlmSanat",
+    "baslik": "Supertanker sinks after mine strikes near Hormuz",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Supertanker **sinks** after mine strikes near **Hormuz**",
+      "hook_satirlar": [
+        "A supertanker with 2 million barrels",
+        "has **sunk**",
+        "in the Gulf"
+      ],
+      "cumleler": [
+        "A supertanker holding over two million barrels of crude has sunk in the Gulf.",
+        "Iran's Revolutionary Guard says two tankers hit naval mines near Hormuz and caught fire.",
+        "It claims they used an unauthorised route, trackers off, backed by the US military.",
+        "Neither ship was named.",
+        "Tehran closed the strait again on July 12, after US strikes resumed.",
+        "It vows to target any vessel crossing without permission.",
+        "This waterway is a key artery for global oil and gas shipments."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a massive tanker hull slipping beneath dark night waters of a gulf, distant glow of fire on the horizon, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the sinking hull, gentle swell on the water, faint flicker of distant firelight"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Academic oil painting of two large oil tankers ablaze at sea at dusk, towering columns of smoke and orange flame reflected on dark water, navy and brass palette, dramatic chiaroscuro, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow lateral drift across the burning ships, smoke rising gently, flickering firelight on the waves"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Strait of Hormuz with a faint dotted shipping route curving through narrow waters, small ship silhouettes without lights, aged paper in muted brass and navy tones, dramatic shadowed edges, no letters or text",
+          "hareket_prompt": "Slow push-in along the dotted route, subtle light sweeping across the aged map"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century oil painting of a narrow rocky strait at twilight, a silhouetted patrol vessel blocking the passage, coastal cliffs under heavy clouds, desaturated navy and muted brass tones, chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow drift forward through the strait, clouds moving gently overhead, mist over the water"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Academic oil painting of a dark spherical naval mine floating just below a moonlit sea surface, chains fading into the depths, navy and brass palette, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "Very slow push-in on the mine, gentle rippling light on the surface above"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Panoramic 19th-century oil painting of a procession of tankers and gas carriers passing through a narrow strait at dawn, silhouettes against a hazy brass sky, dark navy sea, visible brushstrokes, cinematic composition, no text",
+          "hareket_prompt": "Slow pull-back revealing the line of ships, soft morning mist drifting across the water"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "kartlar",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "IRGC NAVY",
+              "unvan": "Reports two tankers hit mines",
+              "cumle": 1
+            },
+            {
+              "ulke": "USA",
+              "unvan": "Accused of backing the crossing",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "STRAIT\nCLOSED",
+          "alt": "12 July 2026"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "Global **oil** and gas",
+            "through one narrow strait"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Supertanker sinks after mine strikes near Hormuz\n\nIran's Islamic Revolutionary Guard Corps (IRGC) said on Sunday, 15 November 2026, that two oil tankers struck naval mines and caught fire while trying to cross the southern part of the Strait of Hormuz. According to the IRGC Navy, one of them, a supertanker carrying more than 2 million barrels of crude oil, sank in the southern Gulf. The statement did not identify the vessels or give details on their crews.\n\nThe force alleged the tankers used an \"unauthorized\" route with their navigation and automatic identification systems switched off, and with support from the US military. Iran announced on 12 July that it had closed the strait again after the US resumed strikes, warning it would target ships that transit without its permission or outside designated routes.\n\nThe war began with US and Israeli attacks on Iran on 28 February, followed by an April ceasefire and a memorandum of understanding in June, before fighting resumed as talks stalled. The Strait of Hormuz is a major route for global oil and liquefied natural gas shipments.\n\nSource: Anadolu Agency, Middle East Monitor\n\n#StraitOfHormuz #Iran #IRGC #OilTanker #EnergySecurity #MiddleEast #Geopolitics #PersianGulf #Shipping #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Iran says 2 oil tankers hit mines near Strait of Hormuz, 1 sinks",
+          "link": "https://www.aa.com.tr/en/middle-east/iran-says-2-oil-tankers-hit-mines-near-strait-of-hormuz-1-sinks/4125887"
+        },
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "2 oil tankers hit mines, catch fire near Strait of Hormuz: Iran's Revolutionary Guard",
+          "link": "https://www.aa.com.tr/en/middle-east/2-oil-tankers-hit-mines-catch-fire-near-strait-of-hormuz-irans-revolutionary-guard/4125453"
+        },
+        {
+          "ad": "Middle East Monitor",
+          "baslik": "2 tankers caught fire after hitting naval mine in Hormuz, Iranian navy says",
+          "link": "https://www.middleeastmonitor.com/20261114-2-tankers-caught-fire-after-hitting-naval-mine-in-hormuz-iranian-navy-says/"
+        }
+      ]
+    },
+    "mesajId": 352
   }
 }
