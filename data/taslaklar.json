@@ -8054,8 +8054,8 @@
   "2026-11-16_1400_analiz": {
     "zaman": "2026-11-16T13:00:00.000Z",
     "tur": "analiz",
-    "durum": "onay_bekliyor",
-    "guncelleme": "2026-11-16T11:16:54.500Z",
+    "durum": "suresi_gecti",
+    "guncelleme": "2026-11-16T15:09:20.256Z",
     "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-16_1400_analiz/video.mp4",
     "driveUrl": "https://drive.usercontent.google.com/download?id=1NnyFY4889hGnb5UXem25rcFlFzQkmFoO&export=download&confirm=t",
     "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-16_1400_analiz/kapak_kucuk.jpg",
@@ -8169,5 +8169,131 @@
       ]
     },
     "mesajId": 359
+  },
+  "2026-11-16_1800_haber": {
+    "zaman": "2026-11-16T17:00:00.000Z",
+    "tur": "haber",
+    "durum": "hata",
+    "guncelleme": "2026-11-16T15:19:47.545Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-16_1800_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=13amdiLr_SKzyb5_-PWKG5hZRc7diUP3Q&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-16_1800_haber/kapak_kucuk.jpg",
+    "aciklama": "Third US carrier reaches the Middle East\n\nThe nuclear-powered USS Theodore Roosevelt arrived in the Middle East on November 15, according to US officials, joining the USS George Washington and USS George HW Bush in the US Central Command area. Commissioned in 1986, it carries more than 5,000 personnel and an air wing of over 60 aircraft. The Pentagon and CENTCOM have not formally confirmed the arrival.\n\nThe deployment comes as diplomacy stalls. A two-week ceasefire in April and a June memorandum of understanding collapsed in early July, and mediators from Pakistan and Qatar are working to prevent renewed full-scale fighting. After meeting Qatar's Prime Minister, President Donald Trump called further strikes \"quite unlikely\" while saying US forces remain \"locked and loaded\", and the naval blockade in the Strait of Hormuz stays in place.\n\nIran's deputy foreign minister Kazem Gharibabadi said Tehran \"will not wait for the US to attack first\", and Iranian officials say they will not accept a status quo of \"no war, no peace\".\n\nSource: Al Jazeera\n\n#Iran #UnitedStates #MiddleEast #StraitOfHormuz #USSTheodoreRoosevelt #Geopolitics #CENTCOM #PersianGulf #IlmSanat",
+    "baslik": "Third US carrier reaches the Middle East",
+    "plan": {
+      "etiket": "ESCALATION",
+      "baslik": "**Third US carrier** reaches the **Middle East**",
+      "hook_satirlar": [
+        "A **third** US carrier",
+        "enters the Middle East",
+        "as Iran talks stall"
+      ],
+      "cumleler": [
+        "A third US aircraft carrier has reached the Middle East as talks to end the war on Iran stall.",
+        "A US official says the USS Theodore Roosevelt arrived on November 15.",
+        "It joins the George Washington and George HW Bush, already operating in the region.",
+        "The nuclear-powered carrier holds over 5,000 personnel and more than 60 aircraft.",
+        "Trump recently called new strikes \"quite unlikely\", yet says US forces remain \"locked and loaded\".",
+        "Tehran warns it will not wait to be attacked first, and rejects a state of no war, no peace."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a massive modern aircraft carrier silhouette crossing a dark sea at dusk toward a distant desert coastline, dark desaturated navy and muted brass tones, dramatic chiaroscuro, storm clouds, cinematic wide composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the carrier, gentle swell on the water, clouds drifting overhead"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Persian Gulf, Arabian Sea and Strait of Hormuz, a lone warship silhouette approaching from the south, sepia and muted brass on dark navy, fine hatching, no letters or labels",
+          "hareket_prompt": "Slow drift across the map from south to north, faint candlelight flicker"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Academic oil painting of three large aircraft carriers in formation on a moonlit gulf, distant escort ships, dark navy and brass tones, dramatic chiaroscuro, mist on the water, visible brushstrokes, no text or flags",
+          "hareket_prompt": "Slow lateral drift across the formation, light mist rolling over the sea"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Oil painting of a carrier flight deck at twilight with rows of fighter jet silhouettes and small anonymous crew silhouettes, steam rising, brass lamp glow against dark navy sky, chiaroscuro, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "Gentle push-in along the deck, steam drifting, lights softly flickering"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Academic oil painting of a dim war room with a large table holding an antique map of the Gulf, brass compasses and model ships, a single lamp casting deep shadows, dark navy and muted brass palette, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow push-in toward the map, lamp light flickering gently"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting of a Persian coastline at night, rocky cliffs and old fortress walls overlooking a dark strait, distant ship lights on the horizon, navy and brass tones, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow pull-back from the cliffs, mist drifting over the strait, clouds moving slowly"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "ARRIVED\nCENTCOM AREA",
+          "alt": "15 Nov 2026"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 2,
+          "satirlar": [
+            "**Three** US carriers",
+            "now in one region"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 3,
+          "satirlar": [
+            "**5,000+** personnel",
+            "60+ aircraft aboard"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "USA",
+              "unvan": "Strikes \"quite unlikely\" but \"locked and loaded\"",
+              "cumle": 4
+            },
+            {
+              "ulke": "IRAN",
+              "unvan": "\"Will not wait\" to be attacked first",
+              "cumle": 5
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Third US carrier reaches the Middle East\n\nThe nuclear-powered USS Theodore Roosevelt arrived in the Middle East on November 15, according to US officials, joining the USS George Washington and USS George HW Bush in the US Central Command area. Commissioned in 1986, it carries more than 5,000 personnel and an air wing of over 60 aircraft. The Pentagon and CENTCOM have not formally confirmed the arrival.\n\nThe deployment comes as diplomacy stalls. A two-week ceasefire in April and a June memorandum of understanding collapsed in early July, and mediators from Pakistan and Qatar are working to prevent renewed full-scale fighting. After meeting Qatar's Prime Minister, President Donald Trump called further strikes \"quite unlikely\" while saying US forces remain \"locked and loaded\", and the naval blockade in the Strait of Hormuz stays in place.\n\nIran's deputy foreign minister Kazem Gharibabadi said Tehran \"will not wait for the US to attack first\", and Iranian officials say they will not accept a status quo of \"no war, no peace\".\n\nSource: Al Jazeera\n\n#Iran #UnitedStates #MiddleEast #StraitOfHormuz #USSTheodoreRoosevelt #Geopolitics #CENTCOM #PersianGulf #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Third US aircraft carrier arrives in Middle East amid tensions with Iran",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/third-us-aircraft-carrier-arrives-in-middle-east-amid-tensions-with-iran"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume?",
+          "link": "https://www.aljazeera.com/news/2026/11/16/uss-roosevelt-arrives-in-middle-east-is-the-us-iran-war-about-to-resume"
+        }
+      ]
+    },
+    "hata": "Telegram sendVideo: Bad Gateway"
   }
 }
