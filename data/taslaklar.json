@@ -8050,5 +8050,124 @@
       ]
     },
     "mesajId": 357
+  },
+  "2026-11-16_1400_analiz": {
+    "zaman": "2026-11-16T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-16T11:16:54.500Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-16_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1NnyFY4889hGnb5UXem25rcFlFzQkmFoO&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-16_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "From Saada to Sanaa: the Houthi rise\n\nThe name \"Houthi\" first described a rebel group fighting government forces in Saada, northern Yemen, in 2004; that first round ended with the death of its leader Hussein al-Houthi. Within a decade the movement held the capital. Its ideology blends Zaydi doctrine with Iran's Velayat-e Faqih concept, alongside anti-imperialist rhetoric. Supported by Hezbollah before 2011 and increasingly by Iran afterwards, it is led by Abdulmalik al-Houthi, who holds near-absolute religious and political authority over a core tested in the Saada Wars (2004–2010).\n\nThe group rose amid the crisis of Ali Abdullah Saleh's rule (1978–2012), joined the 2011 uprising, then allied with Saleh in 2014. Transitional president Abdrabbuh Mansur Hadi saw it as a tool against the Muslim Brotherhood-linked Islah party. In September 2014 the Houthis took Sanaa with little resistance, helped defeat Islah, then turned on their partners: Hadi was removed and Saleh was killed in December 2017.\n\nMaysaa Shuja al-Deen, senior researcher at the Sana'a Center, argues the movement remains military in nature, moving from the Saada Wars to the Saudi-led coalition war (2015–2022) and the Gaza war (2023–2025). Its power, she writes, depends on a cycle of conflict, while peace would demand governance it has yet to show.\n\nSource: Anadolu Ajansı (Analysis by Maysaa Shuja al-Deen, Sana'a Center)\n\n#Yemen #Houthis #Sanaa #MiddleEast #Geopolitics #Iran #RedSea #Analysis #IlmSanat",
+    "baslik": "From Saada to Sanaa: the Houthi rise",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "From **Saada** to **Sanaa**: the Houthi rise",
+      "hook_satirlar": [
+        "In ten years, a small rebel group",
+        "seized Yemen's **capital**"
+      ],
+      "cumleler": [
+        "In just ten years, a small rebel group from Saada seized Yemen's capital.",
+        "The name Houthi first surfaced in 2004, in Saada's war against the state.",
+        "They fused Zaydi doctrine with Iran's model of clerical rule, backed first by Hezbollah, then by Iran.",
+        "Abdulmalik al-Houthi holds near-absolute authority over a tightly loyal core.",
+        "Yemen's rivals kept underestimating them, hoping to use them against Islah.",
+        "In September 2014 they took Sanaa almost unopposed, then turned on Hadi and Saleh.",
+        "Analyst Maysaa Shuja al-Deen argues the movement remains fundamentally military.",
+        "Its power rests on an endless cycle of conflict, and peace may be its hardest test."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a fortified mountain town of tall mud-brick tower houses in northern Yemen at dusk, rugged highlands, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the tower houses, faint mist drifting across the mountains, soft fading light"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Antique copperplate engraving style map of the southern Arabian Peninsula highlighting the northern Yemeni highlands near the Saudi frontier, aged parchment, navy and brass tints, dramatic vignette lighting, no letters or labels",
+          "hareket_prompt": "Gentle drift across the map toward the northern highlands, subtle candlelight flicker on the parchment"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Academic oil painting of an old mosque interior with carved wooden columns and open manuscripts on a low lectern, oil lamp glow, silhouettes of robed scholars in the shadows, dark navy and muted brass palette, strong chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the lectern, oil lamp light flickering softly, faint dust in the air"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Oil painting of a lone robed silhouette standing on a stone terrace above a dim mountain valley, a small circle of shadowed figures behind him, faces unseen, dark navy sky, brass-tinted lantern light, dramatic chiaroscuro, cinematic composition, no text",
+          "hareket_prompt": "Slow drift from the side toward the silhouette, clouds moving gently across the sky, lantern light flickering"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century academic oil painting of the old city of Sanaa with its ornate multi-storey tower houses and white geometric window trims at night, empty streets, distant smoke, dark desaturated navy and muted brass tones, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow aerial-style push-in over the rooftops, thin smoke drifting, flickering window lights"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Oil painting of a long dusty desert road through barren Yemeni mountains with a column of silhouetted riders and a distant storm on the horizon, navy and brass palette, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow pull-back revealing the endless road, storm clouds rolling gently, dust drifting"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "SAADA\nWARS",
+          "alt": "2004–2010"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "HEZBOLLAH",
+              "unvan": "Backer before 2011",
+              "cumle": 2
+            },
+            {
+              "ulke": "IRAN",
+              "unvan": "Main backer after 2011",
+              "cumle": 2
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "SANAA\nFALLS",
+          "alt": "September 2014"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 7,
+          "satirlar": [
+            "Built for **war**",
+            "Untested by peace"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "From Saada to Sanaa: the Houthi rise\n\nThe name \"Houthi\" first described a rebel group fighting government forces in Saada, northern Yemen, in 2004; that first round ended with the death of its leader Hussein al-Houthi. Within a decade the movement held the capital. Its ideology blends Zaydi doctrine with Iran's Velayat-e Faqih concept, alongside anti-imperialist rhetoric. Supported by Hezbollah before 2011 and increasingly by Iran afterwards, it is led by Abdulmalik al-Houthi, who holds near-absolute religious and political authority over a core tested in the Saada Wars (2004–2010).\n\nThe group rose amid the crisis of Ali Abdullah Saleh's rule (1978–2012), joined the 2011 uprising, then allied with Saleh in 2014. Transitional president Abdrabbuh Mansur Hadi saw it as a tool against the Muslim Brotherhood-linked Islah party. In September 2014 the Houthis took Sanaa with little resistance, helped defeat Islah, then turned on their partners: Hadi was removed and Saleh was killed in December 2017.\n\nMaysaa Shuja al-Deen, senior researcher at the Sana'a Center, argues the movement remains military in nature, moving from the Saada Wars to the Saudi-led coalition war (2015–2022) and the Gaza war (2023–2025). Its power, she writes, depends on a cycle of conflict, while peace would demand governance it has yet to show.\n\nSource: Anadolu Ajansı (Analysis by Maysaa Shuja al-Deen, Sana'a Center)\n\n#Yemen #Houthis #Sanaa #MiddleEast #Geopolitics #Iran #RedSea #Analysis #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "Sada’dan Sana’ya: Husilerin iktidara yükselişi",
+          "link": "https://www.aa.com.tr/tr/analiz/sada-dan-sana-ya-husilerin-iktidara-yukselisi/4126262"
+        }
+      ]
+    },
+    "mesajId": 359
   }
 }
