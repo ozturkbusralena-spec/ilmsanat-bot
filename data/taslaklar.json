@@ -7920,5 +7920,135 @@
     "mesajId": 352,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/DfxRGuEAGYf/\n\n❌ TikTok hatası: TikTok başlatma: spam_risk_too_many_pending_share"
+  },
+  "2026-11-16_0900_haber": {
+    "zaman": "2026-11-16T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-16T07:21:02.265Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-16_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1M7UMycpBdyb4kKNt1K4Kdo8CiTDE0NgC&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-16_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Yemen's Government Pulls Back From Bab al-Mandab\n\nGovernment-aligned forces in Yemen say they are withdrawing from Bab al-Mandab and neighbouring Dhubab on the Red Sea coast. Information Minister Salem Abubakr Mohammed Thabit al-Awlaki said the move would strengthen the defence of Aden, the government's temporary capital, and nearby provinces against a Houthi military buildup. Government forces had announced the recapture of the area in early October, about a month after the Houthis seized it. The strait links the Red Sea to the Gulf of Aden and carries traffic to and from the Suez Canal.\n\nThe Houthis dispute this account: a military source quoted by their Saba news agency said government forces had lost positions and supply routes and were retreating toward Aden. The army says it is regrouping to break the Houthi siege of Taiz, while fighting continues in Taiz, Marib and Al-Jawf.\n\nIn Taiz, under siege for more than a month, the Yemeni-Swedish hospital warns of shutdown over fuel and medicine shortages. Director Sami Al-Sharabi said: \"We are at our last breath.\" Nearly 330,000 people have been displaced since fighting reignited in the summer. Yemen's civil war began in 2014, when the Iran-backed Houthis seized Sanaa; a Saudi-led coalition intervened in 2015.\n\nSource: Anadolu Agency, Al Jazeera, Middle East Eye\n\n#Yemen #Houthis #BabAlMandab #Taiz #Aden #RedSea #MiddleEast #Geopolitics #IlmSanat",
+    "baslik": "Yemen's Government Pulls Back From Bab al-Mandab",
+    "plan": {
+      "etiket": "KEY DEVELOPMENT",
+      "baslik": "Yemen's Government **Pulls Back** From **Bab al-Mandab**",
+      "hook_satirlar": [
+        "Yemen's government is pulling back",
+        "from a global shipping",
+        "**chokepoint**"
+      ],
+      "cumleler": [
+        "Yemen's government is pulling troops back from a global shipping chokepoint.",
+        "Government-aligned forces are leaving Bab al-Mandab and nearby Dhubab on the Red Sea coast.",
+        "Officials say the move will shore up Aden, the temporary capital, against a Houthi buildup.",
+        "The Houthis say those forces lost positions and are retreating under pressure.",
+        "Meanwhile, Taiz has been under Houthi siege for more than a month.",
+        "A hospital there warns it could shut down without fuel and medicine.",
+        "Nearly 330,000 people have been displaced since fighting reignited in the summer."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "Antique copperplate engraving style map of the Bab al-Mandab strait between Arabia and the Horn of Africa, merchant sailing ships passing through narrow waters, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text or letters",
+          "hareket_prompt": "Slow push-in toward the narrow strait, faint mist drifting over the water"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "19th-century academic oil painting of a column of distant soldier silhouettes withdrawing along a barren Red Sea coastline at dusk, low hills and a small fortified harbour, dark navy and muted brass palette, dramatic chiaroscuro, visible brushstrokes, no faces, no flags, no text",
+          "hareket_prompt": "Gentle lateral drift along the coastline, dust softly rising, clouds moving slowly"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century academic oil painting of the old port city of Aden beneath volcanic crater cliffs, fortified walls and watchtowers, lamplight in windows at twilight, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the city walls, lamps flickering gently, light mist over the harbour"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Oil painting of a mountain supply road with abandoned stone outposts and empty carts under a stormy sky, Yemeni highland terrain, dark navy and brass tones, heavy chiaroscuro, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "Slow drift forward along the road, storm clouds rolling gradually overhead"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century academic oil painting of the mountain city of Taiz with tower houses and an old hilltop citadel, encircled by distant campfires on surrounding ridges at night, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow pull-back revealing the encircling ridges, campfires flickering softly"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Dim interior of an old stone hospital ward painted in 19th-century academic oil style, empty beds, a single flickering oil lamp, empty medicine bottles on a wooden table, dark navy and brass palette, strong chiaroscuro, visible brushstrokes, no faces, no text",
+          "hareket_prompt": "Very slow push-in toward the table, lamp light flickering and dimming gently"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "BAB AL-MANDAB\nWITHDRAWAL",
+          "alt": "Red Sea – Suez shipping route"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "GOVERNMENT",
+              "unvan": "Says pullback will defend Aden",
+              "cumle": 2
+            },
+            {
+              "ulke": "HOUTHIS",
+              "unvan": "Claim forced retreat under pressure",
+              "cumle": 3
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "TAIZ\nUNDER SIEGE",
+          "alt": "More than one month"
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "**330,000**",
+            "people displaced",
+            "since summer"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Yemen's Government Pulls Back From Bab al-Mandab\n\nGovernment-aligned forces in Yemen say they are withdrawing from Bab al-Mandab and neighbouring Dhubab on the Red Sea coast. Information Minister Salem Abubakr Mohammed Thabit al-Awlaki said the move would strengthen the defence of Aden, the government's temporary capital, and nearby provinces against a Houthi military buildup. Government forces had announced the recapture of the area in early October, about a month after the Houthis seized it. The strait links the Red Sea to the Gulf of Aden and carries traffic to and from the Suez Canal.\n\nThe Houthis dispute this account: a military source quoted by their Saba news agency said government forces had lost positions and supply routes and were retreating toward Aden. The army says it is regrouping to break the Houthi siege of Taiz, while fighting continues in Taiz, Marib and Al-Jawf.\n\nIn Taiz, under siege for more than a month, the Yemeni-Swedish hospital warns of shutdown over fuel and medicine shortages. Director Sami Al-Sharabi said: \"We are at our last breath.\" Nearly 330,000 people have been displaced since fighting reignited in the summer. Yemen's civil war began in 2014, when the Iran-backed Houthis seized Sanaa; a Saudi-led coalition intervened in 2015.\n\nSource: Anadolu Agency, Al Jazeera, Middle East Eye\n\n#Yemen #Houthis #BabAlMandab #Taiz #Aden #RedSea #MiddleEast #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "Yemeni army says troops regrouping to break Houthi siege of Taiz",
+          "link": "https://www.aa.com.tr/en/middle-east/yemeni-army-says-troops-regrouping-to-break-houthi-siege-of-taiz/4126080"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Houthis advance in Yemen as government forces move to defend Aden",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/houthis-advance-in-yemen-as-government-forces-move-to-defend-aden"
+        },
+        {
+          "ad": "Middle East Eye",
+          "baslik": "Yemen hospital faces shutdown risk due to sege on Taiz",
+          "link": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-hospital-faces-shutdown-risk-due-sege-taiz"
+        }
+      ]
+    },
+    "mesajId": 357
   }
 }
