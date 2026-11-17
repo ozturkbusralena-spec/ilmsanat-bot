@@ -8426,5 +8426,133 @@
     "mesajId": 361,
     "hatirlatildi": true,
     "sonuc": "📸 Instagram: https://www.instagram.com/reel/Df1c5J8tB4B/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin."
+  },
+  "2026-11-17_1400_analiz": {
+    "zaman": "2026-11-17T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-17T11:37:27.171Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-17_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1XAdu1RT0NJyAZGsvEQpRjFHmBkHj_gIk&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-17_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "E1: Bargaining Chip or De Facto Annexation?\n\nIn an analysis published by Anadolu Agency on 17 November 2026, Rayan Abed al-Razeq examines the E1 settlement project, describing it as caught between political bargaining and de facto annexation.\n\nAccording to the analysis, Benjamin Netanyahu's return to power could accelerate the E1 project. That acceleration, the author argues, could further fragment the West Bank and open the way to the region's eventual annexation by Israel.\n\nSource: Anadolu Ajansı (Anadolu Agency), analysis by Rayan Abed al-Razeq\n\n#E1 #WestBank #Israel #Netanyahu #Settlements #Annexation #MiddleEast #Geopolitics #Analysis #IlmSanat",
+    "baslik": "E1: Bargaining Chip or De Facto Annexation?",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "**E1**: Bargaining Chip or **De Facto Annexation**?",
+      "hook_satirlar": [
+        "One settlement plan",
+        "could further **fracture**",
+        "the West Bank"
+      ],
+      "cumleler": [
+        "One settlement plan could further fracture the West Bank.",
+        "Its name is E1.",
+        "An analysis by Rayan Abed al-Razeq for Anadolu Agency places it between two pressures: political bargaining and de facto annexation.",
+        "The trigger is Benjamin Netanyahu's return to power.",
+        "According to the analysis, his comeback could give the project fresh momentum.",
+        "That momentum could split the West Bank into even smaller pieces.",
+        "It could also clear the path toward Israel's eventual annexation of the territory.",
+        "In this reading, E1 is not just a building plan, but a lever that could reshape the land itself."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "Antique copperplate engraving style map of rolling hills and valleys, faint dividing lines cracking across the terrain, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text or letters",
+          "hareket_prompt": "Slow push-in over the map, soft candlelight flicker across the surface"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century academic oil painting of a dim study with an old brass balance scale on a desk beside rolled survey maps, heavy shadows, navy and brass palette, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Gentle lateral drift, the scale pans barely swaying, dust motes in the light"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Silhouette of a stately government building at dusk under heavy clouds, academic oil painting, dark navy sky with muted brass glow in windows, cinematic chiaroscuro, visible brushstrokes, no flags, no text",
+          "hareket_prompt": "Slow push-in, clouds drifting slowly overhead, windows faintly flickering"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Barren hillside with scattered stone villages separated by new walls and survey stakes, 19th-century oil painting, desaturated navy and brass tones, dramatic low sunlight, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow aerial drift across the hills, thin mist rolling through the valleys"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "Antique engraved map of a highland region being slowly covered by a dark encroaching shadow, muted brass and navy tones, dramatic chiaroscuro, visible brushwork, no text or letters",
+          "hareket_prompt": "Very slow push-in as the shadow subtly deepens, soft light flicker"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "Construction cranes silhouetted on a stony ridge at twilight, rendered as a 19th-century academic oil painting, navy sky, muted brass horizon, cinematic composition, dramatic chiaroscuro, visible brushstrokes, no people, no text",
+          "hareket_prompt": "Slow pull-back revealing the ridge, clouds drifting, fading light"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "ANADOLU\nANALYSIS",
+          "alt": "17 November 2026"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 3,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "ISRAEL",
+              "unvan": "Netanyahu back in power",
+              "cumle": 3
+            },
+            {
+              "ulke": "E1 PROJECT",
+              "unvan": "Could gain momentum",
+              "cumle": 4
+            },
+            {
+              "ulke": "WEST BANK",
+              "unvan": "Risk of deeper fragmentation",
+              "cumle": 5
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "From **fragmentation**",
+            "to annexation"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 7,
+          "satirlar": [
+            "Not just a plan",
+            "a **lever** on the land"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "E1: Bargaining Chip or De Facto Annexation?\n\nIn an analysis published by Anadolu Agency on 17 November 2026, Rayan Abed al-Razeq examines the E1 settlement project, describing it as caught between political bargaining and de facto annexation.\n\nAccording to the analysis, Benjamin Netanyahu's return to power could accelerate the E1 project. That acceleration, the author argues, could further fragment the West Bank and open the way to the region's eventual annexation by Israel.\n\nSource: Anadolu Ajansı (Anadolu Agency), analysis by Rayan Abed al-Razeq\n\n#E1 #WestBank #Israel #Netanyahu #Settlements #Annexation #MiddleEast #Geopolitics #Analysis #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "Siyasi pazarlık ve Fiili ilhak kıskacında \"E1\" yerleşim projesi",
+          "link": "https://www.aa.com.tr/tr/analiz/siyasi-pazarlik-ve-fiili-ilhak-kiskacinda-e1-yerlesim-projesi/4127671"
+        }
+      ]
+    },
+    "mesajId": 366
   }
 }
