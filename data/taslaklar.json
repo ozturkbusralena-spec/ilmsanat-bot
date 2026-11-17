@@ -8295,5 +8295,134 @@
       ]
     },
     "hata": "Telegram sendVideo: Bad Gateway"
+  },
+  "2026-11-17_0900_haber": {
+    "zaman": "2026-11-17T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "onay_bekliyor",
+    "guncelleme": "2026-11-17T06:10:17.952Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-17_0900_haber/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1Ci6KGIaePcjwtlOM2L0JgKriyjFRw6E2&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-17_0900_haber/kapak_kucuk.jpg",
+    "aciklama": "Yemen's Army Strikes, Houthis Advance Toward Aden\n\nYemen's army says it carried out 661 attacks on Houthi positions, killing or wounding 173 fighters. According to military spokesman Majed al-Nuzaili, the operations included 15 air strikes, 526 artillery attacks, 53 drone strikes and 67 rocket attacks, with fighting in Taiz, Marib and al-Jawf. The Houthis did not immediately comment.\n\nYet the battlefield picture is shifting. Government-aligned forces have withdrawn from strategic positions near the Bab al-Mandeb Strait after the Houthis cut a key supply route along the Red Sea coast, and are repositioning to defend Aden, the temporary capital of the internationally recognised government. Parliament has unanimously approved a bill designating the Houthis a terrorist organisation; it now goes to Presidential Leadership Council chairman Rashad al-Alimi for enactment.\n\nOperation \"Dawn of Yemen\" was launched on October 5 to recapture Sanaa, held by the Houthis since 2014. Fighting has intensified since July, ending the relative calm that began in April 2022 and deepening the humanitarian crisis.\n\nSource: Al Jazeera, Anadolu Agency\n\n#Yemen #Houthis #Aden #BabAlMandeb #RedSea #Sanaa #MiddleEast #Geopolitics #IlmSanat",
+    "baslik": "Yemen's Army Strikes, Houthis Advance Toward Aden",
+    "plan": {
+      "etiket": "ESCALATION",
+      "baslik": "Yemen's Army Strikes, **Houthis Advance** Toward **Aden**",
+      "hook_satirlar": [
+        "Yemen's army reports 661 strikes",
+        "on the Houthis —",
+        "but the Houthis are **advancing**"
+      ],
+      "cumleler": [
+        "Yemen's army reports 661 strikes on the Houthis, but the Houthis are the ones advancing.",
+        "Army spokesman Majed al-Nuzaili says 173 fighters were killed or wounded.",
+        "Most were artillery attacks, alongside drones, rockets and 15 air strikes.",
+        "On the ground, government forces have left positions near the Bab al-Mandeb Strait.",
+        "The Houthis cut a key Red Sea supply route, and troops are regrouping to defend Aden.",
+        "Parliament has voted unanimously to brand the Houthis a terrorist organisation.",
+        "Operation Dawn of Yemen began on October 5, aiming to retake Sanaa."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of rugged Yemeni mountain ridges at dusk, distant artillery flashes glowing on the horizon, lone silhouetted fighter on a rocky summit seen from behind, dark desaturated navy sky with muted brass highlights, dramatic chiaroscuro, cinematic wide composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the ridge, faint flickering light from distant flashes, drifting haze"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Copperplate engraving style scene of a dim military command tent interior, field table with scattered papers, brass lantern, binoculars and a rolled map, no faces, dark navy and muted brass palette, dramatic chiaroscuro, fine hatching, no letters or text",
+          "hareket_prompt": "Gentle drift across the table, lantern light softly flickering"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "Antique engraved map of the Bab al-Mandeb Strait and the southwestern Arabian coast, sea passage between two shores, compass rose, aged paper in navy and brass tones, dramatic vignette lighting, no labels or text",
+          "hareket_prompt": "Slow zoom into the narrow strait, light mist drifting over the water"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "19th-century oil painting of a lonely coastal desert road along the Red Sea, abandoned supply carts and a column of distant silhouetted vehicles heading toward a walled harbour city at twilight, navy sea and muted brass sky, chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow lateral drift along the road toward the harbour, clouds moving gently"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "Academic oil painting of a grand parliamentary chamber with arched windows, empty rows of seats and a gavel on a wooden desk in a shaft of light, dark navy shadows and brass accents, dramatic chiaroscuro, visible brushstrokes, no people's faces, no text",
+          "hareket_prompt": "Slow push-in toward the gavel, dust motes drifting in the light beam"
+        },
+        {
+          "cumle": 6,
+          "gorsel_prompt": "19th-century oil painting of the old city of Sanaa with tall tower houses at dawn, first light breaking over mountains, smoke rising in the distance, navy and muted brass tones, cinematic composition, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow pull-back revealing the skyline, dawn light gradually brightening, soft mist"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "buyuk",
+          "cumle": 2,
+          "satirlar": [
+            "**526** artillery strikes",
+            "53 drone · 67 rocket · 15 air"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "HOUTHIS",
+              "unvan": "Cut Red Sea supply route",
+              "cumle": 4
+            },
+            {
+              "ulke": "ADEN",
+              "unvan": "Government's temporary capital",
+              "cumle": 4
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "damga",
+          "cumle": 5,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "TERRORIST\nDESIGNATION",
+          "alt": "Unanimous parliament vote"
+        },
+        {
+          "tur": "damga",
+          "cumle": 6,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "DAWN OF\nYEMEN",
+          "alt": "Launched 5 Oct 2026"
+        }
+      ],
+      "aciklama": "Yemen's Army Strikes, Houthis Advance Toward Aden\n\nYemen's army says it carried out 661 attacks on Houthi positions, killing or wounding 173 fighters. According to military spokesman Majed al-Nuzaili, the operations included 15 air strikes, 526 artillery attacks, 53 drone strikes and 67 rocket attacks, with fighting in Taiz, Marib and al-Jawf. The Houthis did not immediately comment.\n\nYet the battlefield picture is shifting. Government-aligned forces have withdrawn from strategic positions near the Bab al-Mandeb Strait after the Houthis cut a key supply route along the Red Sea coast, and are repositioning to defend Aden, the temporary capital of the internationally recognised government. Parliament has unanimously approved a bill designating the Houthis a terrorist organisation; it now goes to Presidential Leadership Council chairman Rashad al-Alimi for enactment.\n\nOperation \"Dawn of Yemen\" was launched on October 5 to recapture Sanaa, held by the Houthis since 2014. Fighting has intensified since July, ending the relative calm that began in April 2022 and deepening the humanitarian crisis.\n\nSource: Al Jazeera, Anadolu Agency\n\n#Yemen #Houthis #Aden #BabAlMandeb #RedSea #Sanaa #MiddleEast #Geopolitics #IlmSanat",
+      "tur": "haber",
+      "kaynaklar": [
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Yemeni army reports 661 attacks on Houthis as group advances towards Aden",
+          "link": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden"
+        },
+        {
+          "ad": "Al Jazeera",
+          "baslik": "Iran war live: Houthis advance in Yemen as Vance rejects ‘forever war’",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz"
+        },
+        {
+          "ad": "Anadolu Agency",
+          "baslik": "173 Houthis killed or wounded in 661 operations, Yemen’s army says",
+          "link": "https://www.aa.com.tr/en/middle-east/173-houthis-killed-or-wounded-in-661-operations-yemen-s-army-says/4127060"
+        }
+      ]
+    },
+    "mesajId": 361
   }
 }
