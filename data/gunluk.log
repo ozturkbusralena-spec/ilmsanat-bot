@@ -1818,3 +1818,12 @@
 17.11.2026, 15:32:19 Tek tur başladı
 17.11.2026, 15:32:20 Telegram: fetch failed
 17.11.2026, 15:32:20 Tek tur bitti
+17.11.2026, 16:28:34 Tek tur başladı
+17.11.2026, 16:28:35 [2026-11-17_1800_haber] üretim başladı (haber)
+17.11.2026, 16:28:47 Seçilen haber: Anadolu Agency — Iranian navy says 3rd oil tanker catches fire after hitting mine in Strait of Hormuz (Hormuz Boğazı'nda mayına çarpan üçüncü tankerin alev alması ve İran'ın boğazı kapalı ilan etmesi, birçok kaynakça doğrulanan ve küresel enerji akışını doğrudan etkileyen günün en önemli gelişmesi.)
+17.11.2026, 16:29:21 [2026-11-17_1800_haber] Magnific: ses, görseller, müzik…
+17.11.2026, 16:29:50 [2026-11-17_1800_haber] Kling hareket klipleri (2)…
+17.11.2026, 16:33:53 [2026-11-17_1800_haber] Remotion kurgusu…
+17.11.2026, 16:41:17 [2026-11-17_1800_haber] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-17_1800_haber/video.mp4
+17.11.2026, 16:41:17 HATA HABER taslağı hazırlanamadı (18:00) Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs
+17.11.2026, 16:41:18 Tek tur bitti
