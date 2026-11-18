@@ -1857,3 +1857,12 @@
 18.11.2026, 05:43:05 Tek tur bitti
 18.11.2026, 06:45:09 Tek tur başladı
 18.11.2026, 06:45:13 Tek tur bitti
+18.11.2026, 07:44:26 Tek tur başladı
+18.11.2026, 07:44:27 [2026-11-18_0900_haber] üretim başladı (haber)
+18.11.2026, 07:44:38 Seçilen haber: Anadolu Agency — US strikes Iranian missile launch site on Qeshm Island in 'self-defense' (ABD'nin İran'ın Keşm Adası'ndaki füze rampasını vurması, savaşın yeniden tırmandığını gösteren günün en önemli Orta Doğu gelişmesi; birçok kaynak, aralarında Anadolu Ajansı da var, haberi doğruluyor ve henüz işlenmedi.)
+18.11.2026, 07:45:06 [2026-11-18_0900_haber] Magnific: ses, görseller, müzik…
+18.11.2026, 07:45:24 [2026-11-18_0900_haber] Kling hareket klipleri (2)…
+18.11.2026, 07:48:14 [2026-11-18_0900_haber] Remotion kurgusu…
+18.11.2026, 07:52:40 [2026-11-18_0900_haber] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-18_0900_haber/video.mp4
+18.11.2026, 07:52:40 HATA HABER taslağı hazırlanamadı (09:00) Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs
+18.11.2026, 07:52:40 Tek tur bitti
