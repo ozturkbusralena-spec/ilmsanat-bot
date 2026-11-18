@@ -1889,3 +1889,12 @@
 18.11.2026, 14:57:55 Tek tur bitti
 18.11.2026, 15:46:26 Tek tur başladı
 18.11.2026, 15:46:30 Tek tur bitti
+18.11.2026, 16:40:42 Tek tur başladı
+18.11.2026, 16:40:42 [2026-11-18_1800_haber] üretim başladı (haber)
+18.11.2026, 16:40:54 Seçilen haber: Anadolu Agency — 1 Palestinian killed, families displaced in Israel’s 1st broad ground offensive in central Gaza in a year (İsrail'in Ekim 2025 ateşkesinden bu yana Gazze'de 'sarı hattın' batısına yönelik ilk geniş kara harekâtı, birçok kaynak tarafından doğrulanan ve daha önce işlenmemiş günün en önemli Orta Doğu gelişmesidir.)
+18.11.2026, 16:41:23 [2026-11-18_1800_haber] Magnific: ses, görseller, müzik…
+18.11.2026, 16:42:01 [2026-11-18_1800_haber] Kling hareket klipleri (2)…
+18.11.2026, 16:44:10 [2026-11-18_1800_haber] Remotion kurgusu…
+18.11.2026, 16:49:43 [2026-11-18_1800_haber] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-18_1800_haber/video.mp4
+18.11.2026, 16:49:43 HATA HABER taslağı hazırlanamadı (18:00) Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs
+18.11.2026, 16:49:44 Tek tur bitti
