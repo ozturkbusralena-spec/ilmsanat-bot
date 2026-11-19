@@ -8591,5 +8591,12 @@
     "durum": "hata",
     "guncelleme": "2026-11-19T06:50:55.947Z",
     "hata": "Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs"
+  },
+  "2026-11-19_1400_analiz": {
+    "zaman": "2026-11-19T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "hata",
+    "guncelleme": "2026-11-19T11:50:52.194Z",
+    "hata": "Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs"
   }
 }

@@ -1945,3 +1945,12 @@
 19.11.2026, 10:51:57 Tek tur bitti
 19.11.2026, 11:49:06 Tek tur başladı
 19.11.2026, 11:49:10 Tek tur bitti
+19.11.2026, 12:42:14 Tek tur başladı
+19.11.2026, 12:42:15 [2026-11-19_1400_analiz] üretim başladı (analiz)
+19.11.2026, 12:42:28 Seçilen analiz: Anadolu Ajansı Analiz — İran'a yönelik ABD baskısının yeni halkası: Demir Kapı görev gücü (Anadolu Ajansı'nın ABD'nin İran'a yönelik yeni 'Demir Kapı' görev gücünü inceleyen analizi, Orta Doğu'daki en sıcak gelişmeye, İran-ABD gerilimine doğrudan bağlanıyor ve kara sınırlarının kapatılması haberini derinleştiren yeni bir açı sunuyor.)
+19.11.2026, 12:42:56 [2026-11-19_1400_analiz] Magnific: ses, görseller, müzik…
+19.11.2026, 12:43:19 [2026-11-19_1400_analiz] Kling hareket klipleri (2)…
+19.11.2026, 12:45:16 [2026-11-19_1400_analiz] Remotion kurgusu…
+19.11.2026, 12:50:52 [2026-11-19_1400_analiz] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-19_1400_analiz/video.mp4
+19.11.2026, 12:50:52 HATA ANALİZ taslağı hazırlanamadı (14:00) Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs
+19.11.2026, 12:50:53 Tek tur bitti
