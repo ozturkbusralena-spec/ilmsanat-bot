@@ -1960,3 +1960,12 @@
 19.11.2026, 15:00:35 Tek tur bitti
 19.11.2026, 15:57:11 Tek tur başladı
 19.11.2026, 15:57:14 Tek tur bitti
+19.11.2026, 16:49:51 Tek tur başladı
+19.11.2026, 16:49:51 [2026-11-19_1800_haber] üretim başladı (haber)
+19.11.2026, 16:50:06 Seçilen haber: Anadolu Agency — Somalia orders UAE ambassador to leave in 72 hours (Somali'nin BAE büyükelçisini 72 saat içinde sınır dışı etmesi, Afrika Boynuzu'nda Körfez rekabetini gösteren, birden fazla kaynakça doğrulanan ve henüz işlenmemiş önemli bir jeopolitik gelişme.)
+19.11.2026, 16:50:28 [2026-11-19_1800_haber] Magnific: ses, görseller, müzik…
+19.11.2026, 16:50:52 [2026-11-19_1800_haber] Kling hareket klipleri (2)…
+19.11.2026, 16:54:24 [2026-11-19_1800_haber] Remotion kurgusu…
+19.11.2026, 17:06:20 [2026-11-19_1800_haber] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-19_1800_haber/video.mp4
+19.11.2026, 17:06:20 HATA HABER taslağı hazırlanamadı (18:00) Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs
+19.11.2026, 17:06:21 Tek tur bitti
