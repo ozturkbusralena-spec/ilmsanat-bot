@@ -1937,3 +1937,5 @@
 19.11.2026, 07:50:55 [2026-11-19_0900_haber] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-19_0900_haber/video.mp4
 19.11.2026, 07:50:55 HATA HABER taslağı hazırlanamadı (09:00) Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs
 19.11.2026, 07:50:56 Tek tur bitti
+19.11.2026, 08:55:14 Tek tur başladı
+19.11.2026, 08:55:18 Tek tur bitti
