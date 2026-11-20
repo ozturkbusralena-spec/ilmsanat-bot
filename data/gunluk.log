@@ -1,12 +1,3 @@
-28.10.2026, 07:15:34 [2026-10-28_0900_haber] Magnific: ses, görseller, müzik…
-28.10.2026, 07:15:52 [2026-10-28_0900_haber] Kling hareket klipleri (2)…
-28.10.2026, 07:19:45 [2026-10-28_0900_haber] Remotion kurgusu…
-28.10.2026, 07:24:54 [2026-10-28_0900_haber] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-28_0900_haber/video.mp4
-28.10.2026, 07:25:03 Tek tur bitti
-28.10.2026, 08:13:24 Tek tur başladı
-28.10.2026, 08:13:29 Tek tur bitti
-28.10.2026, 09:10:18 Tek tur başladı
-28.10.2026, 09:10:22 Instagram: video işleniyor…
 28.10.2026, 09:11:00 TikTok: video yükleniyor… v_inbox_file~v2.7701627897634932758
 28.10.2026, 09:13:54 Tek tur bitti
 28.10.2026, 09:56:18 Tek tur başladı
@@ -1998,3 +1989,12 @@
 20.11.2026, 14:53:11 Tek tur bitti
 20.11.2026, 15:44:50 Tek tur başladı
 20.11.2026, 15:44:54 Tek tur bitti
+20.11.2026, 16:39:52 Tek tur başladı
+20.11.2026, 16:39:52 [2026-11-20_1800_haber] üretim başladı (haber)
+20.11.2026, 16:40:07 Seçilen haber: Anadolu Agency — Saudi-led coalition launches military operation against Houthi targets in Yemen (Suudi liderliğindeki koalisyonun Hudeyde limanına yönelik yeni askeri operasyonu ve Husilerin Suudi limanlarını tehdit etmesi, Yemen savaşında Kızıldeniz'i kapsayan büyük bir tırmanış olup birçok kaynak tarafından doğrulanan günün en önemli Orta Doğu gelişmesidir.)
+20.11.2026, 16:40:38 [2026-11-20_1800_haber] Magnific: ses, görseller, müzik…
+20.11.2026, 16:41:13 [2026-11-20_1800_haber] Kling hareket klipleri (2)…
+20.11.2026, 16:44:40 [2026-11-20_1800_haber] Remotion kurgusu…
+20.11.2026, 16:52:30 [2026-11-20_1800_haber] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-20_1800_haber/video.mp4
+20.11.2026, 16:52:30 HATA HABER taslağı hazırlanamadı (18:00) Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs
+20.11.2026, 16:52:31 Tek tur bitti
