@@ -1,5 +1,3 @@
-28.10.2026, 01:13:25 Tek tur başladı
-28.10.2026, 01:13:29 Tek tur bitti
 28.10.2026, 01:16:55 Tek tur başladı
 28.10.2026, 01:17:00 Instagram: video işleniyor…
 28.10.2026, 01:18:40 TikTok: video yükleniyor… v_inbox_file~v2.7701506216408713238
@@ -1998,3 +1996,5 @@
 20.11.2026, 07:42:47 [2026-11-20_0900_haber] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-20_0900_haber/video.mp4
 20.11.2026, 07:42:47 HATA HABER taslağı hazırlanamadı (09:00) Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs
 20.11.2026, 07:42:48 Tek tur bitti
+20.11.2026, 08:48:30 Tek tur başladı
+20.11.2026, 08:48:33 Tek tur bitti
