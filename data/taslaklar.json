@@ -8654,5 +8654,12 @@
     "durum": "hata",
     "guncelleme": "2026-11-22T06:44:05.691Z",
     "hata": "Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs"
+  },
+  "2026-11-22_1100_tablo": {
+    "zaman": "2026-11-22T10:00:00.000Z",
+    "tur": "tablo",
+    "durum": "hata",
+    "guncelleme": "2026-11-22T08:37:05.001Z",
+    "hata": "Command failed: /home/runner/work/ilmsanat-bot/ilmsanat-bot/video/node_modules/.bin/remotion render src/index.ts Haber /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-22_1100_tablo/video.mp4 --props=/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-22_1100_tablo/props.json --codec=h264 --crf=20 --audio-codec=aac --log=error\n\u001b[31m\u001b[41m\u001b[37m Error \u001b[39m\u001b[31m\u001b[49m\u001b[39m \u001b[31mError loading image with src: http://localhost:3000/public/is/2026-11-22_1100_tablo/tablo.jpg\u001b[39m\n"
   }
 }
