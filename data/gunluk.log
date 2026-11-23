@@ -1,12 +1,3 @@
-30.10.2026, 13:09:49 Tek tur başladı
-30.10.2026, 13:09:53 Tek tur bitti
-30.10.2026, 13:58:21 Tek tur başladı
-30.10.2026, 13:58:22 Paylaşım saati bekleniyor (14:00)
-30.10.2026, 14:00:02 Instagram: video işleniyor…
-30.10.2026, 14:01:08 TikTok: video yükleniyor… v_inbox_file~v2.7702445143877896214
-30.10.2026, 14:04:04 Tek tur bitti
-30.10.2026, 14:52:38 Tek tur başladı
-30.10.2026, 14:52:42 Tek tur bitti
 30.10.2026, 15:44:27 Tek tur başladı
 30.10.2026, 15:44:31 Tek tur bitti
 30.10.2026, 16:33:44 Tek tur başladı
@@ -1998,3 +1989,12 @@
 23.11.2026, 05:54:57 Tek tur bitti
 23.11.2026, 06:54:31 Tek tur başladı
 23.11.2026, 06:54:35 Tek tur bitti
+23.11.2026, 08:07:55 Tek tur başladı
+23.11.2026, 08:07:56 [2026-11-23_0900_haber] üretim başladı (haber)
+23.11.2026, 08:08:07 Seçilen haber: Anadolu Agency — Libya’s eastern-based government files UN complaint over Benghazi ship attacks (Bingazi limanında Rus ve Malta gemilerine yönelik saldırılar, doğu Libya hükümetinin Ukrayna'yı sorumlu tutarak BM'ye şikâyette bulunması ve Libya'nın Rusya-Ukrayna savaşına sahne olma riski, birçok kaynakta yer alan ve henüz işlenmemiş önemli bir Kuzey Afrika-büyük güç gelişmesidir.)
+23.11.2026, 08:08:37 [2026-11-23_0900_haber] Magnific: ses, görseller, müzik…
+23.11.2026, 08:09:00 [2026-11-23_0900_haber] Kling hareket klipleri (2)…
+23.11.2026, 08:12:21 [2026-11-23_0900_haber] Remotion kurgusu…
+23.11.2026, 08:21:00 [2026-11-23_0900_haber] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-23_0900_haber/video.mp4
+23.11.2026, 08:21:00 HATA HABER taslağı hazırlanamadı (09:00) Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs
+23.11.2026, 08:21:01 Tek tur bitti
