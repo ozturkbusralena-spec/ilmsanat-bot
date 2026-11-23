@@ -1,5 +1,3 @@
-30.10.2026, 15:44:27 Tek tur başladı
-30.10.2026, 15:44:31 Tek tur bitti
 30.10.2026, 16:33:44 Tek tur başladı
 30.10.2026, 16:33:44 [2026-10-30_1800_haber] üretim başladı (haber)
 30.10.2026, 16:34:00 Seçilen haber: Al Jazeera — Senators briefed on Trump’s ‘insane’ plan to restart war on Iran (Trump'ın İran'a karşı savaşı yeniden başlatma planı birçok kaynakta yer alıyor ve Körfez diplomasisi ile Katar arabuluculuğunu kapsayan, henüz işlenmemiş en kritik Orta Doğu gelişmesi.)
@@ -1998,3 +1996,5 @@
 23.11.2026, 08:21:00 [2026-11-23_0900_haber] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-23_0900_haber/video.mp4
 23.11.2026, 08:21:00 HATA HABER taslağı hazırlanamadı (09:00) Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs
 23.11.2026, 08:21:01 Tek tur bitti
+23.11.2026, 09:41:05 Tek tur başladı
+23.11.2026, 09:41:09 Tek tur bitti
