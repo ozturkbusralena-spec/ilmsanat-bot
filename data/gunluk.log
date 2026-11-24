@@ -1,12 +1,3 @@
-31.10.2026, 07:33:53 [2026-10-31_0900_haber] Remotion kurgusu…
-31.10.2026, 07:42:13 [2026-10-31_0900_haber] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-31_0900_haber/video.mp4
-31.10.2026, 07:42:24 Tek tur bitti
-31.10.2026, 08:30:41 Tek tur başladı
-31.10.2026, 08:30:41 Paylaşım saati bekleniyor (09:00)
-31.10.2026, 09:00:04 Instagram: video işleniyor…
-31.10.2026, 09:00:38 TikTok: video yükleniyor… v_inbox_file~v2.7702738771829164054
-31.10.2026, 09:03:37 Tek tur bitti
-31.10.2026, 09:20:57 Tek tur başladı
 31.10.2026, 09:21:01 Tek tur bitti
 31.10.2026, 10:04:42 Tek tur başladı
 31.10.2026, 10:04:46 Tek tur bitti
@@ -1998,3 +1989,12 @@
 24.11.2026, 05:47:58 Tek tur bitti
 24.11.2026, 06:43:22 Tek tur başladı
 24.11.2026, 06:43:26 Tek tur bitti
+24.11.2026, 07:41:21 Tek tur başladı
+24.11.2026, 07:41:21 [2026-11-24_0900_haber] üretim başladı (haber)
+24.11.2026, 07:41:33 Seçilen haber: Middle East Monitor — Zelensky acknowledges attack on Russian warship in Libya’s Benghazi (Ukrayna'nın Bingazi limanında bir Rus savaş gemisini batırdığını Zelensky'nin bizzat kabul etmesi, Rusya-Ukrayna savaşını Libya üzerinden Akdeniz'e taşıyan, birçok kaynakta yer alan ve henüz işlenmemiş büyük bir jeopolitik gelişmedir.)
+24.11.2026, 07:42:01 [2026-11-24_0900_haber] Magnific: ses, görseller, müzik…
+24.11.2026, 07:42:25 [2026-11-24_0900_haber] Kling hareket klipleri (2)…
+24.11.2026, 07:44:45 [2026-11-24_0900_haber] Remotion kurgusu…
+24.11.2026, 07:49:45 [2026-11-24_0900_haber] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-24_0900_haber/video.mp4
+24.11.2026, 07:49:46 HATA HABER taslağı hazırlanamadı (09:00) Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs
+24.11.2026, 07:49:46 Tek tur bitti
