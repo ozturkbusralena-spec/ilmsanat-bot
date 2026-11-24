@@ -1,12 +1,3 @@
-31.10.2026, 11:18:39 Tek tur bitti
-31.10.2026, 11:53:20 Tek tur başladı
-31.10.2026, 11:53:24 Tek tur bitti
-31.10.2026, 12:22:24 Tek tur başladı
-31.10.2026, 12:22:24 [2026-10-31_1400_analiz] üretim başladı (analiz)
-31.10.2026, 12:22:34 Seçilen analiz: Anadolu Ajansı Analiz — Irak merkezi hükümetinin Sincar adımı nasıl okunmalı? (Irak merkezi hükümetinin Sincar'daki PKK bağlantılı Yezidi unsurları güvenlik sistemine entegre etmesi, Orta Doğu'da henüz işlenmemiş önemli bir jeopolitik gelişmedir ve güvenilir Anadolu Ajansı'nın analizine dayanmaktadır.)
-31.10.2026, 12:23:04 [2026-10-31_1400_analiz] Magnific: ses, görseller, müzik…
-31.10.2026, 12:23:32 [2026-10-31_1400_analiz] Kling hareket klipleri (2)…
-31.10.2026, 12:26:50 [2026-10-31_1400_analiz] Remotion kurgusu…
 31.10.2026, 12:35:16 [2026-10-31_1400_analiz] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-10-31_1400_analiz/video.mp4
 31.10.2026, 12:35:23 Tek tur bitti
 31.10.2026, 12:58:16 Tek tur başladı
@@ -1998,3 +1989,12 @@
 24.11.2026, 10:11:16 Tek tur bitti
 24.11.2026, 11:23:04 Tek tur başladı
 24.11.2026, 11:23:08 Tek tur bitti
+24.11.2026, 12:18:45 Tek tur başladı
+24.11.2026, 12:18:46 [2026-11-24_1400_analiz] üretim başladı (analiz)
+24.11.2026, 12:18:57 Seçilen analiz: Anadolu Ajansı Analiz — İran'da savaş nereye gidiyor? (İran savaşının gidişatına dair güncel Anadolu Ajansı analizi, Orta Doğu jeopolitiğinin günün en önemli meselesini ele alıyor ve daha önce işlenen tekil haberleri bütüncül bir değerlendirmeyle tamamlıyor.)
+24.11.2026, 12:19:27 [2026-11-24_1400_analiz] Magnific: ses, görseller, müzik…
+24.11.2026, 12:20:01 [2026-11-24_1400_analiz] Kling hareket klipleri (2)…
+24.11.2026, 12:25:54 [2026-11-24_1400_analiz] Remotion kurgusu…
+24.11.2026, 12:32:38 [2026-11-24_1400_analiz] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-24_1400_analiz/video.mp4
+24.11.2026, 12:32:38 HATA ANALİZ taslağı hazırlanamadı (14:00) Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs
+24.11.2026, 12:32:39 Tek tur bitti
