@@ -1,12 +1,3 @@
-31.10.2026, 14:00:04 Instagram: video işleniyor…
-31.10.2026, 14:01:01 TikTok: video yükleniyor… v_inbox_file~v2.7702816189109569559
-31.10.2026, 14:03:56 Tek tur bitti
-31.10.2026, 14:26:59 Tek tur başladı
-31.10.2026, 14:27:04 Tek tur bitti
-31.10.2026, 15:03:53 Tek tur başladı
-31.10.2026, 15:03:57 Tek tur bitti
-31.10.2026, 15:37:43 Tek tur başladı
-31.10.2026, 15:37:47 Tek tur bitti
 31.10.2026, 16:11:47 Tek tur başladı
 31.10.2026, 16:11:48 [2026-10-31_1800_haber] üretim başladı (haber)
 31.10.2026, 16:12:06 Seçilen haber: Anadolu Agency — Iranian delegation arrives in Qatar for talks: Report (İran heyetinin Katar'a gelmesi ve ABD ile dolaylı müzakerelerde bildirilen 'atılım', bölgesel savaşın yeniden başlayıp başlamayacağını belirleyecek günün en önemli Orta Doğu gelişmesidir ve birden çok kaynak tarafından doğrulanmaktadır.)
@@ -1998,3 +1989,12 @@
 24.11.2026, 14:39:59 Tek tur bitti
 24.11.2026, 15:39:24 Tek tur başladı
 24.11.2026, 15:39:28 Tek tur bitti
+24.11.2026, 16:41:19 Tek tur başladı
+24.11.2026, 16:41:20 [2026-11-24_1800_haber] üretim başladı (haber)
+24.11.2026, 16:41:32 Seçilen haber: Anadolu Agency — Libya's Tripoli-based government denies any prior agreement with Ukraine on Benghazi attacks (Rusya-Ukrayna savaşının Bingazi açıklarındaki saldırılarla Libya'ya ve Akdeniz'e taşınması, birçok kaynakta yer alan, Kuzey Afrika ile büyük güç rekabetini birleştiren ve henüz işlenmemiş en önemli gelişme.)
+24.11.2026, 16:41:59 [2026-11-24_1800_haber] Magnific: ses, görseller, müzik…
+24.11.2026, 16:42:22 [2026-11-24_1800_haber] Kling hareket klipleri (2)…
+24.11.2026, 16:44:10 [2026-11-24_1800_haber] Remotion kurgusu…
+24.11.2026, 16:49:56 [2026-11-24_1800_haber] Video hazır: /home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-24_1800_haber/video.mp4
+24.11.2026, 16:49:56 HATA HABER taslağı hazırlanamadı (18:00) Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs
+24.11.2026, 16:49:57 Tek tur bitti
