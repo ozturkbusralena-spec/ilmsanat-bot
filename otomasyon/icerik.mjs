@@ -4,7 +4,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
-import { envOku, jsonOku, log } from "./ortak.mjs";
+import { envOku, jsonOku, log, bekle } from "./ortak.mjs";
 import { makaleMetni } from "./haberler.mjs";
 
 const MODEL = "claude-opus-5-5";
@@ -49,11 +49,17 @@ const cagir = async ({ sistem, kullanici, sema, effort, maxTokens = 16000 }) => 
 const SECIM_KURALLARI = `You select stories for "Ilm Sanat", an English-language Instagram/TikTok channel on geopolitics and history.
 Priorities, in order:
 1. Middle East geopolitics (most important)
-2. North Africa and the Horn of Africa (Libya, Egypt, Sudan, Somalia, ...)
+2. North Africa and the Horn of Africa (Libya, Egypt, Sudan, Somalia, ...) and the wider Islamic world
 3. Great-power geopolitics: USA, China, Russia — especially where it touches the Middle East or Africa
 4. Political history (e.g. the Balfour Declaration, the Palestine land question) — only when tied to an anniversary or today's news
 Prefer the most important development of the day; if the day is quiet, the most important story of the week.
 A story reported by several outlets counts as more important and more reliable. Anadolu Agency is trusted.
+Turkey: the channel is NOT Turkey-focused. Many sources are Turkish (Anadolu, TRT, SETA), so their feeds are full of
+Turkish politics — do not let that steer the choice. Skip stories whose main subject is Turkey itself (Turkish domestic
+politics, statements or visits of Turkish officials, Turkish foreign policy, PKK/"terror-free Turkey"). From Turkish
+outlets pick their reporting on the Arab world, Iran, North Africa and the Islamic world instead. Choose a Turkey-centred
+story only if it is clearly the dominant regional event of the day, and never if a Turkey-centred story was among the
+last five posts.
 Avoid: celebrity, sport, crime without political weight, business news without geopolitical weight, stories already covered.`;
 
 const SecimSemasi = z.object({
@@ -77,7 +83,7 @@ export const haberSec = async (adaylar, tur, konu) => {
     sistem: SECIM_KURALLARI,
     kullanici:
       `Choose one ${tur === "analiz" ? "ANALYSIS / opinion piece" : "NEWS story"} for the next post.` +
-      (konu ? `\nThe editor asked for a post on this topic; choose the candidate that best matches it: ${konu}` : "") +
+      (konu ? `\nThe editor asked for a post on this topic; choose the candidate that best matches it (this overrides the Turkey rule): ${konu}` : "") +
       `\n\nAlready covered recently:\n${onceki}\n\nCandidates:\n${metin}`,
     sema: SecimSemasi,
     effort: "low",
@@ -173,8 +179,9 @@ export const haberPlani = async ({ tur, ana, ayni = [], talimat }) => {
 // v1/search 2026-10-01'de kapatıldı; v1.1/search sayfalı (offset/limit). Nesne ayrıntısı hâlâ v1/objects.
 const MET = "https://collectionapi.metmuseum.org/public/collection";
 const UYGUNSUZ = /nude|nudity|naked|bath|hammam|harem|odalisque|slave/i;
+// Yalnızca Orta Doğu, Kuzey Afrika ve İslam coğrafyasını resmeden ressamlar. Genel "orientalist" araması
+// Met'in Asya koleksiyonundan Kore/Japon eserleri de getirdiği için kullanılmıyor.
 const RESSAMLAR = [
-  "orientalist",
   "Jean-Léon Gérôme",
   "Ludwig Deutsch",
   "Rudolf Ernst",
@@ -184,26 +191,46 @@ const RESSAMLAR = [
   "John Frederick Lewis",
   "Osman Hamdi",
   "Eugène Delacroix",
+  "Léon Bonnat",
+  "Horace Vernet",
+  "Prosper Marilhat",
+  "Adolf Schreyer",
+  "Gustave Guillaumet",
+  "Étienne Dinet",
+  "Jean-Joseph Benjamin-Constant",
+  "Charles-Théodore Frère",
+  "Eugène Girardet",
 ];
+// Uzak Doğu ve Güney Asya eserleri elenir (Kullanıcı: sadece Orta Doğu, Kuzey Afrika, İslam coğrafyası)
+const BOLUMLER = new Set(["European Paintings", "Islamic Art", "The American Wing", "Robert Lehman Collection", "Modern and Contemporary Art"]);
+// Ressamın her eseri doğu konulu değil (ör. Delacroix'nın Ivanhoe sahneleri): başlık ya da etiketler bölgeyi anmalı
+const ISLAM_COGRAFYASI = /arab|bedouin|berber|moor|moroc|tangier|algier|alger|tunis|libya|tripoli|egypt|cairo|nile|alexandria|giza|pyramid|sphinx|fellah|mamel|mamluk|nubia|copt|turban|alhambra|granada|andalus|cordoba|sudan|syria|damascus|lebanon|beirut|palestin|jerusalem|holy land|bethlehem|jaffa|nazareth|judea|jordan|petra|mecca|medina|arabia|yemen|iraq|baghdad|persia|isfahan|turk|ottoman|constantinople|istanbul|stamboul|bosphorus|smyrna|anatolia|mosque|minaret|muezzin|imam|koran|quran|islam|muslim|mussulman|dervish|sheikh|sultan|pasha|bey\b|janissar|bazaar|souk|kasbah|harem guard|caravan|desert|oasis|camel|dromedary|orient|levant|maghreb|sahara|kabyle|zouave|spahi|janissary|arnaut|bashi|circassian|kurd/i;
+const UZAK_DOGU = /japan|china|chinese|korea|india(?!n ocean)|hindu|buddh|siam|burm|tibet|mongol|java|bali|kyoto|peking|beijing|canton|samurai|geisha|pagoda|temple bell/i;
 
 export const tabloSec = async () => {
   const kullanilan = new Set(jsonOku("paylasilanlar.json", []).filter((p) => p.tur === "tablo").map((p) => p.link));
+  // Met'in bot koruması çok sık istekte 403 sayfası döndürür: istekler arası kısa bekleme; engel "sonuç yok" sanılmasın
+  const metGetir = async (yol) => {
+    await bekle(250);
+    const r = await fetch(MET + yol);
+    if (r.status === 403) throw new Error("Met Müzesi API'si geçici olarak engelledi (403)");
+    return r.ok ? r.json().catch(() => null) : null;
+  };
   const idler = new Set();
   for (const q of RESSAMLAR) {
-    const ara = await (
-      await fetch(`${MET}/v1.1/search?q=${encodeURIComponent(q)}&hasImages=true&isPublicDomain=true&medium=Paintings&limit=40`)
-    )
-      .json()
-      .catch(() => ({}));
-    for (const id of ara.objectIDs ?? []) idler.add(id);
+    const ara = await metGetir(`/v1.1/search?q=${encodeURIComponent(q)}&hasImages=true&isPublicDomain=true&medium=Paintings&limit=40`);
+    for (const id of ara?.objectIDs ?? []) idler.add(id);
   }
-  for (const id of [...idler].sort(() => Math.random() - 0.5).slice(0, 40)) {
-    const o = await (await fetch(`${MET}/v1/objects/${id}`)).json().catch(() => null);
+  // ressamların eserlerinin çoğu doğu konulu değil: uygun olanı bulmak için daha çok eser taranır
+  for (const id of [...idler].sort(() => Math.random() - 0.5).slice(0, 150)) {
+    const o = await metGetir(`/v1/objects/${id}`);
     if (!o?.isPublicDomain || !o.primaryImage || o.classification !== "Paintings") continue;
     const link = o.objectURL;
     const etiketler = (o.tags ?? []).map((t) => t.term).join(" ");
     if (kullanilan.has(link) || UYGUNSUZ.test(`${o.title} ${etiketler}`)) continue;
-    log(`Pazar tablosu: ${o.artistDisplayName} — ${o.title}`);
+    if (!ISLAM_COGRAFYASI.test(`${o.title} ${etiketler}`)) continue;
+    if (!BOLUMLER.has(o.department) || UZAK_DOGU.test(`${o.title} ${etiketler} ${o.culture} ${o.country} ${o.region}`)) continue;
+    log(`Hafta sonu tablosu: ${o.artistDisplayName} — ${o.title}`);
     return {
       baslik: o.title,
       ressam: o.artistDisplayName,

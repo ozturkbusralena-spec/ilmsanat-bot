@@ -1,10 +1,9 @@
-// İlm Sanat botu: takvime göre taslak üretir, Telegram'dan onay alır, paylaşır.
+// İlm Sanat botu: takvime göre video üretir ve saatinde kendiliğinden paylaşır (onay beklemez).
 //
-// Takvim (Viyana): 09:00 haber · 14:00 analiz · 18:00 haber · Pazar ayrıca 11:00 oryantalist tablo.
-// Taslak paylaşım saatinden ~3 saat önce Telegram'a gelir. Onaylanırsa saatinde paylaşılır; cevap yoksa
-// 15 dk önce hatırlatılır ve saatinde otomatik paylaşılır. Atla denirse paylaşılmaz.
+// Takvim (Viyana): 09:00 haber · 14:00 analiz · 18:00 haber · Cumartesi ve Pazar ayrıca 11:00 oryantalist tablo.
+// Video paylaşım saatinden ~3 saat önce bilgi için Telegram'a gelir; /atla ile sıradaki paylaşım iptal edilebilir.
 // Hatalar otomatik yeniden denenir; çözülemeyen sorun ve sabah sağlık kontrolü Telegram'a ve e-postayla bildirilir.
-// Telegram komutları: bir haber linki · /konu <konu> · /durum · /durdur · /baslat · /yardim
+// Telegram komutları: bir haber linki · /konu <konu> · /atla · /durum · /durdur · /baslat · /yardim
 //
 // Çalıştırma: node otomasyon/bot.mjs            (sürekli çalışır: Mac'te terminal/launchd)
 //             node otomasyon/bot.mjs --tek-tur  (bir tur çalışıp kapanır: GitHub Actions her 10 dakikada)
@@ -25,11 +24,11 @@ const TAKVIM = [
   { saat: "09:00", tur: "haber" },
   { saat: "14:00", tur: "analiz" },
   { saat: "18:00", tur: "haber" },
-  { saat: "11:00", tur: "tablo", sadecePazar: true },
+  { saat: "11:00", tur: "tablo", haftaSonu: true },
 ];
+const gunde = (s, gun) => !s.haftaSonu || gun === "Sat" || gun === "Sun";
 // GitHub'ın zamanlanmış turları 2–3 saat gecikebiliyor: üretim 3 saat önceden başlar, tur paylaşıma kadar açık kalır
 const ONCEDEN_DK = 180;
-const HATIRLAT_DK = 15;
 // tek tur modunda: paylaşım saati turun başından en fazla bu kadar sonraysa tur kapanmadan bekler (bot.yml zaman aşımı 240 dk)
 const BEKLE_DK = 200;
 // hiç tur gelmediyse: 90 dk geç kalınmışsa bile üretilir, 3 saate kadar gecikmeyle paylaşılır (hiç paylaşmamaktan iyi)
@@ -171,31 +170,19 @@ const taslakUret = (id, tur, secenekler = {}) =>
       baslik: plan.baslik.replace(/\*\*/g, ""),
       plan,
     });
-    // Telegram'a gönderilemese de taslak saatinde paylaşılır
+    // Telegram'a gönderilemese de video saatinde paylaşılır; özel istek hazır olunca hemen paylaşılır
     await taslakGonder(id).catch((e) => log(`[${id}] taslak Telegram'a gönderilemedi: ${e.message}`));
+    if (!t.zaman) paylas(id, "Özel istek hazır");
   });
 
+// Yalnızca bilgi için: onay beklenmez, video saatinde kendiliğinden paylaşılır
 const taslakGonder = async (id) => {
   const t = taslaklar()[id];
   const saat = t.zaman ? viyana(new Date(t.zaman)).saat : null;
-  await tgVideo(t.video, `📝 TASLAK · ${TUR_ADI[t.tur]}${saat ? ` · ${saat}` : ""} · ${t.baslik}`, t.kapak);
+  await tgVideo(t.video, `🎬 ${TUR_ADI[t.tur]}${saat ? ` · ${saat}` : ""} · ${t.baslik}`, t.kapak);
   const kaynak = (t.plan?.kaynaklar ?? []).map((k) => `• ${k.ad}: ${k.link}`).join("\n");
-  const not = saat
-    ? `\n\n⏰ Cevap vermezsen ${saat}'da otomatik paylaşılacak. Onaylarsan da ${saat}'da paylaşılır.`
-    : "\n\nBu özel istek; sadece Paylaş'a basarsan paylaşılır.";
-  const mesaj = await tgMesaj(`Paylaşım metni:\n\n${t.aciklama}\n\nKaynaklar:\n${kaynak}${not}`, {
-    disable_web_page_preview: true,
-    reply_markup: {
-      inline_keyboard: [
-        [
-          { text: "✅ Paylaş", callback_data: `paylas:${id}` },
-          { text: "✏️ Değiştir", callback_data: `degistir:${id}` },
-          { text: "⏭ Atla", callback_data: `atla:${id}` },
-        ],
-      ],
-    },
-  });
-  taslakYaz(id, { mesajId: mesaj.message_id });
+  const not = saat ? `\n\n⏰ ${saat}'da otomatik paylaşılacak. Paylaşılmasın istersen /atla yaz.` : "\n\n⏳ Şimdi paylaşılıyor.";
+  await tgMesaj(`Paylaşım metni:\n\n${t.aciklama}\n\nKaynaklar:\n${kaynak}${not}`, { disable_web_page_preview: true });
 };
 
 const butonlariKaldir = (t) =>
@@ -243,9 +230,8 @@ const paylas = (id, neden) =>
       return tgMesaj(`${sonuc}\n\n🔁 10 dk sonra otomatik tekrar denenecek.`).catch(() => {});
     }
     if (!t.zaman) {
-      // özel istek: kullanıcı tekrar Paylaş'a basabilir
-      taslakYaz(id, { durum: "onay_bekliyor", sonuc, tiktokTamam });
-      return tgMesaj(`${sonuc}\n\nTekrar denemek için taslağın altındaki ✅ Paylaş'a bas.`).catch(() => {});
+      taslakYaz(id, { durum: "hata", sonuc, tiktokTamam });
+      return tgMesaj(`${sonuc}\n\nTekrar denemek için linki ya da /konu isteğini bota yeniden gönder.`).catch(() => {});
     }
     taslakYaz(id, { durum: "hata", sonuc, tiktokTamam });
     await alarm(`paylasim_${id}`, `"${t.baslik}" ${PAYLASIM_DENEME} denemede paylaşılamadı:\n${sonuc}`);
@@ -258,7 +244,7 @@ const takvimKontrol = async () => {
   const simdi = new Date();
   const v = viyana(simdi);
   for (const s of TAKVIM) {
-    if (s.sadecePazar && v.gun !== "Sun") continue;
+    if (!gunde(s, v.gun)) continue;
     const id = `${v.tarih}_${s.saat.replace(":", "")}_${s.tur}`;
     const zaman = viyanaZamani(v.tarih, s.saat);
     const t = taslaklar()[id];
@@ -277,15 +263,11 @@ const takvimKontrol = async () => {
   for (const [id, t] of Object.entries(taslaklar())) {
     if (!t.zaman || !["onay_bekliyor", "onaylandi"].includes(t.durum)) continue;
     const dkKaldi = (new Date(t.zaman) - simdi) / 60000;
-    if (t.durum === "onay_bekliyor" && dkKaldi <= HATIRLAT_DK && dkKaldi > 0 && !t.hatirlatildi) {
-      taslakYaz(id, { hatirlatildi: true });
-      await tgMesaj(`⏰ "${t.baslik}" ${HATIRLAT_DK} dk içinde otomatik paylaşılacak. Durdurmak için taslağın altındaki ⏭ Atla'ya bas.`).catch(() => {});
-    }
     if (dkKaldi <= -GEC_PAYLASIM_DK) {
       taslakYaz(id, { durum: "suresi_gecti" });
       await alarm(`suresi_gecti_${id}`, `"${t.baslik}" ${GEC_PAYLASIM_DK / 60} saat içinde paylaşılamadı, iptal edildi.`);
     } else if (dkKaldi <= 0 && simdi >= new Date(t.sonrakiDeneme ?? 0)) {
-      const neden = dkKaldi < -10 ? `${Math.round(-dkKaldi)} dk gecikmeyle` : t.durum === "onaylandi" ? "Paylaşım saati geldi" : "Cevap gelmedi, plana göre";
+      const neden = dkKaldi < -10 ? `${Math.round(-dkKaldi)} dk gecikmeyle` : "Paylaşım saati geldi";
       paylas(id, neden);
     }
   }
@@ -309,9 +291,9 @@ const saglikKontrolu = async () => {
 
   const dunTarih = new Date(Date.now() - 86400000);
   const dun = viyana(dunTarih).tarih;
-  const pazar = viyana(dunTarih).gun === "Sun";
+  const dunGun = viyana(dunTarih).gun;
   const hepsi = taslaklar();
-  const beklenen = TAKVIM.filter((s) => !s.sadecePazar || pazar).map((s) => `${dun}_${s.saat.replace(":", "")}_${s.tur}`);
+  const beklenen = TAKVIM.filter((s) => gunde(s, dunGun)).map((s) => `${dun}_${s.saat.replace(":", "")}_${s.tur}`);
   const paylasilan = beklenen.filter((id) => hepsi[id]?.durum === "paylasildi").length;
   const kacan = beklenen
     .filter((id) => !["paylasildi", "atlandi"].includes(hepsi[id]?.durum))
@@ -327,11 +309,12 @@ const saglikKontrolu = async () => {
 const YARDIM = `İlm Sanat botu komutları:
 • Bir haber linki gönder → o haberden taslak hazırlanır
 • /konu <konu> → o konuda bir haber seçilip taslak hazırlanır
-• /durum → bugünün taslakları
+• /atla → sıradaki paylaşımı iptal eder (o video paylaşılmaz)
+• /durum → bugünün paylaşımları
 • /durdur → takvimi durdurur (yeni taslak üretilmez)
 • /baslat → takvimi yeniden başlatır
 • /kling <0-5> → video başına kaç çekim Kling ile hareketlensin (varsayılan 2; kredi tasarrufu)
-Taslakların altındaki düğmelerle Paylaş / Değiştir / Atla.`;
+Videolar onay beklemeden saatinde otomatik paylaşılır.`;
 
 // "Değiştir"e basılan taslak, turlar arasında kaybolmasın diye dosyada tutulur
 const degisiklikBekleyen = () => ayar().degisiklikBekleyen ?? null;
@@ -348,6 +331,16 @@ const mesajIsle = async (m) => {
     return taslakUret(id, t.tur, { talimat: metin, eskiPlan: t.plan });
   }
   if (metin === "/start" || metin === "/yardim" || metin === "/help") return tgMesaj(YARDIM);
+  if (metin === "/atla") {
+    const [id, t] =
+      Object.entries(taslaklar())
+        .filter(([, t]) => t.zaman && ["onay_bekliyor", "onaylandi"].includes(t.durum))
+        .sort(([, a], [, b]) => new Date(a.zaman) - new Date(b.zaman))[0] ?? [];
+    if (!id) return tgMesaj("Şu an paylaşılmayı bekleyen hazır video yok. (Üretimi süren bir video varsa hazır olunca tekrar /atla yaz.)");
+    taslakYaz(id, { durum: "atlandi" });
+    isTemizle(id);
+    return tgMesaj(`⏭ Atlandı: ${viyana(new Date(t.zaman)).saat} "${t.baslik}" paylaşılmayacak.`);
+  }
   if (metin === "/durdur") {
     jsonYaz("bot_ayar.json", { ...ayar(), durdu: true });
     return tgMesaj("⏸ Takvim durduruldu. Yeni taslak üretilmeyecek. Tekrar başlatmak için /baslat");
@@ -361,7 +354,7 @@ const mesajIsle = async (m) => {
     // durdurulduğu sırada geçen saatler "kaçırıldı" alarmı vermesin
     const v = viyana();
     for (const s of TAKVIM) {
-      if (s.sadecePazar && v.gun !== "Sun") continue;
+      if (!gunde(s, v.gun)) continue;
       const id = `${v.tarih}_${s.saat.replace(":", "")}_${s.tur}`;
       const zaman = viyanaZamani(v.tarih, s.saat);
       if (!taslaklar()[id] && (zaman - Date.now()) / 60000 <= -GEC_URETIM_DK) taslakYaz(id, { zaman: zaman.toISOString(), tur: s.tur, durum: "atlandi" });
@@ -497,7 +490,7 @@ if (TEK_TUR) {
 for (const [id, t] of Object.entries(taslaklar())) if (["uretiliyor", "sirada", "paylasiliyor"].includes(t.durum)) taslakYaz(id, { durum: "hata", hata: "bot yeniden başladı" });
 
 log("Bot başladı");
-await tgMesaj(`🤖 İlm Sanat botu çalışıyor. Takvim: 09:00 haber · 14:00 analiz · 18:00 haber · Pazar 11:00 tablo (Viyana). /yardim`).catch((e) => log("Telegram'a ulaşılamadı:", e.message));
+await tgMesaj(`🤖 İlm Sanat botu çalışıyor. Takvim: 09:00 haber · 14:00 analiz · 18:00 haber · Cumartesi/Pazar 11:00 tablo (Viyana). /yardim`).catch((e) => log("Telegram'a ulaşılamadı:", e.message));
 telegramDongusu();
 for (;;) {
   await saglikKontrolu().catch((e) => log("Sağlık kontrolü:", e.message));

@@ -59,7 +59,7 @@ analiz_kaynaklari:
     guven: yuksek
     not: "'/etkinlikler/' ve '/en/events/' linkleri (etkinlik duyuruları) atlanır"
 
-# Pazar günü oryantalist tablo kaynakları (telifsiz müze arşivleri)
+# Cumartesi ve Pazar oryantalist tablo kaynakları (telifsiz müze arşivleri)
 sanat_kaynaklari:
   - ad: "The Met Open Access"
     url: "https://collectionapi.metmuseum.org/public/collection/v1/"
@@ -81,6 +81,7 @@ secim:
   pencere:
     haber: "son 24 saat; o gün büyük olay yoksa haftanın en önemli gelişmesi"
     analiz: "son 7 gün; önce AA Analiz, yoksa SETA / Middle East Eye / Middle East Monitor"
+  turkiye: "kanal Türkiye odaklı değil (2026-11-26): Türkiye merkezli konular seçilmez, Türk kaynaklarından bölge haberleri seçilir"
   tarih: "önemli yıl dönümlerinde (ör. 2 Kasım Balfour Deklarasyonu) analiz slotu tarih konusuna ayrılabilir"
   tekrar: "daha önce paylaşılan olay tekrar seçilmez (data/paylasilanlar.json)"
   telif: "metin kopyalanmaz; kendi cümlelerimizle İngilizce yazılır, kaynak adı ve linki eklenir"

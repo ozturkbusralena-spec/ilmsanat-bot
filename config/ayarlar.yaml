@@ -30,7 +30,7 @@ paylasim_saatleri:
   haber_1: "09:00"
   analiz: "14:00"
   haber_2: "18:00"    # 2026-10-28: 20:00 geç bulundu, 18:00 yapıldı
-  pazar_tablo: "11:00"    # Pazar: 2 haber + 1 analiz + 1 tablo = 4 paylaşım (onaylandı 2026-10-26)
+  hafta_sonu_tablo: "11:00"    # Cumartesi ve Pazar: 2 haber + 1 analiz + 1 tablo = 4 paylaşım (2026-11-26: Pazar → Cumartesi+Pazar)
 
 haber_secimi:   # ayrıntılı kurallar: config/kaynaklar.yaml → secim
   oncelik_sirasi:
@@ -54,15 +54,14 @@ gorsel:
 pazar_sanat:
   tur: "oryantalist tablo (gerçek eser, kamu malı)"
   aciklama: "tablonun hikâyesi + ressamın kısa biyografisi"
-  filtre: "çıplaklık içeren eserler elenir"
+  filtre: "çıplaklık içeren eserler elenir; sadece Orta Doğu, Kuzey Afrika, İslam coğrafyası konulu eserler (Uzak Doğu yok, 2026-11-26)"
 
 onay:
   kanal: "telegram"
-  akis: "paylaşımdan önce taslak Telegram'a gelir → Onayla / Değiştir (yazılı talimat) / Atla"
-  zaman_asimi_davranisi: "otomatik_paylas"   # cevap gelmezse paylaşım saatinde otomatik paylaşılır
+  akis: "onay yok (2026-11-26): video bilgi için Telegram'a gelir, saatinde otomatik paylaşılır; /atla ile iptal"
 
 telegram:
-  bildirimler: ["onay taslakları", "hata bildirimleri", "paylaşım sonuç linkleri"]
+  bildirimler: ["hazır videolar (bilgi)", "sabah sağlık kontrolü", "hata bildirimleri", "paylaşım sonuç linkleri"]
   komutlar: ["link göndererek özel içerik isteme", "belirli bir konu üzerine içerik isteme"]
 
 butce_aylik_usd: 15
