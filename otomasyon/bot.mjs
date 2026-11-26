@@ -16,7 +16,7 @@ import { adaylariTopla } from "./haberler.mjs";
 import { haberSec, haberPlani, tabloSec, tabloPlani } from "./icerik.mjs";
 import { uret, isTemizle } from "./uret.mjs";
 import { herIkisinePaylas } from "./paylas.mjs";
-import { driveYukle } from "./drive.mjs";
+import { driveKontrol, driveYukle } from "./drive.mjs";
 
 const TEK_TUR = process.argv.includes("--tek-tur");
 
@@ -101,6 +101,7 @@ const taslakUret = (id, tur, secenekler = {}) =>
     const t = taslakYaz(id, { durum: "uretiliyor", tur });
     try {
       log(`[${id}] üretim başladı (${tur})`);
+      await driveKontrol();
       const plan = await planHazirla(tur, secenekler);
       const sonuc = await uret(plan, id);
       // video Drive'a hemen konur: tek tur modunda paylaşım ayrı bir çalışmada yapılır ve yerel dosya orada yoktur

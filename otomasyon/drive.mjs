@@ -82,6 +82,9 @@ const eskileriSil = async (token, klasor) => {
   return fazla.map((f) => f.name);
 };
 
+// Üretimden önce çağrılır: izin bitmişse Magnific kredisi boşa harcanmasın
+export const driveKontrol = () => erisimTokeni();
+
 export const driveYukle = async (dosyaYolu) => {
   const token = await erisimTokeni();
   const klasor = await klasorBul(token);

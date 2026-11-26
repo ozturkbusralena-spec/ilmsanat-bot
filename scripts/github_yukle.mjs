@@ -45,6 +45,7 @@ const IZINLI = [
   "otomasyon",
   "scripts",
   "config",
+  "docs",
   "marka",
   "video/package.json",
   "video/package-lock.json",
@@ -119,6 +120,18 @@ if (!sadeceSecret) {
   if (ust) await gh(`/repos/${depo}/git/refs/heads/main`, { method: "PATCH", body: JSON.stringify({ sha: commit.sha, force: true }) });
   else await gh(`/repos/${depo}/git/refs`, { method: "POST", body: JSON.stringify({ ref: "refs/heads/main", sha: commit.sha }) });
   console.log(`yüklendi: https://github.com/${depo}/commit/${commit.sha}`);
+
+  // docs/ GitHub Pages'te yayınlanır: Google OAuth uygulamasının ana sayfası ve gizlilik politikası
+  const { durum: pages } = await gh(`/repos/${depo}/pages`);
+  if (pages === 404) {
+    try {
+      await gh(`/repos/${depo}/pages`, { method: "POST", body: JSON.stringify({ source: { branch: "main", path: "/docs" } }) });
+    } catch (e) {
+      console.log(`GitHub Pages açılamadı (${e.message}). GitHub'da depo → Settings → Pages → Branch: main, /docs → Save`);
+    }
+  }
+  const [sahip, ad] = depo.split("/");
+  console.log(`sayfalar: https://${sahip}.github.io/${ad}/ ve https://${sahip}.github.io/${ad}/privacy.html`);
 }
 
 await secretKoy("ENV_DOSYASI", envMetni);

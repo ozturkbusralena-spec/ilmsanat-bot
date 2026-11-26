@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ilm Sanat Publisher</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Open+Sans:wght@400;600&display=swap">
+<style>
+  /* Layout: one readable column, a small eight-point-star mark from the Ilm Sanat logo, two policy sections */
+  :root {
+    --bg: #f7f4ec;
+    --fg: #1c2433;
+    --muted: #586174;
+    --accent: #142d54;
+    --gold: #907640;
+    --rule: #ddd5c3;
+    --display: "Cormorant Garamond", Georgia, serif;
+    --body: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #10192b; --fg: #e9e4d8; --muted: #a8afbd; --accent: #907640; --gold: #907640; --rule: #2a3550;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #10192b; --fg: #e9e4d8; --muted: #a8afbd; --accent: #907640; --gold: #907640; --rule: #2a3550;
+    color-scheme: dark;
+  }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.65;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 48px 72px;
+  }
+  main { max-width: 40rem; margin: 0 auto; display: grid; gap: 40px; }
+  header { display: grid; gap: 10px; }
+  .mark { display: flex; align-items: center; gap: 12px; color: var(--gold); }
+  .mark span { font-size: 12px; letter-spacing: 0.24em; font-weight: 600; text-transform: uppercase; color: var(--muted); }
+  h1, h2 { font-family: var(--display); font-weight: 600; color: var(--accent); text-wrap: balance; line-height: 1.15; margin: 0; }
+  h1 { font-size: 2.4rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1rem; margin: 0; }
+  p, ul { margin: 0; }
+  ul { padding-left: 1.2em; display: grid; gap: 6px; }
+  .meta { color: var(--muted); font-size: 14px; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 15px; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  section { display: grid; gap: 18px; padding-top: 32px; border-top: 1px solid var(--rule); }
+  .block { display: grid; gap: 8px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="mark">
+      <svg width="22" height="22" viewBox="-1.1 -1.1 2.2 2.2" aria-hidden="true"><path fill="currentColor" d="M0,-1 L0.2929,-0.7071 L0.7071,-0.7071 L0.7071,-0.2929 L1,0 L0.7071,0.2929 L0.7071,0.7071 L0.2929,0.7071 L0,1 L-0.2929,0.7071 L-0.7071,0.7071 L-0.7071,0.2929 L-1,0 L-0.7071,-0.2929 L-0.7071,-0.7071 L-0.2929,-0.7071 Z"/></svg>
+      <span>Ilm Sanat</span>
+    </div>
+    <h1>Ilm Sanat Publisher</h1>
+  </header>
+  <p>Ilm Sanat shares short, sourced videos on Middle East and African geopolitics, political history and Orientalist art on <a href="https://www.instagram.com/ilmsanat/">Instagram</a> and TikTok.</p>
+  <p>Ilm Sanat Publisher (Google Cloud project “IlmSanat Otomasyon”) is the private tool that prepares these videos and sends them to the Ilm Sanat accounts. It uses Google Drive only to hold its own videos for a short time so Instagram can fetch them. It has no other users.</p>
+  <nav aria-label="Links">
+    <a href="privacy.html">Terms of Service and Privacy Policy</a>
+    <a href="mailto:ozturkbusralena@gmail.com">Contact</a>
+  </nav>
+</main>
+</body>
+</html>
