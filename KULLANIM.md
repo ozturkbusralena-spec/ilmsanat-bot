@@ -9,7 +9,7 @@
 | 18:00 | ~15:30 | Haber |
 
 **Onay yok** (26 Kasım 2026): video bilgi için Telegram'a gelir ve saatinde kendiliğinden paylaşılır. Paylaşılmasın istersen Telegram'a **/atla** yaz (sıradaki hazır video iptal edilir). Link ya da /konu ile istenen özel video hazır olunca hemen paylaşılır.
-**İçerik**: Türkiye merkezli haber/analiz seçilmez (Türkiye'nin kendi siyaseti); Türk kaynaklarından Arap dünyası, İran, Kuzey Afrika, İslam coğrafyası haberleri seçilir. /konu ile açıkça istenirse Türkiye konusu da olur.
+**İçerik**: Türkiye haberleri azaltıldı (yasak değil): kabaca 4–5 paylaşımda bir, tercihen bölgesel ağırlığı olanlar (Suriye, Gazze, Libya, Körfez, büyük diplomasi); son 3 paylaşımda Türkiye varsa o gün çok büyük değilse başka konu seçilir. Ağırlık Arap dünyası, İran, Kuzey Afrika, İslam coğrafyasında. /konu ile istenen her konu olur.
 **Kendi kendine toparlanma** (26 Kasım 2026): üretim hata verirse 2 ve 4 dk sonra yeniden denenir (biten Magnific dosyaları tekrar üretilmez); Instagram paylaşımı olmazsa 10 dk arayla 2 kez daha denenir. GitHub turu geç gelirse taslak geç de olsa (en fazla 3 saat) paylaşılır.
 **Uyarılar**: her sabah ~06:00 "☀️ Günaydın" mesajı (Drive, Instagram, TikTok, Claude kontrolü + dünün özeti). Çözülemeyen sorun 🚨 ile Telegram'a gelir **ve** GitHub ozturkbusralena@gmail.com adresine "Run failed" e-postası gönderir (her sorun için günde bir kez). E-posta gelirse Telegram'daki 🚨 mesajına bak.
 Instagram'a Reel olarak gider; TikTok'a taslak gider (TikTok → Gelen Kutusu → sistem bildirimleri → paylaş).

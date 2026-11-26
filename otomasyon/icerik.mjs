@@ -54,12 +54,12 @@ Priorities, in order:
 4. Political history (e.g. the Balfour Declaration, the Palestine land question) — only when tied to an anniversary or today's news
 Prefer the most important development of the day; if the day is quiet, the most important story of the week.
 A story reported by several outlets counts as more important and more reliable. Anadolu Agency is trusted.
-Turkey: the channel is NOT Turkey-focused. Many sources are Turkish (Anadolu, TRT, SETA), so their feeds are full of
-Turkish politics — do not let that steer the choice. Skip stories whose main subject is Turkey itself (Turkish domestic
-politics, statements or visits of Turkish officials, Turkish foreign policy, PKK/"terror-free Turkey"). From Turkish
-outlets pick their reporting on the Arab world, Iran, North Africa and the Islamic world instead. Choose a Turkey-centred
-story only if it is clearly the dominant regional event of the day, and never if a Turkey-centred story was among the
-last five posts.
+Turkey: Turkey stories are welcome but should be fewer — the channel's focus is the Arab world, Iran, North Africa and
+the wider Islamic world. Many sources are Turkish (Anadolu, TRT, SETA), so their feeds are full of Turkish politics; do
+not let that volume steer the choice. Prefer Turkey stories with real regional weight (Turkey's role in Syria, Gaza,
+Libya, the Gulf, the Caucasus, major diplomacy) over Turkish domestic politics or routine official statements.
+Aim for roughly one Turkey-centred post in every four or five: if one of the last three posts was Turkey-centred, pick a
+non-Turkey story unless the Turkey story is clearly the day's dominant regional event.
 Avoid: celebrity, sport, crime without political weight, business news without geopolitical weight, stories already covered.`;
 
 const SecimSemasi = z.object({
