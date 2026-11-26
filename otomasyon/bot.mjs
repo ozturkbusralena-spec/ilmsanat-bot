@@ -1,8 +1,9 @@
 // İlm Sanat botu: takvime göre taslak üretir, Telegram'dan onay alır, paylaşır.
 //
 // Takvim (Viyana): 09:00 haber · 14:00 analiz · 18:00 haber · Pazar ayrıca 11:00 oryantalist tablo.
-// Taslak paylaşım saatinden 2 saat önce Telegram'a gelir. Onaylanırsa saatinde paylaşılır; cevap yoksa
+// Taslak paylaşım saatinden ~3 saat önce Telegram'a gelir. Onaylanırsa saatinde paylaşılır; cevap yoksa
 // 15 dk önce hatırlatılır ve saatinde otomatik paylaşılır. Atla denirse paylaşılmaz.
+// Hatalar otomatik yeniden denenir; çözülemeyen sorun ve sabah sağlık kontrolü Telegram'a ve e-postayla bildirilir.
 // Telegram komutları: bir haber linki · /konu <konu> · /durum · /durdur · /baslat · /yardim
 //
 // Çalıştırma: node otomasyon/bot.mjs            (sürekli çalışır: Mac'te terminal/launchd)
@@ -13,9 +14,9 @@ import fs from "node:fs";
 import path from "node:path";
 import { VERI, envOku, log, jsonOku, jsonYaz, viyana, tg, tgMesaj, tgVideo, tgHata, bekle } from "./ortak.mjs";
 import { adaylariTopla } from "./haberler.mjs";
-import { haberSec, haberPlani, tabloSec, tabloPlani } from "./icerik.mjs";
+import { haberSec, haberPlani, tabloSec, tabloPlani, claudeKontrol } from "./icerik.mjs";
 import { uret, isTemizle } from "./uret.mjs";
-import { herIkisinePaylas } from "./paylas.mjs";
+import { herIkisinePaylas, igKontrol, ttTokenYenile } from "./paylas.mjs";
 import { driveKontrol, driveYukle } from "./drive.mjs";
 
 const TEK_TUR = process.argv.includes("--tek-tur");
@@ -26,10 +27,16 @@ const TAKVIM = [
   { saat: "18:00", tur: "haber" },
   { saat: "11:00", tur: "tablo", sadecePazar: true },
 ];
-const ONCEDEN_DK = 120;
+// GitHub'ın zamanlanmış turları 2–3 saat gecikebiliyor: üretim 3 saat önceden başlar, tur paylaşıma kadar açık kalır
+const ONCEDEN_DK = 180;
 const HATIRLAT_DK = 15;
-// tek tur modunda: paylaşım saati turun başından en fazla bu kadar sonraysa tur kapanmadan bekler (bot.yml zaman aşımı 75 dk)
-const BEKLE_DK = 50;
+// tek tur modunda: paylaşım saati turun başından en fazla bu kadar sonraysa tur kapanmadan bekler (bot.yml zaman aşımı 240 dk)
+const BEKLE_DK = 200;
+// hiç tur gelmediyse: 90 dk geç kalınmışsa bile üretilir, 3 saate kadar gecikmeyle paylaşılır (hiç paylaşmamaktan iyi)
+const GEC_URETIM_DK = 90;
+const GEC_PAYLASIM_DK = 180;
+const URETIM_DENEME = 3;
+const PAYLASIM_DENEME = 3;
 const BASLANGIC = Date.now();
 const TUR_ADI = { haber: "HABER", analiz: "ANALİZ", tablo: "PAZAR TABLOSU", ozel: "ÖZEL İSTEK" };
 
@@ -58,7 +65,32 @@ const taslakYaz = (id, degisiklik) => {
   jsonYaz("taslaklar.json", t);
   return t[id];
 };
+const taslakSil = (id) => {
+  const t = taslaklar();
+  delete t[id];
+  jsonYaz("taslaklar.json", t);
+};
 const ayar = () => jsonOku("bot_ayar.json", { durdu: false });
+
+// ---------- alarm ----------
+
+// Paylaşımı tehlikeye atan sorun: Telegram'a yazılır; ayrıca her sorun için günde bir kez tur "başarısız" biter,
+// GitHub da depo sahibine e-posta gönderir (Telegram gözden kaçsa bile haber gelsin diye).
+let epostaGerek = false;
+const alarm = async (anahtar, mesaj) => {
+  log("ALARM", mesaj);
+  await tgMesaj(`🚨 ${mesaj}`).catch(() => {});
+  const bugun = viyana().tarih;
+  const a = ayar();
+  const gonderilen = Object.fromEntries(Object.entries(a.epostaAlarmlari ?? {}).filter(([, g]) => g === bugun));
+  if (gonderilen[anahtar]) return;
+  epostaGerek = true;
+  jsonYaz("bot_ayar.json", { ...a, epostaAlarmlari: { ...gonderilen, [anahtar]: bugun } });
+  if (process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### 🚨 İlm Sanat botu\n\n${mesaj}\n\n`);
+};
+
+// Bu hatalarda yeniden denemek işe yaramaz, insan müdahalesi gerekir
+const kaliciHata = (e) => /Drive izninin süresi doldu|Claude API kredisi yok|Claude API anahtarı/.test(e.message);
 
 // Viyana saatindeki "YYYY-MM-DD HH:MM" → Date (yaz/kış saatine uyumlu)
 const viyanaZamani = (tarih, saat) => {
@@ -96,30 +128,51 @@ const planHazirla = async (tur, { konu, link, talimat, eskiPlan } = {}) => {
   return haberPlani({ tur: tur === "ozel" ? "haber" : tur, ana: secim.ana, ayni: secim.ayni });
 };
 
+// Hata olursa 2 ve 4 dk sonra yeniden dener; biten adımlar (plan, video, Drive) tekrar yapılmaz,
+// Magnific dosyaları da yeniden üretilmez (uret.mjs), böylece kredi ikinci kez harcanmaz.
 const taslakUret = (id, tur, secenekler = {}) =>
   sirayaKoy(async () => {
     const t = taslakYaz(id, { durum: "uretiliyor", tur });
-    try {
-      log(`[${id}] üretim başladı (${tur})`);
-      await driveKontrol();
-      const plan = await planHazirla(tur, secenekler);
-      const sonuc = await uret(plan, id);
-      // video Drive'a hemen konur: tek tur modunda paylaşım ayrı bir çalışmada yapılır ve yerel dosya orada yoktur
-      const drive = await driveYukle(sonuc.video);
-      taslakYaz(id, {
-        durum: "onay_bekliyor",
-        video: sonuc.video,
-        driveUrl: drive.url,
-        kapak: sonuc.kapak,
-        aciklama: sonuc.aciklama,
-        baslik: plan.baslik.replace(/\*\*/g, ""),
-        plan,
-      });
-      await taslakGonder(id);
-    } catch (e) {
-      taslakYaz(id, { durum: "hata", hata: e.message });
-      await tgHata(`${TUR_ADI[tur] ?? tur} taslağı hazırlanamadı${t.zaman ? ` (${viyana(new Date(t.zaman)).saat})` : ""}`, e);
+    const ad = `${TUR_ADI[tur] ?? tur} taslağı${t.zaman ? ` (${viyana(new Date(t.zaman)).saat})` : ""}`;
+    let plan, sonuc, drive;
+    for (let deneme = 1; ; deneme++) {
+      try {
+        log(`[${id}] üretim başladı (${tur})${deneme > 1 ? `, deneme ${deneme}/${URETIM_DENEME}` : ""}`);
+        await driveKontrol();
+        plan ??= await planHazirla(tur, secenekler);
+        sonuc ??= await uret(plan, id);
+        // video Drive'a hemen konur: tek tur modunda paylaşım ayrı bir çalışmada yapılır ve yerel dosya orada yoktur
+        drive ??= await driveYukle(sonuc.video);
+        break;
+      } catch (e) {
+        if (deneme >= URETIM_DENEME || kaliciHata(e)) {
+          taslakYaz(id, { durum: "hata", hata: e.message });
+          // özel istekler takvimi bozmaz, onlar için e-posta gerekmez
+          if (t.zaman) await alarm(`uretim_${id}`, `${ad} hazırlanamadı: ${e.message}`);
+          else await tgHata(`${ad} hazırlanamadı`, e);
+          return;
+        }
+        log(`[${id}] üretim hatası: ${e.message} — ${deneme * 2} dk sonra tekrar`);
+        // indirilemeyen tablo yerine başka eser seçilsin; eski eserin sesi de silinir
+        if (/Tablo görseli indirilemedi/.test(e.message)) {
+          plan = undefined;
+          isTemizle(id);
+          fs.rmSync(path.join(VERI, "isler", id), { recursive: true, force: true });
+        }
+        await bekle(deneme * 120000);
+      }
     }
+    taslakYaz(id, {
+      durum: "onay_bekliyor",
+      video: sonuc.video,
+      driveUrl: drive.url,
+      kapak: sonuc.kapak,
+      aciklama: sonuc.aciklama,
+      baslik: plan.baslik.replace(/\*\*/g, ""),
+      plan,
+    });
+    // Telegram'a gönderilemese de taslak saatinde paylaşılır
+    await taslakGonder(id).catch((e) => log(`[${id}] taslak Telegram'a gönderilemedi: ${e.message}`));
   });
 
 const taslakGonder = async (id) => {
@@ -148,32 +201,54 @@ const taslakGonder = async (id) => {
 const butonlariKaldir = (t) =>
   t?.mesajId ? tg("editMessageReplyMarkup", { chat_id: envOku().TG_CHAT_ID, message_id: t.mesajId, reply_markup: { inline_keyboard: [] } }).catch(() => {}) : null;
 
+// Instagram başarısız olursa 10 dk sonra yeniden denenir (en fazla PAYLASIM_DENEME kez);
+// TikTok'a gitmişse tekrarında TikTok atlanır (gelen kutusuna ikinci kopya düşmesin)
 const paylas = (id, neden) =>
   paylasimSirasi(async () => {
     const t = taslaklar()[id];
-    if (!t || t.durum === "paylasildi" || t.durum === "paylasiliyor") return;
+    if (!t || !["onay_bekliyor", "onaylandi"].includes(t.durum)) return;
     taslakYaz(id, { durum: "paylasiliyor" });
     await butonlariKaldir(t);
-    await tgMesaj(`⏳ ${neden}: "${t.baslik}" paylaşılıyor…`);
-    // yerel video yoksa (başka bir çalışmada üretildi) Drive'dan indirilir
-    let video = t.video;
-    if (!video || !fs.existsSync(video)) {
-      if (!t.driveUrl) throw new Error("Videonun ne yerel kopyası ne Drive linki var");
-      video = path.join(VERI, "isler", id, "video.mp4");
-      fs.mkdirSync(path.dirname(video), { recursive: true });
-      fs.writeFileSync(video, Buffer.from(await (await fetch(t.driveUrl)).arrayBuffer()));
+    await tgMesaj(`⏳ ${neden}: "${t.baslik}" paylaşılıyor…`).catch(() => {});
+    let sonuc;
+    try {
+      // yerel video yoksa (başka bir çalışmada üretildi) Drive'dan indirilir
+      let video = t.video;
+      if (!video || !fs.existsSync(video)) {
+        if (!t.driveUrl) throw new Error("Videonun ne yerel kopyası ne Drive linki var");
+        const r = await fetch(t.driveUrl);
+        if (!r.ok) throw new Error(`video Drive'dan indirilemedi (HTTP ${r.status})`);
+        video = path.join(VERI, "isler", id, "video.mp4");
+        fs.mkdirSync(path.dirname(video), { recursive: true });
+        fs.writeFileSync(video, Buffer.from(await r.arrayBuffer()));
+      }
+      sonuc = await herIkisinePaylas(video, t.aciklama, { videoUrl: t.driveUrl, tiktok: !t.tiktokTamam });
+    } catch (e) {
+      sonuc = `❌ Paylaşım hatası: ${e.message}`;
     }
-    const sonuc = await herIkisinePaylas(video, t.aciklama, { videoUrl: t.driveUrl });
-    const basarili = sonuc.includes("📸 Instagram:");
-    taslakYaz(id, { durum: basarili ? "paylasildi" : "hata", sonuc });
-    if (basarili) {
+    const tiktokTamam = t.tiktokTamam || sonuc.includes("🎵 TikTok taslağı:");
+    if (sonuc.includes("📸 Instagram:")) {
+      taslakYaz(id, { durum: "paylasildi", sonuc, tiktokTamam });
       const p = jsonOku("paylasilanlar.json", []);
       for (const k of t.plan?.kaynaklar ?? []) p.push({ tarih: new Date().toISOString(), tur: t.tur, baslik: t.baslik, link: k.link });
       if (!t.plan?.kaynaklar?.length) p.push({ tarih: new Date().toISOString(), tur: t.tur, baslik: t.baslik, link: id });
       jsonYaz("paylasilanlar.json", p.slice(-500));
       isTemizle(id);
+      return tgMesaj(sonuc).catch(() => {});
     }
-    await tgMesaj(sonuc);
+    const deneme = (t.paylasimDeneme ?? 0) + 1;
+    if (t.zaman && deneme < PAYLASIM_DENEME) {
+      taslakYaz(id, { durum: t.durum, sonuc, tiktokTamam, paylasimDeneme: deneme, sonrakiDeneme: new Date(Date.now() + 10 * 60000).toISOString() });
+      log(`[${id}] paylaşılamadı, 10 dk sonra tekrar (${deneme}/${PAYLASIM_DENEME - 1})`);
+      return tgMesaj(`${sonuc}\n\n🔁 10 dk sonra otomatik tekrar denenecek.`).catch(() => {});
+    }
+    if (!t.zaman) {
+      // özel istek: kullanıcı tekrar Paylaş'a basabilir
+      taslakYaz(id, { durum: "onay_bekliyor", sonuc, tiktokTamam });
+      return tgMesaj(`${sonuc}\n\nTekrar denemek için taslağın altındaki ✅ Paylaş'a bas.`).catch(() => {});
+    }
+    taslakYaz(id, { durum: "hata", sonuc, tiktokTamam });
+    await alarm(`paylasim_${id}`, `"${t.baslik}" ${PAYLASIM_DENEME} denemede paylaşılamadı:\n${sonuc}`);
   });
 
 // ---------- takvim döngüsü ----------
@@ -188,9 +263,15 @@ const takvimKontrol = async () => {
     const zaman = viyanaZamani(v.tarih, s.saat);
     const t = taslaklar()[id];
     const dkKaldi = (zaman - simdi) / 60000;
-    if (!t && dkKaldi <= ONCEDEN_DK && dkKaldi > 5) {
+    if (t || dkKaldi > ONCEDEN_DK) continue;
+    if (dkKaldi > -GEC_URETIM_DK) {
+      if (dkKaldi <= 5) log(`[${id}] üretime geç kalındı (${Math.round(-dkKaldi)} dk), hazır olunca hemen paylaşılacak`);
       taslakYaz(id, { zaman: zaman.toISOString(), tur: s.tur, durum: "sirada" });
       taslakUret(id, s.tur);
+    } else {
+      // o saatte hiç tur çalışmadı (GitHub zamanlayıcısı atladı): sessizce kaybolmasın
+      taslakYaz(id, { zaman: zaman.toISOString(), tur: s.tur, durum: "kacirildi" });
+      await alarm(`kacirildi_${id}`, `${s.saat} ${TUR_ADI[s.tur]} kaçırıldı: o saatlerde bot hiç çalışmadı (GitHub zamanlayıcısı gecikti).`);
     }
   }
   for (const [id, t] of Object.entries(taslaklar())) {
@@ -200,9 +281,45 @@ const takvimKontrol = async () => {
       taslakYaz(id, { hatirlatildi: true });
       await tgMesaj(`⏰ "${t.baslik}" ${HATIRLAT_DK} dk içinde otomatik paylaşılacak. Durdurmak için taslağın altındaki ⏭ Atla'ya bas.`).catch(() => {});
     }
-    if (dkKaldi <= 0 && dkKaldi > -60) paylas(id, t.durum === "onaylandi" ? "Paylaşım saati geldi" : "Cevap gelmedi, plana göre");
-    else if (dkKaldi <= -60) taslakYaz(id, { durum: "suresi_gecti" });
+    if (dkKaldi <= -GEC_PAYLASIM_DK) {
+      taslakYaz(id, { durum: "suresi_gecti" });
+      await alarm(`suresi_gecti_${id}`, `"${t.baslik}" ${GEC_PAYLASIM_DK / 60} saat içinde paylaşılamadı, iptal edildi.`);
+    } else if (dkKaldi <= 0 && simdi >= new Date(t.sonrakiDeneme ?? 0)) {
+      const neden = dkKaldi < -10 ? `${Math.round(-dkKaldi)} dk gecikmeyle` : t.durum === "onaylandi" ? "Paylaşım saati geldi" : "Cevap gelmedi, plana göre";
+      paylas(id, neden);
+    }
   }
+};
+
+// ---------- sabah sağlık kontrolü ----------
+
+// Her sabah 06:00'dan sonraki ilk turda: izinler ve krediler sorun çıkarmadan önce kontrol edilir, dünün özeti gönderilir
+const saglikKontrolu = async () => {
+  const v = viyana();
+  if (ayar().saglikTarihi === v.tarih || v.saat < "06:00") return;
+  jsonYaz("bot_ayar.json", { ...ayar(), saglikTarihi: v.tarih });
+  const sorunlar = [];
+  for (const [ad, is] of [
+    ["Google Drive", driveKontrol],
+    ["Instagram", igKontrol],
+    ["TikTok", ttTokenYenile],
+    ["Claude API", claudeKontrol],
+  ])
+    await is().catch((e) => sorunlar.push(`${ad}: ${e.message}`));
+
+  const dunTarih = new Date(Date.now() - 86400000);
+  const dun = viyana(dunTarih).tarih;
+  const pazar = viyana(dunTarih).gun === "Sun";
+  const hepsi = taslaklar();
+  const beklenen = TAKVIM.filter((s) => !s.sadecePazar || pazar).map((s) => `${dun}_${s.saat.replace(":", "")}_${s.tur}`);
+  const paylasilan = beklenen.filter((id) => hepsi[id]?.durum === "paylasildi").length;
+  const kacan = beklenen
+    .filter((id) => !["paylasildi", "atlandi"].includes(hepsi[id]?.durum))
+    .map((id) => `• ${id.slice(11, 13)}:${id.slice(13, 15)} ${hepsi[id]?.durum ?? "hiç başlamadı"}`);
+  const ozet = `Dün: ${paylasilan}/${beklenen.length} paylaşıldı${kacan.length ? `\n${kacan.join("\n")}` : ""}`;
+
+  if (sorunlar.length) await alarm("saglik", `Sabah kontrolünde sorun var, düzeltilmezse paylaşımlar duracak:\n${sorunlar.map((s) => `• ${s}`).join("\n")}\n\n${ozet}`);
+  else await tgMesaj(`☀️ Günaydın! Sistem sağlıklı ✅ (Drive, Instagram, TikTok, Claude)\n${ozet}`).catch(() => {});
 };
 
 // ---------- Telegram ----------
@@ -241,6 +358,14 @@ const mesajIsle = async (m) => {
     return tgMesaj(`🎞 Video başına Kling hareket klibi: ${kling[1]} (diğer çekimler yakınlaşma/kaydırma ile hareket eder).`);
   }
   if (metin === "/baslat") {
+    // durdurulduğu sırada geçen saatler "kaçırıldı" alarmı vermesin
+    const v = viyana();
+    for (const s of TAKVIM) {
+      if (s.sadecePazar && v.gun !== "Sun") continue;
+      const id = `${v.tarih}_${s.saat.replace(":", "")}_${s.tur}`;
+      const zaman = viyanaZamani(v.tarih, s.saat);
+      if (!taslaklar()[id] && (zaman - Date.now()) / 60000 <= -GEC_URETIM_DK) taslakYaz(id, { zaman: zaman.toISOString(), tur: s.tur, durum: "atlandi" });
+    }
     jsonYaz("bot_ayar.json", { ...ayar(), durdu: false });
     return tgMesaj("▶️ Takvim yeniden başladı.");
   }
@@ -315,22 +440,34 @@ const telegramDongusu = async () => {
 // ---------- başlat ----------
 
 if (TEK_TUR) {
-  // önceki tur yarıda kesildiyse (zaman aşımı) kalan üretimleri hata olarak işaretle
-  for (const [id, t] of Object.entries(taslaklar()))
-    if (["uretiliyor", "paylasiliyor"].includes(t.durum) && Date.now() - new Date(t.guncelleme ?? 0) > 50 * 60000)
-      taslakYaz(id, { durum: "hata", hata: "önceki çalışma yarıda kesildi" });
+  // Turlar sırayla çalışır (bot.yml concurrency), yani başta "üretiliyor" görünen iş önceki turun yarıda kalmasıdır.
+  // Takvim işi silinir ki zamanı geçmediyse bu turda yeniden üretilsin; yarım kalan paylaşım ise ikinci kez
+  // paylaşmamak için tekrarlanmaz, haber verilir.
+  for (const [id, t] of Object.entries(taslaklar())) {
+    if (["uretiliyor", "sirada"].includes(t.durum)) {
+      log(`[${id}] önceki tur yarıda kesilmiş`);
+      if (t.zaman) taslakSil(id);
+      else taslakYaz(id, { durum: "hata", hata: "önceki çalışma yarıda kesildi" });
+    } else if (t.durum === "paylasiliyor") {
+      taslakYaz(id, { durum: "hata", hata: "paylaşım yarıda kesildi" });
+      await alarm(`yarim_${id}`, `"${t.baslik}" paylaşılırken çalışma kesildi. Instagram'da çıkmış mı kontrol et; çıkmadıysa linki bota gönderip yeniden üretebilirsin.`);
+    }
+  }
   log("Tek tur başladı");
   await guncellemeleriIsle(0).catch((e) => log("Telegram:", e.message));
+  await saglikKontrolu().catch((e) => log("Sağlık kontrolü:", e.message));
   await takvimKontrol().catch((e) => tgHata("Takvim kontrolü", e));
   await kuyruk;
   await paylasimKuyrugu;
-  // GitHub zamanlanmış turları 40–60 dk gecikebiliyor: paylaşım saati yakınsa kapanmadan bekle, saatinde paylaş.
+  // GitHub zamanlanmış turları 2–3 saat gecikebiliyor: paylaşım saati yakınsa kapanmadan bekle, saatinde paylaş;
+  // saati geçmiş ama hâlâ paylaşılabilecek (gecikmiş ya da tekrar denenecek) taslakları da bekle.
   // Beklerken Telegram dinlenir (Paylaş / Değiştir / Atla tıklamaları işlenir).
   const siradakiPaylasim = () =>
     Object.values(taslaklar())
       .filter((t) => t.zaman && ["onay_bekliyor", "onaylandi"].includes(t.durum))
-      .map((t) => new Date(t.zaman).getTime())
-      .filter((z) => z > Date.now() - 60000 && z - BASLANGIC <= BEKLE_DK * 60000)
+      .filter((t) => new Date(t.zaman) > Date.now() - GEC_PAYLASIM_DK * 60000)
+      .map((t) => Math.max(new Date(t.zaman).getTime(), new Date(t.sonrakiDeneme ?? 0).getTime()))
+      .filter((z) => z - BASLANGIC <= BEKLE_DK * 60000)
       .sort((a, b) => a - b)[0];
   let z = siradakiPaylasim();
   if (z) log(`Paylaşım saati bekleniyor (${viyana(new Date(z)).saat})`);
@@ -352,7 +489,8 @@ if (TEK_TUR) {
   await paylasimKuyrugu;
   await kuyruk;
   log("Tek tur bitti");
-  process.exit(0);
+  // çıkış kodu 1 → GitHub depo sahibine "workflow failed" e-postası gönderir (alarm, günde bir kez)
+  process.exit(epostaGerek ? 1 : 0);
 }
 
 // Yeniden başlatmada yarım kalan üretimleri hata olarak işaretle
@@ -362,6 +500,7 @@ log("Bot başladı");
 await tgMesaj(`🤖 İlm Sanat botu çalışıyor. Takvim: 09:00 haber · 14:00 analiz · 18:00 haber · Pazar 11:00 tablo (Viyana). /yardim`).catch((e) => log("Telegram'a ulaşılamadı:", e.message));
 telegramDongusu();
 for (;;) {
+  await saglikKontrolu().catch((e) => log("Sağlık kontrolü:", e.message));
   await takvimKontrol().catch((e) => tgHata("Takvim kontrolü", e));
   await bekle(30000);
 }

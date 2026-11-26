@@ -18,8 +18,10 @@ permissions:
 jobs:
   tur:
     runs-on: ubuntu-latest
-    # paylaşım saati yakınsa tur 50 dk'ya kadar bekleyip saatinde paylaşır (otomasyon/bot.mjs, BEKLE_DK)
-    timeout-minutes: 75
+    # paylaşım saati yakınsa tur 200 dk'ya kadar bekleyip saatinde paylaşır (otomasyon/bot.mjs, BEKLE_DK);
+    # depo herkese açık olduğu için Actions dakikaları ücretsiz. Bot turu çıkış kodu 1 ile biterse (alarm)
+    # GitHub depo sahibine e-posta gönderir; durum ve token adımları yine çalışır (if: always()).
+    timeout-minutes: 240
     steps:
       - uses: actions/checkout@v4
 

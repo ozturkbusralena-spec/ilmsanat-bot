@@ -20,6 +20,12 @@ const igTokenTaze = async () => {
   return y.access_token;
 };
 
+// Sabah sağlık kontrolü: token geçerli mi (gerekirse yenilenir)
+export const igKontrol = async () => {
+  const d = await (await fetch(`${IG}/me?fields=id&access_token=${await igTokenTaze()}`)).json();
+  if (!d.id) throw new Error(`token geçersiz: ${d.error?.message ?? JSON.stringify(d)}`);
+};
+
 export const igPaylas = async (videoYolu, aciklama, videoUrl) => {
   const token = await igTokenTaze();
   const env = envOku();
@@ -57,7 +63,7 @@ export const igPaylas = async (videoYolu, aciklama, videoUrl) => {
   return bilgi.permalink ?? `yayınlandı (media id ${yay.id})`;
 };
 
-const ttTokenYenile = async () => {
+export const ttTokenYenile = async () => {
   const env = envOku();
   const y = await (
     await fetch(`${TT}/oauth/token/`, {

@@ -43,7 +43,7 @@ const erisimTokeni = async () => {
       }),
     })
   ).json();
-  // Google uygulaması "Test" modunda olduğu için izin 7 günde bir biter
+  // Uygulama "In Produktion": izin kendiliğinden bitmez, ancak elle kaldırılırsa invalid_grant gelir
   if (y.error === "invalid_grant")
     throw new Error("Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs");
   if (!y.access_token) throw new Error(`Drive token alınamadı: ${y.error_description ?? y.error}`);

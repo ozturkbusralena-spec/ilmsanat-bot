@@ -11,6 +11,17 @@ const MODEL = "claude-opus-5-5";
 
 const istemci = () => new Anthropic({ apiKey: envOku().ANTHROPIC_API_KEY });
 
+// Sabah sağlık kontrolü: anahtar geçerli ve kredi var mı (en ucuz modelle 1 token'lık istek)
+export const claudeKontrol = async () => {
+  try {
+    await istemci().messages.create({ model: "claude-haiku-5-5", max_tokens: 1, messages: [{ role: "user", content: "ok" }] });
+  } catch (e) {
+    if (e instanceof Anthropic.BadRequestError && /credit balance/i.test(e.message)) throw new Error("kredi bitti (platform.claude.com → Billing)");
+    if (e instanceof Anthropic.AuthenticationError) throw new Error("API anahtarı geçersiz");
+    throw e;
+  }
+};
+
 const cagir = async ({ sistem, kullanici, sema, effort, maxTokens = 16000 }) => {
   let yanit;
   try {

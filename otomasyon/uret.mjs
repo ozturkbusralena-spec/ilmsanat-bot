@@ -24,6 +24,8 @@ const API = "https://api.magnific.com";
 const durumAdresi = (uc) => (uc.endsWith("/kling-v2-6-pro") ? uc.replace(/-pro$/, "") : uc);
 
 export const magnific = async (uc, govde, cikti) => {
+  // yeniden denemede önceki denemenin ürettiği dosya kullanılır: kredi ikinci kez harcanmaz
+  if (fs.existsSync(cikti) && fs.statSync(cikti).size > 0) return cikti;
   const key = envOku().MAGNIFIC_API_KEY;
   let gorev;
   for (let deneme = 1; deneme <= 4; deneme++) {
@@ -175,7 +177,11 @@ export const uret = async (plan, isId) => {
   let gorselIsleri;
   if (plan.tur === "tablo") {
     const g = path.join(pub, "tablo.jpg");
-    gorselIsleri = fetch(plan.eser.gorsel).then(async (r) => fs.writeFileSync(g, Buffer.from(await r.arrayBuffer())));
+    // Met bazen görsel yerine hata sayfası döndürüyor; o dosya Remotion'da "Error loading image" verir
+    gorselIsleri = fetch(plan.eser.gorsel).then(async (r) => {
+      if (!r.ok || !/^image\//.test(r.headers.get("content-type") ?? "")) throw new Error(`Tablo görseli indirilemedi (HTTP ${r.status}): ${plan.eser.gorsel}`);
+      fs.writeFileSync(g, Buffer.from(await r.arrayBuffer()));
+    });
   } else {
     gorselIsleri = Promise.all(
       plan.sahneler.map((s, i) =>

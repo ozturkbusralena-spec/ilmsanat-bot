@@ -65,15 +65,27 @@ export const viyana = (t = new Date()) => {
 
 // ---------- Telegram ----------
 
+// Bağlantı kopması ve Telegram'ın geçici sunucu hataları (502 Bad Gateway, 429) 3 kez denenir
 export const tg = async (yontem, govde) => {
   const env = envOku();
   const istek =
     govde instanceof FormData
       ? { method: "POST", body: govde }
       : { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(govde ?? {}) };
-  const y = await (await fetch(`https://api.telegram.org/bot${env.TG_BOT_TOKEN}/${yontem}`, istek)).json();
-  if (!y.ok) throw new Error(`Telegram ${yontem}: ${y.description}`);
-  return y.result;
+  for (let deneme = 1; ; deneme++) {
+    let y, gecici;
+    try {
+      const r = await fetch(`https://api.telegram.org/bot${env.TG_BOT_TOKEN}/${yontem}`, istek);
+      gecici = r.status >= 500 || r.status === 429;
+      y = await r.json().catch(() => ({ ok: false, description: `HTTP ${r.status}` }));
+    } catch (e) {
+      y = { ok: false, description: e.message };
+      gecici = true;
+    }
+    if (y.ok) return y.result;
+    if (!gecici || deneme >= 3 || yontem === "getUpdates") throw new Error(`Telegram ${yontem}: ${y.description}`);
+    await bekle((y.parameters?.retry_after ?? 5 * deneme) * 1000);
+  }
 };
 
 export const tgMesaj = (text, ekstra = {}) => tg("sendMessage", { chat_id: envOku().TG_CHAT_ID, text: text.slice(0, 4000), ...ekstra });

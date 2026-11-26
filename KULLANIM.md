@@ -3,13 +3,15 @@
 ## Günlük akış (Viyana saati)
 | Paylaşım | Taslak Telegram'a gelir | İçerik |
 |---|---|---|
-| 09:00 | 07:00 | Haber |
-| 11:00 (Pazar) | 09:00 | Oryantalist tablo (Met Müzesi, kamu malı) |
-| 14:00 | 12:00 | Analiz (önce AA Analiz) |
-| 18:00 | 16:00 | Haber |
+| 09:00 | ~06:30 | Haber |
+| 11:00 (Pazar) | ~08:30 | Oryantalist tablo (Met Müzesi, kamu malı) |
+| 14:00 | ~11:30 | Analiz (önce AA Analiz) |
+| 18:00 | ~15:30 | Haber |
 
 Taslağın altında: **✅ Paylaş** (saatinde paylaşılır) · **✏️ Değiştir** (ne istediğini yaz, yeniden üretilir) · **⏭ Atla**.
 Cevap vermezsen 15 dk önce hatırlatılır, saatinde otomatik paylaşılır.
+**Kendi kendine toparlanma** (26 Kasım 2026): üretim hata verirse 2 ve 4 dk sonra yeniden denenir (biten Magnific dosyaları tekrar üretilmez); Instagram paylaşımı olmazsa 10 dk arayla 2 kez daha denenir. GitHub turu geç gelirse taslak geç de olsa (en fazla 3 saat) paylaşılır.
+**Uyarılar**: her sabah ~06:00 "☀️ Günaydın" mesajı (Drive, Instagram, TikTok, Claude kontrolü + dünün özeti). Çözülemeyen sorun 🚨 ile Telegram'a gelir **ve** GitHub ozturkbusralena@gmail.com adresine "Run failed" e-postası gönderir (her sorun için günde bir kez). E-posta gelirse Telegram'daki 🚨 mesajına bak.
 Instagram'a Reel olarak gider; TikTok'a taslak gider (TikTok → Gelen Kutusu → sistem bildirimleri → paylaş).
 
 ## Telegram komutları (@ilmsanat_bot)
@@ -29,8 +31,11 @@ Instagram'a Reel olarak gider; TikTok'a taslak gider (TikTok → Gelen Kutusu �
 - ⚠️ Mac'te botu **çalıştırma** (`bot.mjs`, `bot_kur.sh`): GitHub'daki bot ile aynı anda çalışırsa her şey iki kez olur.
 
 ## Bakım
-- **Google Drive izni 7 günde bir biter** (Google uygulaması test modunda). Telegram'a uyarı gelince:
-  `cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs` → ozturkbusralena@gmail.com ile izin ver.
+- **Google Drive izni**: Google uygulaması 26 Kasım 2026'dan beri "In Produktion", izin artık kendiliğinden bitmez. Yine de Telegram'a Drive uyarısı gelirse (ör. izin elle kaldırıldıysa):
+  `cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs` → ozturkbusralena@gmail.com ile izin ver,
+  sonra `~/.local/node/bin/node scripts/github_yukle.mjs ozturkbusralena-spec/ilmsanat-bot --sadece-secret`.
+  Bot izin yokken video üretmez (Magnific kredisi boşa gitmez).
+- Google Cloud Console iki adımlı doğrulama ister (10 Kasım 2026'dan beri). Uygulamanın ana sayfası ve gizlilik politikası GitHub Pages'te: https://ozturkbusralena-spec.github.io/ilmsanat-bot/ (kaynak `docs/`).
 - **Claude API kredisi**: platform.claude.com → Billing. Bitince Telegram'a uyarı gelir.
 - **Magnific kredisi**: magnific.com → API Keys sayfasında "Credit usage".
 - Günlük kayıt: `data/gunluk.log` · taslaklar: `data/taslaklar.json` · paylaşılanlar: `data/paylasilanlar.json`
