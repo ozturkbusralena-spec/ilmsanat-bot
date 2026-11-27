@@ -8759,5 +8759,140 @@
     "durum": "hata",
     "guncelleme": "2026-11-26T15:19:46.648Z",
     "hata": "Google Drive izninin süresi doldu. Mac'te Terminal'de şunu çalıştır: cd ~/Desktop/ILMSANAT && ~/.local/node/bin/node otomasyon/drive_baglan.mjs"
+  },
+  "2026-11-27_0900_haber": {
+    "zaman": "2026-11-27T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "kacirildi",
+    "guncelleme": "2026-11-27T13:10:28.712Z"
+  },
+  "2026-11-27_1400_analiz": {
+    "zaman": "2026-11-27T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "paylasildi",
+    "guncelleme": "2026-11-27T13:27:05.981Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-27_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1FTbDPsWgKBNPjBOzZrkmHYo157HrXGIR&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-27_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Benghazi Strike: Isolated or a Turning Point?\n\nOn 22 November 2026, the Russian Navy's Steregushchiy-class corvette Merkury, moored at the port of Benghazi in Libya, was sunk in an attack involving unmanned surface vehicles.\n\nIn an \"Experts Respond\" feature published on 26 November 2026, SETA asked Sibel Düz, Ümit Nazmi Hazır, Evren Mercan, Cem Devrim Yaylalı, Serhat Süha Çubukçuoğlu, Yücel Acer, Gökhan Güneysu and Deniz Güler whether the attack was an isolated operation or a harbinger of a broader transformation in global maritime geopolitics.\n\nThe experts approached the incident through five lenses: geopolitical competition, the transformation of naval warfare, Libya's internal political dynamics, international law and commercial shipping.\n\nSource: SETA (Experts Respond, 26 November 2026)\n\n#Benghazi #Libya #Russia #NavalWarfare #MaritimeSecurity #Mediterranean #Geopolitics #SETA #Analysis #IlmSanat",
+    "baslik": "Benghazi Strike: Isolated or a Turning Point?",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "**Benghazi** Strike: Isolated or a **Turning Point**?",
+      "hook_satirlar": [
+        "A Russian warship sunk",
+        "in a Libyan port —",
+        "by sea **drones**"
+      ],
+      "cumleler": [
+        "A Russian warship was sunk while moored in a Libyan port, and the attackers were sea drones.",
+        "On 22 November 2026, the corvette Merkury went down at its mooring in Benghazi.",
+        "It was a Steregushchiy-class ship of the Russian Navy, struck by unmanned surface vehicles.",
+        "The Turkish think tank SETA put one question to eight experts.",
+        "Was this an isolated strike, or a sign that global maritime geopolitics is changing?",
+        "They examined it through great-power competition and the transformation of naval warfare.",
+        "Libya's internal political balance, international law and commercial shipping were also weighed.",
+        "One sunk corvette, five lenses, and a question that reaches far beyond Libya."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a Mediterranean harbour at night, a lone grey warship silhouette listing at a stone quay, dark navy water, faint brass lantern glow, drifting smoke, dramatic chiaroscuro, cinematic composition, visible brushstrokes, muted navy and brass palette, no text, no people",
+          "hareket_prompt": "Slow push-in toward the listing ship, smoke drifting gently, lantern light flickering softly on the water"
+        },
+        {
+          "cumle": 1,
+          "gorsel_prompt": "Antique copperplate engraving style map of the eastern Libyan coast and the Gulf of Sidra, the harbour of Benghazi highlighted by a soft brass glow, sea rendered in dark desaturated navy, fine hatching, aged paper texture, no text or letters",
+          "hareket_prompt": "Gentle drift across the coastline settling on the glowing harbour, subtle light pulse"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "19th-century oil painting of small low unmanned boats cutting through dark night water toward a moored corvette silhouette, wakes catching muted brass moonlight, heavy clouds, dramatic chiaroscuro, visible brushstrokes, no flags, no text, no people",
+          "hareket_prompt": "Slow lateral drift following the wakes, clouds moving slowly, moonlight flickering"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Academic oil painting of an old naval study room, a large antique map of the Mediterranean spread on a wooden table, brass compass and dividers, single candle casting deep shadows, navy and brass tones, visible brushstrokes, no text, no faces",
+          "hareket_prompt": "Slow push-in over the map, candle flame flickering gently, dust motes floating"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting of a grey sea horizon with distant silhouettes of warships from different eras, an old ironclad beside a modern corvette outline, storm light breaking through clouds, desaturated navy and muted brass palette, dramatic chiaroscuro, no flags, no text",
+          "hareket_prompt": "Slow drift along the horizon, clouds rolling gently, shafts of light shifting"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "Cinematic academic oil painting of a calm dawn over a Mediterranean port, merchant ships waiting offshore, a lighthouse beam crossing misty water, muted navy and brass tones, visible brushstrokes, contemplative mood, no text, no people",
+          "hareket_prompt": "Slow pull-back revealing the wide harbour, mist drifting, lighthouse beam sweeping softly"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "MERKURY\nSUNK",
+          "alt": "22 Nov 2026 · Benghazi"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 2,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "RUSSIA",
+              "unvan": "Steregushchiy-class corvette Merkury",
+              "cumle": 2
+            },
+            {
+              "ulke": "SETA",
+              "unvan": "Eight experts respond",
+              "cumle": 3
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 4,
+          "satirlar": [
+            "Isolated **strike**?",
+            "Or a maritime shift?"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 7,
+          "satirlar": [
+            "One corvette",
+            "Five **lenses**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Benghazi Strike: Isolated or a Turning Point?\n\nOn 22 November 2026, the Russian Navy's Steregushchiy-class corvette Merkury, moored at the port of Benghazi in Libya, was sunk in an attack involving unmanned surface vehicles.\n\nIn an \"Experts Respond\" feature published on 26 November 2026, SETA asked Sibel Düz, Ümit Nazmi Hazır, Evren Mercan, Cem Devrim Yaylalı, Serhat Süha Çubukçuoğlu, Yücel Acer, Gökhan Güneysu and Deniz Güler whether the attack was an isolated operation or a harbinger of a broader transformation in global maritime geopolitics.\n\nThe experts approached the incident through five lenses: geopolitical competition, the transformation of naval warfare, Libya's internal political dynamics, international law and commercial shipping.\n\nSource: SETA (Experts Respond, 26 November 2026)\n\n#Benghazi #Libya #Russia #NavalWarfare #MaritimeSecurity #Mediterranean #Geopolitics #SETA #Analysis #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "SETA",
+          "baslik": "Is the Attack on the Port of Benghazi an Isolated Incident?",
+          "link": "https://www.setav.org/en/is-the-attack-on-the-port-of-benghazi-an-isolated-incident"
+        },
+        {
+          "ad": "SETA",
+          "baslik": "Bingazi Limanı Saldırısı Münferit Bir Vaka mı?",
+          "link": "https://www.setav.org/bingazi-limani-saldirisi-munferit-bir-vaka-mi"
+        }
+      ]
+    },
+    "sonuc": "📸 Instagram: https://www.instagram.com/reel/DgPyG3fyv4C/\n\n🎵 TikTok taslağı: gelen kutuna gönderildi — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin.",
+    "tiktokTamam": true
   }
 }

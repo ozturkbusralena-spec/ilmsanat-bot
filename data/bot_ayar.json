@@ -1,4 +1,7 @@
 {
   "durdu": false,
-  "saglikTarihi": "2026-11-26"
+  "saglikTarihi": "2026-11-27",
+  "epostaAlarmlari": {
+    "kacirildi_2026-11-27_0900_haber": "2026-11-27"
+  }
 }
