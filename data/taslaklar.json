@@ -8900,5 +8900,141 @@
     "tur": "haber",
     "durum": "kacirildi",
     "guncelleme": "2026-11-27T21:59:49.647Z"
+  },
+  "2026-11-28_0900_haber": {
+    "zaman": "2026-11-28T08:00:00.000Z",
+    "tur": "haber",
+    "durum": "kacirildi",
+    "guncelleme": "2026-11-28T12:27:53.520Z"
+  },
+  "2026-11-28_1400_analiz": {
+    "zaman": "2026-11-28T13:00:00.000Z",
+    "tur": "analiz",
+    "durum": "paylasildi",
+    "guncelleme": "2026-11-28T13:03:47.668Z",
+    "video": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-28_1400_analiz/video.mp4",
+    "driveUrl": "https://drive.usercontent.google.com/download?id=1Fy42ANeiU0PBitD5cW5aNzd0Y0p--rmj&export=download&confirm=t",
+    "kapak": "/home/runner/work/ilmsanat-bot/ilmsanat-bot/data/isler/2026-11-28_1400_analiz/kapak_kucuk.jpg",
+    "aciklama": "Haftar in Ankara: Libya's new balance\n\nAn analysis published by Anadolu Agency examines Haftar's visit to Ankara and reads it as a sign of a new balance of power in Libya.\n\nRather than treating the trip as an isolated diplomatic event, the piece situates it within a wider geopolitical context that it describes as changing, presenting the visit as a visible marker of shifting dynamics inside Libya.\n\nThe open question is how this emerging balance will shape Libya's path ahead.\n\nSource: Anadolu Agency (AA Analysis)\n\n#Libya #Haftar #Ankara #Turkiye #Geopolitics #NorthAfrica #Mediterranean #Diplomacy #Analysis #IlmSanat",
+    "baslik": "Haftar in Ankara: Libya's new balance",
+    "plan": {
+      "etiket": "ANALYSIS",
+      "baslik": "Haftar in **Ankara**: Libya's **new balance**",
+      "hook_satirlar": [
+        "Haftar's visit to Ankara",
+        "signals a **new** balance",
+        "of power in Libya"
+      ],
+      "cumleler": [
+        "Haftar's visit to Ankara is being read as a sign of a new balance of power in Libya.",
+        "That is the central argument of a recent Anadolu Agency analysis.",
+        "The piece looks beyond the visit itself.",
+        "It places the trip inside a wider geopolitical context, one it describes as changing.",
+        "Its core claim is that the balance of power inside Libya is shifting.",
+        "Haftar's presence in Ankara is presented as a visible marker of that shift.",
+        "In diplomacy, who travels to whose capital can signal more than any statement.",
+        "The open question is how this new balance will shape what comes next for Libya."
+      ],
+      "sahneler": [
+        {
+          "cumle": 0,
+          "gorsel_prompt": "19th-century academic oil painting of a lone silhouetted figure in a long coat stepping from a desert road toward a distant hilltop city at dusk, Anatolian capital skyline of domes and stone buildings, dark desaturated navy and muted brass tones, dramatic chiaroscuro, cinematic vertical composition, visible brushstrokes, no text",
+          "hareket_prompt": "Slow push-in toward the distant city, faint dust drifting across the road, warm light flickering gently on the domes"
+        },
+        {
+          "cumle": 2,
+          "gorsel_prompt": "Antique copperplate engraving style map of the central Mediterranean showing the North African coast and Anatolia, ornate compass rose, sea monsters faded in the margins, navy and brass toned, dramatic shadowed vignette, no letters or labels",
+          "hareket_prompt": "Gentle drift across the map from the North African coast toward Anatolia, soft candlelight flicker over the paper"
+        },
+        {
+          "cumle": 3,
+          "gorsel_prompt": "19th-century oil painting of a dim war-room table covered with old maps, brass instruments, dividers and an oil lamp, chairs empty, heavy curtains, deep navy shadows and muted brass highlights, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow overhead drift across the table, lamp flame flickering, light shadows breathing on the maps"
+        },
+        {
+          "cumle": 4,
+          "gorsel_prompt": "Symbolic academic oil painting of an antique brass balance scale on a stone ledge, one pan slowly tilting, behind it a hazy Libyan desert landscape with a coastal city at dusk, desaturated navy and brass palette, strong chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Very slow push-in on the scale, faint desert haze drifting in the background, subtle light shift"
+        },
+        {
+          "cumle": 5,
+          "gorsel_prompt": "19th-century oil painting of a grand stone government hall at night, tall columns, lit windows, silhouettes of officials ascending broad steps, mist around lanterns, navy and muted brass tones, dramatic chiaroscuro, cinematic composition, no faces visible, no flags or text",
+          "hareket_prompt": "Slow upward tilt along the columns, lantern light flickering, thin mist drifting across the steps"
+        },
+        {
+          "cumle": 7,
+          "gorsel_prompt": "Academic oil painting of a Mediterranean coastline at dawn seen from a cliff, dark sea, scattered clouds breaking with pale brass light over a distant North African shore, desaturated navy palette, dramatic chiaroscuro, visible brushstrokes, no text",
+          "hareket_prompt": "Slow pull-back from the shoreline, clouds drifting gently, light slowly brightening on the horizon"
+        }
+      ],
+      "grafikler": [
+        {
+          "tur": "damga",
+          "cumle": 1,
+          "satirlar": [],
+          "kartlar": [],
+          "ust": "AA\nANALYSIS",
+          "alt": "Anadolu Agency"
+        },
+        {
+          "tur": "kartlar",
+          "cumle": 4,
+          "satirlar": [],
+          "kartlar": [
+            {
+              "ulke": "LIBYA",
+              "unvan": "Balance of power shifting",
+              "cumle": 4
+            },
+            {
+              "ulke": "TÜRKİYE",
+              "unvan": "Ankara hosts Haftar",
+              "cumle": 5
+            }
+          ],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 6,
+          "satirlar": [
+            "A visit can say",
+            "more than a **statement**"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        },
+        {
+          "tur": "buyuk",
+          "cumle": 7,
+          "satirlar": [
+            "A **new** balance",
+            "in Libya"
+          ],
+          "kartlar": [],
+          "ust": "",
+          "alt": ""
+        }
+      ],
+      "aciklama": "Haftar in Ankara: Libya's new balance\n\nAn analysis published by Anadolu Agency examines Haftar's visit to Ankara and reads it as a sign of a new balance of power in Libya.\n\nRather than treating the trip as an isolated diplomatic event, the piece situates it within a wider geopolitical context that it describes as changing, presenting the visit as a visible marker of shifting dynamics inside Libya.\n\nThe open question is how this emerging balance will shape Libya's path ahead.\n\nSource: Anadolu Agency (AA Analysis)\n\n#Libya #Haftar #Ankara #Turkiye #Geopolitics #NorthAfrica #Mediterranean #Diplomacy #Analysis #IlmSanat",
+      "tur": "analiz",
+      "kaynaklar": [
+        {
+          "ad": "Anadolu Ajansı Analiz",
+          "baslik": "Hafter'in Ankara ziyareti: Libya'da yeni güç dengesi ve değişen jeopolitik bağlam",
+          "link": "https://www.aa.com.tr/tr/analiz/hafterin-ankara-ziyareti-libyada-yeni-guc-dengesi-ve-degisen-jeopolitik-baglam/4141219"
+        }
+      ]
+    },
+    "sonuc": "📸 Instagram: https://www.instagram.com/reel/DgST9l7B6qt/\n\n🎵 TikTok taslağı: yüklendi, TikTok işliyor (bazen 20–30 dk sürüyor; sonra gelen kutuna düşer) — TikTok'ta Gelen Kutusu → sistem bildirimlerinden ya da Profil → Taslaklar'dan açıp paylaşabilirsin.",
+    "tiktokTamam": true
+  },
+  "2026-11-28_1100_tablo": {
+    "zaman": "2026-11-28T10:00:00.000Z",
+    "tur": "tablo",
+    "durum": "kacirildi",
+    "guncelleme": "2026-11-28T12:27:53.814Z"
   }
 }
